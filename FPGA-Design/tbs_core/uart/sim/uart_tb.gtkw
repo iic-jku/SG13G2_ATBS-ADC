@@ -1,0 +1,75 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Thu Nov 28 12:02:12 2024
+[*]
+[dumpfile] "/foss/designs/tbs_core/uart/sim/uart_tb.vcd"
+[dumpfile_mtime] "Thu Nov 28 12:01:44 2024"
+[dumpfile_size] 31409564
+[savefile] "/foss/designs/tbs_core/uart/sim/uart_tb.gtkw"
+[timestart] 0
+[size] 1378 702
+[pos] -1 -1
+*-42.900002 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[markername] AA
+[markername] BB
+[markername] CC
+[markername] DD
+[markername] EE
+[markername] FF
+[markername] GG
+[markername] HH
+[markername] II
+[markername] JJ
+[markername] KK
+[markername] LL
+[markername] MM
+[markername] NN
+[markername] OO
+[markername] PP
+[markername] QQ
+[markername] RR
+[markername] SS
+[markername] TT
+[markername] UU
+[markername] VV
+[markername] WW
+[markername] XX
+[markername] YY
+[markername] ZZ
+[treeopen] uart_tb.
+[treeopen] uart_tb.dut_uart.
+[sst_width] 276
+[signals_width] 246
+[sst_expanded] 1
+[sst_vpaned_height] 186
+@201
+-I/Os
+@28
+uart_tb.dut_uart.clock_i
+uart_tb.dut_uart.reset_i
+@24
+uart_tb.dut_uart.baudrate_adj_i[9:0]
+@200
+-TRANSMITTER
+@24
+uart_tb.dut_uart.uart_tx_0.transmit_counter_value[2:0]
+uart_tb.dut_uart.uart_tx_0.baud_counter_value[9:0]
+@28
+uart_tb.dut_uart.tx_start_strb_i
+@24
+uart_tb.dut_uart.tx_data_i[7:0]
+@28
+uart_tb.dut_uart.tx_strb_o
+uart_tb.dut_uart.tx_o
+@200
+-RECEIVER
+@24
+uart_tb.dut_uart.uart_rx_0.receive_counter_value[2:0]
+uart_tb.dut_uart.uart_rx_0.baud_counter_value[9:0]
+@28
+uart_tb.dut_uart.rx_i
+uart_tb.dut_uart.rx_data_strb_o
+@24
+uart_tb.dut_uart.rx_data_o[7:0]
+[pattern_trace] 1
+[pattern_trace] 0

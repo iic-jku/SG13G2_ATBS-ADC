@@ -1,0 +1,313 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA/tbs_core/uart/sim
+Ebaud_strb_gen
+Z1 w1728162706
+Z2 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 419
+R0
+Z6 8../rtl/baud_strb_gen_ea.vhd
+Z7 F../rtl/baud_strb_gen_ea.vhd
+l0
+Z8 L12 1
+V;KUUC0mOD<``Q?<fY<E<R1
+!s100 ]XVJfl[C8204l2PFeUC0I2
+Z9 OV;C;2020.1;71
+32
+Z10 !s110 1728219971
+!i10b 1
+Z11 !s108 1728219971.000000
+Z12 !s90 -reportprogress|300|-work|work|../rtl/baud_strb_gen_ea.vhd|
+Z13 !s107 ../rtl/baud_strb_gen_ea.vhd|
+!i113 1
+Z14 o-work work
+Z15 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+R5
+DEx4 work 13 baud_strb_gen 0 22 ;KUUC0mOD<``Q?<fY<E<R1
+!i122 419
+l31
+L25 35
+VbSgK:[5PDOzWg@GKBi<:I3
+!s100 Y<AQPiVVIccKfT[C1FU832
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Ptbssimvals
+R2
+R3
+R4
+R5
+!i122 491
+w1740830326
+Z16 dC:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/uart/sim
+8../../sim/vhdl/TBSSimVals_p.vhd
+F../../sim/vhdl/TBSSimVals_p.vhd
+l0
+R8
+V5N?>YfAY3S[Lm`Y;BCZg?2
+!s100 ZDNjJKg7l9mlolQj7b:C03
+R9
+32
+Z17 !s110 1740962433
+!i10b 1
+!s108 1740962432.000000
+!s90 -reportprogress|300|-work|work|../../sim/vhdl/TBSSimVals_p.vhd|
+!s107 ../../sim/vhdl/TBSSimVals_p.vhd|
+!i113 1
+R14
+R15
+Euart
+Z18 w1728220113
+R2
+R3
+R4
+R5
+!i122 494
+R16
+Z19 8../rtl/uart_ea.vhd
+Z20 F../rtl/uart_ea.vhd
+l0
+L15 1
+Vm67n[o;PhWzona=D74E7W3
+!s100 mTJ6oQ5?0NAl?RV:@WEdd0
+R9
+32
+R17
+!i10b 1
+Z21 !s108 1740962433.000000
+Z22 !s90 -reportprogress|300|-work|work|../rtl/uart_ea.vhd|
+Z23 !s107 ../rtl/uart_ea.vhd|
+!i113 1
+R14
+R15
+Artl
+Z24 DEx4 work 7 uart_rx 0 22 eTz@MoPG?JXDf^Ld[hz9K3
+Z25 DEx4 work 7 uart_tx 0 22 Ub5YjBfi@VM29XWY5EiZW3
+R2
+R3
+R4
+R5
+Z26 DEx4 work 4 uart 0 22 m67n[o;PhWzona=D74E7W3
+!i122 494
+l42
+L40 39
+VM1j?ImJz<HPZU9mT^_57`2
+!s100 R8cUYE5VIebjh2KbP3E5W1
+R9
+32
+R17
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R14
+R15
+Euart_board
+Z27 w1728220957
+Z28 DPx4 work 10 tbssimvals 0 22 5N?>YfAY3S[Lm`Y;BCZg?2
+R2
+R3
+R4
+R5
+!i122 495
+R16
+Z29 8../rtl/uart_board.vhd
+Z30 F../rtl/uart_board.vhd
+l0
+Z31 L16 1
+VS15Lk@1zCCTbUG4fb]C@h2
+!s100 7?PI=4Vn:7RH@V2cR1LL>0
+R9
+32
+R17
+!i10b 1
+R21
+Z32 !s90 -reportprogress|300|-work|work|../rtl/uart_board.vhd|
+Z33 !s107 ../rtl/uart_board.vhd|
+!i113 1
+R14
+R15
+Artl
+R26
+R28
+R2
+R3
+R4
+R5
+DEx4 work 10 uart_board 0 22 S15Lk@1zCCTbUG4fb]C@h2
+!i122 495
+l53
+L36 46
+Vf:PmK@mjSZA^TfC`T9QUY1
+!s100 ]gBoTA18fBekKTCiWUhoB0
+R9
+32
+R17
+!i10b 1
+R21
+R32
+R33
+!i113 1
+R14
+R15
+Euart_rx
+Z34 w1728221756
+R2
+R3
+R4
+R5
+!i122 493
+R16
+Z35 8../rtl/uart_rx_ea.vhd
+Z36 F../rtl/uart_rx_ea.vhd
+l0
+R8
+VeTz@MoPG?JXDf^Ld[hz9K3
+!s100 9547E;`;8>`f=ARnS>5@o2
+R9
+32
+R17
+!i10b 1
+R21
+Z37 !s90 -reportprogress|300|-work|work|../rtl/uart_rx_ea.vhd|
+Z38 !s107 ../rtl/uart_rx_ea.vhd|
+!i113 1
+R14
+R15
+Artl
+R2
+R3
+R4
+R5
+R24
+!i122 493
+l56
+L28 124
+VA@nb]CDbnm<47OV1UMQBE0
+!s100 bJ>Za=M@0Xi`6c41kaYlX3
+R9
+32
+R17
+!i10b 1
+R21
+R37
+R38
+!i113 1
+R14
+R15
+Euart_tb
+Z39 w1733593571
+R28
+R2
+R3
+R4
+R5
+!i122 496
+R16
+Z40 8uart_tb.vhd
+Z41 Fuart_tb.vhd
+l0
+R31
+V8`[GGehMc?n0I2?mOTIaO0
+!s100 :02YW58^Ul[006ZHTd9ka1
+R9
+32
+R17
+!i10b 1
+R21
+Z42 !s90 -reportprogress|300|-work|work|uart_tb.vhd|
+Z43 !s107 uart_tb.vhd|
+!i113 1
+R14
+R15
+Abhv
+R26
+R28
+R2
+R3
+R4
+R5
+Z44 DEx4 work 7 uart_tb 0 22 8`[GGehMc?n0I2?mOTIaO0
+!i122 496
+l67
+Z45 L20 160
+Z46 Vm;B`eZSI7FoDeUlilLW[_2
+Z47 !s100 dA?5gcfzICQK3[LFMCHKb1
+R9
+32
+R17
+!i10b 1
+R21
+R42
+R43
+!i113 1
+R14
+R15
+Euart_tx
+Z48 w1728220028
+R2
+R3
+R4
+R5
+!i122 492
+R16
+Z49 8../rtl/uart_tx_ea.vhd
+Z50 F../rtl/uart_tx_ea.vhd
+l0
+R8
+VUb5YjBfi@VM29XWY5EiZW3
+!s100 ?dD<2C7d`0O8]Blj2U8SZ3
+R9
+32
+R17
+!i10b 1
+R21
+Z51 !s90 -reportprogress|300|-work|work|../rtl/uart_tx_ea.vhd|
+Z52 !s107 ../rtl/uart_tx_ea.vhd|
+!i113 1
+R14
+R15
+Artl
+R2
+R3
+R4
+R5
+R25
+!i122 492
+l54
+L29 137
+Vmn0GUmh:<0VZVKadPofb;1
+!s100 o1a1ABTIMMK:d=imB=;GC1
+R9
+32
+R17
+!i10b 1
+R21
+R51
+R52
+!i113 1
+R14
+R15

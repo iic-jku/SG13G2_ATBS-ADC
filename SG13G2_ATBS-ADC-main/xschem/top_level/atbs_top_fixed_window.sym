@@ -1,0 +1,119 @@
+v {xschem version=3.4.6 file_version=1.2}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 -320 -280 -300 -280 {}
+L 4 -320 -240 -300 -240 {}
+L 4 -320 -180 -300 -180 {}
+L 4 -320 -120 -300 -120 {}
+L 4 -320 -80 -300 -80 {}
+L 4 -320 -40 -300 -40 {}
+L 4 -320 160 -300 160 {}
+L 4 -320 0 -300 0 {}
+L 4 -320 40 -300 40 {}
+L 4 -320 80 -300 80 {}
+L 4 300 -260 320 -260 {}
+L 4 300 -220 320 -220 {}
+L 4 300 220 320 220 {}
+L 4 300 260 320 260 {}
+L 4 300 300 320 300 {}
+L 4 -320 200 -300 200 {}
+L 4 -320 260 -300 260 {}
+L 4 -320 300 -300 300 {}
+L 4 300 -20 320 -20 {}
+L 4 300 60 320 60 {}
+L 4 300 -60 320 -60 {}
+L 4 300 20 320 20 {}
+L 7 160 -360 160 -340 {}
+L 7 40 -360 40 -340 {}
+L 7 100 -360 100 -340 {}
+L 7 0 340 0 360 {}
+L 7 -20 -360 -20 -340 {}
+L 7 -100 -360 -100 -340 {}
+B 5 157.5 -362.5 162.5 -357.5 {name=VDD_DIG dir=inout}
+B 5 37.5 -362.5 42.5 -357.5 {name=VDD_COMP dir=inout}
+B 5 -322.5 -282.5 -317.5 -277.5 {name=di_clock dir=in}
+B 5 -322.5 -242.5 -317.5 -237.5 {name=di_reset_n dir=in}
+B 5 -322.5 -182.5 -317.5 -177.5 {name=di_trigger_start_sampling dir=in}
+B 5 97.5 -362.5 102.5 -357.5 {name=VDD_DAC dir=inout}
+B 5 -322.5 -122.5 -317.5 -117.5 {name=di_trigger_start_mode dir=in}
+B 5 -322.5 -82.5 -317.5 -77.5 {name=di_adaptive_mode dir=in}
+B 5 -322.5 -42.5 -317.5 -37.5 {name=di_control_mode dir=in}
+B 5 -322.5 157.5 -317.5 162.5 {name=vecgp dir=in}
+B 5 -322.5 -2.5 -317.5 2.5 {name=di_signal_select_in dir=in}
+B 5 -322.5 37.5 -317.5 42.5 {name=di_enable dir=in}
+B 5 -322.5 77.5 -317.5 82.5 {name=di_select_tbs_delta_steps dir=in}
+B 5 317.5 -262.5 322.5 -257.5 {name=di_uart_rx dir=in}
+B 5 317.5 -222.5 322.5 -217.5 {name=do_uart_tx dir=out}
+B 5 317.5 217.5 322.5 222.5 {name=do_idle_led dir=out}
+B 5 317.5 257.5 322.5 262.5 {name=do_overflow_led dir=out}
+B 5 317.5 297.5 322.5 302.5 {name=do_underflow_led dir=out}
+B 5 -2.5 357.5 2.5 362.5 {name=VSS dir=inout}
+B 5 -22.5 -362.5 -17.5 -357.5 {name=VDD_AMP dir=inout}
+B 5 -102.5 -362.5 -97.5 -357.5 {name=VDD_IO dir=inout}
+B 5 -322.5 197.5 -317.5 202.5 {name=vecgn dir=in}
+B 5 -322.5 257.5 -317.5 262.5 {name=vbncp dir=in}
+B 5 -322.5 297.5 -317.5 302.5 {name=vbncn dir=in}
+B 5 317.5 -22.5 322.5 -17.5 {name=vdac_uppern dir=out}
+B 5 317.5 57.5 322.5 62.5 {name=vdac_lowern dir=out}
+B 5 317.5 -62.5 322.5 -57.5 {name=vdac_upperp dir=out}
+B 5 317.5 17.5 322.5 22.5 {name=vdac_lowerp dir=out}
+P 4 5 300 200 190 200 190 320 300 320 300 200 {dash = 4}
+P 4 5 230 -280 230 -200 300 -200 300 -280 230 -280 {dash = 4}
+P 4 5 -40 -270 180 -270 180 -340 -40 -340 -40 -270 {dash = 4}
+P 4 5 -120 -340 -120 -270 -80 -270 -80 -340 -120 -340 {dash = 4}
+P 4 5 -150 -300 -300 -300 -300 100 -150 100 -150 -300 {dash = 4}
+P 4 5 -300 140 -250 140 -250 320 -300 320 -300 140 {dash = 4}
+P 4 5 -300 -340 300 -340 300 340 -300 340 -300 -340 {}
+P 4 5 -120 -70 120 -70 120 70 -120 70 -120 -70 {dash = 8}
+P 4 5 300 -80 220 -80 220 80 300 80 300 -80 {dash = 4}
+T {VDD_DIG} 156 -335 3 1 0.2 0.2 {}
+T {VDD_COMP} 36 -335 3 1 0.2 0.2 {}
+T {di_clock} -295 -284 0 0 0.2 0.2 {}
+T {di_reset_n} -295 -244 0 0 0.2 0.2 {}
+T {di_trigger_start_sampling} -295 -184 0 0 0.2 0.2 {}
+T {VDD_DAC} 96 -335 3 1 0.2 0.2 {}
+T {di_trigger_start_mode} -295 -124 0 0 0.2 0.2 {}
+T {di_adaptive_mode} -295 -84 0 0 0.2 0.2 {}
+T {di_control_mode} -295 -44 0 0 0.2 0.2 {}
+T {vecgp} -295 156 0 0 0.2 0.2 {}
+T {di_signal_select_in} -295 -4 0 0 0.2 0.2 {}
+T {di_enable} -295 36 0 0 0.2 0.2 {}
+T {di_select_tbs_delta_steps} -295 76 0 0 0.2 0.2 {}
+T {di_uart_rx} 295 -256 2 0 0.2 0.2 {}
+T {do_uart_tx} 295 -224 0 1 0.2 0.2 {}
+T {do_idle_led} 295 216 0 1 0.2 0.2 {}
+T {do_overflow_led} 295 256 0 1 0.2 0.2 {}
+T {do_underflow_led} 295 296 0 1 0.2 0.2 {}
+T {@symname} 198.5 -376 0 0 0.3 0.3 {}
+T {@name} 198.75 -415.75 0 0 0.3 0.3 {}
+T {VSS} 4 335 1 1 0.2 0.2 {}
+T {ATBS ADC} -80 30 0 0 0.6 0.6 {}
+T {Analog Inputs} -290 110 0 0 0.3 0.3 {}
+T {Control Inputs} -290 -330 0 0 0.3 0.3 {}
+T {Author: Simon Dorrer, 2025
+Johannes Kepler University (JKU)
+Institute for Integrated Circuits (IIC)
+Institute of Signal Processing (ISP)} -140 180 0 0 0.3 0.3 {}
+T {Fixed-Window} -110 -20 0 0 0.6 0.6 {}
+T {Supply Voltages} 55 -265 0 0 0.3 0.3 {}
+T {UART} 230 -305 0 0 0.3 0.3 {}
+T {LEDs} 190 175 0 0 0.3 0.3 {}
+T {VDD_AMP} -24 -335 3 1 0.2 0.2 {}
+T {VDD_IO} -104 -335 3 1 0.2 0.2 {}
+T {3.3V} -120 -265 0 0 0.3 0.3 {}
+T {1.5V} -40 -265 0 0 0.3 0.3 {}
+T {vecgn} -295 196 0 0 0.2 0.2 {}
+T {vbncp} -295 256 0 0 0.2 0.2 {}
+T {vbncn} -295 296 0 0 0.2 0.2 {}
+T {Fully-Diff.} -80 -65 0 0 0.6 0.6 {}
+T {vdac_uppern} 295 -24 0 1 0.2 0.2 {}
+T {vdac_lowern} 295 56 0 1 0.2 0.2 {}
+T {DACs} 220 -105 0 0 0.3 0.3 {}
+T {vdac_upperp} 295 -64 0 1 0.2 0.2 {}
+T {vdac_lowerp} 295 16 0 1 0.2 0.2 {}

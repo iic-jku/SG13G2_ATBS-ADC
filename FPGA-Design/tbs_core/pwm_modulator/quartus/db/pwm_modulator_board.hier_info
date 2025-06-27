@@ -1,0 +1,59 @@
+|pwm_modulator_board
+clock_i => pwm_modulator:pwm_0.clock_i
+reset_n_i => pwm_modulator:pwm_0.reset_i
+enable_i => pwm_modulator:pwm_0.enable_i
+on_cnt_val_i[0] => pwm_modulator:pwm_0.on_cnt_val_i[0]
+on_cnt_val_i[1] => pwm_modulator:pwm_0.on_cnt_val_i[1]
+on_cnt_val_i[2] => pwm_modulator:pwm_0.on_cnt_val_i[2]
+on_cnt_val_i[3] => pwm_modulator:pwm_0.on_cnt_val_i[3]
+on_cnt_val_i[4] => pwm_modulator:pwm_0.on_cnt_val_i[4]
+on_cnt_val_i[5] => pwm_modulator:pwm_0.on_cnt_val_i[5]
+on_cnt_val_i[6] => pwm_modulator:pwm_0.on_cnt_val_i[6]
+on_cnt_val_i[7] => pwm_modulator:pwm_0.on_cnt_val_i[7]
+pwm_o <= pwm_modulator:pwm_0.pwm_o
+
+
+|pwm_modulator_board|pwm_modulator:pwm_0
+clock_i => counter_value[0].CLK
+clock_i => counter_value[1].CLK
+clock_i => counter_value[2].CLK
+clock_i => counter_value[3].CLK
+clock_i => counter_value[4].CLK
+clock_i => counter_value[5].CLK
+clock_i => counter_value[6].CLK
+clock_i => counter_value[7].CLK
+reset_i => counter_value[0].ACLR
+reset_i => counter_value[1].ACLR
+reset_i => counter_value[2].ACLR
+reset_i => counter_value[3].ACLR
+reset_i => counter_value[4].ACLR
+reset_i => counter_value[5].ACLR
+reset_i => counter_value[6].ACLR
+reset_i => counter_value[7].ACLR
+enable_i => counter_value[7].ENA
+enable_i => counter_value[6].ENA
+enable_i => counter_value[5].ENA
+enable_i => counter_value[4].ENA
+enable_i => counter_value[3].ENA
+enable_i => counter_value[2].ENA
+enable_i => counter_value[1].ENA
+enable_i => counter_value[0].ENA
+on_cnt_val_i[0] => LessThan0.IN8
+on_cnt_val_i[0] => Equal1.IN15
+on_cnt_val_i[1] => LessThan0.IN7
+on_cnt_val_i[1] => Equal1.IN14
+on_cnt_val_i[2] => LessThan0.IN6
+on_cnt_val_i[2] => Equal1.IN13
+on_cnt_val_i[3] => LessThan0.IN5
+on_cnt_val_i[3] => Equal1.IN12
+on_cnt_val_i[4] => LessThan0.IN4
+on_cnt_val_i[4] => Equal1.IN11
+on_cnt_val_i[5] => LessThan0.IN3
+on_cnt_val_i[5] => Equal1.IN10
+on_cnt_val_i[6] => LessThan0.IN2
+on_cnt_val_i[6] => Equal1.IN9
+on_cnt_val_i[7] => LessThan0.IN1
+on_cnt_val_i[7] => Equal1.IN8
+pwm_o <= pwm_o.DB_MAX_OUTPUT_PORT_TYPE
+
+

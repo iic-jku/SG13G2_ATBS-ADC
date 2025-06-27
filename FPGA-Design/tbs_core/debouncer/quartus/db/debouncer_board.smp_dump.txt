@@ -1,0 +1,6 @@
+
+State Machine - |debouncer_board|debouncer:debouncer_0|state
+Name state.debouncer_wait_high state.debouncer_wait_low state.debouncer_idle 
+state.debouncer_idle 0 0 0 
+state.debouncer_wait_low 0 1 1 
+state.debouncer_wait_high 1 0 1 

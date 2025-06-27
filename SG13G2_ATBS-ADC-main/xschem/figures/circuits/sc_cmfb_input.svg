@@ -1,0 +1,2118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1151.1731"
+   height="956.17303"
+   version="1.1"
+   id="svg778"
+   sodipodi:docname="sc_cmfb_input.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs782" />
+  <sodipodi:namedview
+     id="namedview780"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.6157474"
+     inkscape:cx="546.49033"
+     inkscape:cy="519.69363"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="3832"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg778" />
+  <style
+     type="text/css"
+     id="style2">
+.l0{
+  fill: #ffffff;
+  stroke: #ffffff;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 4.17305;
+}
+.l1{
+  fill: #0044ee;
+  stroke: #0044ee;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 4.17305;
+}
+.l2{
+  fill: #aaaaaa; fill-opacity: 0.2;
+  stroke: #aaaaaa;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 4.17305;
+}
+.l3{
+  fill: #222222; fill-opacity: 0.5;
+  stroke: #222222;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 4.17305;
+}
+.l4{
+  fill: #229900;
+  stroke: #229900;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 4.17305;
+}
+.l5{
+  fill: #bb2200;
+  stroke: #bb2200;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 4.17305;
+}
+.l6{
+  fill: #00ccee; fill-opacity: 0.5;
+  stroke: #00ccee;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 4.17305;
+}
+.l7{
+  fill: #ff0000; fill-opacity: 0.5;
+  stroke: #ff0000;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 4.17305;
+}
+.l8{
+  fill: #888800; fill-opacity: 0.5;
+  stroke: #888800;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 4.17305;
+}
+.l9{
+  fill: #00aaaa; fill-opacity: 0.5;
+  stroke: #00aaaa;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 4.17305;
+}
+.l10{
+  fill: #880088;
+  stroke: #880088;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 4.17305;
+}
+.l11{
+  fill: #00ff00; fill-opacity: 0.5;
+  stroke: #00ff00;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 4.17305;
+}
+.l12{
+  fill: #0000cc; fill-opacity: 0.5;
+  stroke: #0000cc;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 4.17305;
+}
+.l13{
+  fill: #666600; fill-opacity: 0.5;
+  stroke: #666600;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 4.17305;
+}
+.l14{
+  fill: #557755; fill-opacity: 0.2;
+  stroke: #557755;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 4.17305;
+}
+.l15{
+  fill: #aa2222; fill-opacity: 0.5;
+  stroke: #aa2222;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 4.17305;
+}
+.l16{
+  fill: #7ccc40; fill-opacity: 0.5;
+  stroke: #7ccc40;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 4.17305;
+}
+.l17{
+  fill: #00ffcc; fill-opacity: 0.2;
+  stroke: #00ffcc;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 4.17305;
+}
+.l18{
+  fill: #ce0097; fill-opacity: 0.5;
+  stroke: #ce0097;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 4.17305;
+}
+.l19{
+  fill: #d2d46b; fill-opacity: 0.2;
+  stroke: #d2d46b;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 4.17305;
+}
+.l20{
+  fill: #ef6158; fill-opacity: 0.2;
+  stroke: #ef6158;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 4.17305;
+}
+.l21{
+  fill: #fdb200; fill-opacity: 0.2;
+  stroke: #fdb200;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 4.17305;
+}
+text {font-family: Sans-Serif;}
+</style>
+  <rect
+     class="l0"
+     x="2.086525"
+     y="2.086525"
+     width="1147"
+     height="952"
+     id="rect4" />
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.152px"
+     id="text6"
+     x="468.01053"
+     y="263.56754">VSS</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.152px"
+     id="text8"
+     x="464.01053"
+     y="23.679026">VDD</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.152px"
+     id="text10"
+     x="147.14952"
+     y="483.46552">Vcmfb</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.152px"
+     id="text12"
+     x="150.14952"
+     y="143.62352">Voutp</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.152px"
+     id="text14"
+     x="969.13654"
+     y="702.11353">di_phi_1</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.152px"
+     id="text16"
+     x="969.13654"
+     y="942.00153">di_phi_1_n</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.152px"
+     id="text18"
+     x="569.32251"
+     y="362.27151">di_phi_2</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.152px"
+     id="text20"
+     x="569.32251"
+     y="602.15955">di_phi_2_n</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.152px"
+     id="text22"
+     x="569.32251"
+     y="702.11353">di_phi_2</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.152px"
+     id="text24"
+     x="569.32251"
+     y="942.00153">di_phi_2_n</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.152px"
+     id="text26"
+     x="476.34851"
+     y="365.70251">VDD</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.152px"
+     id="text28"
+     x="480.34851"
+     y="605.59052">VSS</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.152px"
+     id="text30"
+     x="476.34851"
+     y="705.54449">VDD</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.152px"
+     id="text32"
+     x="480.34851"
+     y="945.4325">VSS</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.152px"
+     id="text34"
+     x="876.16254"
+     y="25.860525">VDD</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.152px"
+     id="text36"
+     x="880.16254"
+     y="265.74854">VSS</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.152px"
+     id="text38"
+     x="876.16254"
+     y="705.54449">VDD</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.152px"
+     id="text40"
+     x="880.16254"
+     y="945.4325">VSS</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.152px"
+     id="text42"
+     x="150.14952"
+     y="823.30652">Voutn</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.152px"
+     id="text44"
+     x="569.32251"
+     y="262.31851">di_phi_2_n</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.152px"
+     id="text46"
+     x="969.13654"
+     y="262.31851">di_phi_1_n</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.152px"
+     id="text48"
+     x="569.32251"
+     y="22.429625">di_phi_2</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.152px"
+     id="text50"
+     x="969.13654"
+     y="22.429625">di_phi_1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text52"
+     x="397.40253"
+     y="169.28052">transmission_gate_lv_wo_dummy</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text54"
+     x="449.37854"
+     y="114.55653">x1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text56"
+     x="488.84952"
+     y="93.815826">VDD</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text58"
+     x="548.80951"
+     y="94.886627">di_tg_ctrl</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text60"
+     x="491.85852"
+     y="189.84253">VSS</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text62"
+     x="628.7865"
+     y="148.79053">v_b</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text64"
+     x="436.88452"
+     y="148.79053">v_a</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text66"
+     x="551.83051"
+     y="188.77153">di_tg_ctrl_n</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text68"
+     x="596.80951"
+     y="117.80453">PMOS: 2.0u / 0.5u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text70"
+     x="596.80951"
+     y="165.90753">NMOS: 2.0u / 0.5u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text72"
+     x="561.82654"
+     y="141.54352">LV</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text74"
+     x="329.93051"
+     y="291.47351">1</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text76"
+     x="329.93051"
+     y="333.95453">2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text78"
+     x="356.92154"
+     y="298.97052">C1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text80"
+     x="356.92154"
+     y="311.46454">{a*C1}</text>
+  <text
+     fill="#aa2222"
+     xml:space="preserve"
+     font-size="7.79637px"
+     id="text82"
+     x="351.92352"
+     y="286.61554">Voutp</text>
+  <text
+     fill="#aa2222"
+     xml:space="preserve"
+     font-size="7.79637px"
+     id="text84"
+     x="351.92352"
+     y="335.34253">Vcmfb</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text86"
+     x="356.92154"
+     y="323.95853">m=1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text88"
+     x="397.40253"
+     y="509.12253">transmission_gate_lv_wo_dummy</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text90"
+     x="449.37854"
+     y="454.39853">x2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text92"
+     x="488.84952"
+     y="433.65753">VDD</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text94"
+     x="548.80951"
+     y="434.72852">di_tg_ctrl</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text96"
+     x="491.85852"
+     y="529.68451">VSS</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text98"
+     x="628.7865"
+     y="488.63254">v_b</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text100"
+     x="436.88452"
+     y="488.63254">v_a</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text102"
+     x="551.83051"
+     y="528.61353">di_tg_ctrl_n</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text104"
+     x="596.80951"
+     y="457.64651">PMOS: 2.0u / 0.5u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text106"
+     x="596.80951"
+     y="505.74951">NMOS: 2.0u / 0.5u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text108"
+     x="561.82654"
+     y="481.38553">LV</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text110"
+     x="397.40253"
+     y="848.96454">transmission_gate_lv_wo_dummy</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text112"
+     x="449.37854"
+     y="794.2395">x3</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text114"
+     x="488.84952"
+     y="773.49951">VDD</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text116"
+     x="548.80951"
+     y="774.5705">di_tg_ctrl</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text118"
+     x="491.85852"
+     y="869.52655">VSS</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text120"
+     x="628.7865"
+     y="828.47455">v_b</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text122"
+     x="436.88452"
+     y="828.47455">v_a</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text124"
+     x="551.83051"
+     y="868.45551">di_tg_ctrl_n</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text126"
+     x="596.80951"
+     y="797.48853">PMOS: 2.0u / 0.5u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text128"
+     x="596.80951"
+     y="845.59155">NMOS: 2.0u / 0.5u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text130"
+     x="561.82654"
+     y="821.22754">LV</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text132"
+     x="797.21655"
+     y="169.28052">transmission_gate_lv_wo_dummy</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text134"
+     x="849.1925"
+     y="114.55653">x4</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text136"
+     x="888.66351"
+     y="93.815826">VDD</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text138"
+     x="948.62354"
+     y="94.886627">di_tg_ctrl</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text140"
+     x="891.67255"
+     y="189.84253">VSS</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text142"
+     x="1028.5966"
+     y="148.79053">v_b</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text144"
+     x="836.69855"
+     y="148.79053">v_a</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text146"
+     x="951.64453"
+     y="188.77153">di_tg_ctrl_n</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text148"
+     x="996.62354"
+     y="117.80453">PMOS: 2.0u / 0.5u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text150"
+     x="996.62354"
+     y="165.90753">NMOS: 2.0u / 0.5u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text152"
+     x="961.6405"
+     y="141.54352">LV</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text154"
+     x="797.21655"
+     y="848.96454">transmission_gate_lv_wo_dummy</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text156"
+     x="849.1925"
+     y="794.2395">x5</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text158"
+     x="888.66351"
+     y="773.49951">VDD</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text160"
+     x="948.62354"
+     y="774.5705">di_tg_ctrl</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text162"
+     x="891.67255"
+     y="869.52655">VSS</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text164"
+     x="1028.5966"
+     y="828.47455">v_b</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text166"
+     x="836.69855"
+     y="828.47455">v_a</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text168"
+     x="951.64453"
+     y="868.45551">di_tg_ctrl_n</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text170"
+     x="996.62354"
+     y="797.48853">PMOS: 2.0u / 0.5u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text172"
+     x="996.62354"
+     y="845.59155">NMOS: 2.0u / 0.5u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text174"
+     x="961.6405"
+     y="821.22754">LV</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text176"
+     x="329.93051"
+     y="631.31555">1</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text178"
+     x="329.93051"
+     y="673.79553">2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text180"
+     x="356.92154"
+     y="638.8125">C2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text182"
+     x="356.92154"
+     y="651.30652">{a*C1}</text>
+  <text
+     fill="#aa2222"
+     xml:space="preserve"
+     font-size="7.79637px"
+     id="text184"
+     x="351.92352"
+     y="626.45752">Vcmfb</text>
+  <text
+     fill="#aa2222"
+     xml:space="preserve"
+     font-size="7.79637px"
+     id="text186"
+     x="351.92352"
+     y="675.18451">Voutn</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text188"
+     x="356.92154"
+     y="663.80054">m=1</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text190"
+     x="729.74451"
+     y="291.47351">1</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text192"
+     x="729.74451"
+     y="333.95453">2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text194"
+     x="756.73553"
+     y="298.97052">C3</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text196"
+     x="756.73553"
+     y="311.46454">100f</text>
+  <text
+     fill="#aa2222"
+     xml:space="preserve"
+     font-size="7.79637px"
+     id="text198"
+     x="751.73755"
+     y="286.61554">#net1</text>
+  <text
+     fill="#aa2222"
+     xml:space="preserve"
+     font-size="7.79637px"
+     id="text200"
+     x="751.73755"
+     y="335.34253">#net2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text202"
+     x="756.73553"
+     y="323.95853">m=1</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text204"
+     x="729.74451"
+     y="631.31555">1</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text206"
+     x="729.74451"
+     y="673.79553">2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text208"
+     x="756.73553"
+     y="638.8125">C4</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text210"
+     x="756.73553"
+     y="651.30652">100f</text>
+  <text
+     fill="#aa2222"
+     xml:space="preserve"
+     font-size="7.79637px"
+     id="text212"
+     x="751.73755"
+     y="626.45752">#net2</text>
+  <text
+     fill="#aa2222"
+     xml:space="preserve"
+     font-size="7.79637px"
+     id="text214"
+     x="751.73755"
+     y="675.18451">#net3</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3952px"
+     id="text216"
+     x="756.73553"
+     y="663.80054">m=1</text>
+  <path
+     class="l4"
+     d="M 541.83552,98.370525 V 118.36152"
+     id="path218" />
+  <path
+     class="l4"
+     d="m 541.83552,158.34252 v 19.991"
+     id="path220" />
+  <path
+     class="l4"
+     d="m 541.83552,138.35152 39.981,-19.99"
+     id="path222" />
+  <path
+     class="l4"
+     d="m 541.83552,138.35152 39.981,19.991"
+     id="path224" />
+  <path
+     class="l4"
+     d="m 581.81652,118.36152 v 39.981"
+     id="path226" />
+  <path
+     class="l4"
+     d="m 501.85352,118.36152 v 39.981"
+     id="path228" />
+  <path
+     class="l4"
+     d="m 501.85352,158.34252 39.982,-19.991"
+     id="path230" />
+  <path
+     class="l4"
+     d="m 501.85352,118.36152 39.982,19.99"
+     id="path232" />
+  <path
+     class="l4"
+     d="m 581.81652,138.35152 h 19.991"
+     id="path234" />
+  <path
+     class="l4"
+     d="m 481.86352,138.35152 h 19.99"
+     id="path236" />
+  <path
+     class="l4"
+     d="m 521.84452,118.36152 v 9.995"
+     id="path238" />
+  <path
+     class="l4"
+     d="m 541.83552,118.36152 v 19.99"
+     id="path240" />
+  <path
+     class="l4"
+     d="m 521.84452,148.34752 v 9.995"
+     id="path242" />
+  <path
+     class="l4"
+     d="m 541.83552,148.34752 v 9.995"
+     id="path244" />
+  <circle
+     class="l4"
+     cx="541.85754"
+     cy="143.61752"
+     r="4.7976499"
+     style="fill:none"
+     id="circle246" />
+  <path
+     class="l4"
+     d="m 341.92852,313.27052 v 24.988"
+     id="path248" />
+  <path
+     class="l4"
+     d="m 341.92852,278.28652 v 24.989"
+     id="path250" />
+  <path
+     class="l4"
+     d="m 331.93352,303.27552 h 19.99"
+     id="path252" />
+  <path
+     class="l4"
+     d="m 331.93352,313.27052 h 19.99"
+     id="path254" />
+  <path
+     class="l4"
+     d="m 344.42752,285.78352 h 4.997"
+     id="path256" />
+  <path
+     class="l4"
+     d="m 346.92652,283.28452 v 4.998"
+     id="path258" />
+  <path
+     class="l4"
+     d="m 541.83552,438.21252 v 19.991"
+     id="path260" />
+  <path
+     class="l4"
+     d="m 541.83552,498.18452 v 19.991"
+     id="path262" />
+  <path
+     class="l4"
+     d="m 541.83552,478.19352 39.981,-19.99"
+     id="path264" />
+  <path
+     class="l4"
+     d="m 541.83552,478.19352 39.981,19.991"
+     id="path266" />
+  <path
+     class="l4"
+     d="m 581.81652,458.20352 v 39.981"
+     id="path268" />
+  <path
+     class="l4"
+     d="m 501.85352,458.20352 v 39.981"
+     id="path270" />
+  <path
+     class="l4"
+     d="m 501.85352,498.18452 39.982,-19.991"
+     id="path272" />
+  <path
+     class="l4"
+     d="m 501.85352,458.20352 39.982,19.99"
+     id="path274" />
+  <path
+     class="l4"
+     d="m 581.81652,478.19352 h 19.991"
+     id="path276" />
+  <path
+     class="l4"
+     d="m 481.86352,478.19352 h 19.99"
+     id="path278" />
+  <path
+     class="l4"
+     d="m 521.84452,458.20352 v 9.995"
+     id="path280" />
+  <path
+     class="l4"
+     d="m 541.83552,458.20352 v 19.99"
+     id="path282" />
+  <path
+     class="l4"
+     d="m 521.84452,488.18952 v 9.995"
+     id="path284" />
+  <path
+     class="l4"
+     d="m 541.83552,488.18952 v 9.995"
+     id="path286" />
+  <circle
+     class="l4"
+     cx="541.85754"
+     cy="483.4595"
+     r="4.7976499"
+     style="fill:none"
+     id="circle288" />
+  <path
+     class="l4"
+     d="m 541.83552,778.05452 v 19.99"
+     id="path290" />
+  <path
+     class="l4"
+     d="m 541.83552,838.02652 v 19.991"
+     id="path292" />
+  <path
+     class="l4"
+     d="m 541.83552,818.03552 39.981,-19.991"
+     id="path294" />
+  <path
+     class="l4"
+     d="m 541.83552,818.03552 39.981,19.991"
+     id="path296" />
+  <path
+     class="l4"
+     d="m 581.81652,798.04452 v 39.982"
+     id="path298" />
+  <path
+     class="l4"
+     d="m 501.85352,798.04452 v 39.982"
+     id="path300" />
+  <path
+     class="l4"
+     d="m 501.85352,838.02652 39.982,-19.991"
+     id="path302" />
+  <path
+     class="l4"
+     d="m 501.85352,798.04452 39.982,19.991"
+     id="path304" />
+  <path
+     class="l4"
+     d="m 581.81652,818.03552 h 19.991"
+     id="path306" />
+  <path
+     class="l4"
+     d="m 481.86352,818.03552 h 19.99"
+     id="path308" />
+  <path
+     class="l4"
+     d="m 521.84452,798.04452 v 9.996"
+     id="path310" />
+  <path
+     class="l4"
+     d="m 541.83552,798.04452 v 19.991"
+     id="path312" />
+  <path
+     class="l4"
+     d="m 521.84452,828.03152 v 9.995"
+     id="path314" />
+  <path
+     class="l4"
+     d="m 541.83552,828.03152 v 9.995"
+     id="path316" />
+  <circle
+     class="l4"
+     cx="541.85754"
+     cy="823.30157"
+     r="4.7976499"
+     style="fill:none"
+     id="circle318" />
+  <path
+     class="l4"
+     d="M 941.64952,98.370525 V 118.36152"
+     id="path320" />
+  <path
+     class="l4"
+     d="m 941.64952,158.34252 v 19.991"
+     id="path322" />
+  <path
+     class="l4"
+     d="m 941.64952,138.35152 39.981,-19.99"
+     id="path324" />
+  <path
+     class="l4"
+     d="m 941.64952,138.35152 39.981,19.991"
+     id="path326" />
+  <path
+     class="l4"
+     d="m 981.63052,118.36152 v 39.981"
+     id="path328" />
+  <path
+     class="l4"
+     d="m 901.66752,118.36152 v 39.981"
+     id="path330" />
+  <path
+     class="l4"
+     d="m 901.66752,158.34252 39.982,-19.991"
+     id="path332" />
+  <path
+     class="l4"
+     d="m 901.66752,118.36152 39.982,19.99"
+     id="path334" />
+  <path
+     class="l4"
+     d="m 981.63052,138.35152 h 19.99098"
+     id="path336" />
+  <path
+     class="l4"
+     d="m 881.67752,138.35152 h 19.99"
+     id="path338" />
+  <path
+     class="l4"
+     d="m 921.65852,118.36152 v 9.995"
+     id="path340" />
+  <path
+     class="l4"
+     d="m 941.64952,118.36152 v 19.99"
+     id="path342" />
+  <path
+     class="l4"
+     d="m 921.65852,148.34752 v 9.995"
+     id="path344" />
+  <path
+     class="l4"
+     d="m 941.64952,148.34752 v 9.995"
+     id="path346" />
+  <circle
+     class="l4"
+     cx="941.67157"
+     cy="143.61752"
+     r="4.7976499"
+     style="fill:none"
+     id="circle348" />
+  <path
+     class="l4"
+     d="m 941.64952,778.05452 v 19.99"
+     id="path350" />
+  <path
+     class="l4"
+     d="m 941.64952,838.02652 v 19.991"
+     id="path352" />
+  <path
+     class="l4"
+     d="m 941.64952,818.03552 39.981,-19.991"
+     id="path354" />
+  <path
+     class="l4"
+     d="m 941.64952,818.03552 39.981,19.991"
+     id="path356" />
+  <path
+     class="l4"
+     d="m 981.63052,798.04452 v 39.982"
+     id="path358" />
+  <path
+     class="l4"
+     d="m 901.66752,798.04452 v 39.982"
+     id="path360" />
+  <path
+     class="l4"
+     d="m 901.66752,838.02652 39.982,-19.991"
+     id="path362" />
+  <path
+     class="l4"
+     d="m 901.66752,798.04452 39.982,19.991"
+     id="path364" />
+  <path
+     class="l4"
+     d="m 981.63052,818.03552 h 19.99098"
+     id="path366" />
+  <path
+     class="l4"
+     d="m 881.67752,818.03552 h 19.99"
+     id="path368" />
+  <path
+     class="l4"
+     d="m 921.65852,798.04452 v 9.996"
+     id="path370" />
+  <path
+     class="l4"
+     d="m 941.64952,798.04452 v 19.991"
+     id="path372" />
+  <path
+     class="l4"
+     d="m 921.65852,828.03152 v 9.995"
+     id="path374" />
+  <path
+     class="l4"
+     d="m 941.64952,828.03152 v 9.995"
+     id="path376" />
+  <circle
+     class="l4"
+     cx="941.67157"
+     cy="823.30157"
+     r="4.7976499"
+     style="fill:none"
+     id="circle378" />
+  <path
+     class="l4"
+     d="m 341.92852,653.11252 v 24.988"
+     id="path380" />
+  <path
+     class="l4"
+     d="m 341.92852,618.12852 v 24.989"
+     id="path382" />
+  <path
+     class="l4"
+     d="m 331.93352,643.11752 h 19.99"
+     id="path384" />
+  <path
+     class="l4"
+     d="m 331.93352,653.11252 h 19.99"
+     id="path386" />
+  <path
+     class="l4"
+     d="m 344.42752,625.62552 h 4.997"
+     id="path388" />
+  <path
+     class="l4"
+     d="m 346.92652,623.12652 v 4.998"
+     id="path390" />
+  <path
+     class="l4"
+     d="m 741.74252,313.27052 v 24.988"
+     id="path392" />
+  <path
+     class="l4"
+     d="m 741.74252,278.28652 v 24.989"
+     id="path394" />
+  <path
+     class="l4"
+     d="m 731.74652,303.27552 h 19.991"
+     id="path396" />
+  <path
+     class="l4"
+     d="m 731.74652,313.27052 h 19.991"
+     id="path398" />
+  <path
+     class="l4"
+     d="m 744.24152,285.78352 h 4.997"
+     id="path400" />
+  <path
+     class="l4"
+     d="m 746.74052,283.28452 v 4.998"
+     id="path402" />
+  <path
+     class="l4"
+     d="m 741.74252,653.11252 v 24.988"
+     id="path404" />
+  <path
+     class="l4"
+     d="m 741.74252,618.12852 v 24.989"
+     id="path406" />
+  <path
+     class="l4"
+     d="m 731.74652,643.11752 h 19.991"
+     id="path408" />
+  <path
+     class="l4"
+     d="m 731.74652,653.11252 h 19.991"
+     id="path410" />
+  <path
+     class="l4"
+     d="m 744.24152,625.62552 h 4.997"
+     id="path412" />
+  <path
+     class="l4"
+     d="m 746.74052,623.12652 v 4.998"
+     id="path414" />
+  <path
+     class="l5"
+     d="m 518.72152,258.29652 h 3.123"
+     id="path416" />
+  <path
+     class="l5"
+     d="m 508.10152,253.29852 -3.749,4.998 3.749,4.997 h 6.871 l 3.749,-4.997 -3.749,-4.998 h -6.871"
+     id="path418" />
+  <path
+     class="l5"
+     d="m 520.59552,257.04652 h 2.499 v 2.499 h -2.499 z"
+     id="path420" />
+  <path
+     class="l5"
+     d="m 518.72152,18.407725 h 3.123"
+     id="path422" />
+  <path
+     class="l5"
+     d="m 508.10152,13.410125 -3.749,4.9976 3.749,4.9977 h 6.871 l 3.749,-4.9977 -3.749,-4.9976 h -6.871"
+     id="path424" />
+  <path
+     class="l5"
+     d="m 520.59552,17.158325 h 2.499 v 2.4989 h -2.499 z"
+     id="path426" />
+  <path
+     class="l5"
+     d="m 218.86052,478.19352 h 3.124"
+     id="path428" />
+  <path
+     class="l5"
+     d="m 208.24052,473.19652 -3.748,4.997 3.748,4.998 h 6.872 l 3.748,-4.998 -3.748,-4.997 h -6.872"
+     id="path430" />
+  <path
+     class="l5"
+     d="m 220.73452,476.94452 h 2.499 v 2.499 h -2.499 z"
+     id="path432" />
+  <path
+     class="l5"
+     d="m 218.86052,138.35152 h 3.124"
+     id="path434" />
+  <path
+     class="l5"
+     d="m 208.24052,133.35452 -3.748,4.997 3.748,4.998 h 6.872 l 3.748,-4.998 -3.748,-4.997 h -6.872"
+     id="path436" />
+  <path
+     class="l5"
+     d="m 220.73452,137.10252 h 2.499 v 2.499 h -2.499 z"
+     id="path438" />
+  <path
+     class="l5"
+     d="m 519.34552,95.871725 h 4.998 v 4.997695 h -4.998 z"
+     id="path440" />
+  <path
+     class="l5"
+     d="m 539.33652,95.871725 h 4.998 v 4.997695 h -4.998 z"
+     id="path442" />
+  <path
+     class="l5"
+     d="m 519.34552,175.83452 h 4.998 v 4.998 h -4.998 z"
+     id="path444" />
+  <path
+     class="l5"
+     d="m 619.29952,135.85352 h 4.997 v 4.997 h -4.997 z"
+     id="path446" />
+  <path
+     class="l5"
+     d="m 459.37352,135.85352 h 4.998 v 4.997 h -4.998 z"
+     id="path448" />
+  <path
+     class="l5"
+     d="m 539.33652,175.83452 h 4.998 v 4.998 h -4.998 z"
+     id="path450" />
+  <path
+     class="l5"
+     d="m 339.42952,275.78752 h 4.998 v 4.998 h -4.998 z"
+     id="path452" />
+  <path
+     class="l5"
+     d="m 339.42952,335.76052 h 4.998 v 4.997 h -4.998 z"
+     id="path454" />
+  <path
+     class="l5"
+     d="m 960.39052,696.84252 h 2.499 v 2.498 h -2.499 z"
+     id="path456" />
+  <path
+     class="l5"
+     d="m 960.39052,936.73052 h 2.499 v 2.499 h -2.499 z"
+     id="path458" />
+  <path
+     class="l5"
+     d="m 560.57652,357.00052 h 2.499 v 2.499 h -2.499 z"
+     id="path460" />
+  <path
+     class="l5"
+     d="m 560.57652,596.88852 h 2.499 v 2.499 h -2.499 z"
+     id="path462" />
+  <path
+     class="l5"
+     d="m 519.34552,435.71352 h 4.998 v 4.998 h -4.998 z"
+     id="path464" />
+  <path
+     class="l5"
+     d="m 539.33652,435.71352 h 4.998 v 4.998 h -4.998 z"
+     id="path466" />
+  <path
+     class="l5"
+     d="m 519.34552,515.67652 h 4.998 v 4.998 h -4.998 z"
+     id="path468" />
+  <path
+     class="l5"
+     d="m 619.29952,475.69452 h 4.997 v 4.998 h -4.997 z"
+     id="path470" />
+  <path
+     class="l5"
+     d="m 459.37352,475.69452 h 4.998 v 4.998 h -4.998 z"
+     id="path472" />
+  <path
+     class="l5"
+     d="m 539.33652,515.67652 h 4.998 v 4.998 h -4.998 z"
+     id="path474" />
+  <path
+     class="l5"
+     d="m 519.34552,775.55552 h 4.998 v 4.998 h -4.998 z"
+     id="path476" />
+  <path
+     class="l5"
+     d="m 539.33652,775.55552 h 4.998 v 4.998 h -4.998 z"
+     id="path478" />
+  <path
+     class="l5"
+     d="m 519.34552,855.51852 h 4.998 v 4.997 h -4.998 z"
+     id="path480" />
+  <path
+     class="l5"
+     d="m 619.29952,815.53652 h 4.997 v 4.998 h -4.997 z"
+     id="path482" />
+  <path
+     class="l5"
+     d="m 459.37352,815.53652 h 4.998 v 4.998 h -4.998 z"
+     id="path484" />
+  <path
+     class="l5"
+     d="m 539.33652,855.51852 h 4.998 v 4.997 h -4.998 z"
+     id="path486" />
+  <path
+     class="l5"
+     d="m 919.15952,95.871725 h 4.998 v 4.997695 h -4.998 z"
+     id="path488" />
+  <path
+     class="l5"
+     d="m 939.15052,95.871725 h 4.998 v 4.997695 h -4.998 z"
+     id="path490" />
+  <path
+     class="l5"
+     d="m 919.15952,175.83452 h 4.998 v 4.998 h -4.998 z"
+     id="path492" />
+  <path
+     class="l5"
+     d="m 1019.1165,135.85352 h 4.99 v 4.997 h -4.99 z"
+     id="path494" />
+  <path
+     class="l5"
+     d="m 859.18752,135.85352 h 4.998 v 4.997 h -4.998 z"
+     id="path496" />
+  <path
+     class="l5"
+     d="m 939.15052,175.83452 h 4.998 v 4.998 h -4.998 z"
+     id="path498" />
+  <path
+     class="l5"
+     d="m 919.15952,775.55552 h 4.998 v 4.998 h -4.998 z"
+     id="path500" />
+  <path
+     class="l5"
+     d="m 939.15052,775.55552 h 4.998 v 4.998 h -4.998 z"
+     id="path502" />
+  <path
+     class="l5"
+     d="m 919.15952,855.51852 h 4.998 v 4.997 h -4.998 z"
+     id="path504" />
+  <path
+     class="l5"
+     d="m 1019.1165,815.53652 h 4.99 v 4.998 h -4.99 z"
+     id="path506" />
+  <path
+     class="l5"
+     d="m 859.18752,815.53652 h 4.998 v 4.998 h -4.998 z"
+     id="path508" />
+  <path
+     class="l5"
+     d="m 939.15052,855.51852 h 4.998 v 4.997 h -4.998 z"
+     id="path510" />
+  <path
+     class="l5"
+     d="m 339.42952,615.62952 h 4.998 v 4.998 h -4.998 z"
+     id="path512" />
+  <path
+     class="l5"
+     d="m 339.42952,675.60152 h 4.998 v 4.998 h -4.998 z"
+     id="path514" />
+  <path
+     class="l5"
+     d="m 739.24352,275.78752 h 4.998 v 4.998 h -4.998 z"
+     id="path516" />
+  <path
+     class="l5"
+     d="m 739.24352,335.76052 h 4.998 v 4.997 h -4.998 z"
+     id="path518" />
+  <path
+     class="l5"
+     d="m 739.24352,615.62952 h 4.998 v 4.998 h -4.998 z"
+     id="path520" />
+  <path
+     class="l5"
+     d="m 739.24352,675.60152 h 4.998 v 4.998 h -4.998 z"
+     id="path522" />
+  <path
+     class="l5"
+     d="m 560.57652,696.84252 h 2.499 v 2.498 h -2.499 z"
+     id="path524" />
+  <path
+     class="l5"
+     d="m 560.57652,936.73052 h 2.499 v 2.499 h -2.499 z"
+     id="path526" />
+  <path
+     class="l5"
+     d="m 520.59552,357.00052 h 2.499 v 2.499 h -2.499 z"
+     id="path528" />
+  <path
+     class="l5"
+     d="m 520.59552,596.88852 h 2.499 v 2.499 h -2.499 z"
+     id="path530" />
+  <path
+     class="l5"
+     d="m 520.59552,696.84252 h 2.499 v 2.498 h -2.499 z"
+     id="path532" />
+  <path
+     class="l5"
+     d="m 520.59552,936.73052 h 2.499 v 2.499 h -2.499 z"
+     id="path534" />
+  <path
+     class="l5"
+     d="m 920.40952,17.158325 h 2.499 v 2.4989 h -2.499 z"
+     id="path536" />
+  <path
+     class="l5"
+     d="m 920.40952,257.04652 h 2.499 v 2.499 h -2.499 z"
+     id="path538" />
+  <path
+     class="l5"
+     d="m 920.40952,696.84252 h 2.499 v 2.498 h -2.499 z"
+     id="path540" />
+  <path
+     class="l5"
+     d="m 920.40952,936.73052 h 2.499 v 2.499 h -2.499 z"
+     id="path542" />
+  <path
+     class="l5"
+     d="m 218.86052,818.03552 h 3.124"
+     id="path544" />
+  <path
+     class="l5"
+     d="m 208.24052,813.03852 -3.748,4.997 3.748,4.998 h 6.872 l 3.748,-4.998 -3.748,-4.997 h -6.872"
+     id="path546" />
+  <path
+     class="l5"
+     d="m 220.73452,816.78652 h 2.499 v 2.499 h -2.499 z"
+     id="path548" />
+  <path
+     class="l5"
+     d="m 560.57652,257.04652 h 2.499 v 2.499 h -2.499 z"
+     id="path550" />
+  <path
+     class="l5"
+     d="m 960.39052,257.04652 h 2.499 v 2.499 h -2.499 z"
+     id="path552" />
+  <path
+     class="l5"
+     d="m 560.57652,17.158325 h 2.499 v 2.4989 h -2.499 z"
+     id="path554" />
+  <path
+     class="l5"
+     d="m 960.39052,17.158325 h 2.499 v 2.4989 h -2.499 z"
+     id="path556" />
+  <path
+     class="l7"
+     d="M 521.84452,98.370525 V 118.36152"
+     id="path558" />
+  <path
+     class="l7"
+     d="m 521.84452,158.34252 v 19.991"
+     id="path560" />
+  <path
+     class="l7"
+     d="m 601.80752,138.35152 h 19.991"
+     id="path562" />
+  <path
+     class="l7"
+     d="m 461.87252,138.35152 h 19.991"
+     id="path564" />
+  <path
+     class="l7"
+     d="m 521.84452,438.21252 v 19.991"
+     id="path566" />
+  <path
+     class="l7"
+     d="m 521.84452,498.18452 v 19.991"
+     id="path568" />
+  <path
+     class="l7"
+     d="m 601.80752,478.19352 h 19.991"
+     id="path570" />
+  <path
+     class="l7"
+     d="m 461.87252,478.19352 h 19.991"
+     id="path572" />
+  <path
+     class="l7"
+     d="m 521.84452,778.05452 v 19.99"
+     id="path574" />
+  <path
+     class="l7"
+     d="m 521.84452,838.02652 v 19.991"
+     id="path576" />
+  <path
+     class="l7"
+     d="m 601.80752,818.03552 h 19.991"
+     id="path578" />
+  <path
+     class="l7"
+     d="m 461.87252,818.03552 h 19.991"
+     id="path580" />
+  <path
+     class="l7"
+     d="M 921.65852,98.370525 V 118.36152"
+     id="path582" />
+  <path
+     class="l7"
+     d="m 921.65852,158.34252 v 19.991"
+     id="path584" />
+  <path
+     class="l7"
+     d="m 1001.6215,138.35152 h 19.995"
+     id="path586" />
+  <path
+     class="l7"
+     d="m 861.68652,138.35152 h 19.991"
+     id="path588" />
+  <path
+     class="l7"
+     d="m 921.65852,778.05452 v 19.99"
+     id="path590" />
+  <path
+     class="l7"
+     d="m 921.65852,838.02652 v 19.991"
+     id="path592" />
+  <path
+     class="l7"
+     d="m 1001.6215,818.03552 h 19.995"
+     id="path594" />
+  <path
+     class="l7"
+     d="m 861.68652,818.03552 h 19.991"
+     id="path596" />
+  <path
+     class="l1"
+     d="m 541.83552,398.23152 v 39.981"
+     id="path598" />
+  <path
+     class="l1"
+     d="m 541.83552,398.23152 h 19.991"
+     id="path600" />
+  <path
+     class="l1"
+     d="m 561.82652,358.24952 v 39.982"
+     id="path602" />
+  <path
+     class="l1"
+     d="m 521.84452,358.24952 v 79.963"
+     id="path604" />
+  <path
+     class="l1"
+     d="m 541.83552,178.33352 v 39.981"
+     id="path606" />
+  <path
+     class="l1"
+     d="m 541.83552,218.31452 h 19.991"
+     id="path608" />
+  <path
+     class="l1"
+     d="m 561.82652,218.31452 v 39.982"
+     id="path610" />
+  <path
+     class="l1"
+     d="m 521.84452,178.33352 v 79.963"
+     id="path612" />
+  <path
+     class="l1"
+     d="m 521.84452,518.17552 v 79.962"
+     id="path614" />
+  <path
+     class="l1"
+     d="m 541.83552,518.17552 v 39.981"
+     id="path616" />
+  <path
+     class="l1"
+     d="m 541.83552,558.15652 h 19.991"
+     id="path618" />
+  <path
+     class="l1"
+     d="m 561.82652,558.15652 v 39.981"
+     id="path620" />
+  <path
+     class="l1"
+     d="m 741.74252,138.35152 h 119.944"
+     id="path622" />
+  <path
+     class="l1"
+     d="m 1021.6165,138.35152 h 119.94"
+     id="path624" />
+  <path
+     class="l1"
+     d="m 741.74252,818.03552 h 119.944"
+     id="path626" />
+  <path
+     class="l1"
+     d="m 621.79852,478.19352 h 119.944"
+     id="path628" />
+  <path
+     class="l1"
+     d="m 1021.6165,818.03552 h 119.94"
+     id="path630" />
+  <path
+     class="l1"
+     d="m 341.92852,478.19352 h 119.944"
+     id="path632" />
+  <path
+     class="l1"
+     d="m 341.92852,818.03552 h 119.944"
+     id="path634" />
+  <path
+     class="l1"
+     d="m 341.92852,138.35152 h 119.944"
+     id="path636" />
+  <path
+     class="l1"
+     d="m 341.92852,138.35152 v 139.935"
+     id="path638" />
+  <path
+     class="l1"
+     d="m 221.98452,138.35152 h 119.944"
+     id="path640" />
+  <path
+     class="l1"
+     d="m 341.92852,338.25852 v 139.935"
+     id="path642" />
+  <path
+     class="l1"
+     d="m 221.98452,478.19352 h 119.944"
+     id="path644" />
+  <path
+     class="l1"
+     d="m 341.92852,478.19352 v 139.935"
+     id="path646" />
+  <path
+     class="l1"
+     d="m 341.92852,678.10052 v 139.935"
+     id="path648" />
+  <path
+     class="l1"
+     d="m 1141.5565,478.19352 v 339.842"
+     id="path650" />
+  <path
+     class="l1"
+     d="m 221.98452,818.03552 h 119.944"
+     id="path652" />
+  <path
+     class="l1"
+     d="m 541.83552,738.07252 v 39.982"
+     id="path654" />
+  <path
+     class="l1"
+     d="m 541.83552,738.07252 h 19.991"
+     id="path656" />
+  <path
+     class="l1"
+     d="m 561.82652,698.09152 v 39.981"
+     id="path658" />
+  <path
+     class="l1"
+     d="m 521.84452,698.09152 v 79.963"
+     id="path660" />
+  <path
+     class="l1"
+     d="m 541.83552,858.01752 v 39.981"
+     id="path662" />
+  <path
+     class="l1"
+     d="m 541.83552,897.99852 h 19.991"
+     id="path664" />
+  <path
+     class="l1"
+     d="m 561.82652,897.99852 v 39.981"
+     id="path666" />
+  <path
+     class="l1"
+     d="m 521.84452,858.01752 v 79.962"
+     id="path668" />
+  <path
+     class="l1"
+     d="m 941.64952,858.01752 v 39.981"
+     id="path670" />
+  <path
+     class="l1"
+     d="m 941.64952,897.99852 h 19.991"
+     id="path672" />
+  <path
+     class="l1"
+     d="m 961.64052,897.99852 v 39.981"
+     id="path674" />
+  <path
+     class="l1"
+     d="m 921.65852,858.01752 v 79.962"
+     id="path676" />
+  <path
+     class="l1"
+     d="m 941.64952,738.07252 v 39.982"
+     id="path678" />
+  <path
+     class="l1"
+     d="m 941.64952,738.07252 h 19.991"
+     id="path680" />
+  <path
+     class="l1"
+     d="m 961.64052,698.09152 v 39.981"
+     id="path682" />
+  <path
+     class="l1"
+     d="m 921.65852,698.09152 v 79.963"
+     id="path684" />
+  <path
+     class="l1"
+     d="m 741.74252,338.25852 v 139.935"
+     id="path686" />
+  <path
+     class="l1"
+     d="m 741.74252,138.35152 v 139.935"
+     id="path688" />
+  <path
+     class="l1"
+     d="m 621.79852,138.35152 h 119.944"
+     id="path690" />
+  <path
+     class="l1"
+     d="m 741.74252,478.19352 v 139.935"
+     id="path692" />
+  <path
+     class="l1"
+     d="m 741.74252,678.10052 v 139.935"
+     id="path694" />
+  <path
+     class="l1"
+     d="m 621.79852,818.03552 h 119.944"
+     id="path696" />
+  <path
+     class="l1"
+     d="M 741.74252,478.19352 H 1141.5565"
+     id="path698" />
+  <path
+     class="l1"
+     d="m 1141.5565,138.35152 v 339.842"
+     id="path700" />
+  <path
+     class="l1"
+     d="m 541.83552,58.389125 v 39.9814"
+     id="path702" />
+  <path
+     class="l1"
+     d="m 541.83552,58.389125 h 19.991"
+     id="path704" />
+  <path
+     class="l1"
+     d="m 561.82652,18.407725 v 39.9814"
+     id="path706" />
+  <path
+     class="l1"
+     d="m 521.84452,18.407725 v 79.9628"
+     id="path708" />
+  <path
+     class="l1"
+     d="m 941.64952,58.389125 v 39.9814"
+     id="path710" />
+  <path
+     class="l1"
+     d="m 941.64952,58.389125 h 19.991"
+     id="path712" />
+  <path
+     class="l1"
+     d="m 961.64052,18.407725 v 39.9814"
+     id="path714" />
+  <path
+     class="l1"
+     d="m 921.65852,18.407725 v 79.9628"
+     id="path716" />
+  <path
+     class="l1"
+     d="m 941.64952,178.33352 v 39.981"
+     id="path718" />
+  <path
+     class="l1"
+     d="m 941.64952,218.31452 h 19.991"
+     id="path720" />
+  <path
+     class="l1"
+     d="m 961.64052,218.31452 v 39.982"
+     id="path722" />
+  <path
+     class="l1"
+     d="m 921.65852,178.33352 v 79.963"
+     id="path724" />
+  <circle
+     class="l1"
+     cx="341.92853"
+     cy="478.19351"
+     r="7.3965602"
+     id="circle726" />
+  <circle
+     class="l1"
+     cx="341.92853"
+     cy="138.35153"
+     r="7.3965602"
+     id="circle728" />
+  <circle
+     class="l1"
+     cx="341.92853"
+     cy="138.35153"
+     r="7.3965602"
+     id="circle730" />
+  <circle
+     class="l1"
+     cx="341.92853"
+     cy="138.35153"
+     r="7.3965602"
+     id="circle732" />
+  <circle
+     class="l1"
+     cx="341.92853"
+     cy="818.03552"
+     r="7.3965602"
+     id="circle734" />
+  <circle
+     class="l1"
+     cx="341.92853"
+     cy="478.19351"
+     r="7.3965602"
+     id="circle736" />
+  <circle
+     class="l1"
+     cx="341.92853"
+     cy="478.19351"
+     r="7.3965602"
+     id="circle738" />
+  <circle
+     class="l1"
+     cx="341.92853"
+     cy="478.19351"
+     r="7.3965602"
+     id="circle740" />
+  <circle
+     class="l1"
+     cx="341.92853"
+     cy="818.03552"
+     r="7.3965602"
+     id="circle742" />
+  <circle
+     class="l1"
+     cx="341.92853"
+     cy="818.03552"
+     r="7.3965602"
+     id="circle744" />
+  <circle
+     class="l1"
+     cx="741.74255"
+     cy="138.35153"
+     r="7.3965602"
+     id="circle746" />
+  <circle
+     class="l1"
+     cx="741.74255"
+     cy="138.35153"
+     r="7.3965602"
+     id="circle748" />
+  <circle
+     class="l1"
+     cx="741.74255"
+     cy="478.19351"
+     r="7.3965602"
+     id="circle750" />
+  <circle
+     class="l1"
+     cx="741.74255"
+     cy="138.35153"
+     r="7.3965602"
+     id="circle752" />
+  <circle
+     class="l1"
+     cx="741.74255"
+     cy="478.19351"
+     r="7.3965602"
+     id="circle754" />
+  <circle
+     class="l1"
+     cx="1141.5565"
+     cy="478.19351"
+     r="7.3965602"
+     id="circle756" />
+  <circle
+     class="l1"
+     cx="741.74255"
+     cy="818.03552"
+     r="7.3965602"
+     id="circle758" />
+  <circle
+     class="l1"
+     cx="741.74255"
+     cy="478.19351"
+     r="7.3965602"
+     id="circle760" />
+  <circle
+     class="l1"
+     cx="741.74255"
+     cy="478.19351"
+     r="7.3965602"
+     id="circle762" />
+  <circle
+     class="l1"
+     cx="741.74255"
+     cy="818.03552"
+     r="7.3965602"
+     id="circle764" />
+  <circle
+     class="l1"
+     cx="741.74255"
+     cy="818.03552"
+     r="7.3965602"
+     id="circle766" />
+  <circle
+     class="l1"
+     cx="1141.5565"
+     cy="478.19351"
+     r="7.3965602"
+     id="circle768" />
+  <circle
+     class="l1"
+     cx="1141.5565"
+     cy="478.19351"
+     r="7.3965602"
+     id="circle770" />
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="20.7903px"
+     id="text772"
+     x="2.086525"
+     y="524.55853">Vcmfb = (Voutp + Voutn) / 2</text>
+</svg>

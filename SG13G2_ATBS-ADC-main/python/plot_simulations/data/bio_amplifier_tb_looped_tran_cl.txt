@@ -1,0 +1,6 @@
+ freq_vec        v(const.Acl_dB_vec) v(const.phase_vec)
+ 1.00000000e+03  3.98567722e+01  3.70750068e+02 
+ 1.00000000e+04  4.66350938e+00  2.52012600e+02 
+ 1.00000000e+05 -3.98541127e+00  1.80000000e+02 
+ yes             const.freq_vec  const.Aol_dB_vec const.phase_vec
+ 1.00000000e+00  1.00000000e+04  3.33992060e+01  9.87775200e+01 

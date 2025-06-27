@@ -1,0 +1,65 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Fri Nov 29 18:56:48 2024
+[*]
+[dumpfile] "/foss/designs/tbs_core/debouncer/sim/debouncer_tb.vcd"
+[dumpfile_mtime] "Fri Nov 29 18:56:43 2024"
+[dumpfile_size] 8191254
+[savefile] "/foss/designs/tbs_core/debouncer/sim/debouncer_tb.gtkw"
+[timestart] 0
+[size] 1375 600
+[pos] -1 -1
+*-40.873322 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[markername] AA
+[markername] BB
+[markername] CC
+[markername] DD
+[markername] EE
+[markername] FF
+[markername] GG
+[markername] HH
+[markername] II
+[markername] JJ
+[markername] KK
+[markername] LL
+[markername] MM
+[markername] NN
+[markername] OO
+[markername] PP
+[markername] QQ
+[markername] RR
+[markername] SS
+[markername] TT
+[markername] UU
+[markername] VV
+[markername] WW
+[markername] XX
+[markername] YY
+[markername] ZZ
+[treeopen] debouncer_tb.
+[sst_width] 276
+[signals_width] 247
+[sst_expanded] 1
+[sst_vpaned_height] 150
+@200
+-INPUTS
+@28
+debouncer_tb.dut_debouncer.clock_i
+debouncer_tb.dut_debouncer.reset_i
+debouncer_tb.dut_debouncer.bouncing_i
+@200
+-INTERNAL
+@28
+debouncer_tb.dut_debouncer.bouncing_sync
+debouncer_tb.dut_debouncer.bouncing_sync_d
+debouncer_tb.dut_debouncer.bouncing_edge_r
+@24
+debouncer_tb.dut_debouncer.counter_value[20:0]
+@28
+debouncer_tb.dut_debouncer.reset_counter_strb
+@200
+-OUTPUTS
+@28
+debouncer_tb.dut_debouncer.debounced_o
+[pattern_trace] 1
+[pattern_trace] 0

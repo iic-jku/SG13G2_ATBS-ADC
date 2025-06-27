@@ -1,0 +1,85 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "phy_rst_o",
+					"strict" : false
+				},
+				{
+					"name" : "tx_can_write_o",
+					"strict" : false
+				},
+				{
+					"name" : "tx_data_o[0]",
+					"strict" : false
+				},
+				{
+					"name" : "tx_data_o[1]",
+					"strict" : false
+				},
+				{
+					"name" : "tx_data_o[2]",
+					"strict" : false
+				},
+				{
+					"name" : "tx_data_o[3]",
+					"strict" : false
+				},
+				{
+					"name" : "tx_en_o",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n_i",
+					"strict" : false
+				},
+				{
+					"name" : "clk_i",
+					"strict" : false
+				},
+				{
+					"name" : "a_data_strobe_i",
+					"strict" : false
+				},
+				{
+					"name" : "a_data_i[4]",
+					"strict" : false
+				},
+				{
+					"name" : "a_data_i[0]",
+					"strict" : false
+				},
+				{
+					"name" : "a_data_i[5]",
+					"strict" : false
+				},
+				{
+					"name" : "a_data_i[1]",
+					"strict" : false
+				},
+				{
+					"name" : "a_data_i[6]",
+					"strict" : false
+				},
+				{
+					"name" : "a_data_i[2]",
+					"strict" : false
+				},
+				{
+					"name" : "a_data_i[7]",
+					"strict" : false
+				},
+				{
+					"name" : "a_data_i[3]",
+					"strict" : false
+				},
+				{
+					"name" : "tx_clk_i",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

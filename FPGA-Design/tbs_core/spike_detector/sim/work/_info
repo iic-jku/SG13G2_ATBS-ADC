@@ -1,0 +1,214 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA/tbs_core/spike_detector/sim
+Espike_detector
+Z1 w1721820940
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 17
+Z5 dC:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/spike_detector/sim
+Z6 8../rtl/spike_detector_ea.vhd
+Z7 F../rtl/spike_detector_ea.vhd
+l0
+L21 1
+V[ccEb@JIYiA@L;5L[dIdz1
+!s100 lknA28zOK1kCW<mmfN03h3
+Z8 OV;C;2020.1;71
+32
+Z9 !s110 1740961467
+!i10b 1
+Z10 !s108 1740961467.000000
+Z11 !s90 -reportprogress|300|-work|work|../rtl/spike_detector_ea.vhd|
+Z12 !s107 ../rtl/spike_detector_ea.vhd|
+!i113 1
+Z13 o-work work
+Z14 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+Z15 DEx4 work 14 spike_detector 0 22 [ccEb@JIYiA@L;5L[dIdz1
+!i122 17
+l61
+L42 128
+V1G@89_>2a9YLQ;^9]MiL[1
+!s100 1B8OXo8Goe7=[aaH<Z;QX2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Espike_detector_board
+Z16 w1719074936
+R2
+R3
+R4
+!i122 18
+R5
+Z17 8../rtl/spike_detector_board.vhd
+Z18 F../rtl/spike_detector_board.vhd
+l0
+L16 1
+ViAVcn31o=HiGJTh=4__@E3
+!s100 Q;od04S^K]hFAceJn6k@D2
+R8
+32
+Z19 !s110 1740961468
+!i10b 1
+R10
+Z20 !s90 -reportprogress|300|-work|work|../rtl/spike_detector_board.vhd|
+Z21 !s107 ../rtl/spike_detector_board.vhd|
+!i113 1
+R13
+R14
+Artl
+R15
+R2
+R3
+R4
+DEx4 work 20 spike_detector_board 0 22 iAVcn31o=HiGJTh=4__@E3
+!i122 18
+l42
+L37 31
+V]M`]Tdh6M[akAf`>@iBL<1
+!s100 G6?P0YbEnl0`nA9MgH[zM2
+R8
+32
+R19
+!i10b 1
+R10
+R20
+R21
+!i113 1
+R13
+R14
+Espike_detector_tb
+Z22 w1732794321
+Z23 DPx4 work 10 tbssimvals 0 22 5N?>YfAY3S[Lm`Y;BCZg?2
+Z24 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+R2
+R3
+R4
+!i122 19
+R5
+Z25 8spike_detector_tb.vhd
+Z26 Fspike_detector_tb.vhd
+l0
+Z27 L17 1
+VXbDak?CD5U>lj7Fh9BFQS1
+!s100 cV]jgXXC;0hhJ8:Ka4d282
+R8
+32
+R19
+!i10b 1
+Z28 !s108 1740961468.000000
+Z29 !s90 -reportprogress|300|-work|work|spike_detector_tb.vhd|
+Z30 !s107 spike_detector_tb.vhd|
+!i113 1
+R13
+R14
+Abhv
+R15
+Z31 DEx4 work 10 sync_chain 0 22 `BaG1J7Li[k>?7`:eHf4K1
+R23
+R24
+R2
+R3
+R4
+Z32 DEx4 work 17 spike_detector_tb 0 22 XbDak?CD5U>lj7Fh9BFQS1
+!i122 19
+l54
+L21 176
+VTCSU;:GmGQ5WM:Xh3holl3
+!s100 OS[7L]PKDfDA6LmYoaQ;G3
+R8
+32
+R19
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R13
+R14
+Esync_chain
+Z33 w1719664156
+R2
+R3
+R4
+!i122 16
+R5
+Z34 8../../sync_chain/rtl/sync_chain_ea.vhd
+Z35 F../../sync_chain/rtl/sync_chain_ea.vhd
+l0
+R27
+V`BaG1J7Li[k>?7`:eHf4K1
+!s100 ::?=>I`N?;aMHj42ZTQ1Y0
+R8
+32
+R9
+!i10b 1
+R10
+Z36 !s90 -reportprogress|300|-work|work|../../sync_chain/rtl/sync_chain_ea.vhd|
+Z37 !s107 ../../sync_chain/rtl/sync_chain_ea.vhd|
+!i113 1
+R13
+R14
+Artl
+R2
+R3
+R4
+R31
+!i122 16
+l38
+L31 28
+VeS4i3KmPFg@0Kk3H[>Cl<0
+!s100 f<9>Ek08[L0`NSz@gh3M<1
+R8
+32
+R9
+!i10b 1
+R10
+R36
+R37
+!i113 1
+R13
+R14
+Ptbssimvals
+R24
+R2
+R3
+R4
+!i122 15
+w1740830326
+R5
+8../../sim/vhdl/TBSSimVals_p.vhd
+F../../sim/vhdl/TBSSimVals_p.vhd
+l0
+L12 1
+V5N?>YfAY3S[Lm`Y;BCZg?2
+!s100 ZDNjJKg7l9mlolQj7b:C03
+R8
+32
+R9
+!i10b 1
+R10
+!s90 -reportprogress|300|-work|work|../../sim/vhdl/TBSSimVals_p.vhd|
+!s107 ../../sim/vhdl/TBSSimVals_p.vhd|
+!i113 1
+R13
+R14

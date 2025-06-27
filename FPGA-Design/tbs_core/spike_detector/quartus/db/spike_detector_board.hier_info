@@ -1,0 +1,42 @@
+|spike_detector_board
+clock_i => spike_detector:spike_detector_0.clock_i
+reset_n_i => spike_detector:spike_detector_0.reset_i
+detection_en_i => spike_detector:spike_detector_0.detection_en_i
+comp_upper_i => spike_detector:spike_detector_0.comp_upper_i
+comp_lower_i => spike_detector:spike_detector_0.comp_lower_i
+change_upper_strb_i => spike_detector:spike_detector_0.change_upper_strb_i
+change_lower_strb_i => spike_detector:spike_detector_0.change_lower_strb_i
+stopped_changing_upper_strb_i => spike_detector:spike_detector_0.stopped_changing_upper_strb_i
+stopped_changing_lower_strb_i => spike_detector:spike_detector_0.stopped_changing_lower_strb_i
+increasing_en_i => spike_detector:spike_detector_0.increasing_en_i
+decreasing_en_i => spike_detector:spike_detector_0.decreasing_en_i
+pause_detection_strb_i => spike_detector:spike_detector_0.pause_detection_strb_i
+spike_o <= spike_detector:spike_detector_0.spike_o
+spike_strb_o <= spike_detector:spike_detector_0.spike_strb_o
+
+
+|spike_detector_board|spike_detector:spike_detector_0
+clock_i => lock_detection.CLK
+clock_i => is_changing.CLK
+clock_i => lower_is_changing.CLK
+clock_i => upper_is_changing.CLK
+clock_i => hold_spike.CLK
+reset_i => lock_detection.ACLR
+reset_i => is_changing.ACLR
+reset_i => lower_is_changing.ACLR
+reset_i => upper_is_changing.ACLR
+reset_i => hold_spike.ACLR
+detection_en_i => spike_detection_logic.IN1
+comp_upper_i => spike_detection_logic.IN0
+comp_lower_i => spike_detection_logic.IN0
+change_upper_strb_i => next_upper_is_changing.OUTPUTSELECT
+change_lower_strb_i => next_lower_is_changing.OUTPUTSELECT
+stopped_changing_upper_strb_i => next_upper_is_changing.OUTPUTSELECT
+stopped_changing_lower_strb_i => next_lower_is_changing.OUTPUTSELECT
+increasing_en_i => spike_detection_logic.IN1
+decreasing_en_i => spike_detection_logic.IN1
+pause_detection_strb_i => locking_detection.IN1
+spike_o <= spike_o.DB_MAX_OUTPUT_PORT_TYPE
+spike_strb_o <= spike_strb.DB_MAX_OUTPUT_PORT_TYPE
+
+

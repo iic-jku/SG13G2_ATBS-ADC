@@ -1,0 +1,65 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Tue Mar  4 17:10:17 2025
+[*]
+[dumpfile] "/foss/designs/SG13G2_ATBS-ADC-main/vhdl/atbs_core_floating_window/adaptive_threshold_control/Weyls-Discrepancy/sim/vhdl/weyls_discrepancy_tb.vcd"
+[dumpfile_mtime] "Tue Mar  4 17:10:11 2025"
+[dumpfile_size] 6277
+[savefile] "/foss/designs/SG13G2_ATBS-ADC-main/vhdl/atbs_core_floating_window/adaptive_threshold_control/Weyls-Discrepancy/sim/vhdl/weyls_discrepancy_tb.gtkw"
+[timestart] 0
+[size] 1427 600
+[pos] -1 -1
+*-27.518841 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[markername] AA
+[markername] BB
+[markername] CC
+[markername] DD
+[markername] EE
+[markername] FF
+[markername] GG
+[markername] HH
+[markername] II
+[markername] JJ
+[markername] KK
+[markername] LL
+[markername] MM
+[markername] NN
+[markername] OO
+[markername] PP
+[markername] QQ
+[markername] RR
+[markername] SS
+[markername] TT
+[markername] UU
+[markername] VV
+[markername] WW
+[markername] XX
+[markername] YY
+[markername] ZZ
+[treeopen] weyls_discrepancy_tb.
+[sst_width] 297
+[signals_width] 174
+[sst_expanded] 1
+[sst_vpaned_height] 150
+@201
+-INPUTS
+@28
+weyls_discrepancy_tb.dut_weyls_discrepancy.clock_i
+weyls_discrepancy_tb.dut_weyls_discrepancy.reset_i
+weyls_discrepancy_tb.dut_weyls_discrepancy.spikes_strb_i
+@200
+-INTERNAL
+@24
+weyls_discrepancy_tb.dut_weyls_discrepancy.neg_orresult[15:0]
+weyls_discrepancy_tb.dut_weyls_discrepancy.orresult[31:0]
+weyls_discrepancy_tb.dut_weyls_discrepancy.weylsd[4:0]
+weyls_discrepancy_tb.dut_weyls_discrepancy.weylsd_neg[4:0]
+weyls_discrepancy_tb.dut_weyls_discrepancy.weylsd_pos[4:0]
+@200
+-OUTPUTS
+@24
+weyls_discrepancy_tb.dut_weyls_discrepancy.weylsd_o[4:0]
+@28
+weyls_discrepancy_tb.dut_weyls_discrepancy.weylsd_strb_o
+[pattern_trace] 1
+[pattern_trace] 0

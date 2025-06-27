@@ -1,0 +1,46 @@
+v {xschem version=3.4.6 file_version=1.2}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname A=@A Rin=@Rin Rout=@Rout Pdc=@Pdc Vcm=@Vcm Voffs=@Voffs tpd=@tpd"
+template="name=x1 A=10k Rin=10Meg Rout=100 Vcm=0.75 Voffs=1m tpd=1n"}
+V {}
+S {}
+E {}
+L 4 -60 -20 -40 -20 {}
+L 4 -60 20 -40 20 {}
+L 4 80 0 100 0 {}
+L 4 -25 -25 -25 -20 {}
+L 4 -25 -20 -25 -15 {}
+L 4 -30 -20 -25 -20 {}
+L 4 -25 -20 -20 -20 {}
+L 4 -25 20 -20 20 {}
+L 4 -30 20 -25 20 {}
+L 4 -40 -60 -40 0 {}
+L 4 -40 0 -40 60 {}
+L 4 -40 -60 80 0 {}
+L 4 -40 60 80 0 {}
+L 4 40 -60 40 -40 {}
+L 4 40 -40 40 -20 {}
+L 7 0 -60 0 -40 {}
+L 7 0 40 0 60 {}
+B 5 -62.5 -22.5 -57.5 -17.5 {name=vinp dir=in}
+B 5 -62.5 17.5 -57.5 22.5 {name=vinn dir=in}
+B 5 -2.5 -62.5 2.5 -57.5 {name=VDD dir=inout}
+B 5 97.5 -2.5 102.5 2.5 {name=vout dir=out}
+B 5 -2.5 57.5 2.5 62.5 {name=VSS dir=inout}
+B 5 37.5 -62.5 42.5 -57.5 {name=di_clk dir=in}
+T {vinp} -75 -41.5 0 0 0.2 0.2 {}
+T {vinn} -75 26 0 0 0.2 0.2 {}
+T {@symname} 100.25 -43.5 0 0 0.2 0.2 {}
+T {@name} 100 -62 0 0 0.2 0.2 {}
+T {VDD} 30 -64 0 1 0.2 0.2 {}
+T {vout} 110 -19 0 1 0.2 0.2 {}
+T {VSS} 6.25 64 2 1 0.2 0.2 {}
+T {ideal} 0 -10 0 0 0.3 0.3 {}
+T {Gain: @A} 60 30 0 0 0.2 0.2 {}
+T {Input Impedance: @Rin} 60 50 0 0 0.2 0.2 {}
+T {Offset Voltage: @Voffs} 60 110 0 0 0.2 0.2 {}
+T {Propagation Delay: @tpd} 60 130 0 0 0.2 0.2 {}
+T {Common-Mode Voltage: @Vcm} 60 90 0 0 0.2 0.2 {}
+T {Output Impedance: @Rout} 60 70 0 0 0.2 0.2 {}
+T {di_clk} 50 -51 2 1 0.2 0.2 {}

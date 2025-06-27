@@ -1,0 +1,306 @@
+#--------------------------------------------------------------
+# CACE circuit characterization file
+#--------------------------------------------------------------
+
+name:           bias_circuit_2
+description:    Beta-multiplier reference (BMR) v2
+PDK:            ihp-sg13g2 # (for IIC-OSIC-Tools version 2025.01 or newer)
+# PDK:            sg13g2 # ihp-sg13g2 (for IIC-OSIC-Tools version 2024.12 or older)
+
+cace_format:    5.2
+
+authorship:
+  designer:         Simon Dorrer
+  company:          Johannes Kepler University
+  creation_date:    February 27, 2025
+  license:          Apache 2.0
+
+paths:
+  root:             ..
+  schematic:        xschem/bio_amplifier/amplifier_core/bias_circuit/bias_circuit_2
+  netlist:          cace/netlist
+  documentation:    cace/_docs
+  runs:             cace/_runs
+
+pins:
+  VDD:
+    description: Positive analog power supply
+    type: power
+    direction: inout
+    Vmin: 1.4
+    Vmax: 1.6
+  VSS:
+    description: Analog ground
+    type: ground
+    direction: inout
+  di_bias_en:
+    description: Enable input
+    type: enable
+    direction: input  
+  Vbiasc:
+    description: Cascode bias voltage
+    type: signal
+    direction: output 
+  Vbias:
+    description: Bias voltage
+    type: signal
+    direction: output 
+    
+default_conditions:
+  vdd:
+    description: Analog power supply voltage
+    display: VDD
+    unit: V
+    typical: 1.5
+  corner:
+    description: Process corner
+    display: Corner
+    typical: tt
+  temp:
+    description: Ambient temperature
+    display: Temperature
+    unit: °C
+    typical: 27
+
+parameters:
+  tran_params:
+    spec:
+      tsettle:
+        display: Settle time of Iout
+        description: Time until Iout reaches 99% of Iout.
+        unit: us
+        minimum:
+          value: any
+        typical:
+          value: any
+        maximum:
+          value: 1e3
+    tool:
+      ngspice:
+        template: bias_circuit_2_tb_tran.sch
+        format: ascii
+        suffix: .data
+        variables: [tsettle]
+    plot:
+      tsettle_vs_vdd:
+        type: xyplot
+        xaxis: vdd
+        yaxis: tsettle
+        limits: auto
+      tsettle_vs_corner:
+        type: xyplot
+        xaxis: corner
+        yaxis: tsettle
+        limits: auto
+      tsettle_vs_temp:
+        type: xyplot
+        xaxis: temp
+        yaxis: tsettle
+        limits: auto
+    conditions:
+      vdd:
+        #minimum: 1.4
+        typical: 1.5
+        #maximum: 1.6
+      corner:
+        # enumerate: [ss, sf, tt, fs, ff]
+        enumerate: [ss, sf, tt, fs]
+      temp:
+        minimum: 0
+        typical: 27
+        maximum: 70
+        
+  dc_params:
+    spec:
+      iout_vdd:
+        display: Iout at VDD
+        description: Iout at VDD
+        unit: nA
+        minimum:
+          value: 8
+        typical:
+          value: 10
+        maximum:
+          value: 12
+      iout_volt:
+        display: Iout / Volt
+        description: Iout per 1V of VDD
+        unit: pA
+        minimum:
+          value: any
+        typical:
+          value: any
+        maximum:
+          value: 1e3
+    tool:
+      ngspice:
+        template: bias_circuit_2_tb_dc.sch
+        format: ascii
+        suffix: .data
+        variables: [iout_vdd, iout_volt]
+    plot:
+      iout_vdd_vs_corner:
+        type: xyplot
+        xaxis: corner
+        yaxis: iout_vdd
+        limits: auto
+      iout_vdd_vs_temp:
+        type: xyplot
+        xaxis: temp
+        yaxis: iout_vdd
+        limits: auto
+      iout_volt_vs_corner:
+        type: xyplot
+        xaxis: corner
+        yaxis: iout_volt
+        limits: auto
+      iout_volt_vs_temp:
+        type: xyplot
+        xaxis: temp
+        yaxis: iout_volt
+        limits: auto
+    conditions:
+      corner:
+        enumerate: [ss, sf, tt, fs, ff]
+      temp:
+        minimum: 0
+        typical: 27
+        maximum: 70
+        
+  dc_mc_params:
+    spec:
+      iout_vdd:
+        display: Iout at VDD - Monte Carlo
+        description: Iout at VDD
+        unit: nA
+        minimum:
+          value: 8
+        typical:
+          value: 10
+        maximum:
+          value: 12
+    tool:
+      ngspice:
+        template: bias_circuit_2_tb_dc.sch
+        collate: iterations
+        format: ascii
+        suffix: .data
+        variables: [iout_vdd, null]
+        script: bias_circuit_2_tb_dc.py
+        script_variables: [iout_vdd_arr]
+    plot:
+      iout_vdd_mc:
+        type: histogram
+        xaxis: iout_vdd_arr
+    conditions:
+      iterations: # for Monte Carlo
+        description: Iterations to run
+        display: Iterations
+        minimum: 1
+        maximum: 100
+        step: linear
+        stepsize: 1
+      sigma:
+        # This is actually mc_ok.
+        # If mc_ok = 1: MC with 3 sigma.
+        # If mc_ok = 0: MC is turned off.
+        #minimum: 0
+        typical: 1
+      corner:
+        typical: tt_stat # Monte Carlo corner for TT
+      temp:
+        #minimum: 0
+        typical: 27
+        #maximum: 70
+        
+  ac_params:
+    spec:
+      PSRR:
+        display: PSRR in dB
+        description: Power Supply Rejection Ratio in dB
+        unit: dB
+        minimum:
+          value: 50
+        typical:
+          value: any
+        maximum:
+          value: any
+    tool:
+      ngspice:
+        template: bias_circuit_2_tb_PSRR.sch
+        format: ascii
+        suffix: .data
+        variables: [PSRR]
+    plot:
+      PSRR_vs_vdd:
+        type: xyplot
+        xaxis: vdd
+        yaxis: PSRR
+        limits: auto
+      PSRR_vs_corner:
+        type: xyplot
+        xaxis: corner
+        yaxis: PSRR
+        limits: auto
+      PSRR_vs_temp:
+        type: xyplot
+        xaxis: temp
+        yaxis: PSRR
+        limits: auto
+    conditions:
+      vdd:
+        minimum: 1.4
+        typical: 1.5
+        maximum: 1.6
+      corner:
+        enumerate: [ss, sf, tt, fs, ff]
+      temp:
+        minimum: 0
+        typical: 27
+        maximum: 70
+        
+  ac_mc_params:
+    spec:
+      PSRR:
+        display: PSRR - Monte Carlo
+        description: Power Supply Rejection Ratio in dB
+        unit: dB
+        minimum:
+          value: 50
+        typical:
+          value: any
+        maximum:
+          value: any
+    tool:
+      ngspice:
+        template: bias_circuit_2_tb_PSRR.sch
+        collate: iterations
+        format: ascii
+        suffix: .data
+        variables: [PSRR]
+        script: bias_circuit_2_tb_PSRR.py
+        script_variables: [PSRR_arr]
+    plot:
+      PSRR_mc:
+        type: histogram
+        xaxis: PSRR_arr
+    conditions:
+      iterations: # for Monte Carlo
+        description: Iterations to run
+        display: Iterations
+        minimum: 1
+        maximum: 200
+        step: linear
+        stepsize: 1
+      sigma:
+        # This is actually mc_ok.
+        # If mc_ok = 1: MC with 3 sigma.
+        # If mc_ok = 0: MC is turned off.
+        #minimum: 0
+        typical: 1
+      corner:
+        typical: tt_stat # Monte Carlo corner for TT
+      temp:
+        #minimum: 0
+        typical: 27
+        #maximum: 70

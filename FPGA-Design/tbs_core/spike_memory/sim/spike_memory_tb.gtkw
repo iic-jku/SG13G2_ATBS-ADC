@@ -1,0 +1,74 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Fri Nov 29 16:46:10 2024
+[*]
+[dumpfile] "/foss/designs/tbs_core/spike_memory/sim/spike_memory_tb.vcd"
+[dumpfile_mtime] "Fri Nov 29 16:46:01 2024"
+[dumpfile_size] 143382
+[savefile] "/foss/designs/tbs_core/spike_memory/sim/spike_memory_tb.gtkw"
+[timestart] 0
+[size] 1374 600
+[pos] -1 -1
+*-35.042793 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[markername] AA
+[markername] BB
+[markername] CC
+[markername] DD
+[markername] EE
+[markername] FF
+[markername] GG
+[markername] HH
+[markername] II
+[markername] JJ
+[markername] KK
+[markername] LL
+[markername] MM
+[markername] NN
+[markername] OO
+[markername] PP
+[markername] QQ
+[markername] RR
+[markername] SS
+[markername] TT
+[markername] UU
+[markername] VV
+[markername] WW
+[markername] XX
+[markername] YY
+[markername] ZZ
+[treeopen] spike_memory_tb.
+[treeopen] spike_memory_tb.dut_spike_memory.
+[sst_width] 276
+[signals_width] 190
+[sst_expanded] 1
+[sst_vpaned_height] 150
+@201
+-INPUTS
+@28
+spike_memory_tb.dut_spike_memory.clock_i
+spike_memory_tb.dut_spike_memory.reset_i
+spike_memory_tb.dut_spike_memory.enable_write_i
+@24
+spike_memory_tb.dut_spike_memory.a_data_i[16:0]
+@28
+spike_memory_tb.dut_spike_memory.enable_read_i
+spike_memory_tb.dut_spike_memory.tx_strb_i
+@200
+-INTERNAL
+@24
+spike_memory_tb.dut_spike_memory.head[7:0]
+spike_memory_tb.dut_spike_memory.tail[7:0]
+spike_memory_tb.dut_spike_memory.fifo_fill_count[7:0]
+@28
+spike_memory_tb.dut_spike_memory.write_strb
+spike_memory_tb.dut_spike_memory.write_delayed_strb
+@200
+-OUTPUTS
+@24
+spike_memory_tb.dut_spike_memory.b_data_o[16:0]
+@28
+spike_memory_tb.dut_spike_memory.read_strb_o
+spike_memory_tb.dut_spike_memory.fifo_full_o
+spike_memory_tb.dut_spike_memory.fifo_empty_o
+[pattern_trace] 1
+[pattern_trace] 0

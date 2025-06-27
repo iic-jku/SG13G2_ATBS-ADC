@@ -1,0 +1,7 @@
+Instructions to update the IIC-OSIC-Tools Container in Docker Desktop Win11
+1.) Go to "Images" and click on "Pull" at current IIC-OSIC-Tools image.
+2.) New image emerges.
+3.) Delete the old container.
+4.) Delete the old image.
+5.) Download the "IIC-OSIC-TOOLS-main" folder from Github and copy it to eda/designs.
+6.) In order to create a new container, execute "start_x.bat" in the "IIC-OSIC-TOOLS-main" folder in the console (.\start_x.bat).

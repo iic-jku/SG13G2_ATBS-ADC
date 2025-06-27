@@ -1,0 +1,2243 @@
+%PDF-1.4
+1 0 obj
+<<
+  /Title    (tbs_core_board_1)
+  /Author   (si150)
+  /Producer (Concept Engineering GmbH)
+  /Creator  (Nlview 6.6.0  2016-02-25 bk=1.3518 VDI=39 GEI=35)
+  /CreationDate (D:20250318144228)
+>>
+endobj
+2 0 obj
+<<
+  /Type     /Catalog
+  /Pages    3 0 R
+  /Outlines 7 0 R
+  /PageMode /UseThumbs
+  /ViewerPreferences << /DisplayDocTitle true >>
+>>
+endobj
+4 0 obj
+<<
+  /Type     /Font
+  /Subtype  /Type1
+  /Name     /F1
+  /BaseFont /Helvetica
+  /Encoding /MacRomanEncoding
+>>
+endobj
+5 0 obj
+<<
+  /ExtGState  << /GS 6 0 R >>
+  /Font       << /F1 4 0 R >>
+  /ColorSpace << /PCS [/Pattern /DeviceRGB] >>
+  /Pattern    8 0 R
+>>
+endobj
+6 0 obj
+<<
+  /Type /ExtGState
+  /LC   0
+  /LJ   0
+  /ML   4.0
+>>
+endobj
+%
+% Nlview page 1
+% (user space scaling 0.576299)
+%
+9 0 obj
+<<
+  /Type      /Page
+  /Parent    3 0 R
+  /Resources 5 0 R
+  /Contents  10 0 R
+  /MediaBox  [0 0 612 792]
+  /Rotate    0
+>>
+endobj
+10 0 obj
+<<
+  /Length 12819
+>>
+stream
+1 0 0 1 0 246.177 cm
+1 0 0 1 28.8 28.8 cm
+0.576299 0 0 -0.576299 0 0 cm
+1 0 0 1 0 -420 cm
+0 0 962 420 re
+W n
+/GS gs
+1 0 0 1 190 0 cm
+q
+1.000 1.000 1.000 rg
+-190 0 962 421 re
+f
+Q
+1 w
+0.000 0.000 1.000 RG
+0 60 m
+-7 67 l
+-21 67 l
+-21 53 l
+-7 53 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 -25 60 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-76.032 -4.308 Td
+(comp_upper_i) Tj
+ET
+Q
+620 80 m
+620 73 l
+634 73 l
+641 80 l
+634 87 l
+620 87 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 649 80 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(amp_sdn_o) Tj
+ET
+Q
+0 40 m
+-7 47 l
+-21 47 l
+-21 33 l
+-7 33 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 -25 40 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-74.016 -4.308 Td
+(comp_lower_i) Tj
+ET
+Q
+620 100 m
+620 93 l
+634 93 l
+641 100 l
+634 107 l
+620 107 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 649 100 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(analog_trigger_o) Tj
+ET
+Q
+0 20 m
+-7 27 l
+-21 27 l
+-21 13 l
+-7 13 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 -25 20 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-91.38 -4.308 Td
+(adaptive_mode_i) Tj
+ET
+Q
+620 120 m
+620 113 l
+634 113 l
+641 120 l
+634 127 l
+620 127 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 649 120 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(dac_clr_o) Tj
+ET
+Q
+q
+0.000 0.000 0.000 rg
+445 53 60 362 re
+f
+Q
+q
+0.506 0.749 0.373 rg
+440 48 60 362 re
+f
+Q
+0.176 0.176 0.176 RG
+440 48 60 362 re
+S
+3 w
+451 53 m
+451 65 l
+S
+445 59 m
+457 59 l
+S
+1 w
+443 51 16 16 re
+S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 470 46 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-54.36 2.484 Td
+(tbs_core:tbs_core_0) Tj
+ET
+Q
+0.024 0.278 0.435 RG
+430 100 m
+440 100 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 438 99 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-76.15 2.07 Td
+(adaptive_mode_i) Tj
+ET
+Q
+430 120 m
+440 120 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 438 119 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-30.56 2.07 Td
+(clock_i) Tj
+ET
+Q
+430 140 m
+440 140 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 438 139 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-61.68 2.07 Td
+(comp_lower_i) Tj
+ET
+Q
+430 160 m
+440 160 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 438 159 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-63.36 2.07 Td
+(comp_upper_i) Tj
+ET
+Q
+430 180 m
+440 180 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 438 179 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-68.36 2.07 Td
+(control_mode_i) Tj
+ET
+Q
+430 200 m
+440 200 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 438 199 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-53.92 2.07 Td
+(ecg_lod_n_i) Tj
+ET
+Q
+430 220 m
+440 220 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 438 219 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-53.92 2.07 Td
+(ecg_lod_p_i) Tj
+ET
+Q
+430 240 m
+440 240 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 438 239 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-37.8 2.07 Td
+(enable_i) Tj
+ET
+Q
+440 260 m
+440 258.343 438.657 257 437 257 c
+435.343 257 434 258.343 434 260 c
+434 261.657 435.343 263 437 263 c
+438.657 263 440 261.657 440 260 c
+S
+430 260 m
+434 260 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 434 259 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-49.47 2.07 Td
+(reset_btn_i) Tj
+ET
+Q
+430 280 m
+440 280 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 438 279 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-114.49 2.07 Td
+(select_comparator_type_i) Tj
+ET
+Q
+430 300 m
+440 300 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 438 299 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-109.5 2.07 Td
+(select_tbs_delta_steps_i) Tj
+ET
+Q
+430 320 m
+440 320 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 438 319 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-78.92 2.07 Td
+(signal_select_in_i) Tj
+ET
+Q
+430 340 m
+440 340 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 438 339 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-91.7 2.07 Td
+(trigger_start_mode_i) Tj
+ET
+Q
+430 360 m
+440 360 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 438 359 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-106.7 2.07 Td
+(trigger_start_sampling_i) Tj
+ET
+Q
+430 380 m
+440 380 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 438 379 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-38.9 2.07 Td
+(uart_rx_i) Tj
+ET
+Q
+510 80 m
+500 80 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 506 79 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(amp_sdn_o) Tj
+ET
+Q
+510 100 m
+500 100 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 506 99 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(analog_trigger_o) Tj
+ET
+Q
+510 120 m
+500 120 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 506 119 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(dac_clr_o) Tj
+ET
+Q
+510 160 m
+500 160 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 506 159 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(dac_pd_o) Tj
+ET
+Q
+510 200 m
+500 200 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 506 199 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(dac_wr_lower_o) Tj
+ET
+Q
+510 220 m
+500 220 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 506 219 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(dac_wr_upper_o) Tj
+ET
+Q
+510 240 m
+500 240 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 506 239 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(ecg_led_o) Tj
+ET
+Q
+510 260 m
+500 260 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 506 259 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(idle_led_o) Tj
+ET
+Q
+510 280 m
+500 280 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 506 279 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(overflow_led_o) Tj
+ET
+Q
+510 300 m
+500 300 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 506 299 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(sc_noc_1_o) Tj
+ET
+Q
+510 320 m
+500 320 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 506 319 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(sc_noc_2_o) Tj
+ET
+Q
+510 340 m
+500 340 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 506 339 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(signal_select_en_o) Tj
+ET
+Q
+510 360 m
+500 360 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 506 359 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(signal_select_in_o) Tj
+ET
+Q
+510 380 m
+500 380 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 506 379 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(uart_tx_o) Tj
+ET
+Q
+510 400 m
+500 400 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 506 399 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(underflow_led_o) Tj
+ET
+Q
+3 w
+510 180 m
+500 180 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 506 179 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(dac_upper_o[7..0]) Tj
+ET
+Q
+510 140 m
+500 140 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 506 139 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(dac_lower_o[7..0]) Tj
+ET
+Q
+1 w
+450 100 m
+440 100 l
+S
+450 120 m
+440 120 l
+S
+450 140 m
+440 140 l
+S
+450 160 m
+440 160 l
+S
+450 180 m
+440 180 l
+S
+450 200 m
+440 200 l
+S
+450 220 m
+440 220 l
+S
+450 240 m
+440 240 l
+S
+450 260 m
+440 260 l
+S
+450 280 m
+440 280 l
+S
+450 300 m
+440 300 l
+S
+450 320 m
+440 320 l
+S
+450 340 m
+440 340 l
+S
+450 360 m
+440 360 l
+S
+450 380 m
+440 380 l
+S
+490 80 m
+500 80 l
+S
+490 100 m
+500 100 l
+S
+490 120 m
+500 120 l
+S
+490 160 m
+500 160 l
+S
+490 200 m
+500 200 l
+S
+490 220 m
+500 220 l
+S
+490 240 m
+500 240 l
+S
+490 260 m
+500 260 l
+S
+490 280 m
+500 280 l
+S
+490 300 m
+500 300 l
+S
+490 320 m
+500 320 l
+S
+490 340 m
+500 340 l
+S
+490 360 m
+500 360 l
+S
+490 380 m
+500 380 l
+S
+490 400 m
+500 400 l
+S
+3 w
+490 180 m
+500 180 l
+S
+490 140 m
+500 140 l
+S
+1 w
+0.000 0.000 1.000 RG
+0 120 m
+-7 127 l
+-21 127 l
+-21 113 l
+-7 113 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 -25 120 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-36.672 -4.308 Td
+(clock_i) Tj
+ET
+Q
+3 w
+620 140 m
+620 133 l
+634 133 l
+641 140 l
+634 147 l
+620 147 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 649 140 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(dac_lower_o[7..0]) Tj
+ET
+Q
+q
+0.000 0.000 0.000 rg
+75 93 60 62 re
+f
+Q
+q
+0.506 0.749 0.373 rg
+70 88 60 62 re
+f
+Q
+1 w
+0.176 0.176 0.176 RG
+70 88 60 62 re
+S
+3 w
+81 93 m
+81 105 l
+S
+75 99 m
+87 99 l
+S
+1 w
+73 91 16 16 re
+S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 100 86 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-52.356 2.484 Td
+(pll_8MHz:PLL50to8) Tj
+ET
+Q
+0.024 0.278 0.435 RG
+60 120 m
+70 120 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 68 119 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-23.89 2.07 Td
+(refclk) Tj
+ET
+Q
+70 140 m
+70 138.343 68.6569 137 67 137 c
+65.3431 137 64 138.343 64 140 c
+64 141.657 65.3431 143 67 143 c
+68.6569 143 70 141.657 70 140 c
+S
+60 140 m
+64 140 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 64 139 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-11.11 2.07 Td
+(rst) Tj
+ET
+Q
+140 120 m
+130 120 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 136 119 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(outclk_0) Tj
+ET
+Q
+80 120 m
+70 120 l
+S
+80 140 m
+70 140 l
+S
+120 120 m
+130 120 l
+S
+0.000 0.000 1.000 RG
+0 140 m
+-7 147 l
+-21 147 l
+-21 133 l
+-7 133 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 -25 140 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-49.356 -4.308 Td
+(reset_n_i) Tj
+ET
+Q
+620 160 m
+620 153 l
+634 153 l
+641 160 l
+634 167 l
+620 167 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 649 160 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(dac_pd_o) Tj
+ET
+Q
+0 180 m
+-7 187 l
+-21 187 l
+-21 173 l
+-7 173 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 -25 180 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-82.032 -4.308 Td
+(control_mode_i) Tj
+ET
+Q
+3 w
+620 180 m
+620 173 l
+634 173 l
+641 180 l
+634 187 l
+620 187 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 649 180 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(dac_upper_o[7..0]) Tj
+ET
+Q
+1 w
+0 200 m
+-7 207 l
+-21 207 l
+-21 193 l
+-7 193 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 -25 200 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-64.704 -4.308 Td
+(ecg_lod_n_i) Tj
+ET
+Q
+620 200 m
+620 193 l
+634 193 l
+641 200 l
+634 207 l
+620 207 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 649 200 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(dac_wr_lower_o) Tj
+ET
+Q
+0 220 m
+-7 227 l
+-21 227 l
+-21 213 l
+-7 213 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 -25 220 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-64.704 -4.308 Td
+(ecg_lod_p_i) Tj
+ET
+Q
+620 220 m
+620 213 l
+634 213 l
+641 220 l
+634 227 l
+620 227 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 649 220 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(dac_wr_upper_o) Tj
+ET
+Q
+0 240 m
+-7 247 l
+-21 247 l
+-21 233 l
+-7 233 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 -25 240 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-45.36 -4.308 Td
+(enable_i) Tj
+ET
+Q
+620 240 m
+620 233 l
+634 233 l
+641 240 l
+634 247 l
+620 247 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 649 240 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(ecg_led_o) Tj
+ET
+Q
+0 260 m
+-7 267 l
+-21 267 l
+-21 253 l
+-7 253 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 -25 260 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-131.4 -4.308 Td
+(select_tbs_delta_steps_i) Tj
+ET
+Q
+620 260 m
+620 253 l
+634 253 l
+641 260 l
+634 267 l
+620 267 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 649 260 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(idle_led_o) Tj
+ET
+Q
+0 280 m
+-7 287 l
+-21 287 l
+-21 273 l
+-7 273 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 -25 280 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-137.388 -4.308 Td
+(select_comparator_type_i) Tj
+ET
+Q
+620 280 m
+620 273 l
+634 273 l
+641 280 l
+634 287 l
+620 287 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 649 280 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(overflow_led_o) Tj
+ET
+Q
+0 320 m
+-7 327 l
+-21 327 l
+-21 313 l
+-7 313 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 -25 320 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-110.04 -4.308 Td
+(trigger_start_mode_i) Tj
+ET
+Q
+620 300 m
+620 293 l
+634 293 l
+641 300 l
+634 307 l
+620 307 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 649 300 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(sc_noc_1_o) Tj
+ET
+Q
+0 340 m
+-7 347 l
+-21 347 l
+-21 333 l
+-7 333 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 -25 340 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-128.04 -4.308 Td
+(trigger_start_sampling_i) Tj
+ET
+Q
+620 320 m
+620 313 l
+634 313 l
+641 320 l
+634 327 l
+620 327 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 649 320 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(sc_noc_2_o) Tj
+ET
+Q
+0 360 m
+-7 367 l
+-21 367 l
+-21 353 l
+-7 353 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 -25 360 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-94.704 -4.308 Td
+(signal_select_in_i) Tj
+ET
+Q
+620 340 m
+620 333 l
+634 333 l
+641 340 l
+634 347 l
+620 347 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 649 340 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(signal_select_en_o) Tj
+ET
+Q
+0 380 m
+-7 387 l
+-21 387 l
+-21 373 l
+-7 373 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 -25 380 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-46.68 -4.308 Td
+(uart_rx_i) Tj
+ET
+Q
+620 360 m
+620 353 l
+634 353 l
+641 360 l
+634 367 l
+620 367 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 649 360 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(signal_select_in_o) Tj
+ET
+Q
+620 380 m
+620 373 l
+634 373 l
+641 380 l
+634 387 l
+620 387 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 649 380 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(uart_tx_o) Tj
+ET
+Q
+620 400 m
+620 393 l
+634 393 l
+641 400 l
+634 407 l
+620 407 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 649 400 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(underflow_led_o) Tj
+ET
+Q
+0.176 0.176 0.176 RG
+0 120 m
+60 120 l
+S
+0 140 m
+20 140 l
+20 160 l
+220 160 l
+220 260 l
+430 260 l
+S
+20 140 m
+60 140 l
+S
+q
+0.176 0.176 0.176 rg
+18 138 5 5 re
+f
+Q
+0 60 m
+240 60 l
+240 160 l
+430 160 l
+S
+0 40 m
+260 40 l
+260 140 l
+430 140 l
+S
+0 340 m
+200 340 l
+200 350 l
+290 350 l
+290 360 l
+430 360 l
+S
+0 320 m
+240 320 l
+240 340 l
+430 340 l
+S
+0 20 m
+280 20 l
+280 100 l
+430 100 l
+S
+0 180 m
+430 180 l
+S
+0 360 m
+280 360 l
+280 320 l
+430 320 l
+S
+0 240 m
+430 240 l
+S
+0 260 m
+200 260 l
+200 300 l
+430 300 l
+S
+0 280 m
+430 280 l
+S
+0 220 m
+430 220 l
+S
+0 200 m
+430 200 l
+S
+0 380 m
+430 380 l
+S
+510 80 m
+620 80 l
+S
+510 100 m
+620 100 l
+S
+510 120 m
+620 120 l
+S
+3 w
+510 140 m
+620 140 l
+S
+1 w
+510 160 m
+620 160 l
+S
+3 w
+510 180 m
+620 180 l
+S
+1 w
+510 200 m
+620 200 l
+S
+510 220 m
+620 220 l
+S
+510 240 m
+620 240 l
+S
+510 260 m
+620 260 l
+S
+140 120 m
+430 120 l
+S
+510 280 m
+620 280 l
+S
+510 300 m
+620 300 l
+S
+510 320 m
+620 320 l
+S
+510 340 m
+620 340 l
+S
+510 360 m
+620 360 l
+S
+510 380 m
+620 380 l
+S
+510 400 m
+620 400 l
+S
+endstream
+endobj
+3 0 obj
+<<
+  /Type    /Pages
+  /Kids
+  [
+  9 0 R
+  ]
+  /Count   1
+  /ProcSet [/PDF /Text]
+>>
+endobj
+13 0 obj
+<<
+  /Title  (pll_8MHz:PLL50to8_2 pll_8MHz:PLL50to8_2)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 164 427 237 474]
+  /Parent 12 0 R
+  /Next   14 0 R
+>>
+endobj
+14 0 obj
+<<
+  /Title  (tbs_core:tbs_core_0_5 tbs_core:tbs_core_0_5)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 325 277 478 498]
+  /Parent 12 0 R
+  /Prev   13 0 R
+>>
+endobj
+12 0 obj
+<<
+  /Title  (instances)
+  /C      [0.0 0.4 0.0]
+  /F      1
+  /Parent 11 0 R
+  /First  13 0 R
+  /Last   14 0 R
+  /Count  2
+  /Next   15 0 R
+>>
+endobj
+16 0 obj
+<<
+  /Title  (adaptive_mode_i5981 input)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 71 500 138 510]
+  /Parent 15 0 R
+  /Next   17 0 R
+>>
+endobj
+17 0 obj
+<<
+  /Title  (amp_sdn_o5991 output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 495 466 548 475]
+  /Parent 15 0 R
+  /Prev   16 0 R
+  /Next   18 0 R
+>>
+endobj
+18 0 obj
+<<
+  /Title  (analog_trigger_o6016 output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 495 454 564 464]
+  /Parent 15 0 R
+  /Prev   17 0 R
+  /Next   19 0 R
+>>
+endobj
+19 0 obj
+<<
+  /Title  (clock_i5975 input)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 103 443 138 452]
+  /Parent 15 0 R
+  /Prev   18 0 R
+  /Next   20 0 R
+>>
+endobj
+20 0 obj
+<<
+  /Title  (comp_lower_i5978 input)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 81 489 138 498]
+  /Parent 15 0 R
+  /Prev   19 0 R
+  /Next   21 0 R
+>>
+endobj
+21 0 obj
+<<
+  /Title  (comp_upper_i5977 input)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 80 477 138 487]
+  /Parent 15 0 R
+  /Prev   20 0 R
+  /Next   22 0 R
+>>
+endobj
+22 0 obj
+<<
+  /Title  (control_mode_i5982 input)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 76 408 138 417]
+  /Parent 15 0 R
+  /Prev   21 0 R
+  /Next   23 0 R
+>>
+endobj
+23 0 obj
+<<
+  /Title  (dac_clr_o5993 output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 495 443 542 452]
+  /Parent 15 0 R
+  /Prev   22 0 R
+  /Next   24 0 R
+>>
+endobj
+24 0 obj
+<<
+  /Title  (dac_pd_o5992 output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 495 420 542 429]
+  /Parent 15 0 R
+  /Prev   23 0 R
+  /Next   25 0 R
+>>
+endobj
+25 0 obj
+<<
+  /Title  (dac_wr_lower_o5995 output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 495 397 562 406]
+  /Parent 15 0 R
+  /Prev   24 0 R
+  /Next   26 0 R
+>>
+endobj
+26 0 obj
+<<
+  /Title  (dac_wr_upper_o5994 output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 495 385 563 394]
+  /Parent 15 0 R
+  /Prev   25 0 R
+  /Next   27 0 R
+>>
+endobj
+27 0 obj
+<<
+  /Title  (ecg_led_o6015 output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 495 374 544 383]
+  /Parent 15 0 R
+  /Prev   26 0 R
+  /Next   28 0 R
+>>
+endobj
+28 0 obj
+<<
+  /Title  (ecg_lod_n_i5988 input)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 87 397 138 406]
+  /Parent 15 0 R
+  /Prev   27 0 R
+  /Next   29 0 R
+>>
+endobj
+29 0 obj
+<<
+  /Title  (ecg_lod_p_i5987 input)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 87 385 138 394]
+  /Parent 15 0 R
+  /Prev   28 0 R
+  /Next   30 0 R
+>>
+endobj
+30 0 obj
+<<
+  /Title  (enable_i5984 input)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 97 374 138 383]
+  /Parent 15 0 R
+  /Prev   29 0 R
+  /Next   31 0 R
+>>
+endobj
+31 0 obj
+<<
+  /Title  (idle_led_o6012 output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 495 362 543 371]
+  /Parent 15 0 R
+  /Prev   30 0 R
+  /Next   32 0 R
+>>
+endobj
+32 0 obj
+<<
+  /Title  (overflow_led_o6013 output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 495 351 558 360]
+  /Parent 15 0 R
+  /Prev   31 0 R
+  /Next   33 0 R
+>>
+endobj
+33 0 obj
+<<
+  /Title  (reset_n_i5976 input)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 95 431 138 440]
+  /Parent 15 0 R
+  /Prev   32 0 R
+  /Next   34 0 R
+>>
+endobj
+34 0 obj
+<<
+  /Title  (sc_noc_1_o6017 output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 495 339 549 348]
+  /Parent 15 0 R
+  /Prev   33 0 R
+  /Next   35 0 R
+>>
+endobj
+35 0 obj
+<<
+  /Title  (sc_noc_2_o6018 output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 495 327 549 337]
+  /Parent 15 0 R
+  /Prev   34 0 R
+  /Next   36 0 R
+>>
+endobj
+36 0 obj
+<<
+  /Title  (select_comparator_type_i5986 input)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 44 351 138 360]
+  /Parent 15 0 R
+  /Prev   35 0 R
+  /Next   37 0 R
+>>
+endobj
+37 0 obj
+<<
+  /Title  (select_tbs_delta_steps_i5985 input)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 48 362 138 371]
+  /Parent 15 0 R
+  /Prev   36 0 R
+  /Next   38 0 R
+>>
+endobj
+38 0 obj
+<<
+  /Title  (signal_select_en_o5989 output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 495 316 571 325]
+  /Parent 15 0 R
+  /Prev   37 0 R
+  /Next   39 0 R
+>>
+endobj
+39 0 obj
+<<
+  /Title  (signal_select_in_i5983 input)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 69 304 138 314]
+  /Parent 15 0 R
+  /Prev   38 0 R
+  /Next   40 0 R
+>>
+endobj
+40 0 obj
+<<
+  /Title  (signal_select_in_o5990 output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 495 304 568 314]
+  /Parent 15 0 R
+  /Prev   39 0 R
+  /Next   41 0 R
+>>
+endobj
+41 0 obj
+<<
+  /Title  (trigger_start_mode_i5980 input)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 60 327 138 337]
+  /Parent 15 0 R
+  /Prev   40 0 R
+  /Next   42 0 R
+>>
+endobj
+42 0 obj
+<<
+  /Title  (trigger_start_sampling_i5979 input)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 50 316 138 325]
+  /Parent 15 0 R
+  /Prev   41 0 R
+  /Next   43 0 R
+>>
+endobj
+43 0 obj
+<<
+  /Title  (uart_rx_i6019 input)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 97 293 138 302]
+  /Parent 15 0 R
+  /Prev   42 0 R
+  /Next   44 0 R
+>>
+endobj
+44 0 obj
+<<
+  /Title  (uart_tx_o6020 output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 495 293 541 302]
+  /Parent 15 0 R
+  /Prev   43 0 R
+  /Next   45 0 R
+>>
+endobj
+45 0 obj
+<<
+  /Title  (underflow_led_o6014 output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 495 281 563 291]
+  /Parent 15 0 R
+  /Prev   44 0 R
+>>
+endobj
+15 0 obj
+<<
+  /Title  (ports)
+  /C      [0.0 0.4 0.0]
+  /F      1
+  /Parent 11 0 R
+  /First  16 0 R
+  /Last   45 0 R
+  /Count  30
+  /Prev   12 0 R
+  /Next   46 0 R
+>>
+endobj
+47 0 obj
+<<
+  /Title  (dac_lower_o[7..0]6022 output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 493 430 566 442]
+  /Parent 46 0 R
+  /Next   48 0 R
+>>
+endobj
+48 0 obj
+<<
+  /Title  (dac_upper_o[7..0]6021 output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 493 407 567 419]
+  /Parent 46 0 R
+  /Prev   47 0 R
+>>
+endobj
+46 0 obj
+<<
+  /Title  (portBuses)
+  /C      [0.0 0.4 0.0]
+  /F      1
+  /Parent 11 0 R
+  /First  47 0 R
+  /Last   48 0 R
+  /Count  2
+  /Prev   15 0 R
+  /Next   49 0 R
+>>
+endobj
+50 0 obj
+<<
+  /Title  (OUT0_9741)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 138 447 172 447]
+  /Parent 49 0 R
+  /Next   51 0 R
+>>
+endobj
+51 0 obj
+<<
+  /Title  (OUT0_9742)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 137 366 386 437]
+  /Parent 49 0 R
+  /Prev   50 0 R
+  /Next   52 0 R
+>>
+endobj
+52 0 obj
+<<
+  /Title  (OUT0_9743)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 137 424 386 483]
+  /Parent 49 0 R
+  /Prev   51 0 R
+  /Next   53 0 R
+>>
+endobj
+53 0 obj
+<<
+  /Title  (OUT0_9744)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 137 435 386 494]
+  /Parent 49 0 R
+  /Prev   52 0 R
+  /Next   54 0 R
+>>
+endobj
+54 0 obj
+<<
+  /Title  (OUT0_9745)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 137 308 386 321]
+  /Parent 49 0 R
+  /Prev   53 0 R
+  /Next   55 0 R
+>>
+endobj
+55 0 obj
+<<
+  /Title  (OUT0_9746)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 137 320 386 333]
+  /Parent 49 0 R
+  /Prev   54 0 R
+  /Next   56 0 R
+>>
+endobj
+56 0 obj
+<<
+  /Title  (OUT0_9747)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 137 458 386 506]
+  /Parent 49 0 R
+  /Prev   55 0 R
+  /Next   57 0 R
+>>
+endobj
+57 0 obj
+<<
+  /Title  (OUT0_9748)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 138 413 386 413]
+  /Parent 49 0 R
+  /Prev   56 0 R
+  /Next   58 0 R
+>>
+endobj
+58 0 obj
+<<
+  /Title  (OUT0_9749)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 137 308 386 333]
+  /Parent 49 0 R
+  /Prev   57 0 R
+  /Next   59 0 R
+>>
+endobj
+59 0 obj
+<<
+  /Title  (OUT0_9750)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 138 378 386 378]
+  /Parent 49 0 R
+  /Prev   58 0 R
+  /Next   60 0 R
+>>
+endobj
+60 0 obj
+<<
+  /Title  (OUT0_9751)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 137 343 386 367]
+  /Parent 49 0 R
+  /Prev   59 0 R
+  /Next   61 0 R
+>>
+endobj
+61 0 obj
+<<
+  /Title  (OUT0_9752)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 138 355 386 355]
+  /Parent 49 0 R
+  /Prev   60 0 R
+  /Next   62 0 R
+>>
+endobj
+62 0 obj
+<<
+  /Title  (OUT0_9753)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 138 390 386 390]
+  /Parent 49 0 R
+  /Prev   61 0 R
+  /Next   63 0 R
+>>
+endobj
+63 0 obj
+<<
+  /Title  (OUT0_9754)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 138 401 386 401]
+  /Parent 49 0 R
+  /Prev   62 0 R
+  /Next   64 0 R
+>>
+endobj
+64 0 obj
+<<
+  /Title  (OUT0_9785)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 138 298 386 298]
+  /Parent 49 0 R
+  /Prev   63 0 R
+  /Next   65 0 R
+>>
+endobj
+65 0 obj
+<<
+  /Title  (amp_sdn_o_9757)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 432 470 495 470]
+  /Parent 49 0 R
+  /Prev   64 0 R
+  /Next   66 0 R
+>>
+endobj
+66 0 obj
+<<
+  /Title  (analog_trigger_o_9782)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 432 459 495 459]
+  /Parent 49 0 R
+  /Prev   65 0 R
+  /Next   67 0 R
+>>
+endobj
+67 0 obj
+<<
+  /Title  (dac_clr_o_9759)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 432 447 495 447]
+  /Parent 49 0 R
+  /Prev   66 0 R
+  /Next   68 0 R
+>>
+endobj
+68 0 obj
+<<
+  /Title  (dac_pd_o_9758)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 432 424 495 424]
+  /Parent 49 0 R
+  /Prev   67 0 R
+  /Next   69 0 R
+>>
+endobj
+69 0 obj
+<<
+  /Title  (dac_wr_lower_o_9761)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 432 401 495 401]
+  /Parent 49 0 R
+  /Prev   68 0 R
+  /Next   70 0 R
+>>
+endobj
+70 0 obj
+<<
+  /Title  (dac_wr_upper_o_9760)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 432 390 495 390]
+  /Parent 49 0 R
+  /Prev   69 0 R
+  /Next   71 0 R
+>>
+endobj
+71 0 obj
+<<
+  /Title  (ecg_led_o_9781)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 432 378 495 378]
+  /Parent 49 0 R
+  /Prev   70 0 R
+  /Next   72 0 R
+>>
+endobj
+72 0 obj
+<<
+  /Title  (idle_led_o_9778)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 432 367 495 367]
+  /Parent 49 0 R
+  /Prev   71 0 R
+  /Next   73 0 R
+>>
+endobj
+73 0 obj
+<<
+  /Title  (outclk_0_1)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 218 447 386 447]
+  /Parent 49 0 R
+  /Prev   72 0 R
+  /Next   74 0 R
+>>
+endobj
+74 0 obj
+<<
+  /Title  (overflow_led_o_9779)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 432 355 495 355]
+  /Parent 49 0 R
+  /Prev   73 0 R
+  /Next   75 0 R
+>>
+endobj
+75 0 obj
+<<
+  /Title  (sc_noc_1_o_9783)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 432 344 495 344]
+  /Parent 49 0 R
+  /Prev   74 0 R
+  /Next   76 0 R
+>>
+endobj
+76 0 obj
+<<
+  /Title  (sc_noc_2_o_9784)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 432 332 495 332]
+  /Parent 49 0 R
+  /Prev   75 0 R
+  /Next   77 0 R
+>>
+endobj
+77 0 obj
+<<
+  /Title  (signal_select_en_o_9755)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 432 321 495 321]
+  /Parent 49 0 R
+  /Prev   76 0 R
+  /Next   78 0 R
+>>
+endobj
+78 0 obj
+<<
+  /Title  (signal_select_in_o_9756)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 432 309 495 309]
+  /Parent 49 0 R
+  /Prev   77 0 R
+  /Next   79 0 R
+>>
+endobj
+79 0 obj
+<<
+  /Title  (uart_tx_o_9786)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 432 298 495 298]
+  /Parent 49 0 R
+  /Prev   78 0 R
+  /Next   80 0 R
+>>
+endobj
+80 0 obj
+<<
+  /Title  (underflow_led_o_9780)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 432 286 495 286]
+  /Parent 49 0 R
+  /Prev   79 0 R
+>>
+endobj
+49 0 obj
+<<
+  /Title  (nets)
+  /C      [0.0 0.4 0.0]
+  /F      1
+  /Parent 11 0 R
+  /First  50 0 R
+  /Last   80 0 R
+  /Count  31
+  /Prev   46 0 R
+  /Next   81 0 R
+>>
+endobj
+82 0 obj
+<<
+  /Title  (dac_lower_o[7..0]_9788)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 432 436 495 436]
+  /Parent 81 0 R
+  /Next   83 0 R
+>>
+endobj
+83 0 obj
+<<
+  /Title  (dac_upper_o[7..0]_9787)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 432 413 495 413]
+  /Parent 81 0 R
+  /Prev   82 0 R
+>>
+endobj
+81 0 obj
+<<
+  /Title  (netBundles)
+  /C      [0.0 0.4 0.0]
+  /F      1
+  /Parent 11 0 R
+  /First  82 0 R
+  /Last   83 0 R
+  /Count  2
+  /Prev   49 0 R
+>>
+endobj
+11 0 obj
+<<
+  /Title  (Nlview page 1)
+  /C      [0.4 0.0 0.0]
+  /Dest   [9 0 R /Fit]
+  /Parent 7 0 R
+  /First  12 0 R
+  /Last   81 0 R
+  /Count  5
+>>
+endobj
+8 0 obj
+<<
+>>
+endobj
+7 0 obj
+<<
+  /Type  /Outline
+  /First 11 0 R
+  /Last  11 0 R
+  /Count 1
+>>
+endobj
+xref
+0 84
+0000000000 65535 f 
+0000000009 00000 n 
+0000000218 00000 n 
+0000013781 00000 n 
+0000000368 00000 n 
+0000000495 00000 n 
+0000000643 00000 n 
+0000026071 00000 n 
+0000026050 00000 n 
+0000000767 00000 n 
+0000000907 00000 n 
+0000025893 00000 n 
+0000014229 00000 n 
+0000013881 00000 n 
+0000014053 00000 n 
+0000019557 00000 n 
+0000014389 00000 n 
+0000014546 00000 n 
+0000014716 00000 n 
+0000014893 00000 n 
+0000015060 00000 n 
+0000015231 00000 n 
+0000015402 00000 n 
+0000015575 00000 n 
+0000015745 00000 n 
+0000015914 00000 n 
+0000016089 00000 n 
+0000016264 00000 n 
+0000016434 00000 n 
+0000016604 00000 n 
+0000016774 00000 n 
+0000016941 00000 n 
+0000017112 00000 n 
+0000017287 00000 n 
+0000017455 00000 n 
+0000017626 00000 n 
+0000017797 00000 n 
+0000017980 00000 n 
+0000018163 00000 n 
+0000018342 00000 n 
+0000018519 00000 n 
+0000018698 00000 n 
+0000018877 00000 n 
+0000019060 00000 n 
+0000019228 00000 n 
+0000019398 00000 n 
+0000020053 00000 n 
+0000019731 00000 n 
+0000019892 00000 n 
+0000025249 00000 n 
+0000020230 00000 n 
+0000020372 00000 n 
+0000020531 00000 n 
+0000020690 00000 n 
+0000020849 00000 n 
+0000021008 00000 n 
+0000021167 00000 n 
+0000021326 00000 n 
+0000021485 00000 n 
+0000021644 00000 n 
+0000021803 00000 n 
+0000021962 00000 n 
+0000022121 00000 n 
+0000022280 00000 n 
+0000022439 00000 n 
+0000022598 00000 n 
+0000022762 00000 n 
+0000022933 00000 n 
+0000023097 00000 n 
+0000023260 00000 n 
+0000023429 00000 n 
+0000023598 00000 n 
+0000023762 00000 n 
+0000023927 00000 n 
+0000024087 00000 n 
+0000024256 00000 n 
+0000024421 00000 n 
+0000024586 00000 n 
+0000024759 00000 n 
+0000024932 00000 n 
+0000025096 00000 n 
+0000025732 00000 n 
+0000025422 00000 n 
+0000025577 00000 n 
+trailer
+<<
+  /Size 84
+  /Info 1 0 R
+  /Root 2 0 R
+>>
+startxref
+26153
+%%EOF

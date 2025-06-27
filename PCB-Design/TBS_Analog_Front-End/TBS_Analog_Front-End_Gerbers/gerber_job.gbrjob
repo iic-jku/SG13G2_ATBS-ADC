@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2024-10-09T07:58:37Z",
+        "GenerationSoftware": {
+            "Application": "Fusion Electronics",
+            "Vendor": "Autodesk",
+            "Version": "9.7.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "TBS-Analog_Front-End v78"
+        },
+        "Owner": "Simon Dorrer <si1505do@gmail.com>",
+        "Size": {
+            "X": 70,
+            "Y": 70
+        }
+    }
+}

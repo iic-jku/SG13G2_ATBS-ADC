@@ -1,0 +1,311 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/vhdl/tbs_core/adaptive_threshold/Weyls-Discrepancy/sim/vhdl
+Padaptive_std
+Z0 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 71
+Z4 w1705529756
+Z5 dC:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Weyls-Discrepancy/sim/vhdl
+8../../sim/vhdl/adaptive_std_p.vhd
+F../../sim/vhdl/adaptive_std_p.vhd
+l0
+L6 1
+VX1::83iee4:fR0DUZRPVb0
+!s100 1<IP2@RkO7zhaRUfTb`WD1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1740848143
+!i10b 1
+Z8 !s108 1740848143.000000
+!s90 -reportprogress|300|-work|work|../../sim/vhdl/adaptive_std_p.vhd|
+!s107 ../../sim/vhdl/adaptive_std_p.vhd|
+!i113 1
+Z9 o-work work
+Z10 tExplicit 1 CvgOpt 0
+Epriority_encoder
+Z11 w1740774653
+R1
+R2
+R3
+!i122 75
+R5
+Z12 8../../../Priority-Encoder/rtl/priority_encoder_ea.vhd
+Z13 F../../../Priority-Encoder/rtl/priority_encoder_ea.vhd
+l0
+L17 1
+V2j3O6fELVJF6el]E4z`e[3
+!s100 lAP7_H3TBzRGRGL]baH>20
+R6
+32
+Z14 !s110 1740848144
+!i10b 1
+Z15 !s108 1740848144.000000
+Z16 !s90 -reportprogress|300|-work|work|../../../Priority-Encoder/rtl/priority_encoder_ea.vhd|
+Z17 !s107 ../../../Priority-Encoder/rtl/priority_encoder_ea.vhd|
+!i113 1
+R9
+R10
+Artl
+R1
+R2
+R3
+Z18 DEx4 work 16 priority_encoder 0 22 2j3O6fELVJF6el]E4z`e[3
+!i122 75
+l35
+L31 24
+VPN9B]bV6X?h;0YeRjBSF12
+!s100 mBhc>2GlO?GQAea:lnOd12
+R6
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R9
+R10
+Espike_2_thermocode
+Z19 w1719072313
+R1
+R2
+R3
+!i122 74
+R5
+Z20 8../../../Spike-2-Thermocode/rtl/spike_2_thermocode_ea.vhd
+Z21 F../../../Spike-2-Thermocode/rtl/spike_2_thermocode_ea.vhd
+l0
+L16 1
+V3AVLZ0igfWPeoiShPY5Gi0
+!s100 ZX_[6LcPb6e[8d5;gaCIQ2
+R6
+32
+R14
+!i10b 1
+R15
+Z22 !s90 -reportprogress|300|-work|work|../../../Spike-2-Thermocode/rtl/spike_2_thermocode_ea.vhd|
+Z23 !s107 ../../../Spike-2-Thermocode/rtl/spike_2_thermocode_ea.vhd|
+!i113 1
+R9
+R10
+Artl
+R1
+R2
+R3
+Z24 DEx4 work 18 spike_2_thermocode 0 22 3AVLZ0igfWPeoiShPY5Gi0
+!i122 74
+l34
+L27 39
+Vj3@:_?4lb1077?KQNR[e30
+!s100 KHn9LZaJe3VTbRmAojP]H2
+R6
+32
+R14
+!i10b 1
+R15
+R22
+R23
+!i113 1
+R9
+R10
+Pstd_definitions
+R2
+!i122 73
+Z25 w1705421898
+R5
+Z26 8std_p.vhd
+Z27 Fstd_p.vhd
+l0
+L4 1
+V2liaooAT0c0kSD9I^4a9k3
+!s100 b1V1[PDWZ<cGA4<6YdU9f1
+R6
+32
+b1
+R14
+!i10b 1
+R8
+Z28 !s90 -reportprogress|300|-work|work|std_p.vhd|
+Z29 !s107 std_p.vhd|
+!i113 1
+R9
+R10
+Bbody
+Z30 DPx4 work 15 std_definitions 0 22 2liaooAT0c0kSD9I^4a9k3
+R2
+!i122 73
+l0
+L14 1
+VY4k]zM8YJF4NE4z=dRl^b0
+!s100 lYGaO^]NHA5IG9R^Wh`hB2
+R6
+32
+R14
+!i10b 1
+R8
+R28
+R29
+!i113 1
+R9
+R10
+Ptbssimvals
+R0
+R1
+R2
+R3
+!i122 70
+w1740830326
+R5
+8../../../../sim/vhdl/TBSSimVals_p.vhd
+F../../../../sim/vhdl/TBSSimVals_p.vhd
+l0
+L12 1
+V5N?>YfAY3S[Lm`Y;BCZg?2
+!s100 ZDNjJKg7l9mlolQj7b:C03
+R6
+32
+R7
+!i10b 1
+R8
+!s90 -reportprogress|300|-work|work|../../../../sim/vhdl/TBSSimVals_p.vhd|
+!s107 ../../../../sim/vhdl/TBSSimVals_p.vhd|
+!i113 1
+R9
+R10
+Eweyls_discrepancy
+Z31 w1729511496
+Z32 DPx4 work 12 adaptive_std 0 22 X1::83iee4:fR0DUZRPVb0
+R0
+R1
+R2
+R3
+!i122 76
+R5
+Z33 8../../rtl/weyls_discrepancy_ea.vhd
+Z34 F../../rtl/weyls_discrepancy_ea.vhd
+l0
+L29 1
+V@RjV:m_LSObeXYHUz`K1U2
+!s100 lD@PGdW08:nLA2Yk78=0:3
+R6
+32
+R14
+!i10b 1
+R15
+Z35 !s90 -reportprogress|300|-work|work|../../rtl/weyls_discrepancy_ea.vhd|
+Z36 !s107 ../../rtl/weyls_discrepancy_ea.vhd|
+!i113 1
+R9
+R10
+Artl
+R18
+R24
+R32
+R0
+R1
+R2
+R3
+Z37 DEx4 work 17 weyls_discrepancy 0 22 @RjV:m_LSObeXYHUz`K1U2
+!i122 76
+l81
+L46 156
+VGSP4Z4n[DGE7KmaRYfX[k0
+!s100 7KegS7EI?Z2BbET=<@:;F2
+R6
+32
+R14
+!i10b 1
+R15
+R35
+R36
+!i113 1
+R9
+R10
+Eweyls_discrepancy_tb
+Z38 w1732794447
+R30
+R32
+Z39 DPx4 work 23 weylsdiscrepancysimvals 0 22 `BfN1NhOzP;dh?EQ?:lF@1
+R0
+R1
+R2
+R3
+!i122 77
+R5
+Z40 8weyls_discrepancy_tb.vhd
+Z41 Fweyls_discrepancy_tb.vhd
+l0
+L21 1
+V^^ZG6MGoA1m2Q;a47nae81
+!s100 4kA7VLn>Uo[BF3;md5G6Z2
+R6
+32
+R14
+!i10b 1
+R15
+Z42 !s90 -reportprogress|300|-work|work|weyls_discrepancy_tb.vhd|
+Z43 !s107 weyls_discrepancy_tb.vhd|
+!i113 1
+R9
+R10
+Abhv
+R37
+R30
+R32
+R39
+R0
+R1
+R2
+R3
+Z44 DEx4 work 20 weyls_discrepancy_tb 0 22 ^^ZG6MGoA1m2Q;a47nae81
+!i122 77
+l39
+L25 71
+VWD=bI1eK_bMQCi5;VK]D>0
+!s100 a3j41AKZ5l>VJkIDeG:Fa2
+R6
+32
+R14
+!i10b 1
+R15
+R42
+R43
+!i113 1
+R9
+R10
+Pweylsdiscrepancysimvals
+R32
+R0
+R1
+R2
+R3
+!i122 72
+R4
+R5
+8WeylsDiscrepancySimVals_p.vhd
+FWeylsDiscrepancySimVals_p.vhd
+l0
+L6 1
+V`BfN1NhOzP;dh?EQ?:lF@1
+!s100 b>YAK^A1f@coNIe>RVK?>3
+R6
+32
+R7
+!i10b 1
+R8
+!s90 -reportprogress|300|-work|work|WeylsDiscrepancySimVals_p.vhd|
+!s107 WeylsDiscrepancySimVals_p.vhd|
+!i113 1
+R9
+R10

@@ -1,0 +1,189 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "signal_select_en_o",
+					"strict" : false
+				},
+				{
+					"name" : "signal_select_in_o",
+					"strict" : false
+				},
+				{
+					"name" : "amp_sdn_o",
+					"strict" : false
+				},
+				{
+					"name" : "dac_pd_o",
+					"strict" : false
+				},
+				{
+					"name" : "dac_clr_o",
+					"strict" : false
+				},
+				{
+					"name" : "dac_wr_upper_o",
+					"strict" : false
+				},
+				{
+					"name" : "dac_wr_lower_o",
+					"strict" : false
+				},
+				{
+					"name" : "dac_upper_o[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dac_upper_o[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dac_upper_o[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dac_upper_o[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dac_upper_o[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dac_upper_o[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dac_upper_o[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dac_upper_o[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dac_lower_o[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dac_lower_o[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dac_lower_o[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dac_lower_o[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dac_lower_o[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dac_lower_o[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dac_lower_o[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dac_lower_o[7]",
+					"strict" : false
+				},
+				{
+					"name" : "idle_led_o",
+					"strict" : false
+				},
+				{
+					"name" : "overflow_led_o",
+					"strict" : false
+				},
+				{
+					"name" : "underflow_led_o",
+					"strict" : false
+				},
+				{
+					"name" : "ecg_led_o",
+					"strict" : false
+				},
+				{
+					"name" : "analog_trigger_o",
+					"strict" : false
+				},
+				{
+					"name" : "sc_noc_1_o",
+					"strict" : false
+				},
+				{
+					"name" : "sc_noc_2_o",
+					"strict" : false
+				},
+				{
+					"name" : "uart_tx_o",
+					"strict" : false
+				},
+				{
+					"name" : "ecg_lod_p_i",
+					"strict" : false
+				},
+				{
+					"name" : "ecg_lod_n_i",
+					"strict" : false
+				},
+				{
+					"name" : "uart_rx_i",
+					"strict" : false
+				},
+				{
+					"name" : "reset_n_i",
+					"strict" : false
+				},
+				{
+					"name" : "comp_upper_i",
+					"strict" : false
+				},
+				{
+					"name" : "comp_lower_i",
+					"strict" : false
+				},
+				{
+					"name" : "control_mode_i",
+					"strict" : false
+				},
+				{
+					"name" : "enable_i",
+					"strict" : false
+				},
+				{
+					"name" : "signal_select_in_i",
+					"strict" : false
+				},
+				{
+					"name" : "trigger_start_sampling_i",
+					"strict" : false
+				},
+				{
+					"name" : "adaptive_mode_i",
+					"strict" : false
+				},
+				{
+					"name" : "select_tbs_delta_steps_i",
+					"strict" : false
+				},
+				{
+					"name" : "trigger_start_mode_i",
+					"strict" : false
+				},
+				{
+					"name" : "select_comparator_type_i",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

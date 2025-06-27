@@ -1,0 +1,176 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA/tbs_core/spike_encoder/sim
+Espike_encoder
+Z0 w1727969386
+Z1 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 25
+Z5 dC:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/spike_encoder/sim
+Z6 8../rtl/spike_encoder_ea.vhd
+Z7 F../rtl/spike_encoder_ea.vhd
+l0
+Z8 L17 1
+VBKN9WEI28ci5>a3feA_?_1
+!s100 Q^^n@iSNEP]BFG3:`o3Mj0
+Z9 OV;C;2020.1;71
+32
+Z10 !s110 1740961576
+!i10b 1
+Z11 !s108 1740961576.000000
+Z12 !s90 -reportprogress|300|-work|work|../rtl/spike_encoder_ea.vhd|
+Z13 !s107 ../rtl/spike_encoder_ea.vhd|
+!i113 1
+Z14 o-work work
+Z15 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+R4
+Z16 DEx4 work 13 spike_encoder 0 22 BKN9WEI28ci5>a3feA_?_1
+!i122 25
+l49
+L38 65
+VWoKR]Y^Sc[e^2V@R]zF6Y2
+!s100 D`>lfGS94m@m?zz0@k4BH1
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Espike_encoder_board
+Z17 w1719072070
+Z18 DPx4 work 10 tbssimvals 0 22 5N?>YfAY3S[Lm`Y;BCZg?2
+R1
+R2
+R3
+R4
+!i122 26
+R5
+Z19 8../rtl/spike_encoder_board.vhd
+Z20 F../rtl/spike_encoder_board.vhd
+l0
+R8
+V@<^_:X:Q>;;i8feMP@YW90
+!s100 nX[=3An@;:mj0ObVzL@832
+R9
+32
+R10
+!i10b 1
+R11
+Z21 !s90 -reportprogress|300|-work|work|../rtl/spike_encoder_board.vhd|
+Z22 !s107 ../rtl/spike_encoder_board.vhd|
+!i113 1
+R14
+R15
+Artl
+R16
+R18
+R1
+R2
+R3
+R4
+DEx4 work 19 spike_encoder_board 0 22 @<^_:X:Q>;;i8feMP@YW90
+!i122 26
+l36
+L31 29
+VMcQ`O_4Hh0A1]Wj4@>JaI0
+!s100 A_ELP1PemFCzi_VSlY3aE1
+R9
+32
+R10
+!i10b 1
+R11
+R21
+R22
+!i113 1
+R14
+R15
+Espike_encoder_tb
+Z23 w1732794287
+R18
+R1
+R2
+R3
+R4
+!i122 27
+R5
+Z24 8spike_encoder_tb.vhd
+Z25 Fspike_encoder_tb.vhd
+l0
+R8
+V^1g@Mgg<VCzXU9<>F8KM=2
+!s100 <PV=6c;e9L1l43Xm666TP1
+R9
+32
+R10
+!i10b 1
+R11
+Z26 !s90 -reportprogress|300|-work|work|spike_encoder_tb.vhd|
+Z27 !s107 spike_encoder_tb.vhd|
+!i113 1
+R14
+R15
+Abhv
+R16
+R18
+R1
+R2
+R3
+R4
+Z28 DEx4 work 16 spike_encoder_tb 0 22 ^1g@Mgg<VCzXU9<>F8KM=2
+!i122 27
+l41
+Z29 L21 111
+Z30 VAF=[_1iNfmPlSKzK5Q;7S1
+Z31 !s100 BS_2[8DBIHH?UhL2f]hf@1
+R9
+32
+R10
+!i10b 1
+R11
+R26
+R27
+!i113 1
+R14
+R15
+Ptbssimvals
+R1
+R2
+R3
+R4
+!i122 24
+w1740830326
+R5
+8../../sim/vhdl/TBSSimVals_p.vhd
+F../../sim/vhdl/TBSSimVals_p.vhd
+l0
+L12 1
+V5N?>YfAY3S[Lm`Y;BCZg?2
+!s100 ZDNjJKg7l9mlolQj7b:C03
+R9
+32
+!s110 1740961575
+!i10b 1
+!s108 1740961575.000000
+!s90 -reportprogress|300|-work|work|../../sim/vhdl/TBSSimVals_p.vhd|
+!s107 ../../sim/vhdl/TBSSimVals_p.vhd|
+!i113 1
+R14
+R15

@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Mon Mar 24 16:39:46 2025
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : spike_memory_board
+Top-level Entity Name : spike_memory_board
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 62
+Total pins : 48
+Total virtual pins : 0
+Total block memory bits : 2,560
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

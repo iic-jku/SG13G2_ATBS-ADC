@@ -1,0 +1,60 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Fri Nov 29 19:39:12 2024
+[*]
+[dumpfile] "/foss/designs/tbs_core/adaptive_threshold_control/Spike-2-Thermocode/sim/spike_2_thermocode_tb.vcd"
+[dumpfile_mtime] "Fri Nov 29 19:36:43 2024"
+[dumpfile_size] 1220
+[savefile] "/foss/designs/tbs_core/adaptive_threshold_control/Spike-2-Thermocode/sim/spike_2_thermocode_tb.gtkw"
+[timestart] 0
+[size] 1548 600
+[pos] -1 -1
+*-21.770649 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[markername] AA
+[markername] BB
+[markername] CC
+[markername] DD
+[markername] EE
+[markername] FF
+[markername] GG
+[markername] HH
+[markername] II
+[markername] JJ
+[markername] KK
+[markername] LL
+[markername] MM
+[markername] NN
+[markername] OO
+[markername] PP
+[markername] QQ
+[markername] RR
+[markername] SS
+[markername] TT
+[markername] UU
+[markername] VV
+[markername] WW
+[markername] XX
+[markername] YY
+[markername] ZZ
+[treeopen] spike_2_thermocode_tb.
+[sst_width] 276
+[signals_width] 134
+[sst_expanded] 1
+[sst_vpaned_height] 150
+@201
+-INPUTS
+@28
+spike_2_thermocode_tb.dut_spike_2_thermocode.spike_i[1:0]
+@24
+spike_2_thermocode_tb.dut_spike_2_thermocode.thermo_i[9:0]
+@200
+-INTERNAL
+@28
+spike_2_thermocode_tb.dut_spike_2_thermocode.plus
+spike_2_thermocode_tb.dut_spike_2_thermocode.minus
+@200
+-OUTPUTS
+@24
+spike_2_thermocode_tb.dut_spike_2_thermocode.thermo_o[9:0]
+[pattern_trace] 1
+[pattern_trace] 0

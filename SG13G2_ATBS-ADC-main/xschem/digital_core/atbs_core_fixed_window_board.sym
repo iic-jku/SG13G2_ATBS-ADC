@@ -1,0 +1,170 @@
+v {xschem version=3.4.6 file_version=1.2}
+G {}
+K {type=primitive
+format="@name @pinlist @symname"
+template="name=x1"}
+V {}
+S {}
+E {}
+L 4 280 -500 300 -500 {}
+L 4 280 -460 300 -460 {}
+L 4 -300 -20 -280 -20 {}
+L 4 -300 -380 -280 -380 {}
+L 4 280 -220 300 -220 {}
+L 4 280 500 300 500 {}
+L 4 280 -180 300 -180 {}
+L 4 -300 -240 -280 -240 {}
+L 4 -300 -200 -280 -200 {}
+L 4 -300 -160 -280 -160 {}
+L 4 -300 -120 -280 -120 {}
+L 4 280 -100 300 -100 {}
+L 4 280 280 300 280 {}
+L 4 280 320 300 320 {}
+L 4 280 -60 300 -60 {}
+L 4 280 -140 300 -140 {}
+L 4 280 -260 300 -260 {}
+L 4 280 -360 300 -360 {}
+L 4 280 140 300 140 {}
+L 4 280 180 300 180 {}
+L 4 280 360 300 360 {}
+L 4 280 520 300 520 {}
+L 4 280 540 300 540 {}
+L 4 280 460 300 460 {}
+L 4 280 580 300 580 {}
+L 4 -300 -280 -280 -280 {}
+L 4 -300 340 -280 340 {}
+L 4 -300 360 -280 360 {}
+L 4 -300 460 -280 460 {}
+L 4 -300 480 -280 480 {}
+L 4 -300 520 -280 520 {}
+L 4 -300 540 -280 540 {}
+L 4 -300 400 -280 400 {}
+L 4 -300 420 -280 420 {}
+L 4 -300 -480 -280 -480 {}
+L 4 -300 120 -280 120 {}
+L 4 -300 160 -280 160 {}
+L 4 -300 200 -280 200 {}
+L 4 -300 240 -280 240 {}
+L 4 -300 80 -280 80 {}
+L 4 280 40 300 40 {}
+L 7 0 -560 0 -540 {}
+L 7 0 620 0 640 {}
+B 5 -2.5 -562.5 2.5 -557.5 {name=VDD dir=inout}
+B 5 -2.5 637.5 2.5 642.5 {name=VSS dir=inout}
+B 5 297.5 -222.5 302.5 -217.5 {name=di_adaptive_mode dir=in}
+B 5 297.5 457.5 302.5 462.5 {name=do_bio_amp_en dir=out}
+B 5 297.5 -502.5 302.5 -497.5 {name=di_clock dir=in}
+B 5 -302.5 -22.5 -297.5 -17.5 {name=vcomp_lower_in dir=in}
+B 5 -302.5 -382.5 -297.5 -377.5 {name=vcomp_upper_in dir=in}
+B 5 297.5 -182.5 302.5 -177.5 {name=di_control_mode dir=in}
+B 5 -302.5 117.5 -297.5 122.5 {name=do_dac_D0_lower dir=out}
+B 5 -302.5 157.5 -297.5 162.5 {name=do_dac_D1_lower dir=out}
+B 5 -302.5 197.5 -297.5 202.5 {name=do_dac_D2_lower dir=out}
+B 5 -302.5 237.5 -297.5 242.5 {name=do_dac_D3_lower dir=out}
+B 5 -302.5 -242.5 -297.5 -237.5 {name=do_dac_D0_upper dir=out}
+B 5 -302.5 -202.5 -297.5 -197.5 {name=do_dac_D1_upper dir=out}
+B 5 -302.5 -162.5 -297.5 -157.5 {name=do_dac_D2_upper dir=out}
+B 5 -302.5 -122.5 -297.5 -117.5 {name=do_dac_D3_upper dir=out}
+B 5 297.5 -102.5 302.5 -97.5 {name=di_enable dir=in}
+B 5 297.5 277.5 302.5 282.5 {name=do_idle_led dir=out}
+B 5 297.5 317.5 302.5 322.5 {name=do_overflow_led dir=out}
+B 5 -302.5 397.5 -297.5 402.5 {name=do_phi_bias_1 dir=out}
+B 5 -302.5 417.5 -297.5 422.5 {name=do_phi_bias_2 dir=out}
+B 5 -302.5 457.5 -297.5 462.5 {name=do_phi_cmfb_1 dir=out}
+B 5 -302.5 477.5 -297.5 482.5 {name=do_phi_cmfb_2 dir=out}
+B 5 -302.5 -482.5 -297.5 -477.5 {name=do_phi_comp dir=out}
+B 5 -302.5 77.5 -297.5 82.5 {name=do_phi_dac_lower dir=out}
+B 5 -302.5 -282.5 -297.5 -277.5 {name=do_phi_dac_upper dir=out}
+B 5 -302.5 517.5 -297.5 522.5 {name=do_phi_R_1 dir=out}
+B 5 -302.5 537.5 -297.5 542.5 {name=do_phi_R_2 dir=out}
+B 5 -302.5 337.5 -297.5 342.5 {name=do_phi_vcm_generator_1 dir=out}
+B 5 -302.5 357.5 -297.5 362.5 {name=do_phi_vcm_generator_2 dir=out}
+B 5 297.5 -462.5 302.5 -457.5 {name=di_reset_n dir=in}
+B 5 297.5 497.5 302.5 502.5 {name=do_en_cap_1 dir=out}
+B 5 297.5 517.5 302.5 522.5 {name=do_en_cap_2 dir=out}
+B 5 297.5 537.5 302.5 542.5 {name=do_en_cap_3 dir=out}
+B 5 297.5 577.5 302.5 582.5 {name=do_spdt_ctrl dir=out}
+B 5 297.5 -62.5 302.5 -57.5 {name=di_select_tbs_delta_steps dir=in}
+B 5 297.5 -142.5 302.5 -137.5 {name=di_signal_select_in dir=in}
+B 5 297.5 37.5 302.5 42.5 {name=do_spike dir=out}
+B 5 297.5 -262.5 302.5 -257.5 {name=di_trigger_start_mode dir=in}
+B 5 297.5 -362.5 302.5 -357.5 {name=di_trigger_start_sampling dir=in}
+B 5 297.5 137.5 302.5 142.5 {name=di_uart_rx dir=in}
+B 5 297.5 177.5 302.5 182.5 {name=do_uart_tx dir=out}
+B 5 297.5 357.5 302.5 362.5 {name=do_underflow_led dir=out}
+P 4 5 280 -380 130 -380 130 -340 280 -340 280 -380 {dash = 4}
+P 4 5 280 -280 130 -280 130 -40 280 -40 280 -280 {dash = 4}
+P 4 5 -280 -400 -170 -400 -170 -360 -280 -360 -280 -400 {dash = 4}
+P 4 5 -280 -40 -170 -40 -170 0 -280 0 -280 -40 {dash = 4}
+P 4 5 280 440 170 440 170 600 280 600 280 440 {dash = 4}
+P 4 5 -90 -70 90 -70 90 70 -90 70 -90 -70 {dash = 8}
+P 4 5 200 -520 280 -520 280 -440 200 -440 200 -520 {dash = 4}
+P 4 5 160 380 160 260 280 260 280 380 160 380 {dash = 4}
+P 4 5 190 200 190 120 280 120 280 200 190 200 {dash = 4}
+P 4 5 -280 320 -130 320 -130 560 -280 560 -280 320 {dash = 4}
+P 4 5 -280 -300 -160 -300 -160 -100 -280 -100 -280 -300 {dash = 4}
+P 4 5 -280 60 -160 60 -160 260 -280 260 -280 60 {dash = 4}
+P 4 5 -280 -500 -180 -500 -180 -460 -280 -460 -280 -500 {dash = 4}
+P 4 5 -280 -540 280 -540 280 620 -280 620 -280 -540 {}
+P 4 5 210 20 210 60 280 60 280 20 210 20 {dash = 4}
+T {@symname} 60.5 -576 0 0 0.3 0.3 {}
+T {@name} 61.25 -605.75 0 0 0.3 0.3 {}
+T {VDD} -4 -535 3 1 0.2 0.2 {}
+T {di_clock} 275 -504 0 1 0.2 0.2 {}
+T {di_reset_n} 275 -464 0 1 0.2 0.2 {}
+T {VSS} 4 615 1 1 0.2 0.2 {}
+T {Digital Core} -57.5 -30 0 0 0.4 0.4 {}
+T {Upper C-DAC} -270 -325 0 0 0.3 0.3 {}
+T {vcomp_lower_in} -270 -26.5 0 0 0.2 0.2 {}
+T {vcomp_upper_in} -270 -386.5 0 0 0.2 0.2 {}
+T {(.XSPICE)} -45 40 0 0 0.4 0.4 {}
+T {FPGA} -25 5 0 0 0.4 0.4 {}
+T {Fixed Window} -72.5 -65 0 0 0.4 0.4 {}
+T {di_adaptive_mode} 275 -224 0 1 0.2 0.2 {}
+T {do_en_cap_1} 270 493.5 0 1 0.2 0.2 {}
+T {di_control_mode} 275 -184 0 1 0.2 0.2 {}
+T {do_dac_D0_upper} -270 -246.5 0 0 0.2 0.2 {}
+T {do_dac_D1_upper} -270 -206.5 0 0 0.2 0.2 {}
+T {do_dac_D2_upper} -270 -166.5 0 0 0.2 0.2 {}
+T {do_dac_D3_upper} -270 -126.5 0 0 0.2 0.2 {}
+T {di_enable} 275 -104 0 1 0.2 0.2 {}
+T {do_idle_led} 270 286.5 2 0 0.2 0.2 {}
+T {do_overflow_led} 270 326.5 2 0 0.2 0.2 {}
+T {di_select_tbs_delta_steps} 275 -64 0 1 0.2 0.2 {}
+T {di_signal_select_in} 275 -144 0 1 0.2 0.2 {}
+T {di_trigger_start_mode} 275 -264 0 1 0.2 0.2 {}
+T {di_trigger_start_sampling} 275 -364 0 1 0.2 0.2 {}
+T {di_uart_rx} 275 136 0 1 0.2 0.2 {}
+T {do_uart_tx} 270 173.5 0 1 0.2 0.2 {}
+T {do_underflow_led} 270 366.5 2 0 0.2 0.2 {}
+T {AWG Trigger} 130 -405 0 0 0.3 0.3 {}
+T {Switch Inputs} 130 -305 0 0 0.3 0.3 {}
+T {Upper Comparator} -270 -425 0 0 0.3 0.3 {}
+T {Lower Comparator} -270 -65 0 0 0.3 0.3 {}
+T {Analog Control} 270 415 0 1 0.3 0.3 {}
+T {UART} 190 95 0 0 0.3 0.3 {}
+T {NOCs} -270 295 0 0 0.3 0.3 {}
+T {LEDs} 160 235 0 0 0.3 0.3 {}
+T {do_en_cap_2} 270 513.5 0 1 0.2 0.2 {}
+T {do_en_cap_3} 270 533.5 0 1 0.2 0.2 {}
+T {do_bio_amp_en} 270 453.5 0 1 0.2 0.2 {}
+T {do_spdt_ctrl} 270 573.5 0 1 0.2 0.2 {}
+T {do_phi_dac_upper} -270 -273.5 2 1 0.2 0.2 {}
+T {do_phi_vcm_generator_1} -270 346.5 2 1 0.2 0.2 {}
+T {do_phi_vcm_generator_2} -270 366.5 2 1 0.2 0.2 {}
+T {do_phi_cmfb_1} -270 466.5 2 1 0.2 0.2 {}
+T {do_phi_cmfb_2} -270 486.5 2 1 0.2 0.2 {}
+T {do_phi_R_1} -270 526.5 2 1 0.2 0.2 {}
+T {do_phi_R_2} -270 546.5 2 1 0.2 0.2 {}
+T {do_phi_bias_1} -270 406.5 2 1 0.2 0.2 {}
+T {do_phi_bias_2} -270 426.5 2 1 0.2 0.2 {}
+T {do_phi_comp} -270 -473.5 2 1 0.2 0.2 {}
+T {Lower C-DAC} -270 35 0 0 0.3 0.3 {}
+T {do_dac_D0_lower} -270 113.5 0 0 0.2 0.2 {}
+T {do_dac_D1_lower} -270 153.5 0 0 0.2 0.2 {}
+T {do_dac_D2_lower} -270 193.5 0 0 0.2 0.2 {}
+T {do_dac_D3_lower} -270 233.5 0 0 0.2 0.2 {}
+T {do_phi_dac_lower} -270 86.5 2 1 0.2 0.2 {}
+T {Comparator Trigger} -270 -525 0 0 0.3 0.3 {}
+T {do_spike} 270 33.5 0 1 0.2 0.2 {}
+T {Spike} 210 -5 0 0 0.3 0.3 {}

@@ -1,0 +1,260 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Tue May  6 18:19:52 2025
+| Host         : SimiBook running 64-bit major release  (build 9200)
+| Command      : report_drc -file tbs_core_board_drc_opted.rpt -pb tbs_core_board_drc_opted.pb -rpx tbs_core_board_drc_opted.rpx
+| Design       : tbs_core_board
+| Device       : xc7s25ftgb196-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 43
++-----------+----------+----------------------------+------------+
+| Rule      | Severity | Description                | Violations |
++-----------+----------+----------------------------+------------+
+| CHECK-3   | Warning  | Report rule limit reached  | 2          |
+| PLCK-23   | Warning  | Clock Placer Checks        | 1          |
+| REQP-1839 | Warning  | RAMB36 async control check | 20         |
+| REQP-1840 | Warning  | RAMB18 async control check | 20         |
++-----------+----------+----------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+CHECK-3#1 Warning
+Report rule limit reached  
+REQP-1839 rule limit reached: 20 violations have been found.
+Related violations: <none>
+
+CHECK-3#2 Warning
+Report rule limit reached  
+REQP-1840 rule limit reached: 20 violations have been found.
+Related violations: <none>
+
+PLCK-23#1 Warning
+Clock Placer Checks  
+Sub-optimal placement for a clock-capable IO pin and MMCM pair. 
+Resolution: A dedicated routing path between the two can be used if: (a) The clock-capable IO (CCIO) is placed on a CCIO capable site (b) The MMCM is placed in the same clock region as the CCIO pin. If the IOB is driving multiple MMCMs, all MMCMs must be placed in the same clock region, one clock region above or one clock region below the IOB. Both the above conditions must be met at the same time, else it may lead to longer and less predictable clock insertion delays.
+ This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint is set to FALSE allowing your design to continue. The use of this override is highly discouraged as it may lead to very poor timing results. It is recommended that this error condition be corrected in the design.
+
+	PLL100to8/inst/clkin1_ibufg (IBUF.O) is locked to L5
+	PLL100to8/inst/mmcm_adv_inst (MMCME2_ADV.CLKIN1) cannot be placed
+
+Related violations: <none>
+
+REQP-1839#1 Warning
+RAMB36 async control check  
+The RAMB36E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/adaptive_mode_d_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#2 Warning
+RAMB36 async control check  
+The RAMB36E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/analog_trigger_uart_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#3 Warning
+RAMB36 async control check  
+The RAMB36E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/atbs_max_delta_steps_uart_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#4 Warning
+RAMB36 async control check  
+The RAMB36E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/atbs_win_length_uart_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#5 Warning
+RAMB36 async control check  
+The RAMB36E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/baudrate_uart_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#6 Warning
+RAMB36 async control check  
+The RAMB36E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/control_mode_d_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#7 Warning
+RAMB36 async control check  
+The RAMB36E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/signal_select_in_d_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#8 Warning
+RAMB36 async control check  
+The RAMB36E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/state_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#9 Warning
+RAMB36 async control check  
+The RAMB36E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/state_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#10 Warning
+RAMB36 async control check  
+The RAMB36E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/state_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#11 Warning
+RAMB36 async control check  
+The RAMB36E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/sync_chain_0/[1].buf_reg[1][0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#12 Warning
+RAMB36 async control check  
+The RAMB36E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/uart_0/uart_rx_0/data_valid_strb_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#13 Warning
+RAMB36 async control check  
+The RAMB36E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/uart_0/uart_rx_0/received_data_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#14 Warning
+RAMB36 async control check  
+The RAMB36E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/uart_0/uart_rx_0/received_data_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#15 Warning
+RAMB36 async control check  
+The RAMB36E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/uart_0/uart_rx_0/received_data_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#16 Warning
+RAMB36 async control check  
+The RAMB36E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/uart_0/uart_rx_0/received_data_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#17 Warning
+RAMB36 async control check  
+The RAMB36E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/uart_0/uart_rx_0/received_data_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#18 Warning
+RAMB36 async control check  
+The RAMB36E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/uart_0/uart_rx_0/received_data_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#19 Warning
+RAMB36 async control check  
+The RAMB36E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/uart_0/uart_rx_0/received_data_reg[6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#20 Warning
+RAMB36 async control check  
+The RAMB36E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_0/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/uart_0/uart_rx_0/received_data_reg[7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#1 Warning
+RAMB18 async control check  
+The RAMB18E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/adaptive_mode_d_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#2 Warning
+RAMB18 async control check  
+The RAMB18E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/analog_trigger_uart_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#3 Warning
+RAMB18 async control check  
+The RAMB18E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/atbs_max_delta_steps_uart_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#4 Warning
+RAMB18 async control check  
+The RAMB18E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/atbs_win_length_uart_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#5 Warning
+RAMB18 async control check  
+The RAMB18E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/baudrate_uart_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#6 Warning
+RAMB18 async control check  
+The RAMB18E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/control_mode_d_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#7 Warning
+RAMB18 async control check  
+The RAMB18E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/signal_select_in_d_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#8 Warning
+RAMB18 async control check  
+The RAMB18E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/state_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#9 Warning
+RAMB18 async control check  
+The RAMB18E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/state_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#10 Warning
+RAMB18 async control check  
+The RAMB18E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/state_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#11 Warning
+RAMB18 async control check  
+The RAMB18E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/sync_chain_0/[1].buf_reg[1][0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#12 Warning
+RAMB18 async control check  
+The RAMB18E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/uart_0/uart_rx_0/data_valid_strb_reg) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#13 Warning
+RAMB18 async control check  
+The RAMB18E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/uart_0/uart_rx_0/received_data_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#14 Warning
+RAMB18 async control check  
+The RAMB18E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/uart_0/uart_rx_0/received_data_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#15 Warning
+RAMB18 async control check  
+The RAMB18E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/uart_0/uart_rx_0/received_data_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#16 Warning
+RAMB18 async control check  
+The RAMB18E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/uart_0/uart_rx_0/received_data_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#17 Warning
+RAMB18 async control check  
+The RAMB18E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/uart_0/uart_rx_0/received_data_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#18 Warning
+RAMB18 async control check  
+The RAMB18E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/uart_0/uart_rx_0/received_data_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#19 Warning
+RAMB18 async control check  
+The RAMB18E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/uart_0/uart_rx_0/received_data_reg[6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#20 Warning
+RAMB18 async control check  
+The RAMB18E1 tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9 has an input control pin tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/mem_reg_9/RSTREGB (net: tbs_core_0/spike_memory_0/gen_dual_ram.dual_ram_0/reset_i) which is driven by a register (tbs_core_0/uart_0/uart_rx_0/received_data_reg[7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+

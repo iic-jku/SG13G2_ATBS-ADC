@@ -1,0 +1,675 @@
+Analysis & Synthesis report for adaptive_threshold_control_board
+Mon Mar 24 16:23:34 2025
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Inverted Register Statistics
+ 10. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 11. Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0
+ 12. Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|spike_shift_reg:spike_shift_reg_0
+ 13. Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0
+ 14. Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:0:spike_2_tc
+ 15. Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:1:spike_2_tc
+ 16. Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:2:spike_2_tc
+ 17. Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:3:spike_2_tc
+ 18. Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:4:spike_2_tc
+ 19. Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:5:spike_2_tc
+ 20. Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:6:spike_2_tc
+ 21. Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:7:spike_2_tc
+ 22. Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:8:spike_2_tc
+ 23. Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:9:spike_2_tc
+ 24. Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:10:spike_2_tc
+ 25. Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:11:spike_2_tc
+ 26. Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:12:spike_2_tc
+ 27. Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:13:spike_2_tc
+ 28. Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:14:spike_2_tc
+ 29. Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|priority_encoder:priority_encoder_0
+ 30. Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|priority_encoder:priority_encoder_1
+ 31. Port Connectivity Checks: "adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:0:spike_2_tc"
+ 32. Port Connectivity Checks: "adaptive_threshold_control:adaptive_threshold_control_0"
+ 33. Post-Synthesis Netlist Statistics for Top Partition
+ 34. Elapsed Time Per Partition
+ 35. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Mon Mar 24 16:23:34 2025       ;
+; Quartus Prime Version           ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
+; Revision Name                   ; adaptive_threshold_control_board            ;
+; Top-level Entity Name           ; adaptive_threshold_control_board            ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 381                                         ;
+; Total pins                      ; 54                                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                                                         ;
++---------------------------------------------------------------------------------+----------------------------------+----------------------------------+
+; Option                                                                          ; Setting                          ; Default Value                    ;
++---------------------------------------------------------------------------------+----------------------------------+----------------------------------+
+; Device                                                                          ; 5CSXFC6D6F31C6                   ;                                  ;
+; Top-level entity name                                                           ; adaptive_threshold_control_board ; adaptive_threshold_control_board ;
+; Family name                                                                     ; Cyclone V                        ; Cyclone V                        ;
+; Maximum processors allowed for parallel compilation                             ; All                              ;                                  ;
+; Use smart compilation                                                           ; Off                              ; Off                              ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                               ; On                               ;
+; Enable compact report table                                                     ; Off                              ; Off                              ;
+; Restructure Multiplexers                                                        ; Auto                             ; Auto                             ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                              ; Off                              ;
+; Create Debugging Nodes for IP Cores                                             ; Off                              ; Off                              ;
+; Preserve fewer node names                                                       ; On                               ; On                               ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable                           ; Enable                           ;
+; Verilog Version                                                                 ; Verilog_2001                     ; Verilog_2001                     ;
+; VHDL Version                                                                    ; VHDL_1993                        ; VHDL_1993                        ;
+; State Machine Processing                                                        ; Auto                             ; Auto                             ;
+; Safe State Machine                                                              ; Off                              ; Off                              ;
+; Extract Verilog State Machines                                                  ; On                               ; On                               ;
+; Extract VHDL State Machines                                                     ; On                               ; On                               ;
+; Ignore Verilog initial constructs                                               ; Off                              ; Off                              ;
+; Iteration limit for constant Verilog loops                                      ; 5000                             ; 5000                             ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                              ; 250                              ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                               ; On                               ;
+; Infer RAMs from Raw Logic                                                       ; On                               ; On                               ;
+; Parallel Synthesis                                                              ; On                               ; On                               ;
+; DSP Block Balancing                                                             ; Auto                             ; Auto                             ;
+; NOT Gate Push-Back                                                              ; On                               ; On                               ;
+; Power-Up Don't Care                                                             ; On                               ; On                               ;
+; Remove Redundant Logic Cells                                                    ; Off                              ; Off                              ;
+; Remove Duplicate Registers                                                      ; On                               ; On                               ;
+; Ignore CARRY Buffers                                                            ; Off                              ; Off                              ;
+; Ignore CASCADE Buffers                                                          ; Off                              ; Off                              ;
+; Ignore GLOBAL Buffers                                                           ; Off                              ; Off                              ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                              ; Off                              ;
+; Ignore LCELL Buffers                                                            ; Off                              ; Off                              ;
+; Ignore SOFT Buffers                                                             ; On                               ; On                               ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                              ; Off                              ;
+; Optimization Technique                                                          ; Balanced                         ; Balanced                         ;
+; Carry Chain Length                                                              ; 70                               ; 70                               ;
+; Auto Carry Chains                                                               ; On                               ; On                               ;
+; Auto Open-Drain Pins                                                            ; On                               ; On                               ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                              ; Off                              ;
+; Auto ROM Replacement                                                            ; On                               ; On                               ;
+; Auto RAM Replacement                                                            ; On                               ; On                               ;
+; Auto DSP Block Replacement                                                      ; On                               ; On                               ;
+; Auto Shift Register Replacement                                                 ; Auto                             ; Auto                             ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto                             ; Auto                             ;
+; Auto Clock Enable Replacement                                                   ; On                               ; On                               ;
+; Strict RAM Replacement                                                          ; Off                              ; Off                              ;
+; Allow Synchronous Control Signals                                               ; On                               ; On                               ;
+; Force Use of Synchronous Clear Signals                                          ; Off                              ; Off                              ;
+; Auto Resource Sharing                                                           ; Off                              ; Off                              ;
+; Allow Any RAM Size For Recognition                                              ; Off                              ; Off                              ;
+; Allow Any ROM Size For Recognition                                              ; Off                              ; Off                              ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                              ; Off                              ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                               ; On                               ;
+; Ignore translate_off and synthesis_off directives                               ; Off                              ; Off                              ;
+; Timing-Driven Synthesis                                                         ; On                               ; On                               ;
+; Report Parameter Settings                                                       ; On                               ; On                               ;
+; Report Source Assignments                                                       ; On                               ; On                               ;
+; Report Connectivity Checks                                                      ; On                               ; On                               ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                              ; Off                              ;
+; Synchronization Register Chain Length                                           ; 3                                ; 3                                ;
+; Power Optimization During Synthesis                                             ; Normal compilation               ; Normal compilation               ;
+; HDL message level                                                               ; Level2                           ; Level2                           ;
+; Suppress Register Optimization Related Messages                                 ; Off                              ; Off                              ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000                             ; 5000                             ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000                             ; 5000                             ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                              ; 100                              ;
+; Clock MUX Protection                                                            ; On                               ; On                               ;
+; Auto Gated Clock Conversion                                                     ; Off                              ; Off                              ;
+; Block Design Naming                                                             ; Auto                             ; Auto                             ;
+; SDC constraint protection                                                       ; Off                              ; Off                              ;
+; Synthesis Effort                                                                ; Auto                             ; Auto                             ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                               ; On                               ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                              ; Off                              ;
+; Analysis & Synthesis Message Level                                              ; Medium                           ; Medium                           ;
+; Disable Register Merging Across Hierarchies                                     ; Auto                             ; Auto                             ;
+; Resource Aware Inference For Block RAM                                          ; On                               ; On                               ;
+; Automatic Parallel Synthesis                                                    ; On                               ; On                               ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                              ; Off                              ;
++---------------------------------------------------------------------------------+----------------------------------+----------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 16          ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 16          ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processor 3            ;   0.0%      ;
+;     Processor 4            ;   0.0%      ;
+;     Processor 5            ;   0.0%      ;
+;     Processor 6            ;   0.0%      ;
+;     Processor 7            ;   0.0%      ;
+;     Processor 8            ;   0.0%      ;
+;     Processors 9-16        ;   0.0%      ;
++----------------------------+-------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                        ;
++-----------------------------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                    ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                                                              ; Library ;
++-----------------------------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; ../../sim/vhdl/TBSSimVals_p.vhd                     ; yes             ; User VHDL File  ; C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/sim/vhdl/TBSSimVals_p.vhd                                                   ;         ;
+; ../sim/vhdl/AdaptiveCtrlSimVals_p.vhd               ; yes             ; User VHDL File  ; C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/sim/vhdl/AdaptiveCtrlSimVals_p.vhd               ;         ;
+; ../sim/vhdl/adaptive_std_p.vhd                      ; yes             ; User VHDL File  ; C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/sim/vhdl/adaptive_std_p.vhd                      ;         ;
+; ../rtl/adaptive_threshold_control_ea.vhd            ; yes             ; User VHDL File  ; C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/rtl/adaptive_threshold_control_ea.vhd            ;         ;
+; ../rtl/adaptive_threshold_control_board.vhd         ; yes             ; User VHDL File  ; C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/rtl/adaptive_threshold_control_board.vhd         ;         ;
+; ../Weyls-Discrepancy/rtl/weyls_discrepancy_ea.vhd   ; yes             ; User VHDL File  ; C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Weyls-Discrepancy/rtl/weyls_discrepancy_ea.vhd   ;         ;
+; ../Spike-Buffering/rtl/spike_shift_reg_ea.vhd       ; yes             ; User VHDL File  ; C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Spike-Buffering/rtl/spike_shift_reg_ea.vhd       ;         ;
+; ../Spike-2-Thermocode/rtl/spike_2_thermocode_ea.vhd ; yes             ; User VHDL File  ; C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Spike-2-Thermocode/rtl/spike_2_thermocode_ea.vhd ;         ;
+; ../Priority-Encoder/rtl/priority_encoder_ea.vhd     ; yes             ; User VHDL File  ; C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Priority-Encoder/rtl/priority_encoder_ea.vhd     ;         ;
++-----------------------------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+
+
++-------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                 ;
++---------------------------------------------+---------------+
+; Resource                                    ; Usage         ;
++---------------------------------------------+---------------+
+; Estimate of Logic utilization (ALMs needed) ; 503           ;
+;                                             ;               ;
+; Combinational ALUT usage for logic          ; 796           ;
+;     -- 7 input functions                    ; 1             ;
+;     -- 6 input functions                    ; 167           ;
+;     -- 5 input functions                    ; 102           ;
+;     -- 4 input functions                    ; 231           ;
+;     -- <=3 input functions                  ; 295           ;
+;                                             ;               ;
+; Dedicated logic registers                   ; 381           ;
+;                                             ;               ;
+; I/O pins                                    ; 54            ;
+;                                             ;               ;
+; Total DSP Blocks                            ; 0             ;
+;                                             ;               ;
+; Maximum fan-out node                        ; clock_i~input ;
+; Maximum fan-out                             ; 381           ;
+; Total fan-out                               ; 4623          ;
+; Average fan-out                             ; 3.60          ;
++---------------------------------------------+---------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                                                                                        ;
++--------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+--------------+
+; Compilation Hierarchy Node                                   ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                              ; Entity Name                      ; Library Name ;
++--------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+--------------+
+; |adaptive_threshold_control_board                            ; 796 (0)             ; 381 (0)                   ; 0                 ; 0          ; 54   ; 0            ; |adaptive_threshold_control_board                                                                                                                                                ; adaptive_threshold_control_board ; work         ;
+;    |adaptive_threshold_control:adaptive_threshold_control_0| ; 796 (161)           ; 381 (39)                  ; 0                 ; 0          ; 0    ; 0            ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0                                                                                        ; adaptive_threshold_control       ; work         ;
+;       |spike_shift_reg:spike_shift_reg_0|                    ; 525 (525)           ; 331 (331)                 ; 0                 ; 0          ; 0    ; 0            ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|spike_shift_reg:spike_shift_reg_0                                                      ; spike_shift_reg                  ; work         ;
+;       |weyls_discrepancy:weyls_discrepancy_0|                ; 110 (31)            ; 11 (11)                   ; 0                 ; 0          ; 0    ; 0            ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0                                                  ; weyls_discrepancy                ; work         ;
+;          |spike_2_thermocode:\gen_spike_2_tc:10:spike_2_tc|  ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:10:spike_2_tc ; spike_2_thermocode               ; work         ;
+;          |spike_2_thermocode:\gen_spike_2_tc:11:spike_2_tc|  ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:11:spike_2_tc ; spike_2_thermocode               ; work         ;
+;          |spike_2_thermocode:\gen_spike_2_tc:12:spike_2_tc|  ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:12:spike_2_tc ; spike_2_thermocode               ; work         ;
+;          |spike_2_thermocode:\gen_spike_2_tc:13:spike_2_tc|  ; 9 (9)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:13:spike_2_tc ; spike_2_thermocode               ; work         ;
+;          |spike_2_thermocode:\gen_spike_2_tc:2:spike_2_tc|   ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:2:spike_2_tc  ; spike_2_thermocode               ; work         ;
+;          |spike_2_thermocode:\gen_spike_2_tc:3:spike_2_tc|   ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:3:spike_2_tc  ; spike_2_thermocode               ; work         ;
+;          |spike_2_thermocode:\gen_spike_2_tc:4:spike_2_tc|   ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:4:spike_2_tc  ; spike_2_thermocode               ; work         ;
+;          |spike_2_thermocode:\gen_spike_2_tc:5:spike_2_tc|   ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:5:spike_2_tc  ; spike_2_thermocode               ; work         ;
+;          |spike_2_thermocode:\gen_spike_2_tc:6:spike_2_tc|   ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:6:spike_2_tc  ; spike_2_thermocode               ; work         ;
+;          |spike_2_thermocode:\gen_spike_2_tc:7:spike_2_tc|   ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:7:spike_2_tc  ; spike_2_thermocode               ; work         ;
+;          |spike_2_thermocode:\gen_spike_2_tc:8:spike_2_tc|   ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:8:spike_2_tc  ; spike_2_thermocode               ; work         ;
+;          |spike_2_thermocode:\gen_spike_2_tc:9:spike_2_tc|   ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:9:spike_2_tc  ; spike_2_thermocode               ; work         ;
++--------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 381   ;
+; Number of registers using Synchronous Clear  ; 6     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 381   ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 360   ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++---------------------------------------------------------------------------------------+
+; Inverted Register Statistics                                                          ;
++-----------------------------------------------------------------------------+---------+
+; Inverted Register                                                           ; Fan out ;
++-----------------------------------------------------------------------------+---------+
+; adaptive_threshold_control:adaptive_threshold_control_0|steps_to_upper_v[0] ; 6       ;
+; adaptive_threshold_control:adaptive_threshold_control_0|steps_to_upper_v[6] ; 7       ;
+; adaptive_threshold_control:adaptive_threshold_control_0|steps_to_upper_v[5] ; 7       ;
+; adaptive_threshold_control:adaptive_threshold_control_0|steps_to_upper_v[4] ; 8       ;
+; adaptive_threshold_control:adaptive_threshold_control_0|steps_to_upper_v[3] ; 6       ;
+; adaptive_threshold_control:adaptive_threshold_control_0|steps_to_upper_v[2] ; 6       ;
+; adaptive_threshold_control:adaptive_threshold_control_0|steps_to_lower_v[1] ; 5       ;
+; adaptive_threshold_control:adaptive_threshold_control_0|steps_to_lower_v[0] ; 5       ;
+; adaptive_threshold_control:adaptive_threshold_control_0|steps_to_lower_v[6] ; 6       ;
+; adaptive_threshold_control:adaptive_threshold_control_0|steps_to_lower_v[5] ; 6       ;
+; adaptive_threshold_control:adaptive_threshold_control_0|steps_to_lower_v[4] ; 6       ;
+; adaptive_threshold_control:adaptive_threshold_control_0|steps_to_lower_v[3] ; 5       ;
+; adaptive_threshold_control:adaptive_threshold_control_0|steps_to_lower_v[2] ; 5       ;
+; adaptive_threshold_control:adaptive_threshold_control_0|delta_steps[0]      ; 15      ;
+; adaptive_threshold_control:adaptive_threshold_control_0|prev_delta_steps[0] ; 3       ;
+; Total number of inverted registers = 15                                     ;         ;
++-----------------------------------------------------------------------------+---------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                                                                                ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                                                      ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|steps_to_upper_v[1]                                   ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|steps_to_lower_v[7]                                   ;
+; 3:1                ; 14 bits   ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; Yes        ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|spike_shift_reg:spike_shift_reg_0|overflow_marker[10] ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|prev_delta_steps[3]                                   ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|spike_shift_reg:spike_shift_reg_0|spikes[13][0]       ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|spike_shift_reg:spike_shift_reg_0|spikes[14][0]       ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|spike_shift_reg:spike_shift_reg_0|spikes[12][0]       ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|spike_shift_reg:spike_shift_reg_0|spikes[11][0]       ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|spike_shift_reg:spike_shift_reg_0|spikes[10][1]       ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|spike_shift_reg:spike_shift_reg_0|spikes[9][1]        ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|spike_shift_reg:spike_shift_reg_0|spikes[8][1]        ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|spike_shift_reg:spike_shift_reg_0|spikes[6][1]        ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|spike_shift_reg:spike_shift_reg_0|spikes[5][0]        ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|spike_shift_reg:spike_shift_reg_0|spikes[4][0]        ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|spike_shift_reg:spike_shift_reg_0|spikes[3][1]        ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|spike_shift_reg:spike_shift_reg_0|spikes[2][0]        ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|spike_shift_reg:spike_shift_reg_0|spikes[1][0]        ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|spike_shift_reg:spike_shift_reg_0|spikes[0][0]        ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|spike_shift_reg:spike_shift_reg_0|spikes[7][1]        ;
+; 6:1                ; 6 bits    ; 24 LEs        ; 12 LEs               ; 12 LEs                 ; Yes        ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|delta_steps[2]                                        ;
+; 3:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|steps_to_upper_v[2]                                   ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|steps_to_lower_v[5]                                   ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|delta_steps_upper_o[0]                                ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|delta_steps_lower_o[0]                                ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |adaptive_threshold_control_board|adaptive_threshold_control:adaptive_threshold_control_0|delta_steps_limited[7]                                ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0 ;
++-----------------------+-------+----------------------------------------------------------------------+
+; Parameter Name        ; Value ; Type                                                                 ;
++-----------------------+-------+----------------------------------------------------------------------+
+; win_bits              ; 20    ; Signed Integer                                                       ;
+; time_counter_bitwidth ; 19    ; Signed Integer                                                       ;
+; delta_steps_bitwidth  ; 8     ; Signed Integer                                                       ;
+; dac_bitwidth          ; 8     ; Signed Integer                                                       ;
+; max_clipping_value    ; 255   ; Signed Integer                                                       ;
+; min_clipping_value    ; 0     ; Signed Integer                                                       ;
+; weylsd_bits           ; 3     ; Signed Integer                                                       ;
+; d_max_lim             ; 2     ; Signed Integer                                                       ;
++-----------------------+-------+----------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|spike_shift_reg:spike_shift_reg_0 ;
++-----------------------+-------+--------------------------------------------------------------------------------------------------------+
+; Parameter Name        ; Value ; Type                                                                                                   ;
++-----------------------+-------+--------------------------------------------------------------------------------------------------------+
+; win_bits              ; 20    ; Signed Integer                                                                                         ;
+; time_counter_bitwidth ; 19    ; Signed Integer                                                                                         ;
++-----------------------+-------+--------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0 ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                              ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------+
+; level_of_reg   ; 8     ; Signed Integer                                                                                                    ;
+; weylsd_bits    ; 3     ; Signed Integer                                                                                                    ;
+; thermo_bits    ; 6     ; Signed Integer                                                                                                    ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:0:spike_2_tc ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                                                              ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 6     ; Signed Integer                                                                                                                                                    ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:1:spike_2_tc ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                                                              ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 6     ; Signed Integer                                                                                                                                                    ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:2:spike_2_tc ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                                                              ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 6     ; Signed Integer                                                                                                                                                    ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:3:spike_2_tc ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                                                              ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 6     ; Signed Integer                                                                                                                                                    ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:4:spike_2_tc ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                                                              ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 6     ; Signed Integer                                                                                                                                                    ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:5:spike_2_tc ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                                                              ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 6     ; Signed Integer                                                                                                                                                    ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:6:spike_2_tc ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                                                              ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 6     ; Signed Integer                                                                                                                                                    ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:7:spike_2_tc ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                                                              ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 6     ; Signed Integer                                                                                                                                                    ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:8:spike_2_tc ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                                                              ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 6     ; Signed Integer                                                                                                                                                    ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:9:spike_2_tc ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                                                              ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 6     ; Signed Integer                                                                                                                                                    ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:10:spike_2_tc ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                                                               ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 6     ; Signed Integer                                                                                                                                                     ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:11:spike_2_tc ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                                                               ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 6     ; Signed Integer                                                                                                                                                     ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:12:spike_2_tc ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                                                               ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 6     ; Signed Integer                                                                                                                                                     ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:13:spike_2_tc ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                                                               ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 6     ; Signed Integer                                                                                                                                                     ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:14:spike_2_tc ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                                                               ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 6     ; Signed Integer                                                                                                                                                     ;
++----------------+-------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|priority_encoder:priority_encoder_0 ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                                                  ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+; in_bits        ; 3     ; Signed Integer                                                                                                                                        ;
+; out_bits       ; 3     ; Signed Integer                                                                                                                                        ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|priority_encoder:priority_encoder_1 ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                                                                  ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+; in_bits        ; 3     ; Signed Integer                                                                                                                                        ;
+; out_bits       ; 3     ; Signed Integer                                                                                                                                        ;
++----------------+-------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:0:spike_2_tc" ;
++----------------+-------+----------+---------------------------------------------------------------------------------------------------------------------------------------+
+; Port           ; Type  ; Severity ; Details                                                                                                                               ;
++----------------+-------+----------+---------------------------------------------------------------------------------------------------------------------------------------+
+; thermo_i[2..0] ; Input ; Info     ; Stuck at VCC                                                                                                                          ;
+; thermo_i[5..3] ; Input ; Info     ; Stuck at GND                                                                                                                          ;
++----------------+-------+----------+---------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "adaptive_threshold_control:adaptive_threshold_control_0" ;
++-------------------------+-------+----------+----------------------------------------+
+; Port                    ; Type  ; Severity ; Details                                ;
++-------------------------+-------+----------+----------------------------------------+
+; win_length_i[14..10]    ; Input ; Info     ; Stuck at VCC                           ;
+; win_length_i[19..15]    ; Input ; Info     ; Stuck at GND                           ;
+; win_length_i[7..0]      ; Input ; Info     ; Stuck at GND                           ;
+; win_length_i[9]         ; Input ; Info     ; Stuck at GND                           ;
+; win_length_i[8]         ; Input ; Info     ; Stuck at VCC                           ;
+; max_delta_steps_i[7..6] ; Input ; Info     ; Stuck at GND                           ;
+; max_delta_steps_i[4..0] ; Input ; Info     ; Stuck at GND                           ;
+; max_delta_steps_i[5]    ; Input ; Info     ; Stuck at VCC                           ;
++-------------------------+-------+----------+----------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_ff             ; 381                         ;
+;     CLR               ; 20                          ;
+;     CLR SCLR          ; 1                           ;
+;     ENA CLR           ; 355                         ;
+;     ENA CLR SCLR      ; 5                           ;
+; arriav_lcell_comb     ; 800                         ;
+;     arith             ; 208                         ;
+;         0 data inputs ; 15                          ;
+;         1 data inputs ; 165                         ;
+;         2 data inputs ; 10                          ;
+;         3 data inputs ; 2                           ;
+;         5 data inputs ; 16                          ;
+;     extend            ; 1                           ;
+;         7 data inputs ; 1                           ;
+;     normal            ; 591                         ;
+;         1 data inputs ; 4                           ;
+;         2 data inputs ; 96                          ;
+;         3 data inputs ; 7                           ;
+;         4 data inputs ; 231                         ;
+;         5 data inputs ; 86                          ;
+;         6 data inputs ; 167                         ;
+; boundary_port         ; 54                          ;
+;                       ;                             ;
+; Max LUT depth         ; 8.00                        ;
+; Average LUT depth     ; 4.90                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:02     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+    Info: Processing started: Mon Mar 24 16:23:21 2025
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off adaptive_threshold_control_board -c adaptive_threshold_control_board
+Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
+Info (12021): Found 1 design units, including 0 entities, in source file /simon dorrer/jku-linz/master/semester 2/master-thesis/fpga-design/tbs_core/sim/vhdl/tbssimvals_p.vhd
+    Info (12022): Found design unit 1: TBSSimVals File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/sim/vhdl/TBSSimVals_p.vhd Line: 12
+Info (12021): Found 1 design units, including 0 entities, in source file /simon dorrer/jku-linz/master/semester 2/master-thesis/fpga-design/tbs_core/adaptive_threshold_control/sim/vhdl/adaptivectrlsimvals_p.vhd
+    Info (12022): Found design unit 1: AdaptiveCtrlSimVals File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/sim/vhdl/AdaptiveCtrlSimVals_p.vhd Line: 17
+Info (12021): Found 1 design units, including 0 entities, in source file /simon dorrer/jku-linz/master/semester 2/master-thesis/fpga-design/tbs_core/adaptive_threshold_control/sim/vhdl/adaptive_std_p.vhd
+    Info (12022): Found design unit 1: adaptive_std File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/sim/vhdl/adaptive_std_p.vhd Line: 12
+Info (12021): Found 2 design units, including 1 entities, in source file /simon dorrer/jku-linz/master/semester 2/master-thesis/fpga-design/tbs_core/adaptive_threshold_control/rtl/adaptive_threshold_control_ea.vhd
+    Info (12022): Found design unit 1: adaptive_threshold_control-rtl File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/rtl/adaptive_threshold_control_ea.vhd Line: 58
+    Info (12023): Found entity 1: adaptive_threshold_control File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/rtl/adaptive_threshold_control_ea.vhd Line: 19
+Info (12021): Found 2 design units, including 1 entities, in source file /simon dorrer/jku-linz/master/semester 2/master-thesis/fpga-design/tbs_core/adaptive_threshold_control/rtl/adaptive_threshold_control_board.vhd
+    Info (12022): Found design unit 1: adaptive_threshold_control_board-rtl File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/rtl/adaptive_threshold_control_board.vhd Line: 42
+    Info (12023): Found entity 1: adaptive_threshold_control_board File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/rtl/adaptive_threshold_control_board.vhd Line: 16
+Info (12021): Found 2 design units, including 1 entities, in source file /simon dorrer/jku-linz/master/semester 2/master-thesis/fpga-design/tbs_core/adaptive_threshold_control/weyls-discrepancy/rtl/weyls_discrepancy_ea.vhd
+    Info (12022): Found design unit 1: weyls_discrepancy-rtl File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Weyls-Discrepancy/rtl/weyls_discrepancy_ea.vhd Line: 46
+    Info (12023): Found entity 1: weyls_discrepancy File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Weyls-Discrepancy/rtl/weyls_discrepancy_ea.vhd Line: 29
+Info (12021): Found 2 design units, including 1 entities, in source file /simon dorrer/jku-linz/master/semester 2/master-thesis/fpga-design/tbs_core/adaptive_threshold_control/spike-buffering/rtl/spike_shift_reg_ea.vhd
+    Info (12022): Found design unit 1: spike_shift_reg-rtl File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Spike-Buffering/rtl/spike_shift_reg_ea.vhd Line: 36
+    Info (12023): Found entity 1: spike_shift_reg File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Spike-Buffering/rtl/spike_shift_reg_ea.vhd Line: 17
+Info (12021): Found 2 design units, including 1 entities, in source file /simon dorrer/jku-linz/master/semester 2/master-thesis/fpga-design/tbs_core/adaptive_threshold_control/spike-2-thermocode/rtl/spike_2_thermocode_ea.vhd
+    Info (12022): Found design unit 1: spike_2_thermocode-rtl File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Spike-2-Thermocode/rtl/spike_2_thermocode_ea.vhd Line: 27
+    Info (12023): Found entity 1: spike_2_thermocode File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Spike-2-Thermocode/rtl/spike_2_thermocode_ea.vhd Line: 16
+Info (12021): Found 2 design units, including 1 entities, in source file /simon dorrer/jku-linz/master/semester 2/master-thesis/fpga-design/tbs_core/adaptive_threshold_control/priority-encoder/rtl/priority_encoder_ea.vhd
+    Info (12022): Found design unit 1: priority_encoder-rtl File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Priority-Encoder/rtl/priority_encoder_ea.vhd Line: 31
+    Info (12023): Found entity 1: priority_encoder File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Priority-Encoder/rtl/priority_encoder_ea.vhd Line: 17
+Info (12127): Elaborating entity "adaptive_threshold_control_board" for the top level hierarchy
+Info (12129): Elaborating entity "adaptive_threshold_control" using architecture "A:rtl" for hierarchy "adaptive_threshold_control:adaptive_threshold_control_0" File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/rtl/adaptive_threshold_control_board.vhd Line: 68
+Info (12129): Elaborating entity "spike_shift_reg" using architecture "A:rtl" for hierarchy "adaptive_threshold_control:adaptive_threshold_control_0|spike_shift_reg:spike_shift_reg_0" File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/rtl/adaptive_threshold_control_ea.vhd Line: 133
+Info (12129): Elaborating entity "weyls_discrepancy" using architecture "A:rtl" for hierarchy "adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0" File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/rtl/adaptive_threshold_control_ea.vhd Line: 153
+Info (12129): Elaborating entity "spike_2_thermocode" using architecture "A:rtl" for hierarchy "adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:0:spike_2_tc" File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Weyls-Discrepancy/rtl/weyls_discrepancy_ea.vhd Line: 107
+Info (12129): Elaborating entity "priority_encoder" using architecture "A:rtl" for hierarchy "adaptive_threshold_control:adaptive_threshold_control_0|weyls_discrepancy:weyls_discrepancy_0|priority_encoder:priority_encoder_0" File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Weyls-Discrepancy/rtl/weyls_discrepancy_ea.vhd Line: 164
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 1140 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 31 input pins
+    Info (21059): Implemented 23 output pins
+    Info (21061): Implemented 1086 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4917 megabytes
+    Info: Processing ended: Mon Mar 24 16:23:34 2025
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:25
+
+

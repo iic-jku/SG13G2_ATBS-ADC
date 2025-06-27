@@ -1,0 +1,54 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Tue Mar  4 16:49:24 2025
+[*]
+[dumpfile] "/foss/designs/SG13G2_ATBS-ADC-main/vhdl/atbs_core_floating_window/time_measurement/sim/time_measurement_tb.vcd"
+[dumpfile_mtime] "Tue Mar  4 16:49:16 2025"
+[dumpfile_size] 9423280
+[savefile] "/foss/designs/SG13G2_ATBS-ADC-main/vhdl/atbs_core_floating_window/time_measurement/sim/time_measurement_tb.gtkw"
+[timestart] 0
+[size] 1427 600
+[pos] -1 -1
+*-40.946278 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[markername] AA
+[markername] BB
+[markername] CC
+[markername] DD
+[markername] EE
+[markername] FF
+[markername] GG
+[markername] HH
+[markername] II
+[markername] JJ
+[markername] KK
+[markername] LL
+[markername] MM
+[markername] NN
+[markername] OO
+[markername] PP
+[markername] QQ
+[markername] RR
+[markername] SS
+[markername] TT
+[markername] UU
+[markername] VV
+[markername] WW
+[markername] XX
+[markername] YY
+[markername] ZZ
+[treeopen] time_measurement_tb.
+[sst_width] 297
+[signals_width] 166
+[sst_expanded] 1
+[sst_vpaned_height] 150
+@201
+-INPUTS
+@28
+time_measurement_tb.dut_time_measurement.clock_i
+time_measurement_tb.dut_time_measurement.reset_i
+@200
+-OUTPUTS
+@28
+time_measurement_tb.dut_time_measurement.overflow_strb_o
+[pattern_trace] 1
+[pattern_trace] 0

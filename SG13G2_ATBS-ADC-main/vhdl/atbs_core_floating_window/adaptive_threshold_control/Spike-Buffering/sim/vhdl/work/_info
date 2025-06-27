@@ -1,0 +1,268 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/vhdl/tbs_core/adaptive_threshold/Spike-Buffering/sim/vhdl
+Padaptive_std
+Z0 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 76
+w1719058778
+Z4 dC:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Spike-Buffering/sim/vhdl
+8adaptive_std_p.vhd
+Fadaptive_std_p.vhd
+l0
+L6 1
+VhfOe;:F`iFbIaOSQ2caS21
+!s100 iV[;e<fgP4JU8DQH9AJTe2
+Z5 OV;C;2020.1;71
+32
+Z6 !s110 1740847692
+!i10b 1
+Z7 !s108 1740847692.000000
+!s90 -reportprogress|300|-work|work|adaptive_std_p.vhd|
+!s107 adaptive_std_p.vhd|
+!i113 1
+Z8 o-work work
+Z9 tExplicit 1 CvgOpt 0
+Espike_shift_reg
+Z10 w1740779274
+Z11 DPx4 work 12 adaptive_std 0 22 hfOe;:F`iFbIaOSQ2caS21
+R0
+R1
+R2
+R3
+!i122 79
+R4
+Z12 8../../rtl/spike_shift_reg_ea.vhd
+Z13 F../../rtl/spike_shift_reg_ea.vhd
+l0
+L17 1
+VL1IDQDRY^P_^Ej9f=Ze0S0
+!s100 <R`:AXL^5fb;4dBhA9Mji1
+R5
+32
+R6
+!i10b 1
+R7
+Z14 !s90 -reportprogress|300|-work|work|../../rtl/spike_shift_reg_ea.vhd|
+Z15 !s107 ../../rtl/spike_shift_reg_ea.vhd|
+!i113 1
+R8
+R9
+Artl
+R11
+R0
+R1
+R2
+R3
+Z16 DEx4 work 15 spike_shift_reg 0 22 L1IDQDRY^P_^Ej9f=Ze0S0
+!i122 79
+l56
+L36 97
+VXEAc3ahz0ja<zPTk]e<3o3
+!s100 zHaWCC_n9JSm@?bAd[C><2
+R5
+32
+R6
+!i10b 1
+R7
+R14
+R15
+!i113 1
+R8
+R9
+Espike_shift_reg_tb
+Z17 w1740847689
+R11
+Z18 DPx4 work 15 std_definitions 0 22 2liaooAT0c0kSD9I^4a9k3
+Z19 DPx4 work 21 spikesshiftregsimvals 0 22 omS?kcWBEKe]ZL=zj_;A73
+R0
+R1
+R2
+R3
+!i122 80
+R4
+Z20 8spike_shift_reg_tb.vhd
+Z21 Fspike_shift_reg_tb.vhd
+l0
+Z22 L21 1
+V9aY<J`Th`F`>:CFBlK<jK3
+!s100 c^280a]2cS4V=1OX9CWLH0
+R5
+32
+R6
+!i10b 1
+R7
+Z23 !s90 -reportprogress|300|-work|work|spike_shift_reg_tb.vhd|
+Z24 !s107 spike_shift_reg_tb.vhd|
+!i113 1
+R8
+R9
+Abhv
+Z25 DEx4 work 16 time_measurement 0 22 h`eZ`lk5`TQ]AQHfbS_dF1
+R16
+R11
+R18
+R19
+R0
+R1
+R2
+R3
+Z26 DEx4 work 18 spike_shift_reg_tb 0 22 9aY<J`Th`F`>:CFBlK<jK3
+!i122 80
+l43
+L25 120
+V3UVUT>O_Y2VmOdjAL?7UM0
+!s100 MZb2zE;DiH6T6F8[PUOEF0
+R5
+32
+R6
+!i10b 1
+R7
+R23
+R24
+!i113 1
+R8
+R9
+Pspikesshiftregsimvals
+R0
+R1
+R2
+R3
+!i122 75
+w1705529756
+R4
+8SpikesShiftRegSimVals_p.vhd
+FSpikesShiftRegSimVals_p.vhd
+l0
+L5 1
+VomS?kcWBEKe]ZL=zj_;A73
+!s100 N3L4KOG>a4`;50WMU:bHR1
+R5
+32
+R6
+!i10b 1
+!s108 1740847691.000000
+!s90 -reportprogress|300|-work|work|SpikesShiftRegSimVals_p.vhd|
+!s107 SpikesShiftRegSimVals_p.vhd|
+!i113 1
+R8
+R9
+Pstd_definitions
+R2
+!i122 77
+Z27 w1705421897
+R4
+Z28 8std_p.vhd
+Z29 Fstd_p.vhd
+l0
+L4 1
+V2liaooAT0c0kSD9I^4a9k3
+!s100 b1V1[PDWZ<cGA4<6YdU9f1
+R5
+32
+b1
+R6
+!i10b 1
+R7
+Z30 !s90 -reportprogress|300|-work|work|std_p.vhd|
+Z31 !s107 std_p.vhd|
+!i113 1
+R8
+R9
+Bbody
+R18
+R2
+!i122 77
+l0
+L14 1
+VY4k]zM8YJF4NE4z=dRl^b0
+!s100 lYGaO^]NHA5IG9R^Wh`hB2
+R5
+32
+R6
+!i10b 1
+R7
+R30
+R31
+!i113 1
+R8
+R9
+Ptbssimvals
+R0
+R1
+R2
+R3
+!i122 45
+w1740830326
+R4
+8../../../../sim/vhdl/TBSSimVals_p.vhd
+F../../../../sim/vhdl/TBSSimVals_p.vhd
+l0
+L12 1
+V5N?>YfAY3S[Lm`Y;BCZg?2
+!s100 ZDNjJKg7l9mlolQj7b:C03
+R5
+32
+!s110 1740847253
+!i10b 1
+!s108 1740847253.000000
+!s90 -reportprogress|300|-work|work|../../../../sim/vhdl/TBSSimVals_p.vhd|
+!s107 ../../../../sim/vhdl/TBSSimVals_p.vhd|
+!i113 1
+R8
+R9
+Etime_measurement
+Z32 w1719072828
+R0
+R1
+R2
+R3
+!i122 78
+R4
+Z33 8../../../../time_measurement/rtl/time_measurement_ea.vhd
+Z34 F../../../../time_measurement/rtl/time_measurement_ea.vhd
+l0
+R22
+Vh`eZ`lk5`TQ]AQHfbS_dF1
+!s100 H;iQWQ@W@`oi;RYDjGLPG0
+R5
+32
+R6
+!i10b 1
+R7
+Z35 !s90 -reportprogress|300|-work|work|../../../../time_measurement/rtl/time_measurement_ea.vhd|
+Z36 !s107 ../../../../time_measurement/rtl/time_measurement_ea.vhd|
+!i113 1
+R8
+R9
+Artl
+R0
+R1
+R2
+R3
+R25
+!i122 78
+l45
+L36 44
+V0:X1X@gXjZS3RTY?m4<9h1
+!s100 43F9[Q838dnkHfUWNcRab2
+R5
+32
+R6
+!i10b 1
+R7
+R35
+R36
+!i113 1
+R8
+R9

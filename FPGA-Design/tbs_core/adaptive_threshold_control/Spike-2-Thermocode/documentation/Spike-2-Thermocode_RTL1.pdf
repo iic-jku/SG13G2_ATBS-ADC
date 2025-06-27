@@ -1,0 +1,420 @@
+%PDF-1.4
+1 0 obj
+<<
+  /Title    (spike_2_thermocode_board_1)
+  /Author   (si150)
+  /Producer (Concept Engineering GmbH)
+  /Creator  (Nlview 6.6.0  2016-02-25 bk=1.3518 VDI=39 GEI=35)
+  /CreationDate (D:20250301173012)
+>>
+endobj
+2 0 obj
+<<
+  /Type     /Catalog
+  /Pages    3 0 R
+  /Outlines 7 0 R
+  /PageMode /UseThumbs
+  /ViewerPreferences << /DisplayDocTitle true >>
+>>
+endobj
+4 0 obj
+<<
+  /Type     /Font
+  /Subtype  /Type1
+  /Name     /F1
+  /BaseFont /Helvetica
+  /Encoding /MacRomanEncoding
+>>
+endobj
+5 0 obj
+<<
+  /ExtGState  << /GS 6 0 R >>
+  /Font       << /F1 4 0 R >>
+  /ColorSpace << /PCS [/Pattern /DeviceRGB] >>
+  /Pattern    8 0 R
+>>
+endobj
+6 0 obj
+<<
+  /Type /ExtGState
+  /LC   0
+  /LJ   0
+  /ML   4.0
+>>
+endobj
+%
+% Nlview page 1
+% (user space scaling 0.981239)
+%
+9 0 obj
+<<
+  /Type      /Page
+  /Parent    3 0 R
+  /Resources 5 0 R
+  /Contents  10 0 R
+  /MediaBox  [0 0 612 792]
+  /Rotate    0
+>>
+endobj
+10 0 obj
+<<
+  /Length 1583
+>>
+stream
+1 0 0 1 0 318.138 cm
+1 0 0 1 28.8 28.8 cm
+0.981239 0 0 -0.981239 0 0 cm
+1 0 0 1 0 -100 cm
+0 0 565 100 re
+W n
+/GS gs
+1 0 0 1 118 0 cm
+q
+1.000 1.000 1.000 rg
+-118 0 564 101 re
+f
+Q
+3 w
+0.000 0.000 1.000 RG
+0 60 m
+-7 67 l
+-21 67 l
+-21 53 l
+-7 53 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 -25 60 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-64.032 -4.308 Td
+(spike_i[1..0]) Tj
+ET
+Q
+q
+0.000 0.000 0.000 rg
+135 33 60 62 re
+f
+Q
+q
+0.506 0.749 0.373 rg
+130 28 60 62 re
+f
+Q
+1 w
+0.176 0.176 0.176 RG
+130 28 60 62 re
+S
+3 w
+141 33 m
+141 45 l
+S
+135 39 m
+147 39 l
+S
+1 w
+133 31 16 16 re
+S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 160 26 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-119.724 2.484 Td
+(spike_2_thermocode:spike_2_thermocode_0) Tj
+ET
+Q
+3 w
+0.024 0.278 0.435 RG
+120 60 m
+130 60 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 128 59 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-53.36 2.07 Td
+(spike_i[1..0]) Tj
+ET
+Q
+120 80 m
+130 80 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 128 79 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+-61.14 2.07 Td
+(thermo_i[9..0]) Tj
+ET
+Q
+200 60 m
+190 60 l
+S
+q
+0.024 0.278 0.435 rg
+1 0 0 1 196 59 cm
+BT
+/F1 10 Tf
+1 0 0 -1 0 0 Tm
+0 2.07 Td
+(thermo_o[9..0]) Tj
+ET
+Q
+140 60 m
+130 60 l
+S
+140 80 m
+130 80 l
+S
+180 60 m
+190 60 l
+S
+0.000 0.000 1.000 RG
+0 80 m
+-7 87 l
+-21 87 l
+-21 73 l
+-7 73 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 -25 80 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+-73.368 -4.308 Td
+(thermo_i[9..0]) Tj
+ET
+Q
+320 60 m
+320 53 l
+334 53 l
+341 60 l
+334 67 l
+320 67 l
+h S
+q
+0.000 0.000 0.000 rg
+1 0 0 1 349 60 cm
+BT
+/F1 12 Tf
+1 0 0 -1 0 0 Tm
+0 -4.308 Td
+(thermo_o[9..0]) Tj
+ET
+Q
+0.176 0.176 0.176 RG
+0 60 m
+120 60 l
+S
+0 80 m
+120 80 l
+S
+200 60 m
+320 60 l
+S
+endstream
+endobj
+3 0 obj
+<<
+  /Type    /Pages
+  /Kids
+  [
+  9 0 R
+  ]
+  /Count   1
+  /ProcSet [/PDF /Text]
+>>
+endobj
+13 0 obj
+<<
+  /Title  (spike_2_thermocode:spike_2_thermocode_0_2 spike_2_thermocode:spike_2_thermocode_0_2)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 184 351 419 432]
+  /Parent 12 0 R
+>>
+endobj
+12 0 obj
+<<
+  /Title  (instances)
+  /C      [0.0 0.4 0.0]
+  /F      1
+  /Parent 11 0 R
+  /First  13 0 R
+  /Last   13 0 R
+  /Count  1
+  /Next   14 0 R
+>>
+endobj
+14 0 obj
+<<
+  /Title  (ports)
+  /C      [0.0 0.4 0.0]
+  /F      1
+  /Parent 11 0 R
+  /First  0 0 R
+  /Last   0 0 R
+  /Count  0
+  /Prev   12 0 R
+  /Next   15 0 R
+>>
+endobj
+16 0 obj
+<<
+  /Title  (spike_i[1..0]89 input)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 57 376 147 396]
+  /Parent 15 0 R
+  /Next   17 0 R
+>>
+endobj
+17 0 obj
+<<
+  /Title  (thermo_i[9..0]90 input)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 48 356 147 376]
+  /Parent 15 0 R
+  /Prev   16 0 R
+  /Next   18 0 R
+>>
+endobj
+18 0 obj
+<<
+  /Title  (thermo_o[9..0]91 output)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 455 376 562 396]
+  /Parent 15 0 R
+  /Prev   17 0 R
+>>
+endobj
+15 0 obj
+<<
+  /Title  (portBuses)
+  /C      [0.0 0.4 0.0]
+  /F      1
+  /Parent 11 0 R
+  /First  16 0 R
+  /Last   18 0 R
+  /Count  3
+  /Prev   14 0 R
+  /Next   19 0 R
+>>
+endobj
+19 0 obj
+<<
+  /Title  (nets)
+  /C      [0.0 0.4 0.0]
+  /F      1
+  /Parent 11 0 R
+  /First  0 0 R
+  /Last   0 0 R
+  /Count  0
+  /Prev   15 0 R
+  /Next   20 0 R
+>>
+endobj
+21 0 obj
+<<
+  /Title  (OUT0_78)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 144 386 262 386]
+  /Parent 20 0 R
+  /Next   22 0 R
+>>
+endobj
+22 0 obj
+<<
+  /Title  (OUT0_79)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 144 366 262 366]
+  /Parent 20 0 R
+  /Prev   21 0 R
+  /Next   23 0 R
+>>
+endobj
+23 0 obj
+<<
+  /Title  (thermo_o[9..0]_80)
+  /C      [0.0 0.0 0.4]
+  /Dest   [9 0 R /FitR 340 386 458 386]
+  /Parent 20 0 R
+  /Prev   22 0 R
+>>
+endobj
+20 0 obj
+<<
+  /Title  (netBundles)
+  /C      [0.0 0.4 0.0]
+  /F      1
+  /Parent 11 0 R
+  /First  21 0 R
+  /Last   23 0 R
+  /Count  3
+  /Prev   19 0 R
+>>
+endobj
+11 0 obj
+<<
+  /Title  (Nlview page 1)
+  /C      [0.4 0.0 0.0]
+  /Dest   [9 0 R /Fit]
+  /Parent 7 0 R
+  /First  12 0 R
+  /Last   20 0 R
+  /Count  5
+>>
+endobj
+8 0 obj
+<<
+>>
+endobj
+7 0 obj
+<<
+  /Type  /Outline
+  /First 11 0 R
+  /Last  11 0 R
+  /Count 1
+>>
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000000009 00000 n 
+0000000228 00000 n 
+0000002554 00000 n 
+0000000378 00000 n 
+0000000505 00000 n 
+0000000653 00000 n 
+0000004797 00000 n 
+0000004776 00000 n 
+0000000777 00000 n 
+0000000917 00000 n 
+0000004619 00000 n 
+0000002853 00000 n 
+0000002654 00000 n 
+0000003013 00000 n 
+0000003664 00000 n 
+0000003184 00000 n 
+0000003337 00000 n 
+0000003508 00000 n 
+0000003841 00000 n 
+0000004458 00000 n 
+0000004011 00000 n 
+0000004151 00000 n 
+0000004308 00000 n 
+trailer
+<<
+  /Size 24
+  /Info 1 0 R
+  /Root 2 0 R
+>>
+startxref
+4879
+%%EOF

@@ -1,0 +1,25 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "debounced_o",
+					"strict" : false
+				},
+				{
+					"name" : "clock_i",
+					"strict" : false
+				},
+				{
+					"name" : "reset_n_i",
+					"strict" : false
+				},
+				{
+					"name" : "bouncing_i",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

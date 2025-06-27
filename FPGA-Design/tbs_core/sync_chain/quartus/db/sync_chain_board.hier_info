@@ -1,0 +1,24 @@
+|sync_chain_board
+clock_i => sync_chain:sync_chain_0.clock_i
+reset_n_i => sync_chain:sync_chain_0.reset_i
+async_i[0] => sync_chain:sync_chain_0.async_i[0]
+async_i[1] => sync_chain:sync_chain_0.async_i[1]
+sync_o[0] <= sync_chain:sync_chain_0.sync_o[0]
+sync_o[1] <= sync_chain:sync_chain_0.sync_o[1]
+
+
+|sync_chain_board|sync_chain:sync_chain_0
+clock_i => buf[0][0].CLK
+clock_i => buf[0][1].CLK
+clock_i => buf[1][0].CLK
+clock_i => buf[1][1].CLK
+reset_i => buf[0][0].ACLR
+reset_i => buf[0][1].ACLR
+reset_i => buf[1][0].ACLR
+reset_i => buf[1][1].ACLR
+async_i[0] => buf[0][0].DATAIN
+async_i[1] => buf[0][1].DATAIN
+sync_o[0] <= buf[1][0].DB_MAX_OUTPUT_PORT_TYPE
+sync_o[1] <= buf[1][1].DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,176 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA/tbs_core/time_measurement/sim
+Ptbssimvals
+Z0 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 36
+w1740830326
+Z4 dC:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/time_measurement/sim
+8../../sim/vhdl/TBSSimVals_p.vhd
+F../../sim/vhdl/TBSSimVals_p.vhd
+l0
+L12 1
+V5N?>YfAY3S[Lm`Y;BCZg?2
+!s100 ZDNjJKg7l9mlolQj7b:C03
+Z5 OV;C;2020.1;71
+32
+Z6 !s110 1740962185
+!i10b 1
+Z7 !s108 1740962185.000000
+!s90 -reportprogress|300|-work|work|../../sim/vhdl/TBSSimVals_p.vhd|
+!s107 ../../sim/vhdl/TBSSimVals_p.vhd|
+!i113 1
+Z8 o-work work
+Z9 tExplicit 1 CvgOpt 0
+Etime_measurement
+Z10 w1719072828
+R0
+R1
+R2
+R3
+!i122 37
+R4
+Z11 8../rtl/time_measurement_ea.vhd
+Z12 F../rtl/time_measurement_ea.vhd
+l0
+L21 1
+Vh`eZ`lk5`TQ]AQHfbS_dF1
+!s100 H;iQWQ@W@`oi;RYDjGLPG0
+R5
+32
+R6
+!i10b 1
+R7
+Z13 !s90 -reportprogress|300|-work|work|../rtl/time_measurement_ea.vhd|
+Z14 !s107 ../rtl/time_measurement_ea.vhd|
+!i113 1
+R8
+R9
+Artl
+R0
+R1
+R2
+R3
+Z15 DEx4 work 16 time_measurement 0 22 h`eZ`lk5`TQ]AQHfbS_dF1
+!i122 37
+l45
+L36 44
+V0:X1X@gXjZS3RTY?m4<9h1
+!s100 43F9[Q838dnkHfUWNcRab2
+R5
+32
+R6
+!i10b 1
+R7
+R13
+R14
+!i113 1
+R8
+R9
+Etime_measurement_board
+Z16 w1719072807
+Z17 DPx4 work 10 tbssimvals 0 22 5N?>YfAY3S[Lm`Y;BCZg?2
+R0
+R1
+R2
+R3
+!i122 38
+R4
+Z18 8../rtl/time_measurement_board.vhd
+Z19 F../rtl/time_measurement_board.vhd
+l0
+Z20 L17 1
+V4dZeR>71o:K_jFn[adj[Y1
+!s100 eEYDYNCLFFEnJ2HiD[zNi1
+R5
+32
+R6
+!i10b 1
+R7
+Z21 !s90 -reportprogress|300|-work|work|../rtl/time_measurement_board.vhd|
+Z22 !s107 ../rtl/time_measurement_board.vhd|
+!i113 1
+R8
+R9
+Artl
+R15
+R17
+R0
+R1
+R2
+R3
+DEx4 work 22 time_measurement_board 0 22 4dZeR>71o:K_jFn[adj[Y1
+!i122 38
+l32
+L27 24
+V656>0DSc;`ohZ4_^ll@nT1
+!s100 RA3A>P]?2LWGM6D<5Q_Da2
+R5
+32
+R6
+!i10b 1
+R7
+R21
+R22
+!i113 1
+R8
+R9
+Etime_measurement_tb
+Z23 w1732794513
+R17
+R0
+R1
+R2
+R3
+!i122 39
+R4
+Z24 8time_measurement_tb.vhd
+Z25 Ftime_measurement_tb.vhd
+l0
+R20
+V423W;R[S0XgUeYmdkEQQQ2
+!s100 f3o4jdgf>i8DFnV]7JRmK0
+R5
+32
+R6
+!i10b 1
+R7
+Z26 !s90 -reportprogress|300|-work|work|time_measurement_tb.vhd|
+Z27 !s107 time_measurement_tb.vhd|
+!i113 1
+R8
+R9
+Abhv
+R15
+R17
+R0
+R1
+R2
+R3
+Z28 DEx4 work 19 time_measurement_tb 0 22 423W;R[S0XgUeYmdkEQQQ2
+!i122 39
+l36
+Z29 L21 56
+VZ[GWPe9GJ7?G=:`^U>MjD0
+!s100 Kb<_C5LBR_1E6O4]B588e1
+R5
+32
+R6
+!i10b 1
+R7
+R26
+R27
+!i113 1
+R8
+R9

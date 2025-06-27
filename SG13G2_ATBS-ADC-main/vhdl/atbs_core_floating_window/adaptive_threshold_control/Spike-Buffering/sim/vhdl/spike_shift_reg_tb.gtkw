@@ -1,0 +1,64 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Tue Mar  4 17:09:33 2025
+[*]
+[dumpfile] "/foss/designs/SG13G2_ATBS-ADC-main/vhdl/atbs_core_floating_window/adaptive_threshold_control/Spike-Buffering/sim/vhdl/spike_shift_reg_tb.vcd"
+[dumpfile_mtime] "Tue Mar  4 17:09:26 2025"
+[dumpfile_size] 99902
+[savefile] "/foss/designs/SG13G2_ATBS-ADC-main/vhdl/atbs_core_floating_window/adaptive_threshold_control/Spike-Buffering/sim/vhdl/spike_shift_reg_tb.gtkw"
+[timestart] 0
+[size] 1427 600
+[pos] -1 -1
+*-31.016203 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[markername] AA
+[markername] BB
+[markername] CC
+[markername] DD
+[markername] EE
+[markername] FF
+[markername] GG
+[markername] HH
+[markername] II
+[markername] JJ
+[markername] KK
+[markername] LL
+[markername] MM
+[markername] NN
+[markername] OO
+[markername] PP
+[markername] QQ
+[markername] RR
+[markername] SS
+[markername] TT
+[markername] UU
+[markername] VV
+[markername] WW
+[markername] XX
+[markername] YY
+[markername] ZZ
+[treeopen] spike_shift_reg_tb.
+[sst_width] 297
+[signals_width] 190
+[sst_expanded] 1
+[sst_vpaned_height] 150
+@201
+-INPUTS
+@28
+spike_shift_reg_tb.dut_spike_shift_reg.clock_i
+spike_shift_reg_tb.dut_spike_shift_reg.reset_i
+spike_shift_reg_tb.dut_spike_shift_reg.overflow_strb_i
+@24
+spike_shift_reg_tb.dut_spike_shift_reg.curr_time_i[5:0]
+@28
+spike_shift_reg_tb.dut_spike_shift_reg.spike_i
+spike_shift_reg_tb.dut_spike_shift_reg.spike_strb_i
+@200
+-INTERNAL
+@24
+spike_shift_reg_tb.dut_spike_shift_reg.overflow_marker[9:0]
+@200
+-OUTPUTS
+@28
+spike_shift_reg_tb.dut_spike_shift_reg.spikes_strb_o
+[pattern_trace] 1
+[pattern_trace] 0

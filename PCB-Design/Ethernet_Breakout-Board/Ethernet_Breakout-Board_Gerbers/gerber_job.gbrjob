@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2024-06-14T12:19:53Z",
+        "GenerationSoftware": {
+            "Application": "Fusion Electronics",
+            "Vendor": "Autodesk",
+            "Version": "9.7.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.4508,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "PCB v54"
+        },
+        "Owner": "Simon Dorrer <si1505do@gmail.com>",
+        "Size": {
+            "X": 73,
+            "Y": 65
+        }
+    }
+}

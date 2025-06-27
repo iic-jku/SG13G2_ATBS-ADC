@@ -1,0 +1,200 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/vhdl/tbs_core/adaptive_threshold/Priority-Encoder/sim
+Epriority_encoder
+Z0 w1740774653
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 28
+Z4 dC:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Priority-Encoder/sim
+Z5 8../rtl/priority_encoder_ea.vhd
+Z6 F../rtl/priority_encoder_ea.vhd
+l0
+L17 1
+V2j3O6fELVJF6el]E4z`e[3
+!s100 lAP7_H3TBzRGRGL]baH>20
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1740846214
+!i10b 1
+Z9 !s108 1740846214.000000
+Z10 !s90 -reportprogress|300|-work|work|../rtl/priority_encoder_ea.vhd|
+Z11 !s107 ../rtl/priority_encoder_ea.vhd|
+!i113 1
+Z12 o-work work
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+Z14 DEx4 work 16 priority_encoder 0 22 2j3O6fELVJF6el]E4z`e[3
+!i122 28
+l35
+L31 24
+VPN9B]bV6X?h;0YeRjBSF12
+!s100 mBhc>2GlO?GQAea:lnOd12
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Epriority_encoder_board
+Z15 w1719072217
+Z16 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z17 DPx4 work 22 priorityencodersimvals 0 22 M]7j9oC`;lD4hBlQboOK^3
+R1
+R2
+R3
+!i122 29
+R4
+Z18 8../rtl/priority_encoder_board.vhd
+Z19 F../rtl/priority_encoder_board.vhd
+l0
+L20 1
+V>?VUA84Oo?W46_YHaV3>i2
+!s100 IFXCW?7gX7RUJhZz8]Og50
+R7
+32
+R8
+!i10b 1
+R9
+Z20 !s90 -reportprogress|300|-work|work|../rtl/priority_encoder_board.vhd|
+Z21 !s107 ../rtl/priority_encoder_board.vhd|
+!i113 1
+R12
+R13
+Artl
+R14
+R16
+R17
+R1
+R2
+R3
+DEx4 work 22 priority_encoder_board 0 22 >?VUA84Oo?W46_YHaV3>i2
+!i122 29
+l35
+L30 25
+VDd;k9l5m4A68=8HmO>gJ20
+!s100 IBXTV^6i6gP8Y;P_Ie1mL3
+R7
+32
+R8
+!i10b 1
+R9
+R20
+R21
+!i113 1
+R12
+R13
+Epriority_encoder_tb
+Z22 w1732794406
+R17
+R16
+Z23 DPx4 work 10 tbssimvals 0 22 5N?>YfAY3S[Lm`Y;BCZg?2
+R1
+R2
+R3
+!i122 30
+R4
+Z24 8priority_encoder_tb.vhd
+Z25 Fpriority_encoder_tb.vhd
+l0
+L21 1
+V^457eHzF;;CAYXUVbiM@62
+!s100 ;GaTB1VOUJC`:0PHd`O732
+R7
+32
+R8
+!i10b 1
+R9
+Z26 !s90 -reportprogress|300|-work|work|priority_encoder_tb.vhd|
+Z27 !s107 priority_encoder_tb.vhd|
+!i113 1
+R12
+R13
+Abhv
+R14
+R17
+R16
+R23
+R1
+R2
+R3
+Z28 DEx4 work 19 priority_encoder_tb 0 22 ^457eHzF;;CAYXUVbiM@62
+!i122 30
+l40
+Z29 L25 62
+Z30 Vl2fhl8z`:]aM8<1^AF_UU2
+Z31 !s100 ?=o^S1@MKWzLHcFAHPL>Y1
+R7
+32
+R8
+!i10b 1
+R9
+R26
+R27
+!i113 1
+R12
+R13
+Ppriorityencodersimvals
+R16
+R1
+R2
+R3
+!i122 27
+w1705421896
+R4
+8PriorityEncoderSimVals_p.vhd
+FPriorityEncoderSimVals_p.vhd
+l0
+L6 1
+VM]7j9oC`;lD4hBlQboOK^3
+!s100 AXi>mDlZ@l;2k[Cf4JG@j3
+R7
+32
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|-work|work|PriorityEncoderSimVals_p.vhd|
+!s107 PriorityEncoderSimVals_p.vhd|
+!i113 1
+R12
+R13
+Ptbssimvals
+R16
+R1
+R2
+R3
+!i122 26
+w1740830326
+R4
+8../../../sim/vhdl/TBSSimVals_p.vhd
+F../../../sim/vhdl/TBSSimVals_p.vhd
+l0
+L12 1
+V5N?>YfAY3S[Lm`Y;BCZg?2
+!s100 ZDNjJKg7l9mlolQj7b:C03
+R7
+32
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|-work|work|../../../sim/vhdl/TBSSimVals_p.vhd|
+!s107 ../../../sim/vhdl/TBSSimVals_p.vhd|
+!i113 1
+R12
+R13

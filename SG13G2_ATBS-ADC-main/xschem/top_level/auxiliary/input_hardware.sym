@@ -1,0 +1,131 @@
+v {xschem version=3.4.6 file_version=1.2}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 -320 -200 -300 -200 {}
+L 4 -320 0 -300 0 {}
+L 4 300 -200 320 -200 {}
+L 4 300 0 320 0 {}
+L 4 -320 -160 -300 -160 {}
+L 4 300 -160 320 -160 {}
+L 4 -320 40 -300 40 {}
+L 4 300 40 320 40 {}
+L 4 300 80 320 80 {}
+L 4 300 -120 320 -120 {}
+L 4 -320 -120 -300 -120 {}
+L 4 -320 80 -300 80 {}
+L 4 300 120 320 120 {}
+L 4 -320 120 -300 120 {}
+L 4 300 -80 320 -80 {}
+L 4 -320 -80 -300 -80 {}
+L 4 -320 -40 -300 -40 {}
+L 4 300 160 320 160 {}
+L 4 300 -40 320 -40 {}
+L 4 -320 160 -300 160 {}
+L 4 40 -180 40 -100 {}
+L 4 40 -100 120 -140 {}
+L 4 40 -180 120 -140 {}
+L 4 20 -140 40 -140 {}
+L 4 120 -140 140 -140 {}
+L 4 -140 -200 -140 -140 {}
+L 4 -140 -140 -140 -80 {}
+L 4 -140 -200 -20 -140 {}
+L 4 -140 -80 -20 -140 {}
+L 4 -100 -127.5 -80 -127.5 {}
+L 4 -80 -152.5 -80 -127.5 {}
+L 4 -80 -152.5 -75 -152.5 {}
+L 4 -95 -152.5 -95 -127.5 {}
+L 4 -95 -152.5 -80 -152.5 {}
+L 4 -75 -152.5 -70 -152.5 {}
+L 4 -105 -127.5 -100 -127.5 {}
+L 4 -20 -140 20 -140 {}
+L 4 -160 -140 -140 -140 {}
+L 4 140 -140 160 -140 {}
+L 4 40 60 40 140 {}
+L 4 40 140 120 100 {}
+L 4 40 60 120 100 {}
+L 4 20 100 40 100 {}
+L 4 120 100 140 100 {}
+L 4 -140 40 -140 100 {}
+L 4 -140 100 -140 160 {}
+L 4 -140 40 -20 100 {}
+L 4 -140 160 -20 100 {}
+L 4 -100 112.5 -80 112.5 {}
+L 4 -80 87.5 -80 112.5 {}
+L 4 -80 87.5 -75 87.5 {}
+L 4 -95 87.5 -95 112.5 {}
+L 4 -95 87.5 -80 87.5 {}
+L 4 -75 87.5 -70 87.5 {}
+L 4 -105 112.5 -100 112.5 {}
+L 4 -20 100 20 100 {}
+L 4 -160 100 -140 100 {}
+L 4 140 100 160 100 {}
+L 7 -80 -260 -80 -240 {}
+L 7 0 200 0 220 {}
+L 7 80 -260 80 -240 {}
+B 5 -82.5 -262.5 -77.5 -257.5 {name=VDD_IO dir=inout}
+B 5 -322.5 -202.5 -317.5 -197.5 {name=di_clock dir=in}
+B 5 -322.5 -2.5 -317.5 2.5 {name=di_control_mode dir=in}
+B 5 317.5 -202.5 322.5 -197.5 {name=do_clock sig_type=std_logic dir=out}
+B 5 317.5 -2.5 322.5 2.5 {name=do_control_mode sig_type=std_logic dir=out}
+B 5 -2.5 217.5 2.5 222.5 {name=VSS dir=inout}
+B 5 -322.5 -162.5 -317.5 -157.5 {name=di_reset_n dir=in}
+B 5 317.5 -162.5 322.5 -157.5 {name=do_reset_n sig_type=std_logic dir=out}
+B 5 -322.5 37.5 -317.5 42.5 {name=di_signal_select_in dir=in}
+B 5 317.5 37.5 322.5 42.5 {name=do_signal_select_in sig_type=std_logic dir=out}
+B 5 317.5 77.5 322.5 82.5 {name=do_enable sig_type=std_logic dir=out}
+B 5 317.5 -122.5 322.5 -117.5 {name=do_trigger_start_sampling sig_type=std_logic dir=out}
+B 5 -322.5 -122.5 -317.5 -117.5 {name=di_trigger_start_sampling dir=in}
+B 5 -322.5 77.5 -317.5 82.5 {name=di_enable dir=in}
+B 5 317.5 117.5 322.5 122.5 {name=do_select_tbs_delta_steps sig_type=std_logic dir=out}
+B 5 -322.5 117.5 -317.5 122.5 {name=di_select_tbs_delta_steps dir=in}
+B 5 317.5 -82.5 322.5 -77.5 {name=do_trigger_start_mode sig_type=std_logic dir=out}
+B 5 -322.5 -82.5 -317.5 -77.5 {name=di_trigger_start_mode dir=in}
+B 5 -322.5 -42.5 -317.5 -37.5 {name=di_adaptive_mode dir=in}
+B 5 317.5 157.5 322.5 162.5 {name=do_uart_rx sig_type=std_logic dir=out}
+B 5 317.5 -42.5 322.5 -37.5 {name=do_adaptive_mode sig_type=std_logic dir=out}
+B 5 -322.5 157.5 -317.5 162.5 {name=di_uart_rx dir=in}
+B 5 77.5 -262.5 82.5 -257.5 {name=VDD_DIG dir=inout}
+A 4 -2.5 -57.5 3.535533905932738 135 360 {fill = true}
+A 4 -2.5 -37.5 3.535533905932738 135 360 {fill = true}
+A 4 -2.5 -17.5 3.535533905932738 135 360 {fill = true}
+A 4 -2.5 2.5 3.535533905932738 135 360 {fill = true}
+A 4 -2.5 22.5 3.535533905932738 135 360 {fill = true}
+P 4 5 20 -200 20 -80 140 -80 140 -200 20 -200 {}
+P 4 5 20 40 20 160 140 160 140 40 20 40 {}
+P 4 1 -300 -240 {}
+P 4 5 -300 -240 300 -240 300 200 -300 200 -300 -240 {}
+T {@symname} 181.5 -276 0 0 0.3 0.3 {}
+T {@name} 181.25 -302 0 0 0.3 0.3 {}
+T {VDD_IO} -60 -234 0 1 0.2 0.2 {}
+T {di_clock} -295 -204 0 0 0.2 0.2 {}
+T {di_control_mode} -295 -4 0 0 0.2 0.2 {}
+T {do_clock} 295 -204 0 1 0.2 0.2 {}
+T {do_control_mode} 295 -4 0 1 0.2 0.2 {}
+T {VSS} -10 194 2 1 0.2 0.2 {}
+T {di_reset_n} -295 -164 0 0 0.2 0.2 {}
+T {do_reset_n} 295 -164 0 1 0.2 0.2 {}
+T {di_signal_select_in} -295 36 0 0 0.2 0.2 {}
+T {do_signal_select_in} 295 36 0 1 0.2 0.2 {}
+T {do_enable} 295 76 0 1 0.2 0.2 {}
+T {do_trigger_start_sampling} 295 -124 0 1 0.2 0.2 {}
+T {di_trigger_start_sampling} -295 -124 0 0 0.2 0.2 {}
+T {di_enable} -295 76 0 0 0.2 0.2 {}
+T {do_select_tbs_delta_steps} 295 116 0 1 0.2 0.2 {}
+T {di_select_tbs_delta_steps} -295 116 0 0 0.2 0.2 {}
+T {do_trigger_start_mode} 295 -84 0 1 0.2 0.2 {}
+T {di_trigger_start_mode} -295 -84 0 0 0.2 0.2 {}
+T {di_adaptive_mode} -295 -44 0 0 0.2 0.2 {}
+T {do_uart_rx} 295 156 0 1 0.2 0.2 {}
+T {do_adaptive_mode} 295 -44 0 1 0.2 0.2 {}
+T {di_uart_rx} -295 156 0 0 0.2 0.2 {}
+T {Level-Down-Shifter} 37.5 -97.5 0 0 0.2 0.2 {}
+T {VDD1 > VDD2} 60 -195 0 0 0.2 0.2 {}
+T {Level-Down-Shifter} 37.5 142.5 0 0 0.2 0.2 {}
+T {VDD1 > VDD2} 60 45 0 0 0.2 0.2 {}
+T {VDD_DIG} 105 -234 0 1 0.2 0.2 {}

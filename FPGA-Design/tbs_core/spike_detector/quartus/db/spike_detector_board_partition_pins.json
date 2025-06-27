@@ -1,0 +1,65 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "spike_o",
+					"strict" : false
+				},
+				{
+					"name" : "spike_strb_o",
+					"strict" : false
+				},
+				{
+					"name" : "detection_en_i",
+					"strict" : false
+				},
+				{
+					"name" : "comp_upper_i",
+					"strict" : false
+				},
+				{
+					"name" : "increasing_en_i",
+					"strict" : false
+				},
+				{
+					"name" : "comp_lower_i",
+					"strict" : false
+				},
+				{
+					"name" : "decreasing_en_i",
+					"strict" : false
+				},
+				{
+					"name" : "pause_detection_strb_i",
+					"strict" : false
+				},
+				{
+					"name" : "clock_i",
+					"strict" : false
+				},
+				{
+					"name" : "reset_n_i",
+					"strict" : false
+				},
+				{
+					"name" : "change_upper_strb_i",
+					"strict" : false
+				},
+				{
+					"name" : "stopped_changing_upper_strb_i",
+					"strict" : false
+				},
+				{
+					"name" : "change_lower_strb_i",
+					"strict" : false
+				},
+				{
+					"name" : "stopped_changing_lower_strb_i",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

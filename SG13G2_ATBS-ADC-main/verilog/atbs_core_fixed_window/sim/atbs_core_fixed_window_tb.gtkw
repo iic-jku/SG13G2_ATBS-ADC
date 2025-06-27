@@ -1,0 +1,160 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Sun Mar 23 13:17:45 2025
+[*]
+[dumpfile] "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/sim/atbs_core_fixed_window_tb.vcd"
+[dumpfile_mtime] "Sun Mar 23 13:17:03 2025"
+[dumpfile_size] 18599813
+[savefile] "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/sim/atbs_core_fixed_window_tb.gtkw"
+[timestart] 0
+[size] 1920 1009
+[pos] 1912 15
+*-27.789410 18270000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[markername] AA
+[markername] BB
+[markername] CC
+[markername] DD
+[markername] EE
+[markername] FF
+[markername] GG
+[markername] HH
+[markername] II
+[markername] JJ
+[markername] KK
+[markername] LL
+[markername] MM
+[markername] NN
+[markername] OO
+[markername] PP
+[markername] QQ
+[markername] RR
+[markername] SS
+[markername] TT
+[markername] UU
+[markername] VV
+[markername] WW
+[markername] XX
+[markername] YY
+[markername] ZZ
+[treeopen] atbs_core_fixed_window_tb.
+[treeopen] atbs_core_fixed_window_tb.dut_atbs.
+[sst_width] 297
+[signals_width] 366
+[sst_expanded] 1
+[sst_vpaned_height] 293
+@201
+-INPUTS
+@28
+atbs_core_fixed_window_tb.dut_atbs.clock_i
+atbs_core_fixed_window_tb.dut_atbs.comp_upper_i
+atbs_core_fixed_window_tb.dut_atbs.comp_lower_i
+atbs_core_fixed_window_tb.dut_atbs.trigger_start_sampling_i
+atbs_core_fixed_window_tb.dut_atbs.trigger_start_mode_i
+atbs_core_fixed_window_tb.dut_atbs.adaptive_mode_i
+atbs_core_fixed_window_tb.dut_atbs.control_mode_i
+atbs_core_fixed_window_tb.dut_atbs.signal_select_in_i
+atbs_core_fixed_window_tb.dut_atbs.enable_i
+atbs_core_fixed_window_tb.dut_atbs.select_tbs_delta_steps_i
+atbs_core_fixed_window_tb.dut_atbs.uart_rx_i
+@200
+-INTERNAL
+@28
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.reset_i
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.reset_entity
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.comp_upper_sync
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.comp_lower_sync
+@200
+-MAIN COUNTER
+@28
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.reset_main_counter_strb
+@200
+-MAIN FSM
+@28
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.detection_en
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.select_enable_write
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.clear_dac
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.dac_init_strb
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.enable_read
+@200
+-SIGNAL Path
+@28
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.spike
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.spike_strb
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.spike_detector_0.lock_detection
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.update_dac_upper_strb
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.dac_finished_upper_strb
+@8022
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.dac_counter_value_upper[7:0]
+@28
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.update_dac_lower_strb
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.dac_finished_lower_strb
+@8022
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.dac_counter_value_lower[7:0]
+@28
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.increasing_en
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.decreasing_en
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.tbs_increasing_en
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.tbs_decreasing_en
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.adaptive_increasing_en
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.adaptive_decreasing_en
+@200
+-COM Path
+@28
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.encoded_spike_strb
+@24
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.tx_data[7:0]
+@200
+-UART/SWITCH CONTROL
+@24
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.uart_rx_data[7:0]
+@28
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.uart_rx_data_strb
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.analog_trigger_uart
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.next_sc_noc_generator_uart
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.baudrate_uart
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.tbs_virtual_delta_steps_uart
+@24
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.tbs_virtual_delta_steps_adj_uart[7:0]
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.tbs_delta_steps_upper[7:0]
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.tbs_delta_steps_lower[7:0]
+@28
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.input_changed_strb
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.input_changed_reset_strb
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.uart_changed_strb
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.uart_changed_reset_strb
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.trigger_start_mode
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.adaptive_mode
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.enable_analog
+atbs_core_fixed_window_tb.dut_atbs.atbs_core_0.select_tbs_delta_steps
+@200
+-OUTPUTS
+@28
+atbs_core_fixed_window_tb.dut_atbs.phi_comp_o
+atbs_core_fixed_window_tb.dut_atbs.phi_dac_upper_o
+@24
+atbs_core_fixed_window_tb.dut_atbs.dac_upper_o[3:0]
+@28
+atbs_core_fixed_window_tb.dut_atbs.phi_dac_lower_o
+@24
+atbs_core_fixed_window_tb.dut_atbs.dac_lower_o[3:0]
+@28
+atbs_core_fixed_window_tb.dut_atbs.phi_vcm_generator_1_o
+atbs_core_fixed_window_tb.dut_atbs.phi_vcm_generator_2_o
+atbs_core_fixed_window_tb.dut_atbs.phi_bias_1_o
+atbs_core_fixed_window_tb.dut_atbs.phi_bias_2_o
+atbs_core_fixed_window_tb.dut_atbs.phi_cmfb_1_o
+atbs_core_fixed_window_tb.dut_atbs.phi_cmfb_2_o
+atbs_core_fixed_window_tb.dut_atbs.phi_res_1_o
+atbs_core_fixed_window_tb.dut_atbs.phi_res_2_o
+atbs_core_fixed_window_tb.dut_atbs.bio_amp_en_o
+@24
+atbs_core_fixed_window_tb.dut_atbs.select_cap_o[2:0]
+@28
+atbs_core_fixed_window_tb.dut_atbs.select_spdt_o
+atbs_core_fixed_window_tb.dut_atbs.idle_led_o
+atbs_core_fixed_window_tb.dut_atbs.overflow_led_o
+atbs_core_fixed_window_tb.dut_atbs.underflow_led_o
+atbs_core_fixed_window_tb.dut_atbs.spike_o
+atbs_core_fixed_window_tb.dut_atbs.uart_tx_o
+[pattern_trace] 1
+[pattern_trace] 0

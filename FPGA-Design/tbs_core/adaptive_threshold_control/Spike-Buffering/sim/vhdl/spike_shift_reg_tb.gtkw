@@ -1,0 +1,38 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Fri Nov 29 19:50:44 2024
+[*]
+[dumpfile] "/foss/designs/tbs_core/adaptive_threshold_control/Spike-Buffering/sim/vhdl/spike_shift_reg_tb.vcd"
+[dumpfile_mtime] "Fri Nov 29 19:46:57 2024"
+[dumpfile_size] 99785
+[savefile] "/foss/designs/tbs_core/adaptive_threshold_control/Spike-Buffering/sim/vhdl/spike_shift_reg_tb.gtkw"
+[timestart] 0
+[size] 1374 600
+[pos] -1 -1
+*-31.016203 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[treeopen] spike_shift_reg_tb.
+[sst_width] 276
+[signals_width] 190
+[sst_expanded] 1
+[sst_vpaned_height] 150
+@201
+-INPUTS
+@28
+spike_shift_reg_tb.dut_spike_shift_reg.clock_i
+spike_shift_reg_tb.dut_spike_shift_reg.reset_i
+spike_shift_reg_tb.dut_spike_shift_reg.overflow_strb_i
+@24
+spike_shift_reg_tb.dut_spike_shift_reg.curr_time_i[5:0]
+@28
+spike_shift_reg_tb.dut_spike_shift_reg.spike_i
+spike_shift_reg_tb.dut_spike_shift_reg.spike_strb_i
+@200
+-INTERNAL
+@24
+spike_shift_reg_tb.dut_spike_shift_reg.overflow_marker[9:0]
+@200
+-OUTPUTS
+@28
+spike_shift_reg_tb.dut_spike_shift_reg.spikes_strb_o
+[pattern_trace] 1
+[pattern_trace] 0

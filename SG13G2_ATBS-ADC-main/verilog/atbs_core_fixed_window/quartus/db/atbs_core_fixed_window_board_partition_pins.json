@@ -1,0 +1,81 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "bio_amp_en_o",
+					"strict" : false
+				},
+				{
+					"name" : "idle_led_o",
+					"strict" : false
+				},
+				{
+					"name" : "overflow_led_o",
+					"strict" : false
+				},
+				{
+					"name" : "underflow_led_o",
+					"strict" : false
+				},
+				{
+					"name" : "spike_o",
+					"strict" : false
+				},
+				{
+					"name" : "uart_tx_o",
+					"strict" : false
+				},
+				{
+					"name" : "clock_i",
+					"strict" : false
+				},
+				{
+					"name" : "uart_rx_i",
+					"strict" : false
+				},
+				{
+					"name" : "reset_n_i",
+					"strict" : false
+				},
+				{
+					"name" : "comp_upper_i",
+					"strict" : false
+				},
+				{
+					"name" : "comp_lower_i",
+					"strict" : false
+				},
+				{
+					"name" : "trigger_start_sampling_i",
+					"strict" : false
+				},
+				{
+					"name" : "control_mode_i",
+					"strict" : false
+				},
+				{
+					"name" : "enable_i",
+					"strict" : false
+				},
+				{
+					"name" : "adaptive_mode_i",
+					"strict" : false
+				},
+				{
+					"name" : "signal_select_in_i",
+					"strict" : false
+				},
+				{
+					"name" : "select_tbs_delta_steps_i",
+					"strict" : false
+				},
+				{
+					"name" : "trigger_start_mode_i",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

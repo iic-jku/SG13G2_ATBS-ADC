@@ -1,0 +1,1233 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA/tbs_core/sim/vhdl/tbs_core
+Padaptive_std
+Z1 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2216
+Z5 w1746551315
+Z6 dC:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/sim/vhdl/tbs_core_tb
+8../../../adaptive_threshold_control/sim/vhdl/adaptive_std_p.vhd
+F../../../adaptive_threshold_control/sim/vhdl/adaptive_std_p.vhd
+l0
+Z7 L12 1
+ViVeR0FEP8^M8I1lF?zfN=2
+!s100 9W;A4806fk75eG3kc4B[90
+Z8 OV;C;2020.1;71
+32
+Z9 !s110 1746567144
+!i10b 1
+Z10 !s108 1746567144.000000
+!s90 -reportprogress|300|-work|work|../../../adaptive_threshold_control/sim/vhdl/adaptive_std_p.vhd|
+!s107 ../../../adaptive_threshold_control/sim/vhdl/adaptive_std_p.vhd|
+!i113 1
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Eadaptive_threshold_control
+Z13 w1742472399
+Z14 DPx4 work 12 adaptive_std 0 22 iVeR0FEP8^M8I1lF?zfN=2
+Z15 DPx4 work 10 tbssimvals 0 22 Fh9=DeocEOzFAmeI=Z]WC0
+Z16 DPx4 work 19 adaptivectrlsimvals 0 22 98d4:P]H?Di]cdnGB5UMf1
+R1
+R2
+R3
+R4
+!i122 2224
+R6
+Z17 8../../../adaptive_threshold_control/rtl/adaptive_threshold_control_ea.vhd
+Z18 F../../../adaptive_threshold_control/rtl/adaptive_threshold_control_ea.vhd
+l0
+L19 1
+V3@BI4>`@o]jb2l1I^>6Ne3
+!s100 UU=GKCfIeL3nC3Hl48HNk1
+R8
+32
+Z19 !s110 1746567147
+!i10b 1
+Z20 !s108 1746567147.000000
+Z21 !s90 -reportprogress|300|-work|work|../../../adaptive_threshold_control/rtl/adaptive_threshold_control_ea.vhd|
+Z22 !s107 ../../../adaptive_threshold_control/rtl/adaptive_threshold_control_ea.vhd|
+!i113 1
+R11
+R12
+Artl
+Z23 DEx4 work 17 weyls_discrepancy 0 22 @RjV:m_LSObeXYHUz`K1U2
+Z24 DEx4 work 15 spike_shift_reg 0 22 L1IDQDRY^P_^Ej9f=Ze0S0
+R14
+R15
+R16
+R1
+R2
+R3
+R4
+Z25 DEx4 work 26 adaptive_threshold_control 0 22 3@BI4>`@o]jb2l1I^>6Ne3
+!i122 2224
+l104
+L58 292
+VoiAle<d@oY>:I05^m86=b1
+!s100 N2LgLV@?QacAanNVjbo_00
+R8
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R11
+R12
+Padaptivectrlsimvals
+R15
+R1
+R2
+R3
+R4
+!i122 2217
+R5
+R6
+8../../../adaptive_threshold_control/sim/vhdl/AdaptiveCtrlSimVals_p.vhd
+F../../../adaptive_threshold_control/sim/vhdl/AdaptiveCtrlSimVals_p.vhd
+l0
+Z26 L17 1
+V98d4:P]H?Di]cdnGB5UMf1
+!s100 CedgAXE8S6KXk3UI?VSb60
+R8
+32
+Z27 !s110 1746567145
+!i10b 1
+R10
+!s90 -reportprogress|300|-work|work|../../../adaptive_threshold_control/sim/vhdl/AdaptiveCtrlSimVals_p.vhd|
+!s107 ../../../adaptive_threshold_control/sim/vhdl/AdaptiveCtrlSimVals_p.vhd|
+!i113 1
+R11
+R12
+Eanalog_trig
+Z28 w1742817607
+R1
+R2
+R3
+R4
+!i122 2235
+R6
+Z29 8../../../analog_trigger/rtl/analog_trigger_ea.vhd
+Z30 F../../../analog_trigger/rtl/analog_trigger_ea.vhd
+l0
+Z31 L13 1
+VjjT6_Fe[B1DG_chmaJiTo1
+!s100 EFSWRXz957hkQI2k2XW303
+R8
+32
+Z32 !s110 1746567150
+!i10b 1
+Z33 !s108 1746567150.000000
+Z34 !s90 -reportprogress|300|-work|work|../../../analog_trigger/rtl/analog_trigger_ea.vhd|
+Z35 !s107 ../../../analog_trigger/rtl/analog_trigger_ea.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+R3
+R4
+Z36 DEx4 work 11 analog_trig 0 22 jjT6_Fe[B1DG_chmaJiTo1
+!i122 2235
+l34
+L28 40
+VWHge4aamJQe=dC6jlz]A`1
+!s100 fK=ZfdG8`MHOzm^=>QX?C0
+R8
+32
+R32
+!i10b 1
+R33
+R34
+R35
+!i113 1
+R11
+R12
+Edac_control
+Z37 w1734102564
+R1
+R2
+R3
+R4
+!i122 2225
+R6
+Z38 8../../../dac_control/rtl/dac_control_ea.vhd
+Z39 F../../../dac_control/rtl/dac_control_ea.vhd
+l0
+R31
+V6^L1YS8>QQz::1j<HYF_22
+!s100 5oN;mK^GM9F^Jj8I5TT802
+R8
+32
+R19
+!i10b 1
+R20
+Z40 !s90 -reportprogress|300|-work|work|../../../dac_control/rtl/dac_control_ea.vhd|
+Z41 !s107 ../../../dac_control/rtl/dac_control_ea.vhd|
+!i113 1
+R11
+R12
+Artl
+Z42 DEx4 work 10 sync_chain 0 22 `BaG1J7Li[k>?7`:eHf4K1
+R1
+R2
+R3
+R4
+Z43 DEx4 work 11 dac_control 0 22 6^L1YS8>QQz::1j<HYF_22
+!i122 2225
+l84
+L45 204
+V^F4F^2dM0FXo[ao0EeDgR0
+!s100 K_1@SSkAgVeO6:ge>YOez2
+R8
+32
+R19
+!i10b 1
+R20
+R40
+R41
+!i113 1
+R11
+R12
+Edebouncer
+Z44 w1742472401
+R2
+R3
+R4
+!i122 2219
+R6
+Z45 8../../../debouncer/rtl/debouncer_ea.vhd
+Z46 F../../../debouncer/rtl/debouncer_ea.vhd
+l0
+R7
+V?lNID0P8B?z7^Pzom>1L>0
+!s100 G=ejII0nJ]^QQJBll^;mR2
+R8
+32
+R27
+!i10b 1
+Z47 !s108 1746567145.000000
+Z48 !s90 -reportprogress|300|-work|work|../../../debouncer/rtl/debouncer_ea.vhd|
+Z49 !s107 ../../../debouncer/rtl/debouncer_ea.vhd|
+!i113 1
+R11
+R12
+Artl
+R42
+R2
+R3
+R4
+Z50 DEx4 work 9 debouncer 0 22 ?lNID0P8B?z7^Pzom>1L>0
+!i122 2219
+l50
+L26 135
+Vah_^hAalZ28LkX0a`L7PN1
+!s100 CSWbnW3EBNJ_P^olJVI?J2
+R8
+32
+R27
+!i10b 1
+R47
+R48
+R49
+!i113 1
+R11
+R12
+Edual_ram
+Z51 w1719071611
+R2
+R3
+R4
+!i122 2229
+R6
+Z52 8../../../spike_memory/rtl/dual_ram_ea.vhd
+Z53 F../../../spike_memory/rtl/dual_ram_ea.vhd
+l0
+R31
+VPBbgzIh3]ScT=Y8G9`6>@3
+!s100 Z=iiUa2eze1ZkHagZ5oMa1
+R8
+32
+Z54 !s110 1746567148
+!i10b 1
+Z55 !s108 1746567148.000000
+Z56 !s90 -reportprogress|300|-work|work|../../../spike_memory/rtl/dual_ram_ea.vhd|
+Z57 !s107 ../../../spike_memory/rtl/dual_ram_ea.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+R4
+Z58 DEx4 work 8 dual_ram 0 22 PBbgzIh3]ScT=Y8G9`6>@3
+!i122 2229
+l41
+L35 32
+V066V>dS:hUFOTk27Q`LTf0
+!s100 mNWMCN<LN:kEG44c@maaD2
+R8
+32
+R54
+!i10b 1
+R55
+R56
+R57
+!i113 1
+R11
+R12
+Ememory2uart
+Z59 w1728665454
+R1
+R2
+R3
+R4
+!i122 2226
+R6
+Z60 8../../../memory2uart/rtl/memory2uart_ea.vhd
+Z61 F../../../memory2uart/rtl/memory2uart_ea.vhd
+l0
+L18 1
+Vz[hFPWZbhK;YiaV?SOmBE1
+!s100 f[`5Mf]DMz33;ZD59T;gE3
+R8
+32
+R19
+!i10b 1
+R20
+Z62 !s90 -reportprogress|300|-work|work|../../../memory2uart/rtl/memory2uart_ea.vhd|
+Z63 !s107 ../../../memory2uart/rtl/memory2uart_ea.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+R3
+R4
+Z64 DEx4 work 11 memory2uart 0 22 z[hFPWZbhK;YiaV?SOmBE1
+!i122 2226
+l54
+L37 80
+VTQ^ZVZNm0F0I9Q]IjaLoZ3
+!s100 a0aCjBoo4JW^@d8MD29kj0
+R8
+32
+R19
+!i10b 1
+R20
+R62
+R63
+!i113 1
+R11
+R12
+Epll_10mhz
+Z65 w1728540475
+R2
+R3
+R4
+!i122 1537
+R6
+Z66 8../../../quartus/pll/pll_10MHz.vhd
+Z67 F../../../quartus/pll/pll_10MHz.vhd
+l0
+Z68 L11 1
+VgHEBT2Aj<gO;X^o=jVcGh2
+!s100 :Jz8kKfQd2CMAXWVfjUeO1
+R8
+32
+Z69 !s110 1734116405
+!i10b 1
+Z70 !s108 1734116405.000000
+Z71 !s90 -reportprogress|300|-work|work|../../../quartus/pll/pll_10MHz.vhd|
+Z72 !s107 ../../../quartus/pll/pll_10MHz.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+R4
+DEx4 work 9 pll_10mhz 0 22 gHEBT2Aj<gO;X^o=jVcGh2
+!i122 1537
+l30
+Z73 L20 21
+VNJDdl[R6;`i3bAh[f4FnT0
+!s100 XXUS^V@aF@N4kHMHX:2z63
+R8
+32
+R69
+!i10b 1
+R70
+R71
+R72
+!i113 1
+R11
+R12
+Epll_5mhz
+Z74 w1725658637
+R2
+R3
+R4
+!i122 31
+R0
+Z75 8../../../quartus/pll/pll_5MHz.vhd
+Z76 F../../../quartus/pll/pll_5MHz.vhd
+l0
+R68
+V;B<14dd]SP];VXiPgOJ?V2
+!s100 9I:PC<S5LZ_jYanb:@VkI0
+R8
+32
+Z77 !s110 1728506589
+!i10b 1
+Z78 !s108 1728506589.000000
+Z79 !s90 -reportprogress|300|-work|work|../../../quartus/pll/pll_5MHz.vhd|
+Z80 !s107 ../../../quartus/pll/pll_5MHz.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+R4
+DEx4 work 8 pll_5mhz 0 22 ;B<14dd]SP];VXiPgOJ?V2
+!i122 31
+l30
+R73
+VDk:nf;EaXn47f1OjX<;ST1
+!s100 9Wc[@dYZEJCm`TDV;IE9X1
+R8
+32
+R77
+!i10b 1
+R78
+R79
+R80
+!i113 1
+R11
+R12
+Epll_8mhz
+Z81 w1742472405
+R2
+R3
+R4
+!i122 2237
+R6
+Z82 8../../../quartus/pll/pll_8MHz.vhd
+Z83 F../../../quartus/pll/pll_8MHz.vhd
+l0
+R68
+V>l]2^cELRKcj=n9`zDK>A1
+!s100 _zd@mNidJ@gJf0>EJKkBK1
+R8
+32
+Z84 !s110 1746567151
+!i10b 1
+R33
+Z85 !s90 -reportprogress|300|-work|work|../../../quartus/pll/pll_8MHz.vhd|
+Z86 !s107 ../../../quartus/pll/pll_8MHz.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+R4
+Z87 DEx4 work 8 pll_8mhz 0 22 >l]2^cELRKcj=n9`zDK>A1
+!i122 2237
+l30
+R73
+VSQQoI[V>@^`4Y1k7`nR]o1
+!s100 V]kOG8ZO]QUUmBiO[;]Sl1
+R8
+32
+R84
+!i10b 1
+R33
+R85
+R86
+!i113 1
+R11
+R12
+Epriority_encoder
+Z88 w1742472394
+R2
+R3
+R4
+!i122 2222
+R6
+Z89 8../../../adaptive_threshold_control/Priority-Encoder/rtl/priority_encoder_ea.vhd
+Z90 F../../../adaptive_threshold_control/Priority-Encoder/rtl/priority_encoder_ea.vhd
+l0
+R26
+V2j3O6fELVJF6el]E4z`e[3
+!s100 lAP7_H3TBzRGRGL]baH>20
+R8
+32
+Z91 !s110 1746567146
+!i10b 1
+Z92 !s108 1746567146.000000
+Z93 !s90 -reportprogress|300|-work|work|../../../adaptive_threshold_control/Priority-Encoder/rtl/priority_encoder_ea.vhd|
+Z94 !s107 ../../../adaptive_threshold_control/Priority-Encoder/rtl/priority_encoder_ea.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+R4
+Z95 DEx4 work 16 priority_encoder 0 22 2j3O6fELVJF6el]E4z`e[3
+!i122 2222
+l35
+L31 24
+VPN9B]bV6X?h;0YeRjBSF12
+!s100 mBhc>2GlO?GQAea:lnOd12
+R8
+32
+R91
+!i10b 1
+R92
+R93
+R94
+!i113 1
+R11
+R12
+Esc_noc_generator
+Z96 w1742824330
+R1
+R2
+R3
+R4
+!i122 2236
+R6
+Z97 8../../../sc_noc_generator/rtl/sc_noc_generator_ea.vhd
+Z98 F../../../sc_noc_generator/rtl/sc_noc_generator_ea.vhd
+l0
+L14 1
+V@gm@Nh<X`fnC=;a7H__IW1
+!s100 Q`8_2JV>=<B0AkRnR1BGZ0
+R8
+32
+R32
+!i10b 1
+R33
+Z99 !s90 -reportprogress|300|-work|work|../../../sc_noc_generator/rtl/sc_noc_generator_ea.vhd|
+Z100 !s107 ../../../sc_noc_generator/rtl/sc_noc_generator_ea.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+R3
+R4
+Z101 DEx4 work 16 sc_noc_generator 0 22 @gm@Nh<X`fnC=;a7H__IW1
+!i122 2236
+l37
+L31 38
+Vkf5XIWM>e?mEzOCk^1klI2
+!s100 kV=fMGgoXQam31CXki8HB0
+R8
+32
+R32
+!i10b 1
+R33
+R99
+R100
+!i113 1
+R11
+R12
+Espike_2_thermocode
+Z102 w1719072313
+R2
+R3
+R4
+!i122 2221
+R6
+Z103 8../../../adaptive_threshold_control/Spike-2-Thermocode/rtl/spike_2_thermocode_ea.vhd
+Z104 F../../../adaptive_threshold_control/Spike-2-Thermocode/rtl/spike_2_thermocode_ea.vhd
+l0
+Z105 L16 1
+V3AVLZ0igfWPeoiShPY5Gi0
+!s100 ZX_[6LcPb6e[8d5;gaCIQ2
+R8
+32
+R91
+!i10b 1
+R92
+Z106 !s90 -reportprogress|300|-work|work|../../../adaptive_threshold_control/Spike-2-Thermocode/rtl/spike_2_thermocode_ea.vhd|
+Z107 !s107 ../../../adaptive_threshold_control/Spike-2-Thermocode/rtl/spike_2_thermocode_ea.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+R4
+Z108 DEx4 work 18 spike_2_thermocode 0 22 3AVLZ0igfWPeoiShPY5Gi0
+!i122 2221
+l34
+L27 39
+Vj3@:_?4lb1077?KQNR[e30
+!s100 KHn9LZaJe3VTbRmAojP]H2
+R8
+32
+R91
+!i10b 1
+R92
+R106
+R107
+!i113 1
+R11
+R12
+Espike_detector
+Z109 w1721820940
+R2
+R3
+R4
+!i122 2227
+R6
+Z110 8../../../spike_detector/rtl/spike_detector_ea.vhd
+Z111 F../../../spike_detector/rtl/spike_detector_ea.vhd
+l0
+Z112 L21 1
+V[ccEb@JIYiA@L;5L[dIdz1
+!s100 lknA28zOK1kCW<mmfN03h3
+R8
+32
+R54
+!i10b 1
+R20
+Z113 !s90 -reportprogress|300|-work|work|../../../spike_detector/rtl/spike_detector_ea.vhd|
+Z114 !s107 ../../../spike_detector/rtl/spike_detector_ea.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+R4
+Z115 DEx4 work 14 spike_detector 0 22 [ccEb@JIYiA@L;5L[dIdz1
+!i122 2227
+l61
+L42 128
+V1G@89_>2a9YLQ;^9]MiL[1
+!s100 1B8OXo8Goe7=[aaH<Z;QX2
+R8
+32
+R54
+!i10b 1
+R20
+R113
+R114
+!i113 1
+R11
+R12
+Espike_encoder
+Z116 w1727969386
+R1
+R2
+R3
+R4
+!i122 2228
+R6
+Z117 8../../../spike_encoder/rtl/spike_encoder_ea.vhd
+Z118 F../../../spike_encoder/rtl/spike_encoder_ea.vhd
+l0
+R26
+VBKN9WEI28ci5>a3feA_?_1
+!s100 Q^^n@iSNEP]BFG3:`o3Mj0
+R8
+32
+R54
+!i10b 1
+R55
+Z119 !s90 -reportprogress|300|-work|work|../../../spike_encoder/rtl/spike_encoder_ea.vhd|
+Z120 !s107 ../../../spike_encoder/rtl/spike_encoder_ea.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+R3
+R4
+Z121 DEx4 work 13 spike_encoder 0 22 BKN9WEI28ci5>a3feA_?_1
+!i122 2228
+l49
+L38 65
+VWoKR]Y^Sc[e^2V@R]zF6Y2
+!s100 D`>lfGS94m@m?zz0@k4BH1
+R8
+32
+R54
+!i10b 1
+R55
+R119
+R120
+!i113 1
+R11
+R12
+Espike_memory
+Z122 w1742472415
+R1
+R2
+R3
+R4
+!i122 2230
+R6
+Z123 8../../../spike_memory/rtl/spike_memory_ea.vhd
+Z124 F../../../spike_memory/rtl/spike_memory_ea.vhd
+l0
+Z125 L15 1
+V>Qc5SiL]Thn`1mjLm]l`D3
+!s100 Pzn6<TYjC<k?:T645VjZL2
+R8
+32
+Z126 !s110 1746567149
+!i10b 1
+R55
+Z127 !s90 -reportprogress|300|-work|work|../../../spike_memory/rtl/spike_memory_ea.vhd|
+Z128 !s107 ../../../spike_memory/rtl/spike_memory_ea.vhd|
+!i113 1
+R11
+R12
+Artl
+R58
+R1
+R2
+R3
+R4
+Z129 DEx4 work 12 spike_memory 0 22 >Qc5SiL]Thn`1mjLm]l`D3
+!i122 2230
+l89
+L38 236
+Vz:gH>zFVCWL^^M?cYbUio2
+!s100 ;:dEP`i`3FRFPYJdI_^RW2
+R8
+32
+R126
+!i10b 1
+R55
+R127
+R128
+!i113 1
+R11
+R12
+Espike_shift_reg
+Z130 w1742472397
+R14
+R1
+R2
+R3
+R4
+!i122 2220
+R6
+Z131 8../../../adaptive_threshold_control/Spike-Buffering/rtl/spike_shift_reg_ea.vhd
+Z132 F../../../adaptive_threshold_control/Spike-Buffering/rtl/spike_shift_reg_ea.vhd
+l0
+R26
+VL1IDQDRY^P_^Ej9f=Ze0S0
+!s100 <R`:AXL^5fb;4dBhA9Mji1
+R8
+32
+R27
+!i10b 1
+R47
+Z133 !s90 -reportprogress|300|-work|work|../../../adaptive_threshold_control/Spike-Buffering/rtl/spike_shift_reg_ea.vhd|
+Z134 !s107 ../../../adaptive_threshold_control/Spike-Buffering/rtl/spike_shift_reg_ea.vhd|
+!i113 1
+R11
+R12
+Artl
+R14
+R1
+R2
+R3
+R4
+R24
+!i122 2220
+l56
+L36 97
+VA_cRanM]]maKTD03;5Ol40
+!s100 0QDmb0IKjmibVDa7hinPT3
+R8
+32
+R27
+!i10b 1
+R47
+R133
+R134
+!i113 1
+R11
+R12
+Esync_chain
+Z135 w1719664156
+R2
+R3
+R4
+!i122 2218
+R6
+Z136 8../../../sync_chain/rtl/sync_chain_ea.vhd
+Z137 F../../../sync_chain/rtl/sync_chain_ea.vhd
+l0
+R26
+V`BaG1J7Li[k>?7`:eHf4K1
+!s100 ::?=>I`N?;aMHj42ZTQ1Y0
+R8
+32
+R27
+!i10b 1
+R47
+Z138 !s90 -reportprogress|300|-work|work|../../../sync_chain/rtl/sync_chain_ea.vhd|
+Z139 !s107 ../../../sync_chain/rtl/sync_chain_ea.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+R4
+R42
+!i122 2218
+l38
+L31 28
+VeS4i3KmPFg@0Kk3H[>Cl<0
+!s100 f<9>Ek08[L0`NSz@gh3M<1
+R8
+32
+R27
+!i10b 1
+R47
+R138
+R139
+!i113 1
+R11
+R12
+Etbs_core
+Z140 w1743344933
+R1
+R2
+R3
+R4
+!i122 2238
+R6
+Z141 8../../../rtl/tbs_core_ea.vhd
+Z142 F../../../rtl/tbs_core_ea.vhd
+l0
+L23 1
+VMh7BoH?;OW:jS2=aGZX=U3
+!s100 Bf5Ni<BCzQM;U[jZUVD[a2
+R8
+32
+R84
+!i10b 1
+Z143 !s108 1746567151.000000
+Z144 !s90 -reportprogress|300|-work|work|../../../rtl/tbs_core_ea.vhd|
+Z145 !s107 ../../../rtl/tbs_core_ea.vhd|
+!i113 1
+R11
+R12
+Artl
+Z146 DEx4 work 4 uart 0 22 m67n[o;PhWzona=D74E7W3
+R64
+R129
+R121
+Z147 DEx4 work 16 time_measurement 0 22 h`eZ`lk5`TQ]AQHfbS_dF1
+R101
+R36
+R43
+R14
+R15
+R16
+R25
+R115
+R50
+R42
+R1
+R2
+R3
+R4
+Z148 DEx4 work 8 tbs_core 0 22 Mh7BoH?;OW:jS2=aGZX=U3
+!i122 2238
+l425
+L116 1412
+VAl7H`;2U>8>F^;kdKE^?C0
+!s100 R>oU6M;N[B=4I8>QVe57J2
+R8
+32
+R84
+!i10b 1
+R143
+R144
+R145
+!i113 1
+R11
+R12
+Etbs_core_board
+Z149 w1742472411
+R15
+R1
+R2
+R3
+R4
+!i122 2239
+R6
+Z150 8../../../rtl/quartus_board/tbs_core_board.vhd
+Z151 F../../../rtl/quartus_board/tbs_core_board.vhd
+l0
+L24 1
+V><UJ>^ZW09Q8BEU27>:I:2
+!s100 IV>U<1mnRR6I^MYgGm:G^3
+R8
+32
+R84
+!i10b 1
+R143
+Z152 !s90 -reportprogress|300|-work|work|../../../rtl/quartus_board/tbs_core_board.vhd|
+Z153 !s107 ../../../rtl/quartus_board/tbs_core_board.vhd|
+!i113 1
+R11
+R12
+Artl
+R148
+R87
+R15
+R1
+R2
+R3
+R4
+DEx4 work 14 tbs_core_board 0 22 ><UJ>^ZW09Q8BEU27>:I:2
+!i122 2239
+l87
+L79 116
+VHEEnmnHBAlAK`TWS8V6cM1
+!s100 SERT9<TS;4KhmdjV3>H^R3
+R8
+32
+R84
+!i10b 1
+R143
+R152
+R153
+!i113 1
+R11
+R12
+Etbs_core_tb
+Z154 w1742642827
+R15
+R1
+R2
+R3
+R4
+!i122 2240
+R6
+Z155 8tbs_core_tb.vhd
+Z156 Ftbs_core_tb.vhd
+l0
+R105
+VUkVjW==Eji5j@nR2mfXGm2
+!s100 97eZjf=cW[W_oF18h=OTL1
+R8
+32
+R84
+!i10b 1
+R143
+Z157 !s90 -reportprogress|300|-work|work|tbs_core_tb.vhd|
+Z158 !s107 tbs_core_tb.vhd|
+!i113 1
+R11
+R12
+Abhv
+R146
+R148
+R15
+R1
+R2
+R3
+R4
+Z159 DEx4 work 11 tbs_core_tb 0 22 UkVjW==Eji5j@nR2mfXGm2
+!i122 2240
+l106
+Z160 L20 707
+Z161 VB[@[7SVC^_CYzN?W1lW7j2
+Z162 !s100 DCdZH[NWPV3DDAV@]U`H92
+R8
+32
+R84
+!i10b 1
+R143
+R157
+R158
+!i113 1
+R11
+R12
+Ptbssimvals
+R1
+R2
+R3
+R4
+!i122 2215
+R5
+R6
+8../TBSSimVals_p.vhd
+F../TBSSimVals_p.vhd
+l0
+R7
+VFh9=DeocEOzFAmeI=Z]WC0
+!s100 8e_QRemclYPmkNTZ71ODY0
+R8
+32
+R9
+!i10b 1
+R10
+!s90 -reportprogress|300|-work|work|../TBSSimVals_p.vhd|
+!s107 ../TBSSimVals_p.vhd|
+!i113 1
+R11
+R12
+Etime_measurement
+Z163 w1719072828
+R1
+R2
+R3
+R4
+!i122 2231
+R6
+Z164 8../../../time_measurement/rtl/time_measurement_ea.vhd
+Z165 F../../../time_measurement/rtl/time_measurement_ea.vhd
+l0
+R112
+Vh`eZ`lk5`TQ]AQHfbS_dF1
+!s100 H;iQWQ@W@`oi;RYDjGLPG0
+R8
+32
+R126
+!i10b 1
+Z166 !s108 1746567149.000000
+Z167 !s90 -reportprogress|300|-work|work|../../../time_measurement/rtl/time_measurement_ea.vhd|
+Z168 !s107 ../../../time_measurement/rtl/time_measurement_ea.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+R3
+R4
+R147
+!i122 2231
+l45
+L36 44
+V0:X1X@gXjZS3RTY?m4<9h1
+!s100 43F9[Q838dnkHfUWNcRab2
+R8
+32
+R126
+!i10b 1
+R166
+R167
+R168
+!i113 1
+R11
+R12
+Euart
+Z169 w1728220113
+R1
+R2
+R3
+R4
+!i122 2234
+R6
+Z170 8../../../uart/rtl/uart_ea.vhd
+Z171 F../../../uart/rtl/uart_ea.vhd
+l0
+R125
+Vm67n[o;PhWzona=D74E7W3
+!s100 mTJ6oQ5?0NAl?RV:@WEdd0
+R8
+32
+R32
+!i10b 1
+R33
+Z172 !s90 -reportprogress|300|-work|work|../../../uart/rtl/uart_ea.vhd|
+Z173 !s107 ../../../uart/rtl/uart_ea.vhd|
+!i113 1
+R11
+R12
+Artl
+Z174 DEx4 work 7 uart_rx 0 22 eTz@MoPG?JXDf^Ld[hz9K3
+Z175 DEx4 work 7 uart_tx 0 22 Ub5YjBfi@VM29XWY5EiZW3
+R1
+R2
+R3
+R4
+R146
+!i122 2234
+l42
+L40 39
+VM1j?ImJz<HPZU9mT^_57`2
+!s100 R8cUYE5VIebjh2KbP3E5W1
+R8
+32
+R32
+!i10b 1
+R33
+R172
+R173
+!i113 1
+R11
+R12
+Euart_rx
+Z176 w1728221756
+R1
+R2
+R3
+R4
+!i122 2232
+R6
+Z177 8../../../uart/rtl/uart_rx_ea.vhd
+Z178 F../../../uart/rtl/uart_rx_ea.vhd
+l0
+R7
+VeTz@MoPG?JXDf^Ld[hz9K3
+!s100 9547E;`;8>`f=ARnS>5@o2
+R8
+32
+R126
+!i10b 1
+R166
+Z179 !s90 -reportprogress|300|-work|work|../../../uart/rtl/uart_rx_ea.vhd|
+Z180 !s107 ../../../uart/rtl/uart_rx_ea.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+R3
+R4
+R174
+!i122 2232
+l56
+L28 124
+VA@nb]CDbnm<47OV1UMQBE0
+!s100 bJ>Za=M@0Xi`6c41kaYlX3
+R8
+32
+R126
+!i10b 1
+R166
+R179
+R180
+!i113 1
+R11
+R12
+Euart_tx
+Z181 w1742472418
+R1
+R2
+R3
+R4
+!i122 2233
+R6
+Z182 8../../../uart/rtl/uart_tx_ea.vhd
+Z183 F../../../uart/rtl/uart_tx_ea.vhd
+l0
+R7
+VUb5YjBfi@VM29XWY5EiZW3
+!s100 ?dD<2C7d`0O8]Blj2U8SZ3
+R8
+32
+R126
+!i10b 1
+R166
+Z184 !s90 -reportprogress|300|-work|work|../../../uart/rtl/uart_tx_ea.vhd|
+Z185 !s107 ../../../uart/rtl/uart_tx_ea.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+R3
+R4
+R175
+!i122 2233
+l54
+L29 137
+V7AAZ[EmGFHRdcB`h]NCzH1
+!s100 43dbUVHQgT;lTV8WTPHB;2
+R8
+32
+R126
+!i10b 1
+R166
+R184
+R185
+!i113 1
+R11
+R12
+Eweyls_discrepancy
+Z186 w1729511496
+R14
+R1
+R2
+R3
+R4
+!i122 2223
+R6
+Z187 8../../../adaptive_threshold_control/Weyls-Discrepancy/rtl/weyls_discrepancy_ea.vhd
+Z188 F../../../adaptive_threshold_control/Weyls-Discrepancy/rtl/weyls_discrepancy_ea.vhd
+l0
+L29 1
+V@RjV:m_LSObeXYHUz`K1U2
+!s100 lD@PGdW08:nLA2Yk78=0:3
+R8
+32
+R91
+!i10b 1
+R92
+Z189 !s90 -reportprogress|300|-work|work|../../../adaptive_threshold_control/Weyls-Discrepancy/rtl/weyls_discrepancy_ea.vhd|
+Z190 !s107 ../../../adaptive_threshold_control/Weyls-Discrepancy/rtl/weyls_discrepancy_ea.vhd|
+!i113 1
+R11
+R12
+Artl
+R95
+R108
+R14
+R1
+R2
+R3
+R4
+R23
+!i122 2223
+l81
+L46 156
+VGSP4Z4n[DGE7KmaRYfX[k0
+!s100 7KegS7EI?Z2BbET=<@:;F2
+R8
+32
+R91
+!i10b 1
+R92
+R189
+R190
+!i113 1
+R11
+R12

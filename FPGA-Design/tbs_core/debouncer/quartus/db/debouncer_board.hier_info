@@ -1,0 +1,61 @@
+|debouncer_board
+clock_i => debouncer:debouncer_0.clock_i
+reset_n_i => debouncer:debouncer_0.reset_i
+bouncing_i => debouncer:debouncer_0.bouncing_i
+debounced_o <= debouncer:debouncer_0.debounced_o
+
+
+|debouncer_board|debouncer:debouncer_0
+clock_i => sync_chain:sync_chain_0.clock_i
+clock_i => debounced.CLK
+clock_i => counter_value[0].CLK
+clock_i => counter_value[1].CLK
+clock_i => counter_value[2].CLK
+clock_i => counter_value[3].CLK
+clock_i => counter_value[4].CLK
+clock_i => counter_value[5].CLK
+clock_i => counter_value[6].CLK
+clock_i => counter_value[7].CLK
+clock_i => counter_value[8].CLK
+clock_i => counter_value[9].CLK
+clock_i => counter_value[10].CLK
+clock_i => counter_value[11].CLK
+clock_i => counter_value[12].CLK
+clock_i => counter_value[13].CLK
+clock_i => counter_value[14].CLK
+clock_i => counter_value[15].CLK
+clock_i => bouncing_sync_d.CLK
+clock_i => state~1.DATAIN
+reset_i => sync_chain:sync_chain_0.reset_i
+reset_i => debounced.ACLR
+reset_i => counter_value[0].ACLR
+reset_i => counter_value[1].ACLR
+reset_i => counter_value[2].ACLR
+reset_i => counter_value[3].ACLR
+reset_i => counter_value[4].ACLR
+reset_i => counter_value[5].ACLR
+reset_i => counter_value[6].ACLR
+reset_i => counter_value[7].ACLR
+reset_i => counter_value[8].ACLR
+reset_i => counter_value[9].ACLR
+reset_i => counter_value[10].ACLR
+reset_i => counter_value[11].ACLR
+reset_i => counter_value[12].ACLR
+reset_i => counter_value[13].ACLR
+reset_i => counter_value[14].ACLR
+reset_i => counter_value[15].ACLR
+reset_i => bouncing_sync_d.ACLR
+reset_i => state~3.DATAIN
+bouncing_i => sync_chain:sync_chain_0.async_i[0]
+debounced_o <= debounced.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|debouncer_board|debouncer:debouncer_0|sync_chain:sync_chain_0
+clock_i => buf[0][0].CLK
+clock_i => buf[1][0].CLK
+reset_i => buf[0][0].ACLR
+reset_i => buf[1][0].ACLR
+async_i[0] => buf[0][0].DATAIN
+sync_o[0] <= buf[1][0].DB_MAX_OUTPUT_PORT_TYPE
+
+

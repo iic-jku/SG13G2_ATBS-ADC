@@ -1,0 +1,6899 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1906.5509"
+   height="1872.5479"
+   version="1.1"
+   id="svg2696"
+   sodipodi:docname="telescopic_ota.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2700" />
+  <sodipodi:namedview
+     id="namedview2698"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.3134714"
+     inkscape:cx="285.51249"
+     inkscape:cy="1075.0582"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="3832"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2696" />
+  <style
+     type="text/css"
+     id="style2">
+.l0{
+  fill: #ffffff;
+  stroke: #ffffff;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 2.54786;
+}
+.l1{
+  fill: #0044ee;
+  stroke: #0044ee;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 2.54786;
+}
+.l2{
+  fill: #aaaaaa; fill-opacity: 0.2;
+  stroke: #aaaaaa;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 2.54786;
+}
+.l3{
+  fill: #222222; fill-opacity: 0.5;
+  stroke: #222222;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 2.54786;
+}
+.l4{
+  fill: #229900;
+  stroke: #229900;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 2.54786;
+}
+.l5{
+  fill: #bb2200;
+  stroke: #bb2200;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 2.54786;
+}
+.l6{
+  fill: #00ccee; fill-opacity: 0.5;
+  stroke: #00ccee;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 2.54786;
+}
+.l7{
+  fill: #ff0000; fill-opacity: 0.5;
+  stroke: #ff0000;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 2.54786;
+}
+.l8{
+  fill: #888800; fill-opacity: 0.5;
+  stroke: #888800;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 2.54786;
+}
+.l9{
+  fill: #00aaaa; fill-opacity: 0.5;
+  stroke: #00aaaa;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 2.54786;
+}
+.l10{
+  fill: #880088;
+  stroke: #880088;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 2.54786;
+}
+.l11{
+  fill: #00ff00; fill-opacity: 0.5;
+  stroke: #00ff00;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 2.54786;
+}
+.l12{
+  fill: #0000cc; fill-opacity: 0.5;
+  stroke: #0000cc;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 2.54786;
+}
+.l13{
+  fill: #666600; fill-opacity: 0.5;
+  stroke: #666600;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 2.54786;
+}
+.l14{
+  fill: #557755; fill-opacity: 0.2;
+  stroke: #557755;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 2.54786;
+}
+.l15{
+  fill: #aa2222; fill-opacity: 0.5;
+  stroke: #aa2222;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 2.54786;
+}
+.l16{
+  fill: #7ccc40; fill-opacity: 0.5;
+  stroke: #7ccc40;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 2.54786;
+}
+.l17{
+  fill: #00ffcc; fill-opacity: 0.2;
+  stroke: #00ffcc;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 2.54786;
+}
+.l18{
+  fill: #ce0097; fill-opacity: 0.5;
+  stroke: #ce0097;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 2.54786;
+}
+.l19{
+  fill: #d2d46b; fill-opacity: 0.2;
+  stroke: #d2d46b;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 2.54786;
+}
+.l20{
+  fill: #ef6158; fill-opacity: 0.2;
+  stroke: #ef6158;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 2.54786;
+}
+.l21{
+  fill: #fdb200; fill-opacity: 0.2;
+  stroke: #fdb200;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-width: 2.54786;
+}
+text {font-family: Sans-Serif;}
+</style>
+  <rect
+     class="l0"
+     x="1.4364285"
+     y="1.27393"
+     width="1903"
+     height="1870"
+     id="rect4" />
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     id="text6"
+     x="1176.7365"
+     y="1435.5239">di_phi_1</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     id="text8"
+     x="1176.7365"
+     y="1375.5439">di_phi_2</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     id="text10"
+     x="1281.9664"
+     y="1574.8639">VDD</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     id="text12"
+     x="1285.9664"
+     y="1294.934">VSS</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     id="text14"
+     x="971.80341"
+     y="927.8479">vinp</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     id="text16"
+     x="1806.0864"
+     y="925.66595">vinn</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     id="text18"
+     x="1807.3364"
+     y="1415.5339">voutp</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     id="text20"
+     x="957.55341"
+     y="1415.5339">voutn</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     transform="rotate(-90)"
+     id="text22"
+     x="-71.410629"
+     y="1413.6465">VDD</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     transform="rotate(-90)"
+     id="text24"
+     x="-1824.6239"
+     y="1112.7964">VSS</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     transform="rotate(-90)"
+     id="text26"
+     x="-1812.2839"
+     y="1714.8164">VSS</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     transform="rotate(-90)"
+     id="text28"
+     x="-83.75103"
+     y="1634.8364">VDD</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     transform="rotate(-90)"
+     id="text30"
+     x="-83.75103"
+     y="395.18042">VDD</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     transform="rotate(-90)"
+     id="text32"
+     x="-83.75103"
+     y="175.24142">VDD</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     transform="rotate(-90)"
+     id="text34"
+     x="-1812.2839"
+     y="975.01941">VSS</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     transform="rotate(-90)"
+     id="text36"
+     x="-1812.2839"
+     y="1854.7765">VSS</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     id="text38"
+     x="71.053429"
+     y="697.91193">Vcm</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     id="text40"
+     x="1319.9564"
+     y="698.53693">Vtail</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     transform="rotate(-90)"
+     id="text42"
+     x="-183.72293"
+     y="891.60944">Vgs_m56</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     transform="rotate(-90)"
+     id="text44"
+     x="-83.75103"
+     y="575.13043">VDD</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     transform="rotate(-90)"
+     id="text46"
+     x="-83.75103"
+     y="635.1134">VDD</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     id="text48"
+     x="19.053429"
+     y="18.100531">di_tele_en</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     id="text50"
+     x="-0.9465515"
+     y="397.99493">di_tele_en_n</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     transform="rotate(-90)"
+     id="text52"
+     x="-83.75103"
+     y="755.08044">VDD</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     transform="rotate(-90)"
+     id="text54"
+     x="-83.75103"
+     y="1214.9564">VDD</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     transform="rotate(-90)"
+     id="text56"
+     x="-83.75103"
+     y="1074.9865">VDD</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     id="text58"
+     x="890.0614"
+     y="395.18793">di_tele_en</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     id="text60"
+     x="870.0614"
+     y="625.1239">di_tele_en_n</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     transform="rotate(-90)"
+     id="text62"
+     x="-83.75103"
+     y="1134.9764">VDD</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     id="text64"
+     x="1806.0864"
+     y="1037.814">vmilp</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     id="text66"
+     x="960.80341"
+     y="1037.814">vmiln</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     transform="rotate(-90)"
+     id="text68"
+     x="-1812.2839"
+     y="395.18042">VSS</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     transform="rotate(-90)"
+     id="text70"
+     x="-1812.2839"
+     y="255.21942">VSS</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     transform="rotate(-90)"
+     id="text72"
+     x="-1737.554"
+     y="532.33441">Vbias</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     transform="rotate(-90)"
+     id="text74"
+     x="-1332.1539"
+     y="534.51642">Vbiasc</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     transform="rotate(-90)"
+     id="text76"
+     x="-1812.2839"
+     y="671.67041">VSS</text>
+  <text
+     fill="#0044ee"
+     xml:space="preserve"
+     font-size="17.1552px"
+     transform="rotate(-90)"
+     id="text78"
+     x="-1812.2839"
+     y="811.63245">VSS</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text80"
+     x="1483.4264"
+     y="1549.3539">sc_cmfb_input</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text82"
+     x="1483.0464"
+     y="1570.3539">x1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text84"
+     x="1257.4865"
+     y="1422.3939">di_phi_1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text86"
+     x="1257.4865"
+     y="1362.4139">di_phi_2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text88"
+     x="1337.4664"
+     y="1552.3539">VDD</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text90"
+     x="1521.4064"
+     y="1501.1239">Voutp</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text92"
+     x="1334.9664"
+     y="1316.3539">VSS</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text94"
+     x="1413.4364"
+     y="1552.3539">Vcmfb</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text96"
+     x="1262.4865"
+     y="1501.304">Voutn</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text98"
+     x="1327.4664"
+     y="1458.3839">2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text100"
+     x="1397.4464"
+     y="1458.3839">2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text102"
+     x="1467.4264"
+     y="1458.3839">2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text104"
+     x="1369.9564"
+     y="1375.9039">1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text106"
+     x="1439.9364"
+     y="1375.9039">1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text108"
+     x="1522.4064"
+     y="1458.3839">PMOS: 2.0u / 0.5u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text110"
+     x="1522.4064"
+     y="1440.2639">NMOS: 2.0u / 0.5u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text112"
+     x="1367.4564"
+     y="1413.3939">C1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text114"
+     x="1437.4364"
+     y="1413.3939">C1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text116"
+     x="1359.9564"
+     y="1503.3739">a*C1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text118"
+     x="1429.9364"
+     y="1503.3739">a*C1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text120"
+     x="1522.4064"
+     y="1410.2739">C1 = 100f</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text122"
+     x="1522.4064"
+     y="1390.2739">a = 9</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text124"
+     x="187.73943"
+     y="194.66293">sg13g2_lv_pmos_stacked_x2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text126"
+     x="315.73944"
+     y="168.67093">xM6</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text128"
+     x="393.47244"
+     y="335.19592">D</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text130"
+     x="443.45844"
+     y="223.97693">G</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text132"
+     x="323.99344"
+     y="224.15492">B</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text134"
+     x="393.97443"
+     y="134.17993">S</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text136"
+     x="259.73944"
+     y="270.64194">W: 1.0u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text138"
+     x="259.73944"
+     y="282.56793">L: 20.0u (total)</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text140"
+     x="259.73944"
+     y="294.49292">NG: 1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text142"
+     x="259.73944"
+     y="306.41891">M: 1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text144"
+     x="353.23242"
+     y="164.42194">*2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text146"
+     x="1457.4264"
+     y="194.66293">sg13g2_lv_pmos_stacked_x2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text148"
+     x="1457.4264"
+     y="168.67093">xM5</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text150"
+     x="1393.6964"
+     y="335.19592">D</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text152"
+     x="1343.7064"
+     y="223.97693">G</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text154"
+     x="1464.1764"
+     y="224.15492">B</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text156"
+     x="1394.1964"
+     y="134.17993">S</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text158"
+     x="1457.4264"
+     y="270.64194">W: 8.0u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text160"
+     x="1457.4264"
+     y="282.56793">L: 20.0u (total)</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text162"
+     x="1457.4264"
+     y="294.49292">NG: 8</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text164"
+     x="1457.4264"
+     y="306.41891">M: 1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text166"
+     x="1429.9364"
+     y="164.42194">*2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text168"
+     x="1457.4264"
+     y="514.57495">sg13g2_lv_pmos_stacked_x2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text170"
+     x="1457.4264"
+     y="488.58194">xM5c</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text172"
+     x="1393.6964"
+     y="655.10693">D</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text174"
+     x="1343.7064"
+     y="543.88794">G</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text176"
+     x="1464.1764"
+     y="544.06592">B</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text178"
+     x="1394.1964"
+     y="454.09094">S</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text180"
+     x="1457.4264"
+     y="590.55292">W: 8.0u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text182"
+     x="1457.4264"
+     y="602.47894">L: 20.0u (total)</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text184"
+     x="1457.4264"
+     y="614.40393">NG: 8</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text186"
+     x="1457.4264"
+     y="626.32996">M: 1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text188"
+     x="1429.9364"
+     y="484.33292">*2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text190"
+     x="1207.4564"
+     y="1014.434">sg13g2_lv_pmos_stacked_x2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text192"
+     x="1335.4564"
+     y="988.44293">xM7</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text194"
+     x="1413.1864"
+     y="1154.964">D</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text196"
+     x="1463.1764"
+     y="1043.7439">G</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text198"
+     x="1343.7064"
+     y="1043.924">B</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text200"
+     x="1413.6864"
+     y="953.9519">S</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text202"
+     x="1279.4564"
+     y="1090.4139">W: 0.5u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text204"
+     x="1279.4564"
+     y="1102.3439">L: 20.0u (total)</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text206"
+     x="1279.4564"
+     y="1114.2639">NG: 1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text208"
+     x="1279.4564"
+     y="1126.194">M: 1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text210"
+     x="1372.9464"
+     y="984.19391">*2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text212"
+     x="1076.5265"
+     y="900.46692">M1</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text214"
+     x="1071.5364"
+     y="918.10193">G</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text216"
+     x="1117.5265"
+     y="949.7749">sg13_lv_pmos</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text218"
+     x="1118.7765"
+     y="936.70691">m=1</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text220"
+     x="1118.7765"
+     y="927.9599">ng=250</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text222"
+     x="1118.7765"
+     y="915.46295">l=10.0u</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text224"
+     x="1118.7765"
+     y="904.21594">w=250.0u</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text226"
+     x="1110.0265"
+     y="945.59393">D</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text228"
+     x="1110.0265"
+     y="901.65991">S</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text230"
+     x="1107.5265"
+     y="918.10193">B</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text232"
+     x="1122.5265"
+     y="1160.3939">M1c</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text234"
+     x="1137.5165"
+     y="1178.0339">G</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text236"
+     x="1024.5265"
+     y="1209.704">sg13_lv_pmos</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text238"
+     x="1070.2765"
+     y="1196.6339">m=1</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text240"
+     x="1059.2765"
+     y="1187.8839">ng=15</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text242"
+     x="1053.2765"
+     y="1175.3939">l=10.0u</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text244"
+     x="1047.2765"
+     y="1164.1439">w=15.0u</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text246"
+     x="1099.0265"
+     y="1205.5239">D</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text248"
+     x="1100.0265"
+     y="1161.584">S</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text250"
+     x="1102.5265"
+     y="1178.0339">B</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text252"
+     x="1670.3665"
+     y="1160.3939">M2c</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text254"
+     x="1671.3665"
+     y="1178.0339">G</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text256"
+     x="1717.3564"
+     y="1209.704">sg13_lv_pmos</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text258"
+     x="1718.6064"
+     y="1196.6339">m=1</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text260"
+     x="1718.6064"
+     y="1187.8839">ng=15</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text262"
+     x="1718.6064"
+     y="1175.3939">l=10.0u</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text264"
+     x="1718.6064"
+     y="1164.1439">w=15.0u</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text266"
+     x="1709.8564"
+     y="1205.5239">D</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text268"
+     x="1709.8564"
+     y="1161.584">S</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text270"
+     x="1707.3564"
+     y="1178.0339">B</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text272"
+     x="1722.3564"
+     y="900.46692">M2</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text274"
+     x="1737.3464"
+     y="918.10193">G</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text276"
+     x="1624.3665"
+     y="949.7749">sg13_lv_pmos</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text278"
+     x="1670.1165"
+     y="936.70691">m=1</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text280"
+     x="1652.1165"
+     y="927.9599">ng=250</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text282"
+     x="1653.1165"
+     y="915.46295">l=10.0u</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text284"
+     x="1640.1165"
+     y="904.21594">w=250.0u</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text286"
+     x="1698.8564"
+     y="945.59393">D</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text288"
+     x="1699.8564"
+     y="901.65991">S</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text290"
+     x="1702.3564"
+     y="918.10193">B</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text292"
+     x="907.53943"
+     y="1594.2739">sg13g2_lv_nmos_stacked_x4</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text294"
+     x="1035.5364"
+     y="1568.2839">xM3</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text296"
+     x="1093.7765"
+     y="1533.7939">D</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text298"
+     x="1163.2565"
+     y="1623.584">G</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text300"
+     x="1043.7964"
+     y="1623.7639">B</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text302"
+     x="1094.2765"
+     y="1734.804">S</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text304"
+     x="979.53943"
+     y="1670.2539">W: 1.5u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text306"
+     x="979.53943"
+     y="1682.174">L: 40.0u (total)</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text308"
+     x="979.53943"
+     y="1694.1039">NG: 1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text310"
+     x="979.53943"
+     y="1706.0339">M: 1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text312"
+     x="1073.0364"
+     y="1564.0339">*4</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text314"
+     x="1757.3464"
+     y="1594.2739">sg13g2_lv_nmos_stacked_x4</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text316"
+     x="1757.3464"
+     y="1568.2839">xM4</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text318"
+     x="1713.1064"
+     y="1533.7939">D</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text320"
+     x="1643.6265"
+     y="1623.584">G</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text322"
+     x="1764.0964"
+     y="1623.7639">B</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text324"
+     x="1713.6064"
+     y="1734.804">S</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text326"
+     x="1757.3464"
+     y="1670.2539">W: 1.5u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text328"
+     x="1757.3464"
+     y="1682.174">L: 40.0u (total)</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text330"
+     x="1757.3464"
+     y="1694.1039">NG: 1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text332"
+     x="1757.3464"
+     y="1706.0339">M: 1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text334"
+     x="1729.8564"
+     y="1564.0339">*4</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     transform="rotate(-90)"
+     id="text336"
+     x="-860.04492"
+     y="1273.7465">Vmeas</text>
+  <text
+     fill="#aa2222"
+     xml:space="preserve"
+     font-size="7.79783px"
+     transform="rotate(-90)"
+     id="text338"
+     x="-846.04596"
+     y="1284.3665">#net9</text>
+  <text
+     fill="#aa2222"
+     xml:space="preserve"
+     font-size="7.79783px"
+     transform="rotate(-90)"
+     id="text340"
+     x="-846.04596"
+     y="1235.6265">#net3</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     transform="rotate(-90)"
+     id="text342"
+     x="-867.04492"
+     y="1548.0964">Vmeas1</text>
+  <text
+     fill="#aa2222"
+     xml:space="preserve"
+     font-size="7.79783px"
+     transform="rotate(-90)"
+     id="text344"
+     x="-846.04596"
+     y="1535.7365">#net9</text>
+  <text
+     fill="#aa2222"
+     xml:space="preserve"
+     font-size="7.79783px"
+     transform="rotate(-90)"
+     id="text346"
+     x="-846.04596"
+     y="1584.4764">#net4</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text348"
+     x="1351.4464"
+     y="861.72791">Vmeas2</text>
+  <text
+     fill="#aa2222"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text350"
+     x="1372.4464"
+     y="849.37091">#net9</text>
+  <text
+     fill="#aa2222"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text352"
+     x="1372.4464"
+     y="898.10693">#net5</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text354"
+     x="187.73943"
+     y="514.57495">sg13g2_lv_pmos_stacked_x2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text356"
+     x="309.73944"
+     y="488.58194">xM6c</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text358"
+     x="393.47244"
+     y="655.10693">D</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text360"
+     x="443.45844"
+     y="543.88794">G</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text362"
+     x="323.99344"
+     y="544.06592">B</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text364"
+     x="393.97443"
+     y="454.09094">S</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text366"
+     x="259.73944"
+     y="590.55292">W: 1.0u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text368"
+     x="259.73944"
+     y="602.47894">L: 20.0u (total)</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text370"
+     x="259.73944"
+     y="614.40393">NG: 1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text372"
+     x="259.73944"
+     y="626.32996">M: 1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text374"
+     x="353.23242"
+     y="484.33292">*2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text376"
+     x="1022.5364"
+     y="600.5509">Mpd4</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text378"
+     x="1031.5464"
+     y="618.18494">G</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text380"
+     x="1077.5364"
+     y="649.85791">sg13_hv_pmos</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text382"
+     x="1070.0364"
+     y="645.67694">D</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text384"
+     x="1070.0364"
+     y="601.74292">S</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text386"
+     x="1067.5364"
+     y="618.18494">B</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text388"
+     x="1078.7864"
+     y="636.79095">m=1</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text390"
+     x="1078.7864"
+     y="628.04291">ng=1</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text392"
+     x="1078.7864"
+     y="615.54596">l=0.5u</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text394"
+     x="1078.7864"
+     y="604.29993">w=1.0u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     transform="rotate(-90)"
+     id="text396"
+     x="-221.22293"
+     y="775.13245">Mdec1</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     transform="rotate(-90)"
+     id="text398"
+     x="-207.21793"
+     y="755.7594">G</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     transform="rotate(-90)"
+     id="text400"
+     x="-161.22993"
+     y="725.82544">sg13_lv_pmos</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     transform="rotate(-90)"
+     id="text402"
+     x="-159.97993"
+     y="738.89246">m=1</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     transform="rotate(-90)"
+     id="text404"
+     x="-159.97993"
+     y="747.64044">ng=10</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     transform="rotate(-90)"
+     id="text406"
+     x="-159.97993"
+     y="760.13641">l=40.0u</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     transform="rotate(-90)"
+     id="text408"
+     x="-159.97993"
+     y="771.38342">w=10.0u</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     transform="rotate(-90)"
+     id="text410"
+     x="-168.72693"
+     y="728.26746">D</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     transform="rotate(-90)"
+     id="text412"
+     x="-168.72693"
+     y="772.20142">S</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     transform="rotate(-90)"
+     id="text414"
+     x="-171.22693"
+     y="755.7594">B</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text416"
+     x="1022.5364"
+     y="370.61493">Mpd3</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text418"
+     x="1031.5464"
+     y="388.24893">G</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text420"
+     x="1077.5364"
+     y="419.92194">sg13_hv_pmos</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text422"
+     x="1070.0364"
+     y="415.74094">D</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text424"
+     x="1070.0364"
+     y="371.80692">S</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text426"
+     x="1067.5364"
+     y="388.24893">B</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text428"
+     x="1078.7864"
+     y="406.85394">m=1</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text430"
+     x="1078.7864"
+     y="398.10693">ng=1</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text432"
+     x="1078.7864"
+     y="385.60992">l=0.5u</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text434"
+     x="1078.7864"
+     y="374.36392">w=1.0u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text436"
+     x="522.68042"
+     y="370.61493">Mpd2</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text438"
+     x="531.68445"
+     y="388.24893">G</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text440"
+     x="577.6734"
+     y="419.92194">sg13_hv_pmos</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text442"
+     x="570.17542"
+     y="415.74094">D</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text444"
+     x="570.17542"
+     y="371.80692">S</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text446"
+     x="567.67645"
+     y="388.24893">B</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text448"
+     x="578.92242"
+     y="406.85394">m=1</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text450"
+     x="578.92242"
+     y="398.10693">ng=1</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text452"
+     x="578.92242"
+     y="385.60992">l=0.5u</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text454"
+     x="578.92242"
+     y="374.36392">w=1.0u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text456"
+     x="522.68042"
+     y="140.67793">Mpd1</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text458"
+     x="531.68445"
+     y="158.31293">G</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text460"
+     x="577.6734"
+     y="189.98593">sg13_hv_pmos</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text462"
+     x="570.17542"
+     y="185.80493">D</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text464"
+     x="570.17542"
+     y="141.87093">S</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text466"
+     x="567.67645"
+     y="158.31293">B</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text468"
+     x="578.92242"
+     y="176.91792">m=1</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text470"
+     x="578.92242"
+     y="168.17093">ng=1</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text472"
+     x="578.92242"
+     y="155.67393">l=0.5u</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text474"
+     x="578.92242"
+     y="144.42693">w=1.0u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     transform="rotate(-90)"
+     id="text476"
+     x="-221.22293"
+     y="1235.0065">Mdec3</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     transform="rotate(-90)"
+     id="text478"
+     x="-207.21793"
+     y="1215.6365">G</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     transform="rotate(-90)"
+     id="text480"
+     x="-161.22993"
+     y="1185.6964">sg13_lv_pmos</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     transform="rotate(-90)"
+     id="text482"
+     x="-159.97993"
+     y="1198.7665">m=1</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     transform="rotate(-90)"
+     id="text484"
+     x="-159.97993"
+     y="1207.5165">ng=10</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     transform="rotate(-90)"
+     id="text486"
+     x="-159.97993"
+     y="1220.0065">l=40.0u</text>
+  <text
+     fill="#666600"
+     xml:space="preserve"
+     font-size="10.3971px"
+     transform="rotate(-90)"
+     id="text488"
+     x="-159.97993"
+     y="1231.2565">w=10.0u</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     transform="rotate(-90)"
+     id="text490"
+     x="-168.72693"
+     y="1188.1365">D</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     transform="rotate(-90)"
+     id="text492"
+     x="-168.72693"
+     y="1232.0764">S</text>
+  <text
+     fill="#ff0000"
+     xml:space="preserve"
+     font-size="7.79783px"
+     transform="rotate(-90)"
+     id="text494"
+     x="-171.22693"
+     y="1215.6365">B</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text496"
+     x="402.72144"
+     y="1031.684">Vmeas3</text>
+  <text
+     fill="#aa2222"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text498"
+     x="397.72342"
+     y="1019.3239">#net8</text>
+  <text
+     fill="#aa2222"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text500"
+     x="397.72342"
+     y="1068.064">#net12</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     transform="rotate(-90)"
+     id="text502"
+     x="-1306.924"
+     y="913.84442">Vmeas4</text>
+  <text
+     fill="#aa2222"
+     xml:space="preserve"
+     font-size="7.79783px"
+     transform="rotate(-90)"
+     id="text504"
+     x="-1285.924"
+     y="924.4624">#net6</text>
+  <text
+     fill="#aa2222"
+     xml:space="preserve"
+     font-size="7.79783px"
+     transform="rotate(-90)"
+     id="text506"
+     x="-1290.924"
+     y="875.72644">#net14</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text508"
+     x="187.73943"
+     y="1354.3439">sg13g2_lv_nmos_stacked_x2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text510"
+     x="309.73944"
+     y="1328.3439">xM8c</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text512"
+     x="373.97943"
+     y="1293.8539">D</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text514"
+     x="443.45844"
+     y="1383.6539">G</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text516"
+     x="323.99344"
+     y="1383.834">B</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text518"
+     x="374.47742"
+     y="1494.8739">S</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text520"
+     x="259.73944"
+     y="1430.324">W: 20.0u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text522"
+     x="259.73944"
+     y="1442.2439">L: 20.0u (total)</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text524"
+     x="259.73944"
+     y="1454.174">NG: 20</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text526"
+     x="259.73944"
+     y="1466.0939">M: 1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text528"
+     x="353.23242"
+     y="1324.1039">*2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text530"
+     x="187.73943"
+     y="1594.2739">sg13g2_lv_nmos_stacked_x2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text532"
+     x="315.73944"
+     y="1568.2839">xM8</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text534"
+     x="373.97943"
+     y="1533.7939">D</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text536"
+     x="443.45844"
+     y="1623.584">G</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text538"
+     x="323.99344"
+     y="1623.7639">B</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text540"
+     x="374.47742"
+     y="1734.804">S</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text542"
+     x="259.73944"
+     y="1670.2539">W: 20.0u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text544"
+     x="259.73944"
+     y="1682.174">L: 20.0u (total)</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text546"
+     x="259.73944"
+     y="1694.1039">NG: 20</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text548"
+     x="259.73944"
+     y="1706.0339">M: 1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text550"
+     x="353.23242"
+     y="1564.0339">*2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text552"
+     x="717.6344"
+     y="1354.3439">sg13g2_lv_nmos_stacked_x2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text554"
+     x="717.6344"
+     y="1328.3439">xM9c</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text556"
+     x="673.39441"
+     y="1293.8539">D</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text558"
+     x="603.91541"
+     y="1383.6539">G</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text560"
+     x="724.38043"
+     y="1383.834">B</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text562"
+     x="673.89642"
+     y="1494.8739">S</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text564"
+     x="717.6344"
+     y="1430.324">W: 10.0u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text566"
+     x="717.6344"
+     y="1442.2439">L: 20.0u (total)</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text568"
+     x="717.6344"
+     y="1454.174">NG: 10</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text570"
+     x="717.6344"
+     y="1466.0939">M: 1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text572"
+     x="690.14246"
+     y="1324.1039">*2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text574"
+     x="717.6344"
+     y="1594.2739">sg13g2_lv_nmos_stacked_x2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text576"
+     x="717.6344"
+     y="1568.2839">xM9</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text578"
+     x="673.39441"
+     y="1533.7939">D</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text580"
+     x="603.91541"
+     y="1623.584">G</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text582"
+     x="724.38043"
+     y="1623.7639">B</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text584"
+     x="673.89642"
+     y="1734.804">S</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text586"
+     x="717.6344"
+     y="1670.2539">W: 10.0u</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text588"
+     x="717.6344"
+     y="1682.174">L: 20.0u (total)</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text590"
+     x="717.6344"
+     y="1694.1039">NG: 10</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text592"
+     x="717.6344"
+     y="1706.0339">M: 1</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text594"
+     x="690.14246"
+     y="1564.0339">*2</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="10.3971px"
+     id="text596"
+     x="1351.4464"
+     y="751.75891">Vmeas5</text>
+  <text
+     fill="#aa2222"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text598"
+     x="1380.4464"
+     y="739.40094">Vtail</text>
+  <text
+     fill="#aa2222"
+     xml:space="preserve"
+     font-size="7.79783px"
+     id="text600"
+     x="1372.4464"
+     y="788.13794">#net9</text>
+  <path
+     class="l4"
+     stroke-dasharray="11.1969, 11.1969"
+     style="fill:none"
+     d="m 507.69243,31.26563 h 759.79397 v 639.8223 H 507.69243 V 31.26563"
+     id="path602" />
+  <path
+     class="l4"
+     d="m 1287.4764,1430.8739 h 19.99"
+     id="path604" />
+  <path
+     class="l4"
+     d="m 1287.4764,1370.8939 h 19.99"
+     id="path606" />
+  <path
+     class="l4"
+     d="m 1367.4564,1480.8639 v 10"
+     id="path608" />
+  <path
+     class="l4"
+     d="m 1367.4564,1470.8639 v 20"
+     id="path610" />
+  <path
+     class="l4"
+     d="m 1377.4464,1470.8639 v 20"
+     id="path612" />
+  <path
+     class="l4"
+     d="m 1437.4364,1470.8639 v 20"
+     id="path614" />
+  <path
+     class="l4"
+     d="m 1447.4364,1470.8639 v 20"
+     id="path616" />
+  <path
+     class="l4"
+     d="m 1337.4664,1480.8639 h 29.99"
+     id="path618" />
+  <path
+     class="l4"
+     d="m 1447.4364,1480.8639 h 29.99"
+     id="path620" />
+  <path
+     class="l4"
+     d="m 1367.4564,1430.8739 v 10"
+     id="path622" />
+  <path
+     class="l4"
+     d="m 1367.4564,1420.8839 v 19.99"
+     id="path624" />
+  <path
+     class="l4"
+     d="m 1377.4464,1420.8839 v 19.99"
+     id="path626" />
+  <path
+     class="l4"
+     d="m 1337.4664,1430.8739 h 29.99"
+     id="path628" />
+  <path
+     class="l4"
+     d="m 1437.4364,1430.8739 v 10"
+     id="path630" />
+  <path
+     class="l4"
+     d="m 1437.4364,1420.8839 v 19.99"
+     id="path632" />
+  <path
+     class="l4"
+     d="m 1447.4364,1420.8839 v 19.99"
+     id="path634" />
+  <path
+     class="l4"
+     d="m 1477.4264,1460.8639 v 20"
+     id="path636" />
+  <path
+     class="l4"
+     d="m 1477.4264,1460.8639 9.99,-9.99"
+     id="path638" />
+  <path
+     class="l4"
+     d="m 1477.4264,1430.8739 v 20"
+     id="path640" />
+  <path
+     class="l4"
+     d="m 1407.4464,1460.8639 v 20"
+     id="path642" />
+  <path
+     class="l4"
+     d="m 1407.4464,1460.8639 9.99,-9.99"
+     id="path644" />
+  <path
+     class="l4"
+     d="m 1407.4464,1430.8739 v 20"
+     id="path646" />
+  <path
+     class="l4"
+     d="m 1337.4664,1460.8639 v 20"
+     id="path648" />
+  <path
+     class="l4"
+     d="m 1337.4664,1460.8639 9.99,-9.99"
+     id="path650" />
+  <path
+     class="l4"
+     d="m 1337.4664,1430.8739 v 20"
+     id="path652" />
+  <path
+     class="l4"
+     d="m 1377.4464,1480.8639 h 30"
+     id="path654" />
+  <path
+     class="l4"
+     d="m 1407.4464,1480.8639 h 29.99"
+     id="path656" />
+  <path
+     class="l4"
+     d="m 1447.4364,1430.8739 h 29.99"
+     id="path658" />
+  <path
+     class="l4"
+     d="m 1407.4464,1430.8739 h 29.99"
+     id="path660" />
+  <path
+     class="l4"
+     d="m 1377.4464,1430.8739 h 30"
+     id="path662" />
+  <path
+     class="l4"
+     d="m 1367.4564,1380.8939 9.99,9.99"
+     id="path664" />
+  <path
+     class="l4"
+     d="m 1407.4464,1380.8939 v 49.98"
+     id="path666" />
+  <path
+     class="l4"
+     d="m 1307.4664,1530.8439 h 199.95"
+     id="path668" />
+  <path
+     class="l4"
+     d="m 1507.4164,1370.8939 v 159.95"
+     id="path670" />
+  <path
+     class="l4"
+     d="m 1307.4664,1330.9039 h 199.95"
+     id="path672" />
+  <path
+     class="l4"
+     d="m 1307.4664,1370.8939 v 159.95"
+     id="path674" />
+  <path
+     class="l4"
+     d="m 1437.4364,1380.8939 10,9.99"
+     id="path676" />
+  <path
+     class="l4"
+     d="m 1477.4264,1380.8939 v 49.98"
+     id="path678" />
+  <path
+     class="l4"
+     d="m 1447.4364,1380.8939 h 29.99"
+     id="path680" />
+  <path
+     class="l4"
+     d="m 1407.4464,1380.8939 h 29.99"
+     id="path682" />
+  <path
+     class="l4"
+     d="m 1377.4464,1380.8939 h 30"
+     id="path684" />
+  <path
+     class="l4"
+     d="m 1337.4664,1380.8939 h 29.99"
+     id="path686" />
+  <path
+     class="l4"
+     d="m 1337.4664,1380.8939 v 49.98"
+     id="path688" />
+  <path
+     class="l4"
+     d="m 1407.4464,1480.8639 v 49.98"
+     id="path690" />
+  <path
+     class="l4"
+     d="m 1507.4164,1330.9039 v 39.99"
+     id="path692" />
+  <path
+     class="l4"
+     d="m 1307.4664,1330.9039 v 39.99"
+     id="path694" />
+  <path
+     class="l4"
+     d="m 1307.4664,1510.8539 h 30"
+     id="path696" />
+  <path
+     class="l4"
+     d="m 1337.4664,1480.8639 v 29.99"
+     id="path698" />
+  <path
+     class="l4"
+     d="m 1477.4264,1480.8639 v 29.99"
+     id="path700" />
+  <path
+     class="l4"
+     d="m 1477.4264,1510.8539 h 29.99"
+     id="path702" />
+  <circle
+     class="l4"
+     cx="1407.4464"
+     cy="1480.8639"
+     r="1.97587"
+     id="circle704" />
+  <circle
+     class="l4"
+     cx="1337.4664"
+     cy="1480.8639"
+     r="1.97587"
+     id="circle706" />
+  <circle
+     class="l4"
+     cx="1477.4264"
+     cy="1480.8639"
+     r="1.97587"
+     id="circle708" />
+  <circle
+     class="l4"
+     cx="1477.4264"
+     cy="1430.8739"
+     r="1.97587"
+     id="circle710" />
+  <circle
+     class="l4"
+     cx="1407.4464"
+     cy="1430.8739"
+     r="1.97587"
+     id="circle712" />
+  <circle
+     class="l4"
+     cx="1337.4664"
+     cy="1430.8739"
+     r="1.97587"
+     id="circle714" />
+  <circle
+     class="l4"
+     cx="1407.4464"
+     cy="1380.8939"
+     r="1.97587"
+     id="circle716" />
+  <path
+     class="l4"
+     d="m 402.72143,258.70193 v 44.988"
+     id="path718" />
+  <path
+     class="l4"
+     d="m 407.72043,266.19993 v 29.992"
+     id="path720" />
+  <path
+     class="l4"
+     d="m 387.72643,298.69093 h 14.995"
+     id="path722" />
+  <path
+     class="l4"
+     d="m 387.72643,263.70093 h 14.995"
+     id="path724" />
+  <path
+     class="l4"
+     d="m 402.72143,158.72993 v 44.988"
+     id="path726" />
+  <path
+     class="l4"
+     d="m 407.72043,166.22793 v 29.992"
+     id="path728" />
+  <path
+     class="l4"
+     d="m 387.72643,198.71893 h 14.995"
+     id="path730" />
+  <path
+     class="l4"
+     d="m 387.72643,163.72893 h 14.995"
+     id="path732" />
+  <path
+     class="l4"
+     d="m 387.72643,176.22493 v 9.998"
+     id="path734" />
+  <path
+     class="l4"
+     d="m 387.72643,276.19793 v 9.997"
+     id="path736" />
+  <path
+     class="l4"
+     d="m 407.72043,181.22393 h 9.997"
+     id="path738" />
+  <path
+     class="l4"
+     d="m 417.71743,181.22393 v 49.986"
+     id="path740" />
+  <path
+     class="l4"
+     d="m 417.71743,231.20993 h 9.997"
+     id="path742" />
+  <path
+     class="l4"
+     d="m 417.71743,231.20993 v 49.986"
+     id="path744" />
+  <path
+     class="l4"
+     d="m 407.72043,281.19593 h 9.997"
+     id="path746" />
+  <path
+     class="l4"
+     d="m 347.73743,231.20993 h 9.997"
+     id="path748" />
+  <path
+     class="l4"
+     d="m 357.73443,181.22393 v 49.986"
+     id="path750" />
+  <path
+     class="l4"
+     d="m 357.73443,181.22393 h 29.992"
+     id="path752" />
+  <path
+     class="l4"
+     d="m 357.73443,231.20993 v 49.986"
+     id="path754" />
+  <path
+     class="l4"
+     d="m 357.73443,281.19593 h 29.992"
+     id="path756" />
+  <path
+     class="l4"
+     d="m 347.73743,151.23193 h 79.977"
+     id="path758" />
+  <path
+     class="l4"
+     d="m 387.72643,151.23193 v 12.497"
+     id="path760" />
+  <path
+     class="l4"
+     d="m 387.72643,298.69093 v 12.497"
+     id="path762" />
+  <path
+     class="l4"
+     d="m 427.71443,151.23193 v 159.956"
+     id="path764" />
+  <path
+     class="l4"
+     d="m 347.73743,311.18793 h 79.977"
+     id="path766" />
+  <path
+     class="l4"
+     d="m 347.73743,151.23193 v 159.956"
+     id="path768" />
+  <path
+     class="l4"
+     d="m 387.72643,198.71893 v 12.497"
+     id="path770" />
+  <path
+     class="l4"
+     d="m 387.72643,251.20493 v 12.496"
+     id="path772" />
+  <path
+     class="l4"
+     d="m 392.72443,266.19993 v -4.998 l 4.999,2.499 -4.999,2.499"
+     id="path774" />
+  <path
+     class="l4"
+     d="m 392.72443,166.22793 v -4.998 l 4.999,2.499 -4.999,2.499"
+     id="path776" />
+  <circle
+     class="l4"
+     cx="387.72644"
+     cy="241.20692"
+     r="1.24965"
+     id="circle778" />
+  <circle
+     class="l4"
+     cx="387.72644"
+     cy="231.20993"
+     r="1.24965"
+     id="circle780" />
+  <circle
+     class="l4"
+     cx="387.72644"
+     cy="221.21292"
+     r="1.24965"
+     id="circle782" />
+  <circle
+     class="l4"
+     cx="417.71744"
+     cy="231.20993"
+     r="2.25284"
+     id="circle784" />
+  <circle
+     class="l4"
+     cx="357.73444"
+     cy="231.20993"
+     r="2.25284"
+     id="circle786" />
+  <path
+     class="l4"
+     d="m 1392.4464,258.70193 v 44.988"
+     id="path788" />
+  <path
+     class="l4"
+     d="m 1387.4464,266.19993 v 29.992"
+     id="path790" />
+  <path
+     class="l4"
+     d="m 1392.4464,298.69093 h 15"
+     id="path792" />
+  <path
+     class="l4"
+     d="m 1392.4464,263.70093 h 15"
+     id="path794" />
+  <path
+     class="l4"
+     d="m 1392.4464,158.72993 v 44.988"
+     id="path796" />
+  <path
+     class="l4"
+     d="m 1387.4464,166.22793 v 29.992"
+     id="path798" />
+  <path
+     class="l4"
+     d="m 1392.4464,198.71893 h 15"
+     id="path800" />
+  <path
+     class="l4"
+     d="m 1392.4464,163.72893 h 15"
+     id="path802" />
+  <path
+     class="l4"
+     d="m 1407.4464,176.22493 v 9.998"
+     id="path804" />
+  <path
+     class="l4"
+     d="m 1407.4464,276.19793 v 9.997"
+     id="path806" />
+  <path
+     class="l4"
+     d="m 1377.4464,181.22393 h 10"
+     id="path808" />
+  <path
+     class="l4"
+     d="m 1377.4464,181.22393 v 49.986"
+     id="path810" />
+  <path
+     class="l4"
+     d="m 1367.4564,231.20993 h 9.99"
+     id="path812" />
+  <path
+     class="l4"
+     d="m 1377.4464,231.20993 v 49.986"
+     id="path814" />
+  <path
+     class="l4"
+     d="m 1377.4464,281.19593 h 10"
+     id="path816" />
+  <path
+     class="l4"
+     d="m 1437.4364,231.20993 h 10"
+     id="path818" />
+  <path
+     class="l4"
+     d="m 1437.4364,181.22393 v 49.986"
+     id="path820" />
+  <path
+     class="l4"
+     d="m 1407.4464,181.22393 h 29.99"
+     id="path822" />
+  <path
+     class="l4"
+     d="m 1437.4364,231.20993 v 49.986"
+     id="path824" />
+  <path
+     class="l4"
+     d="m 1407.4464,281.19593 h 29.99"
+     id="path826" />
+  <path
+     class="l4"
+     d="m 1367.4564,151.23193 h 79.98"
+     id="path828" />
+  <path
+     class="l4"
+     d="m 1407.4464,151.23193 v 12.497"
+     id="path830" />
+  <path
+     class="l4"
+     d="m 1407.4464,298.69093 v 12.497"
+     id="path832" />
+  <path
+     class="l4"
+     d="m 1367.4564,151.23193 v 159.956"
+     id="path834" />
+  <path
+     class="l4"
+     d="m 1367.4564,311.18793 h 79.98"
+     id="path836" />
+  <path
+     class="l4"
+     d="m 1447.4364,151.23193 v 159.956"
+     id="path838" />
+  <path
+     class="l4"
+     d="m 1407.4464,198.71893 v 12.497"
+     id="path840" />
+  <path
+     class="l4"
+     d="m 1407.4464,251.20493 v 12.496"
+     id="path842" />
+  <path
+     class="l4"
+     d="m 1402.4464,266.19993 v -4.998 l -5,2.499 5,2.499"
+     id="path844" />
+  <path
+     class="l4"
+     d="m 1402.4464,166.22793 v -4.998 l -5,2.499 5,2.499"
+     id="path846" />
+  <circle
+     class="l4"
+     cx="1407.4464"
+     cy="241.20692"
+     r="1.24965"
+     id="circle848" />
+  <circle
+     class="l4"
+     cx="1407.4464"
+     cy="231.20993"
+     r="1.24965"
+     id="circle850" />
+  <circle
+     class="l4"
+     cx="1407.4464"
+     cy="221.21292"
+     r="1.24965"
+     id="circle852" />
+  <circle
+     class="l4"
+     cx="1377.4464"
+     cy="231.20993"
+     r="2.25284"
+     id="circle854" />
+  <circle
+     class="l4"
+     cx="1437.4364"
+     cy="231.20993"
+     r="2.25284"
+     id="circle856" />
+  <path
+     class="l4"
+     d="m 1392.4464,578.61393 v 44.987"
+     id="path858" />
+  <path
+     class="l4"
+     d="m 1387.4464,586.11093 v 29.992"
+     id="path860" />
+  <path
+     class="l4"
+     d="m 1392.4464,618.60193 h 15"
+     id="path862" />
+  <path
+     class="l4"
+     d="m 1392.4464,583.61193 h 15"
+     id="path864" />
+  <path
+     class="l4"
+     d="m 1392.4464,478.64093 v 44.988"
+     id="path866" />
+  <path
+     class="l4"
+     d="m 1387.4464,486.13893 v 29.992"
+     id="path868" />
+  <path
+     class="l4"
+     d="m 1392.4464,518.62993 h 15"
+     id="path870" />
+  <path
+     class="l4"
+     d="m 1392.4464,483.63993 h 15"
+     id="path872" />
+  <path
+     class="l4"
+     d="m 1407.4464,496.13593 v 9.998"
+     id="path874" />
+  <path
+     class="l4"
+     d="m 1407.4464,596.10893 v 9.997"
+     id="path876" />
+  <path
+     class="l4"
+     d="m 1377.4464,501.13493 h 10"
+     id="path878" />
+  <path
+     class="l4"
+     d="m 1377.4464,501.13493 v 49.986"
+     id="path880" />
+  <path
+     class="l4"
+     d="m 1367.4564,551.12093 h 9.99"
+     id="path882" />
+  <path
+     class="l4"
+     d="m 1377.4464,551.12093 v 49.986"
+     id="path884" />
+  <path
+     class="l4"
+     d="m 1377.4464,601.10693 h 10"
+     id="path886" />
+  <path
+     class="l4"
+     d="m 1437.4364,551.12093 h 10"
+     id="path888" />
+  <path
+     class="l4"
+     d="m 1437.4364,501.13493 v 49.986"
+     id="path890" />
+  <path
+     class="l4"
+     d="m 1407.4464,501.13493 h 29.99"
+     id="path892" />
+  <path
+     class="l4"
+     d="m 1437.4364,551.12093 v 49.986"
+     id="path894" />
+  <path
+     class="l4"
+     d="m 1407.4464,601.10693 h 29.99"
+     id="path896" />
+  <path
+     class="l4"
+     d="m 1367.4564,471.14293 h 79.98"
+     id="path898" />
+  <path
+     class="l4"
+     d="m 1407.4464,471.14293 v 12.497"
+     id="path900" />
+  <path
+     class="l4"
+     d="m 1407.4464,618.60193 v 12.497"
+     id="path902" />
+  <path
+     class="l4"
+     d="m 1367.4564,471.14293 v 159.956"
+     id="path904" />
+  <path
+     class="l4"
+     d="m 1367.4564,631.09893 h 79.98"
+     id="path906" />
+  <path
+     class="l4"
+     d="m 1447.4364,471.14293 v 159.956"
+     id="path908" />
+  <path
+     class="l4"
+     d="m 1407.4464,518.62993 v 12.497"
+     id="path910" />
+  <path
+     class="l4"
+     d="m 1407.4464,571.11593 v 12.496"
+     id="path912" />
+  <path
+     class="l4"
+     d="m 1402.4464,586.11093 v -4.998 l -5,2.499 5,2.499"
+     id="path914" />
+  <path
+     class="l4"
+     d="m 1402.4464,486.13893 v -4.998 l -5,2.499 5,2.499"
+     id="path916" />
+  <circle
+     class="l4"
+     cx="1407.4464"
+     cy="561.11792"
+     r="1.24965"
+     id="circle918" />
+  <circle
+     class="l4"
+     cx="1407.4464"
+     cy="551.12091"
+     r="1.24965"
+     id="circle920" />
+  <circle
+     class="l4"
+     cx="1407.4464"
+     cy="541.1239"
+     r="1.24965"
+     id="circle922" />
+  <circle
+     class="l4"
+     cx="1377.4464"
+     cy="551.12091"
+     r="2.25284"
+     id="circle924" />
+  <circle
+     class="l4"
+     cx="1437.4364"
+     cy="551.12091"
+     r="2.25284"
+     id="circle926" />
+  <path
+     class="l4"
+     d="m 1422.4364,1078.4739 v 44.99"
+     id="path928" />
+  <path
+     class="l4"
+     d="m 1427.4364,1085.9739 v 29.99"
+     id="path930" />
+  <path
+     class="l4"
+     d="m 1407.4464,1118.4639 h 14.99"
+     id="path932" />
+  <path
+     class="l4"
+     d="m 1407.4464,1083.4739 h 14.99"
+     id="path934" />
+  <path
+     class="l4"
+     d="m 1422.4364,978.50193 v 44.99197"
+     id="path936" />
+  <path
+     class="l4"
+     d="m 1427.4364,985.99993 v 29.99397"
+     id="path938" />
+  <path
+     class="l4"
+     d="m 1407.4464,1018.4939 h 14.99"
+     id="path940" />
+  <path
+     class="l4"
+     d="m 1407.4464,983.50093 h 14.99"
+     id="path942" />
+  <path
+     class="l4"
+     d="m 1407.4464,995.99793 v 9.99597"
+     id="path944" />
+  <path
+     class="l4"
+     d="m 1407.4464,1095.9739 v 9.99"
+     id="path946" />
+  <path
+     class="l4"
+     d="m 1427.4364,1000.9959 h 10"
+     id="path948" />
+  <path
+     class="l4"
+     d="m 1437.4364,1000.9959 v 49.988"
+     id="path950" />
+  <path
+     class="l4"
+     d="m 1437.4364,1050.9839 h 10"
+     id="path952" />
+  <path
+     class="l4"
+     d="m 1437.4364,1050.9839 v 49.98"
+     id="path954" />
+  <path
+     class="l4"
+     d="m 1427.4364,1100.9639 h 10"
+     id="path956" />
+  <path
+     class="l4"
+     d="m 1367.4564,1050.9839 h 9.99"
+     id="path958" />
+  <path
+     class="l4"
+     d="m 1377.4464,1000.9959 v 49.988"
+     id="path960" />
+  <path
+     class="l4"
+     d="m 1377.4464,1000.9959 h 30"
+     id="path962" />
+  <path
+     class="l4"
+     d="m 1377.4464,1050.9839 v 49.98"
+     id="path964" />
+  <path
+     class="l4"
+     d="m 1377.4464,1100.9639 h 30"
+     id="path966" />
+  <path
+     class="l4"
+     d="m 1367.4564,971.00493 h 79.98"
+     id="path968" />
+  <path
+     class="l4"
+     d="m 1407.4464,971.00493 v 12.496"
+     id="path970" />
+  <path
+     class="l4"
+     d="m 1407.4464,1118.4639 v 12.5"
+     id="path972" />
+  <path
+     class="l4"
+     d="M 1447.4364,971.00493 V 1130.9639"
+     id="path974" />
+  <path
+     class="l4"
+     d="m 1367.4564,1130.9639 h 79.98"
+     id="path976" />
+  <path
+     class="l4"
+     d="M 1367.4564,971.00493 V 1130.9639"
+     id="path978" />
+  <path
+     class="l4"
+     d="m 1407.4464,1018.4939 v 12.49"
+     id="path980" />
+  <path
+     class="l4"
+     d="m 1407.4464,1070.9739 v 12.5"
+     id="path982" />
+  <path
+     class="l4"
+     d="m 1412.4364,1085.9739 v -5 l 5,2.5 -5,2.5"
+     id="path984" />
+  <path
+     class="l4"
+     d="m 1412.4364,985.99993 v -4.998 l 5,2.499 -5,2.499"
+     id="path986" />
+  <circle
+     class="l4"
+     cx="1407.4464"
+     cy="1060.9839"
+     r="1.24965"
+     id="circle988" />
+  <circle
+     class="l4"
+     cx="1407.4464"
+     cy="1050.9839"
+     r="1.24965"
+     id="circle990" />
+  <circle
+     class="l4"
+     cx="1407.4464"
+     cy="1040.9839"
+     r="1.24965"
+     id="circle992" />
+  <circle
+     class="l4"
+     cx="1437.4364"
+     cy="1050.9839"
+     r="2.25284"
+     id="circle994" />
+  <circle
+     class="l4"
+     cx="1377.4464"
+     cy="1050.9839"
+     r="2.25284"
+     id="circle996" />
+  <path
+     class="l4"
+     d="m 1095.0264,898.52493 v 44.987"
+     id="path998" />
+  <path
+     class="l4"
+     d="m 1107.5264,891.02693 v 12.496"
+     id="path1000" />
+  <path
+     class="l4"
+     d="m 1107.5264,938.51393 v 12.496"
+     id="path1002" />
+  <path
+     class="l4"
+     d="m 1090.0264,906.02293 v 29.991"
+     id="path1004" />
+  <path
+     class="l4"
+     d="m 1095.0264,938.51393 h 12.5"
+     id="path1006" />
+  <path
+     class="l4"
+     d="m 1095.0264,903.52293 h 12.5"
+     id="path1008" />
+  <path
+     class="l4"
+     d="m 1067.5364,921.01793 h 21.99"
+     id="path1010" />
+  <path
+     class="l4"
+     d="m 1100.0264,901.02393 -5,2.499 5,2.5 v -4.999"
+     id="path1012" />
+  <path
+     class="l4"
+     d="m 1120.0264,1158.4539 v 44.99"
+     id="path1014" />
+  <path
+     class="l4"
+     d="m 1107.5264,1150.9539 v 12.5"
+     id="path1016" />
+  <path
+     class="l4"
+     d="m 1107.5264,1198.4439 v 12.49"
+     id="path1018" />
+  <path
+     class="l4"
+     d="m 1125.0164,1165.9539 v 29.99"
+     id="path1020" />
+  <path
+     class="l4"
+     d="m 1107.5264,1198.4439 h 12.5"
+     id="path1022" />
+  <path
+     class="l4"
+     d="m 1107.5264,1163.4539 h 12.5"
+     id="path1024" />
+  <path
+     class="l4"
+     d="m 1125.5164,1180.9439 h 22"
+     id="path1026" />
+  <path
+     class="l4"
+     d="m 1115.0264,1160.9539 5,2.5 -5,2.5 v -5"
+     id="path1028" />
+  <path
+     class="l4"
+     d="m 1694.8664,1158.4539 v 44.99"
+     id="path1030" />
+  <path
+     class="l4"
+     d="m 1707.3564,1150.9539 v 12.5"
+     id="path1032" />
+  <path
+     class="l4"
+     d="m 1707.3564,1198.4439 v 12.49"
+     id="path1034" />
+  <path
+     class="l4"
+     d="m 1689.8664,1165.9539 v 29.99"
+     id="path1036" />
+  <path
+     class="l4"
+     d="m 1694.8664,1198.4439 h 12.49"
+     id="path1038" />
+  <path
+     class="l4"
+     d="m 1694.8664,1163.4539 h 12.49"
+     id="path1040" />
+  <path
+     class="l4"
+     d="m 1667.3664,1180.9439 h 22"
+     id="path1042" />
+  <path
+     class="l4"
+     d="m 1699.8564,1160.9539 -4.99,2.5 4.99,2.5 v -5"
+     id="path1044" />
+  <path
+     class="l4"
+     d="m 1719.8564,898.52493 v 44.987"
+     id="path1046" />
+  <path
+     class="l4"
+     d="m 1707.3564,891.02693 v 12.496"
+     id="path1048" />
+  <path
+     class="l4"
+     d="m 1707.3564,938.51393 v 12.496"
+     id="path1050" />
+  <path
+     class="l4"
+     d="m 1724.8564,906.02293 v 29.991"
+     id="path1052" />
+  <path
+     class="l4"
+     d="m 1707.3564,938.51393 h 12.5"
+     id="path1054" />
+  <path
+     class="l4"
+     d="m 1707.3564,903.52293 h 12.5"
+     id="path1056" />
+  <path
+     class="l4"
+     d="m 1725.3564,921.01793 h 21.99"
+     id="path1058" />
+  <path
+     class="l4"
+     d="m 1714.8564,901.02393 5,2.499 -5,2.5 v -4.999"
+     id="path1060" />
+  <path
+     class="l4"
+     d="m 1122.5264,1658.3139 v 44.99"
+     id="path1062" />
+  <path
+     class="l4"
+     d="m 1127.5164,1665.8139 v 29.99"
+     id="path1064" />
+  <path
+     class="l4"
+     d="m 1107.5264,1698.3039 h 15"
+     id="path1066" />
+  <path
+     class="l4"
+     d="m 1107.5264,1663.3139 h 15"
+     id="path1068" />
+  <path
+     class="l4"
+     d="m 1122.5264,1558.3439 v 44.98"
+     id="path1070" />
+  <path
+     class="l4"
+     d="m 1127.5164,1565.8439 v 29.99"
+     id="path1072" />
+  <path
+     class="l4"
+     d="m 1107.5264,1598.3339 h 15"
+     id="path1074" />
+  <path
+     class="l4"
+     d="m 1107.5264,1563.3439 h 15"
+     id="path1076" />
+  <path
+     class="l4"
+     d="m 1107.5264,1575.8339 v 10"
+     id="path1078" />
+  <path
+     class="l4"
+     d="m 1107.5264,1675.8039 v 10"
+     id="path1080" />
+  <path
+     class="l4"
+     d="m 1127.5164,1580.8339 h 10"
+     id="path1082" />
+  <path
+     class="l4"
+     d="m 1137.5164,1580.8339 v 49.99"
+     id="path1084" />
+  <path
+     class="l4"
+     d="m 1137.5164,1630.8239 h 10"
+     id="path1086" />
+  <path
+     class="l4"
+     d="m 1137.5164,1630.8239 v 49.98"
+     id="path1088" />
+  <path
+     class="l4"
+     d="m 1127.5164,1680.8039 h 10"
+     id="path1090" />
+  <path
+     class="l4"
+     d="m 1067.5364,1630.8239 h 10"
+     id="path1092" />
+  <path
+     class="l4"
+     d="m 1077.5364,1580.8339 v 49.99"
+     id="path1094" />
+  <path
+     class="l4"
+     d="m 1077.5364,1580.8339 h 29.99"
+     id="path1096" />
+  <path
+     class="l4"
+     d="m 1077.5364,1630.8239 v 49.98"
+     id="path1098" />
+  <path
+     class="l4"
+     d="m 1077.5364,1680.8039 h 29.99"
+     id="path1100" />
+  <path
+     class="l4"
+     d="m 1067.5364,1550.8439 h 79.98"
+     id="path1102" />
+  <path
+     class="l4"
+     d="m 1107.5264,1550.8439 v 12.5"
+     id="path1104" />
+  <path
+     class="l4"
+     d="m 1107.5264,1698.3039 v 12.49"
+     id="path1106" />
+  <path
+     class="l4"
+     d="m 1147.5164,1550.8439 v 159.95"
+     id="path1108" />
+  <path
+     class="l4"
+     d="m 1067.5364,1710.7939 h 79.98"
+     id="path1110" />
+  <path
+     class="l4"
+     d="m 1067.5364,1550.8439 v 159.95"
+     id="path1112" />
+  <path
+     class="l4"
+     d="m 1107.5264,1598.3339 v 12.49"
+     id="path1114" />
+  <path
+     class="l4"
+     d="m 1107.5264,1650.8139 v 12.5"
+     id="path1116" />
+  <path
+     class="l4"
+     d="m 1117.5264,1695.8039 v 5 l -5,-2.5 5,-2.5"
+     id="path1118" />
+  <path
+     class="l4"
+     d="m 1117.5264,1595.8339 v 5 l -5,-2.5 5,-2.5"
+     id="path1120" />
+  <circle
+     class="l4"
+     cx="1107.5264"
+     cy="1640.814"
+     r="1.24965"
+     id="circle1122" />
+  <circle
+     class="l4"
+     cx="1107.5264"
+     cy="1630.824"
+     r="1.24965"
+     id="circle1124" />
+  <circle
+     class="l4"
+     cx="1107.5264"
+     cy="1620.824"
+     r="1.24965"
+     id="circle1126" />
+  <circle
+     class="l4"
+     cx="1137.5164"
+     cy="1630.824"
+     r="2.25284"
+     id="circle1128" />
+  <circle
+     class="l4"
+     cx="1077.5364"
+     cy="1630.824"
+     r="2.25284"
+     id="circle1130" />
+  <path
+     class="l4"
+     d="m 1692.3664,1658.3139 v 44.99"
+     id="path1132" />
+  <path
+     class="l4"
+     d="m 1687.3664,1665.8139 v 29.99"
+     id="path1134" />
+  <path
+     class="l4"
+     d="m 1692.3664,1698.3039 h 14.99"
+     id="path1136" />
+  <path
+     class="l4"
+     d="m 1692.3664,1663.3139 h 14.99"
+     id="path1138" />
+  <path
+     class="l4"
+     d="m 1692.3664,1558.3439 v 44.98"
+     id="path1140" />
+  <path
+     class="l4"
+     d="m 1687.3664,1565.8439 v 29.99"
+     id="path1142" />
+  <path
+     class="l4"
+     d="m 1692.3664,1598.3339 h 14.99"
+     id="path1144" />
+  <path
+     class="l4"
+     d="m 1692.3664,1563.3439 h 14.99"
+     id="path1146" />
+  <path
+     class="l4"
+     d="m 1707.3564,1575.8339 v 10"
+     id="path1148" />
+  <path
+     class="l4"
+     d="m 1707.3564,1675.8039 v 10"
+     id="path1150" />
+  <path
+     class="l4"
+     d="m 1677.3664,1580.8339 h 10"
+     id="path1152" />
+  <path
+     class="l4"
+     d="m 1677.3664,1580.8339 v 49.99"
+     id="path1154" />
+  <path
+     class="l4"
+     d="m 1667.3664,1630.8239 h 10"
+     id="path1156" />
+  <path
+     class="l4"
+     d="m 1677.3664,1630.8239 v 49.98"
+     id="path1158" />
+  <path
+     class="l4"
+     d="m 1677.3664,1680.8039 h 10"
+     id="path1160" />
+  <path
+     class="l4"
+     d="m 1737.3464,1630.8239 h 10"
+     id="path1162" />
+  <path
+     class="l4"
+     d="m 1737.3464,1580.8339 v 49.99"
+     id="path1164" />
+  <path
+     class="l4"
+     d="m 1707.3564,1580.8339 h 29.99"
+     id="path1166" />
+  <path
+     class="l4"
+     d="m 1737.3464,1630.8239 v 49.98"
+     id="path1168" />
+  <path
+     class="l4"
+     d="m 1707.3564,1680.8039 h 29.99"
+     id="path1170" />
+  <path
+     class="l4"
+     d="m 1667.3664,1550.8439 h 79.98"
+     id="path1172" />
+  <path
+     class="l4"
+     d="m 1707.3564,1550.8439 v 12.5"
+     id="path1174" />
+  <path
+     class="l4"
+     d="m 1707.3564,1698.3039 v 12.49"
+     id="path1176" />
+  <path
+     class="l4"
+     d="m 1667.3664,1550.8439 v 159.95"
+     id="path1178" />
+  <path
+     class="l4"
+     d="m 1667.3664,1710.7939 h 79.98"
+     id="path1180" />
+  <path
+     class="l4"
+     d="m 1747.3464,1550.8439 v 159.95"
+     id="path1182" />
+  <path
+     class="l4"
+     d="m 1707.3564,1598.3339 v 12.49"
+     id="path1184" />
+  <path
+     class="l4"
+     d="m 1707.3564,1650.8139 v 12.5"
+     id="path1186" />
+  <path
+     class="l4"
+     d="m 1697.3664,1695.8039 v 5 l 4.99,-2.5 -4.99,-2.5"
+     id="path1188" />
+  <path
+     class="l4"
+     d="m 1697.3664,1595.8339 v 5 l 4.99,-2.5 -4.99,-2.5"
+     id="path1190" />
+  <circle
+     class="l4"
+     cx="1707.3564"
+     cy="1640.814"
+     r="1.24965"
+     id="circle1192" />
+  <circle
+     class="l4"
+     cx="1707.3564"
+     cy="1630.824"
+     r="1.24965"
+     id="circle1194" />
+  <circle
+     class="l4"
+     cx="1707.3564"
+     cy="1620.824"
+     r="1.24965"
+     id="circle1196" />
+  <circle
+     class="l4"
+     cx="1677.3665"
+     cy="1630.824"
+     r="2.25284"
+     id="circle1198" />
+  <circle
+     class="l4"
+     cx="1737.3464"
+     cy="1630.824"
+     r="2.25284"
+     id="circle1200" />
+  <path
+     class="l4"
+     d="m 1227.4964,811.04893 h 59.98"
+     id="path1202" />
+  <path
+     class="l4"
+     d="m 1247.4864,811.04893 10,-7.498"
+     id="path1204" />
+  <path
+     class="l4"
+     d="m 1247.4864,811.04893 10,7.498"
+     id="path1206" />
+  <path
+     class="l4"
+     d="m 1527.4064,811.04893 h 59.99"
+     id="path1208" />
+  <path
+     class="l4"
+     d="m 1557.3964,803.55093 10,7.498"
+     id="path1210" />
+  <path
+     class="l4"
+     d="m 1557.3964,818.54693 10,-7.498"
+     id="path1212" />
+  <path
+     class="l4"
+     d="m 1407.4464,841.04093 v 59.983"
+     id="path1214" />
+  <path
+     class="l4"
+     d="m 1407.4464,881.02993 7.49,-9.998"
+     id="path1216" />
+  <path
+     class="l4"
+     d="m 1399.9464,871.03193 7.5,9.998"
+     id="path1218" />
+  <path
+     class="l4"
+     d="m 402.72143,578.61393 v 44.987"
+     id="path1220" />
+  <path
+     class="l4"
+     d="m 407.72043,586.11093 v 29.992"
+     id="path1222" />
+  <path
+     class="l4"
+     d="m 387.72643,618.60193 h 14.995"
+     id="path1224" />
+  <path
+     class="l4"
+     d="m 387.72643,583.61193 h 14.995"
+     id="path1226" />
+  <path
+     class="l4"
+     d="m 402.72143,478.64093 v 44.988"
+     id="path1228" />
+  <path
+     class="l4"
+     d="m 407.72043,486.13893 v 29.992"
+     id="path1230" />
+  <path
+     class="l4"
+     d="m 387.72643,518.62993 h 14.995"
+     id="path1232" />
+  <path
+     class="l4"
+     d="m 387.72643,483.63993 h 14.995"
+     id="path1234" />
+  <path
+     class="l4"
+     d="m 387.72643,496.13593 v 9.998"
+     id="path1236" />
+  <path
+     class="l4"
+     d="m 387.72643,596.10893 v 9.997"
+     id="path1238" />
+  <path
+     class="l4"
+     d="m 407.72043,501.13493 h 9.997"
+     id="path1240" />
+  <path
+     class="l4"
+     d="m 417.71743,501.13493 v 49.986"
+     id="path1242" />
+  <path
+     class="l4"
+     d="m 417.71743,551.12093 h 9.997"
+     id="path1244" />
+  <path
+     class="l4"
+     d="m 417.71743,551.12093 v 49.986"
+     id="path1246" />
+  <path
+     class="l4"
+     d="m 407.72043,601.10693 h 9.997"
+     id="path1248" />
+  <path
+     class="l4"
+     d="m 347.73743,551.12093 h 9.997"
+     id="path1250" />
+  <path
+     class="l4"
+     d="m 357.73443,501.13493 v 49.986"
+     id="path1252" />
+  <path
+     class="l4"
+     d="m 357.73443,501.13493 h 29.992"
+     id="path1254" />
+  <path
+     class="l4"
+     d="m 357.73443,551.12093 v 49.986"
+     id="path1256" />
+  <path
+     class="l4"
+     d="m 357.73443,601.10693 h 29.992"
+     id="path1258" />
+  <path
+     class="l4"
+     d="m 347.73743,471.14293 h 79.977"
+     id="path1260" />
+  <path
+     class="l4"
+     d="m 387.72643,471.14293 v 12.497"
+     id="path1262" />
+  <path
+     class="l4"
+     d="m 387.72643,618.60193 v 12.497"
+     id="path1264" />
+  <path
+     class="l4"
+     d="m 427.71443,471.14293 v 159.956"
+     id="path1266" />
+  <path
+     class="l4"
+     d="m 347.73743,631.09893 h 79.977"
+     id="path1268" />
+  <path
+     class="l4"
+     d="m 347.73743,471.14293 v 159.956"
+     id="path1270" />
+  <path
+     class="l4"
+     d="m 387.72643,518.62993 v 12.497"
+     id="path1272" />
+  <path
+     class="l4"
+     d="m 387.72643,571.11593 v 12.496"
+     id="path1274" />
+  <path
+     class="l4"
+     d="m 392.72443,586.11093 v -4.998 l 4.999,2.499 -4.999,2.499"
+     id="path1276" />
+  <path
+     class="l4"
+     d="m 392.72443,486.13893 v -4.998 l 4.999,2.499 -4.999,2.499"
+     id="path1278" />
+  <circle
+     class="l4"
+     cx="387.72644"
+     cy="561.11792"
+     r="1.24965"
+     id="circle1280" />
+  <circle
+     class="l4"
+     cx="387.72644"
+     cy="551.12091"
+     r="1.24965"
+     id="circle1282" />
+  <circle
+     class="l4"
+     cx="387.72644"
+     cy="541.1239"
+     r="1.24965"
+     id="circle1284" />
+  <circle
+     class="l4"
+     cx="417.71744"
+     cy="551.12091"
+     r="2.25284"
+     id="circle1286" />
+  <circle
+     class="l4"
+     cx="357.73444"
+     cy="551.12091"
+     r="2.25284"
+     id="circle1288" />
+  <path
+     class="l4"
+     d="m 1055.0364,598.60793 v 44.987"
+     id="path1290" />
+  <path
+     class="l4"
+     d="m 1067.5364,591.10993 v 12.497"
+     id="path1292" />
+  <path
+     class="l4"
+     d="m 1067.5364,638.59693 v 12.496"
+     id="path1294" />
+  <path
+     class="l4"
+     d="m 1050.0464,606.10593 v 29.992"
+     id="path1296" />
+  <path
+     class="l4"
+     d="m 1055.0364,638.59693 h 12.5"
+     id="path1298" />
+  <path
+     class="l4"
+     d="m 1055.0364,603.60693 h 12.5"
+     id="path1300" />
+  <path
+     class="l4"
+     d="m 1027.5464,621.10193 h 22"
+     id="path1302" />
+  <path
+     class="l4"
+     d="m 1060.0364,601.10693 -5,2.5 5,2.499 v -4.999"
+     id="path1304" />
+  <path
+     class="l4"
+     d="m 1048.5464,605.10593 h 2 v 31.991 h -2 z"
+     id="path1306" />
+  <path
+     class="l4"
+     d="m 725.13243,183.72293 h 44.987"
+     id="path1308" />
+  <path
+     class="l4"
+     d="m 765.12143,171.22693 h 12.496"
+     id="path1310" />
+  <path
+     class="l4"
+     d="m 717.63443,171.22693 h 12.496"
+     id="path1312" />
+  <path
+     class="l4"
+     d="m 732.63043,188.72193 h 29.991"
+     id="path1314" />
+  <path
+     class="l4"
+     d="m 730.13043,171.22693 v 12.496"
+     id="path1316" />
+  <path
+     class="l4"
+     d="m 765.12143,171.22693 v 12.496"
+     id="path1318" />
+  <path
+     class="l4"
+     d="m 747.62643,189.22193 v 21.994"
+     id="path1320" />
+  <path
+     class="l4"
+     d="m 767.62043,178.72493 -2.499,4.998 -2.5,-4.998 h 4.999"
+     id="path1322" />
+  <path
+     class="l4"
+     d="m 1055.0364,368.67193 v 44.987"
+     id="path1324" />
+  <path
+     class="l4"
+     d="m 1067.5364,361.17393 v 12.497"
+     id="path1326" />
+  <path
+     class="l4"
+     d="m 1067.5364,408.66093 v 12.496"
+     id="path1328" />
+  <path
+     class="l4"
+     d="m 1050.0464,376.16993 v 29.991"
+     id="path1330" />
+  <path
+     class="l4"
+     d="m 1055.0364,408.66093 h 12.5"
+     id="path1332" />
+  <path
+     class="l4"
+     d="m 1055.0364,373.67093 h 12.5"
+     id="path1334" />
+  <path
+     class="l4"
+     d="m 1027.5464,391.16593 h 22"
+     id="path1336" />
+  <path
+     class="l4"
+     d="m 1060.0364,371.17093 -5,2.5 5,2.499 v -4.999"
+     id="path1338" />
+  <path
+     class="l4"
+     d="m 1048.5464,375.16993 h 2 v 31.991 h -2 z"
+     id="path1340" />
+  <path
+     class="l4"
+     d="m 555.17943,368.67193 v 44.987"
+     id="path1342" />
+  <path
+     class="l4"
+     d="m 567.67643,361.17393 v 12.497"
+     id="path1344" />
+  <path
+     class="l4"
+     d="m 567.67643,408.66093 v 12.496"
+     id="path1346" />
+  <path
+     class="l4"
+     d="m 550.18043,376.16993 v 29.991"
+     id="path1348" />
+  <path
+     class="l4"
+     d="m 555.17943,408.66093 h 12.497"
+     id="path1350" />
+  <path
+     class="l4"
+     d="m 555.17943,373.67093 h 12.497"
+     id="path1352" />
+  <path
+     class="l4"
+     d="m 527.68743,391.16593 h 21.994"
+     id="path1354" />
+  <path
+     class="l4"
+     d="m 560.17843,371.17093 -4.999,2.5 4.999,2.499 v -4.999"
+     id="path1356" />
+  <path
+     class="l4"
+     d="m 548.68143,375.16993 h 1.999 v 31.991 h -1.999 z"
+     id="path1358" />
+  <path
+     class="l4"
+     d="m 555.17943,138.73593 v 44.987"
+     id="path1360" />
+  <path
+     class="l4"
+     d="m 567.67643,131.23793 v 12.496"
+     id="path1362" />
+  <path
+     class="l4"
+     d="m 567.67643,178.72493 v 12.496"
+     id="path1364" />
+  <path
+     class="l4"
+     d="m 550.18043,146.23393 v 29.991"
+     id="path1366" />
+  <path
+     class="l4"
+     d="m 555.17943,178.72493 h 12.497"
+     id="path1368" />
+  <path
+     class="l4"
+     d="m 555.17943,143.73393 h 12.497"
+     id="path1370" />
+  <path
+     class="l4"
+     d="m 527.68743,161.22993 h 21.994"
+     id="path1372" />
+  <path
+     class="l4"
+     d="m 560.17843,141.23493 -4.999,2.499 4.999,2.5 v -4.999"
+     id="path1374" />
+  <path
+     class="l4"
+     d="m 548.68143,145.23393 h 1.999 v 31.991 h -1.999 z"
+     id="path1376" />
+  <path
+     class="l4"
+     d="m 1185.0064,183.72293 h 44.99"
+     id="path1378" />
+  <path
+     class="l4"
+     d="m 1224.9964,171.22693 h 12.49"
+     id="path1380" />
+  <path
+     class="l4"
+     d="m 1177.5064,171.22693 h 12.5"
+     id="path1382" />
+  <path
+     class="l4"
+     d="m 1192.5064,188.72193 h 29.99"
+     id="path1384" />
+  <path
+     class="l4"
+     d="m 1190.0064,171.22693 v 12.496"
+     id="path1386" />
+  <path
+     class="l4"
+     d="m 1224.9964,171.22693 v 12.496"
+     id="path1388" />
+  <path
+     class="l4"
+     d="m 1207.4964,189.22193 v 21.994"
+     id="path1390" />
+  <path
+     class="l4"
+     d="m 1227.4964,178.72493 -2.5,4.998 -2.5,-4.998 h 5"
+     id="path1392" />
+  <path
+     class="l4"
+     d="m 387.72643,1010.9939 v 59.98"
+     id="path1394" />
+  <path
+     class="l4"
+     d="m 380.22843,1040.9839 7.498,10"
+     id="path1396" />
+  <path
+     class="l4"
+     d="m 387.72643,1050.9839 7.497,-10"
+     id="path1398" />
+  <path
+     class="l4"
+     d="m 867.59243,1250.9239 h 59.984"
+     id="path1400" />
+  <path
+     class="l4"
+     d="m 887.58743,1250.9239 9.997,-7.5"
+     id="path1402" />
+  <path
+     class="l4"
+     d="m 887.58743,1250.9239 9.997,7.5"
+     id="path1404" />
+  <path
+     class="l4"
+     d="m 402.72143,1418.3839 v 44.98"
+     id="path1406" />
+  <path
+     class="l4"
+     d="m 407.72043,1425.8739 v 30"
+     id="path1408" />
+  <path
+     class="l4"
+     d="m 387.72643,1458.3739 h 14.995"
+     id="path1410" />
+  <path
+     class="l4"
+     d="m 387.72643,1423.3739 h 14.995"
+     id="path1412" />
+  <path
+     class="l4"
+     d="m 402.72143,1318.4039 v 44.99"
+     id="path1414" />
+  <path
+     class="l4"
+     d="m 407.72043,1325.9039 v 29.99"
+     id="path1416" />
+  <path
+     class="l4"
+     d="m 387.72643,1358.3939 h 14.995"
+     id="path1418" />
+  <path
+     class="l4"
+     d="m 387.72643,1323.4039 h 14.995"
+     id="path1420" />
+  <path
+     class="l4"
+     d="m 387.72643,1335.9039 v 10"
+     id="path1422" />
+  <path
+     class="l4"
+     d="m 387.72643,1435.8739 v 10"
+     id="path1424" />
+  <path
+     class="l4"
+     d="m 407.72043,1340.9039 h 9.997"
+     id="path1426" />
+  <path
+     class="l4"
+     d="m 417.71743,1340.9039 v 49.98"
+     id="path1428" />
+  <path
+     class="l4"
+     d="m 417.71743,1390.8839 h 9.997"
+     id="path1430" />
+  <path
+     class="l4"
+     d="m 417.71743,1390.8839 v 49.99"
+     id="path1432" />
+  <path
+     class="l4"
+     d="m 407.72043,1440.8739 h 9.997"
+     id="path1434" />
+  <path
+     class="l4"
+     d="m 347.73743,1390.8839 h 9.997"
+     id="path1436" />
+  <path
+     class="l4"
+     d="m 357.73443,1340.9039 v 49.98"
+     id="path1438" />
+  <path
+     class="l4"
+     d="m 357.73443,1340.9039 h 29.992"
+     id="path1440" />
+  <path
+     class="l4"
+     d="m 357.73443,1390.8839 v 49.99"
+     id="path1442" />
+  <path
+     class="l4"
+     d="m 357.73443,1440.8739 h 29.992"
+     id="path1444" />
+  <path
+     class="l4"
+     d="m 347.73743,1310.9139 h 79.977"
+     id="path1446" />
+  <path
+     class="l4"
+     d="m 387.72643,1310.9139 v 12.49"
+     id="path1448" />
+  <path
+     class="l4"
+     d="m 387.72643,1458.3739 v 12.49"
+     id="path1450" />
+  <path
+     class="l4"
+     d="m 427.71443,1310.9139 v 159.95"
+     id="path1452" />
+  <path
+     class="l4"
+     d="m 347.73743,1470.8639 h 79.977"
+     id="path1454" />
+  <path
+     class="l4"
+     d="m 347.73743,1310.9139 v 159.95"
+     id="path1456" />
+  <path
+     class="l4"
+     d="m 387.72643,1358.3939 v 12.5"
+     id="path1458" />
+  <path
+     class="l4"
+     d="m 387.72643,1410.8839 v 12.49"
+     id="path1460" />
+  <path
+     class="l4"
+     d="m 397.72343,1455.8739 v 4.99 l -4.999,-2.49 4.999,-2.5"
+     id="path1462" />
+  <path
+     class="l4"
+     d="m 397.72343,1355.8939 v 5 l -4.999,-2.5 4.999,-2.5"
+     id="path1464" />
+  <circle
+     class="l4"
+     cx="387.72644"
+     cy="1400.8839"
+     r="1.24965"
+     id="circle1466" />
+  <circle
+     class="l4"
+     cx="387.72644"
+     cy="1390.8839"
+     r="1.24965"
+     id="circle1468" />
+  <circle
+     class="l4"
+     cx="387.72644"
+     cy="1380.8939"
+     r="1.24965"
+     id="circle1470" />
+  <circle
+     class="l4"
+     cx="417.71744"
+     cy="1390.8839"
+     r="2.25284"
+     id="circle1472" />
+  <circle
+     class="l4"
+     cx="357.73444"
+     cy="1390.8839"
+     r="2.25284"
+     id="circle1474" />
+  <path
+     class="l4"
+     d="m 402.72143,1658.3139 v 44.99"
+     id="path1476" />
+  <path
+     class="l4"
+     d="m 407.72043,1665.8139 v 29.99"
+     id="path1478" />
+  <path
+     class="l4"
+     d="m 387.72643,1698.3039 h 14.995"
+     id="path1480" />
+  <path
+     class="l4"
+     d="m 387.72643,1663.3139 h 14.995"
+     id="path1482" />
+  <path
+     class="l4"
+     d="m 402.72143,1558.3439 v 44.98"
+     id="path1484" />
+  <path
+     class="l4"
+     d="m 407.72043,1565.8439 v 29.99"
+     id="path1486" />
+  <path
+     class="l4"
+     d="m 387.72643,1598.3339 h 14.995"
+     id="path1488" />
+  <path
+     class="l4"
+     d="m 387.72643,1563.3439 h 14.995"
+     id="path1490" />
+  <path
+     class="l4"
+     d="m 387.72643,1575.8339 v 10"
+     id="path1492" />
+  <path
+     class="l4"
+     d="m 387.72643,1675.8039 v 10"
+     id="path1494" />
+  <path
+     class="l4"
+     d="m 407.72043,1580.8339 h 9.997"
+     id="path1496" />
+  <path
+     class="l4"
+     d="m 417.71743,1580.8339 v 49.99"
+     id="path1498" />
+  <path
+     class="l4"
+     d="m 417.71743,1630.8239 h 9.997"
+     id="path1500" />
+  <path
+     class="l4"
+     d="m 417.71743,1630.8239 v 49.98"
+     id="path1502" />
+  <path
+     class="l4"
+     d="m 407.72043,1680.8039 h 9.997"
+     id="path1504" />
+  <path
+     class="l4"
+     d="m 347.73743,1630.8239 h 9.997"
+     id="path1506" />
+  <path
+     class="l4"
+     d="m 357.73443,1580.8339 v 49.99"
+     id="path1508" />
+  <path
+     class="l4"
+     d="m 357.73443,1580.8339 h 29.992"
+     id="path1510" />
+  <path
+     class="l4"
+     d="m 357.73443,1630.8239 v 49.98"
+     id="path1512" />
+  <path
+     class="l4"
+     d="m 357.73443,1680.8039 h 29.992"
+     id="path1514" />
+  <path
+     class="l4"
+     d="m 347.73743,1550.8439 h 79.977"
+     id="path1516" />
+  <path
+     class="l4"
+     d="m 387.72643,1550.8439 v 12.5"
+     id="path1518" />
+  <path
+     class="l4"
+     d="m 387.72643,1698.3039 v 12.49"
+     id="path1520" />
+  <path
+     class="l4"
+     d="m 427.71443,1550.8439 v 159.95"
+     id="path1522" />
+  <path
+     class="l4"
+     d="m 347.73743,1710.7939 h 79.977"
+     id="path1524" />
+  <path
+     class="l4"
+     d="m 347.73743,1550.8439 v 159.95"
+     id="path1526" />
+  <path
+     class="l4"
+     d="m 387.72643,1598.3339 v 12.49"
+     id="path1528" />
+  <path
+     class="l4"
+     d="m 387.72643,1650.8139 v 12.5"
+     id="path1530" />
+  <path
+     class="l4"
+     d="m 397.72343,1695.8039 v 5 l -4.999,-2.5 4.999,-2.5"
+     id="path1532" />
+  <path
+     class="l4"
+     d="m 397.72343,1595.8339 v 5 l -4.999,-2.5 4.999,-2.5"
+     id="path1534" />
+  <circle
+     class="l4"
+     cx="387.72644"
+     cy="1640.814"
+     r="1.24965"
+     id="circle1536" />
+  <circle
+     class="l4"
+     cx="387.72644"
+     cy="1630.824"
+     r="1.24965"
+     id="circle1538" />
+  <circle
+     class="l4"
+     cx="387.72644"
+     cy="1620.824"
+     r="1.24965"
+     id="circle1540" />
+  <circle
+     class="l4"
+     cx="417.71744"
+     cy="1630.824"
+     r="2.25284"
+     id="circle1542" />
+  <circle
+     class="l4"
+     cx="357.73444"
+     cy="1630.824"
+     r="2.25284"
+     id="circle1544" />
+  <path
+     class="l4"
+     d="m 652.65243,1418.3839 v 44.98"
+     id="path1546" />
+  <path
+     class="l4"
+     d="m 647.65343,1425.8739 v 30"
+     id="path1548" />
+  <path
+     class="l4"
+     d="m 652.65243,1458.3739 h 14.996"
+     id="path1550" />
+  <path
+     class="l4"
+     d="m 652.65243,1423.3739 h 14.996"
+     id="path1552" />
+  <path
+     class="l4"
+     d="m 652.65243,1318.4039 v 44.99"
+     id="path1554" />
+  <path
+     class="l4"
+     d="m 647.65343,1325.9039 v 29.99"
+     id="path1556" />
+  <path
+     class="l4"
+     d="m 652.65243,1358.3939 h 14.996"
+     id="path1558" />
+  <path
+     class="l4"
+     d="m 652.65243,1323.4039 h 14.996"
+     id="path1560" />
+  <path
+     class="l4"
+     d="m 667.64843,1335.9039 v 10"
+     id="path1562" />
+  <path
+     class="l4"
+     d="m 667.64843,1435.8739 v 10"
+     id="path1564" />
+  <path
+     class="l4"
+     d="m 637.65643,1340.9039 h 9.997"
+     id="path1566" />
+  <path
+     class="l4"
+     d="m 637.65643,1340.9039 v 49.98"
+     id="path1568" />
+  <path
+     class="l4"
+     d="m 627.65943,1390.8839 h 9.997"
+     id="path1570" />
+  <path
+     class="l4"
+     d="m 637.65643,1390.8839 v 49.99"
+     id="path1572" />
+  <path
+     class="l4"
+     d="m 637.65643,1440.8739 h 9.997"
+     id="path1574" />
+  <path
+     class="l4"
+     d="m 697.63943,1390.8839 h 9.998"
+     id="path1576" />
+  <path
+     class="l4"
+     d="m 697.63943,1340.9039 v 49.98"
+     id="path1578" />
+  <path
+     class="l4"
+     d="m 667.64843,1340.9039 h 29.991"
+     id="path1580" />
+  <path
+     class="l4"
+     d="m 697.63943,1390.8839 v 49.99"
+     id="path1582" />
+  <path
+     class="l4"
+     d="m 667.64843,1440.8739 h 29.991"
+     id="path1584" />
+  <path
+     class="l4"
+     d="m 627.65943,1310.9139 h 79.978"
+     id="path1586" />
+  <path
+     class="l4"
+     d="m 667.64843,1310.9139 v 12.49"
+     id="path1588" />
+  <path
+     class="l4"
+     d="m 667.64843,1458.3739 v 12.49"
+     id="path1590" />
+  <path
+     class="l4"
+     d="m 627.65943,1310.9139 v 159.95"
+     id="path1592" />
+  <path
+     class="l4"
+     d="m 627.65943,1470.8639 h 79.978"
+     id="path1594" />
+  <path
+     class="l4"
+     d="m 707.63743,1310.9139 v 159.95"
+     id="path1596" />
+  <path
+     class="l4"
+     d="m 667.64843,1358.3939 v 12.5"
+     id="path1598" />
+  <path
+     class="l4"
+     d="m 667.64843,1410.8839 v 12.49"
+     id="path1600" />
+  <path
+     class="l4"
+     d="m 657.65143,1455.8739 v 4.99 l 4.998,-2.49 -4.998,-2.5"
+     id="path1602" />
+  <path
+     class="l4"
+     d="m 657.65143,1355.8939 v 5 l 4.998,-2.5 -4.998,-2.5"
+     id="path1604" />
+  <circle
+     class="l4"
+     cx="667.64838"
+     cy="1400.8839"
+     r="1.24965"
+     id="circle1606" />
+  <circle
+     class="l4"
+     cx="667.64838"
+     cy="1390.8839"
+     r="1.24965"
+     id="circle1608" />
+  <circle
+     class="l4"
+     cx="667.64838"
+     cy="1380.8939"
+     r="1.24965"
+     id="circle1610" />
+  <circle
+     class="l4"
+     cx="637.65637"
+     cy="1390.8839"
+     r="2.25284"
+     id="circle1612" />
+  <circle
+     class="l4"
+     cx="697.6394"
+     cy="1390.8839"
+     r="2.25284"
+     id="circle1614" />
+  <path
+     class="l4"
+     d="m 652.65243,1658.3139 v 44.99"
+     id="path1616" />
+  <path
+     class="l4"
+     d="m 647.65343,1665.8139 v 29.99"
+     id="path1618" />
+  <path
+     class="l4"
+     d="m 652.65243,1698.3039 h 14.996"
+     id="path1620" />
+  <path
+     class="l4"
+     d="m 652.65243,1663.3139 h 14.996"
+     id="path1622" />
+  <path
+     class="l4"
+     d="m 652.65243,1558.3439 v 44.98"
+     id="path1624" />
+  <path
+     class="l4"
+     d="m 647.65343,1565.8439 v 29.99"
+     id="path1626" />
+  <path
+     class="l4"
+     d="m 652.65243,1598.3339 h 14.996"
+     id="path1628" />
+  <path
+     class="l4"
+     d="m 652.65243,1563.3439 h 14.996"
+     id="path1630" />
+  <path
+     class="l4"
+     d="m 667.64843,1575.8339 v 10"
+     id="path1632" />
+  <path
+     class="l4"
+     d="m 667.64843,1675.8039 v 10"
+     id="path1634" />
+  <path
+     class="l4"
+     d="m 637.65643,1580.8339 h 9.997"
+     id="path1636" />
+  <path
+     class="l4"
+     d="m 637.65643,1580.8339 v 49.99"
+     id="path1638" />
+  <path
+     class="l4"
+     d="m 627.65943,1630.8239 h 9.997"
+     id="path1640" />
+  <path
+     class="l4"
+     d="m 637.65643,1630.8239 v 49.98"
+     id="path1642" />
+  <path
+     class="l4"
+     d="m 637.65643,1680.8039 h 9.997"
+     id="path1644" />
+  <path
+     class="l4"
+     d="m 697.63943,1630.8239 h 9.998"
+     id="path1646" />
+  <path
+     class="l4"
+     d="m 697.63943,1580.8339 v 49.99"
+     id="path1648" />
+  <path
+     class="l4"
+     d="m 667.64843,1580.8339 h 29.991"
+     id="path1650" />
+  <path
+     class="l4"
+     d="m 697.63943,1630.8239 v 49.98"
+     id="path1652" />
+  <path
+     class="l4"
+     d="m 667.64843,1680.8039 h 29.991"
+     id="path1654" />
+  <path
+     class="l4"
+     d="m 627.65943,1550.8439 h 79.978"
+     id="path1656" />
+  <path
+     class="l4"
+     d="m 667.64843,1550.8439 v 12.5"
+     id="path1658" />
+  <path
+     class="l4"
+     d="m 667.64843,1698.3039 v 12.49"
+     id="path1660" />
+  <path
+     class="l4"
+     d="m 627.65943,1550.8439 v 159.95"
+     id="path1662" />
+  <path
+     class="l4"
+     d="m 627.65943,1710.7939 h 79.978"
+     id="path1664" />
+  <path
+     class="l4"
+     d="m 707.63743,1550.8439 v 159.95"
+     id="path1666" />
+  <path
+     class="l4"
+     d="m 667.64843,1598.3339 v 12.49"
+     id="path1668" />
+  <path
+     class="l4"
+     d="m 667.64843,1650.8139 v 12.5"
+     id="path1670" />
+  <path
+     class="l4"
+     d="m 657.65143,1695.8039 v 5 l 4.998,-2.5 -4.998,-2.5"
+     id="path1672" />
+  <path
+     class="l4"
+     d="m 657.65143,1595.8339 v 5 l 4.998,-2.5 -4.998,-2.5"
+     id="path1674" />
+  <circle
+     class="l4"
+     cx="667.64838"
+     cy="1640.814"
+     r="1.24965"
+     id="circle1676" />
+  <circle
+     class="l4"
+     cx="667.64838"
+     cy="1630.824"
+     r="1.24965"
+     id="circle1678" />
+  <circle
+     class="l4"
+     cx="667.64838"
+     cy="1620.824"
+     r="1.24965"
+     id="circle1680" />
+  <circle
+     class="l4"
+     cx="637.65637"
+     cy="1630.824"
+     r="2.25284"
+     id="circle1682" />
+  <circle
+     class="l4"
+     cx="697.6394"
+     cy="1630.824"
+     r="2.25284"
+     id="circle1684" />
+  <path
+     class="l4"
+     d="m 1407.4464,731.07093 v 59.984"
+     id="path1686" />
+  <path
+     class="l4"
+     d="m 1407.4464,771.05993 7.49,-9.997"
+     id="path1688" />
+  <path
+     class="l4"
+     d="m 1399.9464,761.06293 7.5,9.997"
+     id="path1690" />
+  <path
+     class="l5"
+     d="m 1262.4864,1430.8739 h 5"
+     id="path1692" />
+  <path
+     class="l5"
+     d="m 1262.4864,1430.8739 -3.75,5 h -8.75 l 3.75,-5 -3.75,-5 h 8.75 l 3.75,5"
+     id="path1694" />
+  <path
+     class="l5"
+     d="m 1266.2364,1429.6239 h 2.49 v 2.5 h -2.49 z"
+     id="path1696" />
+  <path
+     class="l5"
+     d="m 1262.4864,1370.8939 h 5"
+     id="path1698" />
+  <path
+     class="l5"
+     d="m 1262.4864,1370.8939 -3.75,5 h -8.75 l 3.75,-5 -3.75,-5 h 8.75 l 3.75,5"
+     id="path1700" />
+  <path
+     class="l5"
+     d="m 1266.2364,1369.6439 h 2.49 v 2.5 h -2.49 z"
+     id="path1702" />
+  <path
+     class="l5"
+     d="m 1326.2164,1569.5839 h 2.5 v 2.5 h -2.5 z"
+     id="path1704" />
+  <path
+     class="l5"
+     d="m 1326.2164,1289.6639 h 2.5 v 2.5 h -2.5 z"
+     id="path1706" />
+  <path
+     class="l5"
+     d="m 1284.9764,1428.3739 h 5 v 5 h -5 z"
+     id="path1708" />
+  <path
+     class="l5"
+     d="m 1284.9764,1368.3939 h 5 v 5 h -5 z"
+     id="path1710" />
+  <path
+     class="l5"
+     d="m 1324.9664,1548.3439 h 5 v 5 h -5 z"
+     id="path1712" />
+  <path
+     class="l5"
+     d="m 1524.9064,1508.3539 h 5 v 5 h -5 z"
+     id="path1714" />
+  <path
+     class="l5"
+     d="m 1324.9664,1308.4139 h 5 v 5 h -5 z"
+     id="path1716" />
+  <path
+     class="l5"
+     d="m 1404.9464,1548.3439 h 5 v 5 h -5 z"
+     id="path1718" />
+  <path
+     class="l5"
+     d="m 1284.9764,1508.3539 h 5 v 5 h -5 z"
+     id="path1720" />
+  <path
+     class="l5"
+     d="m 1022.5464,921.01793 h 5"
+     id="path1722" />
+  <path
+     class="l5"
+     d="m 1022.5464,921.01793 -3.75,-4.998 h -8.74 l 3.75,4.998 -3.75,4.999 h 8.74 l 3.75,-4.999"
+     id="path1724" />
+  <path
+     class="l5"
+     d="m 1026.2964,919.76893 h 2.5 v 2.499 h -2.5 z"
+     id="path1726" />
+  <path
+     class="l5"
+     d="m 1787.3364,921.01793 h 5"
+     id="path1728" />
+  <path
+     class="l5"
+     d="m 1792.3364,921.01793 3.75,4.999 h 8.75 l -3.75,-4.999 3.75,-4.998 h -8.75 l -3.75,4.998"
+     id="path1730" />
+  <path
+     class="l5"
+     d="m 1786.0864,919.76893 h 2.5 v 2.499 h -2.5 z"
+     id="path1732" />
+  <path
+     class="l5"
+     d="m 1787.3364,1410.8839 h 8.75"
+     id="path1734" />
+  <path
+     class="l5"
+     d="m 1804.8364,1410.8839 -3.75,5 h -8.75 l 3.75,-5 -3.75,-5 h 8.75 l 3.75,5"
+     id="path1736" />
+  <path
+     class="l5"
+     d="m 1786.0864,1409.6339 h 2.5 v 2.5 h -2.5 z"
+     id="path1738" />
+  <path
+     class="l5"
+     d="m 1018.7964,1410.8839 h 8.75"
+     id="path1740" />
+  <path
+     class="l5"
+     d="m 1010.0564,1410.8839 3.75,5 h 8.74 l -3.75,-5 3.75,-5 h -8.74 l -3.75,5"
+     id="path1742" />
+  <path
+     class="l5"
+     d="m 1026.2964,1409.6339 h 2.5 v 2.5 h -2.5 z"
+     id="path1744" />
+  <path
+     class="l5"
+     d="m 1407.4464,88.12483 v 3.1241"
+     id="path1746" />
+  <path
+     class="l5"
+     d="m 1412.4364,77.50273 -4.99,-3.7489 -5,3.7489 v 6.8731 l 5,3.749 4.99,-3.749 v -6.8731"
+     id="path1748" />
+  <path
+     class="l5"
+     d="m 1406.1964,89.99923 h 2.5 v 2.4993 h -2.5 z"
+     id="path1750" />
+  <path
+     class="l5"
+     d="m 1107.5264,1770.7839 v 3.12"
+     id="path1752" />
+  <path
+     class="l5"
+     d="m 1102.5264,1784.5239 5,3.75 5,-3.75 v -6.87 l -5,-3.75 -5,3.75 v 6.87"
+     id="path1754" />
+  <path
+     class="l5"
+     d="m 1106.2764,1769.5339 h 2.5 v 2.5 h -2.5 z"
+     id="path1756" />
+  <path
+     class="l5"
+     d="m 1706.1064,1769.5339 h 2.5 v 2.5 h -2.5 z"
+     id="path1758" />
+  <path
+     class="l5"
+     d="m 385.22643,328.68293 h 4.999 v 4.999 h -4.999 z"
+     id="path1760" />
+  <path
+     class="l5"
+     d="m 445.21043,228.71093 h 4.998 v 4.998 h -4.998 z"
+     id="path1762" />
+  <path
+     class="l5"
+     d="m 325.24343,228.71093 h 4.999 v 4.998 h -4.999 z"
+     id="path1764" />
+  <path
+     class="l5"
+     d="m 385.22643,128.73893 h 4.999 v 4.998 h -4.999 z"
+     id="path1766" />
+  <path
+     class="l5"
+     d="m 1626.1364,89.99923 h 2.49 v 2.4993 h -2.49 z"
+     id="path1768" />
+  <path
+     class="l5"
+     d="m 1404.9464,328.68293 h 5 v 4.999 h -5 z"
+     id="path1770" />
+  <path
+     class="l5"
+     d="m 1344.9564,228.71093 h 5 v 4.998 h -5 z"
+     id="path1772" />
+  <path
+     class="l5"
+     d="m 1464.9264,228.71093 h 5 v 4.998 h -5 z"
+     id="path1774" />
+  <path
+     class="l5"
+     d="m 1404.9464,128.73893 h 5 v 4.998 h -5 z"
+     id="path1776" />
+  <path
+     class="l5"
+     d="m 1404.9464,648.59393 h 5 v 4.999 h -5 z"
+     id="path1778" />
+  <path
+     class="l5"
+     d="m 1344.9564,548.62193 h 5 v 4.999 h -5 z"
+     id="path1780" />
+  <path
+     class="l5"
+     d="m 1464.9264,548.62193 h 5 v 4.999 h -5 z"
+     id="path1782" />
+  <path
+     class="l5"
+     d="m 1404.9464,448.64993 h 5 v 4.998 h -5 z"
+     id="path1784" />
+  <path
+     class="l5"
+     d="m 386.47643,89.99923 h 2.499 v 2.4993 h -2.499 z"
+     id="path1786" />
+  <path
+     class="l5"
+     d="m 166.53743,89.99923 h 2.499 v 2.4993 h -2.499 z"
+     id="path1788" />
+  <path
+     class="l5"
+     d="m 1404.9464,1148.4539 h 5 v 5 h -5 z"
+     id="path1790" />
+  <path
+     class="l5"
+     d="m 1464.9264,1048.4839 h 5 v 5 h -5 z"
+     id="path1792" />
+  <path
+     class="l5"
+     d="m 1344.9564,1048.4839 h 5 v 5 h -5 z"
+     id="path1794" />
+  <path
+     class="l5"
+     d="m 1404.9464,948.51093 h 5 v 4.998 h -5 z"
+     id="path1796" />
+  <path
+     class="l5"
+     d="m 1102.5264,918.51893 5,2.499 -5,2.5 v -4.999"
+     id="path1798" />
+  <path
+     class="l5"
+     d="m 1105.0264,948.51093 h 5 v 4.998 h -5 z"
+     id="path1800" />
+  <path
+     class="l5"
+     d="m 1065.0364,918.51893 h 5 v 4.999 h -5 z"
+     id="path1802" />
+  <path
+     class="l5"
+     d="m 1105.0264,888.52693 h 5 v 4.999 h -5 z"
+     id="path1804" />
+  <path
+     class="l5"
+     d="m 1107.4464,920.93993 h 0.16 v 0.157 h -0.16 z"
+     id="path1806" />
+  <path
+     class="l5"
+     d="m 1112.5264,1178.4439 -5,2.5 5,2.5 v -5"
+     id="path1808" />
+  <path
+     class="l5"
+     d="m 1105.0264,1208.4339 h 5 v 5 h -5 z"
+     id="path1810" />
+  <path
+     class="l5"
+     d="m 1145.0164,1178.4439 h 5 v 5 h -5 z"
+     id="path1812" />
+  <path
+     class="l5"
+     d="m 1105.0264,1148.4539 h 5 v 5 h -5 z"
+     id="path1814" />
+  <path
+     class="l5"
+     d="m 1107.4464,1180.8639 h 0.16 v 0.16 h -0.16 z"
+     id="path1816" />
+  <path
+     class="l5"
+     d="m 1702.3564,1178.4439 5,2.5 -5,2.5 v -5"
+     id="path1818" />
+  <path
+     class="l5"
+     d="m 1704.8564,1208.4339 h 5 v 5 h -5 z"
+     id="path1820" />
+  <path
+     class="l5"
+     d="m 1664.8664,1178.4439 h 5 v 5 h -5 z"
+     id="path1822" />
+  <path
+     class="l5"
+     d="m 1704.8564,1148.4539 h 5 v 5 h -5 z"
+     id="path1824" />
+  <path
+     class="l5"
+     d="m 1707.2764,1180.8639 h 0.16 v 0.16 h -0.16 z"
+     id="path1826" />
+  <path
+     class="l5"
+     d="m 1712.3564,918.51893 -5,2.499 5,2.5 v -4.999"
+     id="path1828" />
+  <path
+     class="l5"
+     d="m 1704.8564,948.51093 h 5 v 4.998 h -5 z"
+     id="path1830" />
+  <path
+     class="l5"
+     d="m 1744.8464,918.51893 h 5 v 4.999 h -5 z"
+     id="path1832" />
+  <path
+     class="l5"
+     d="m 1704.8564,888.52693 h 5 v 4.999 h -5 z"
+     id="path1834" />
+  <path
+     class="l5"
+     d="m 1707.2764,920.93993 h 0.16 v 0.157 h -0.16 z"
+     id="path1836" />
+  <path
+     class="l5"
+     d="m 1105.0264,1528.3539 h 5 v 4.99 h -5 z"
+     id="path1838" />
+  <path
+     class="l5"
+     d="m 1165.0064,1628.3239 h 5 v 5 h -5 z"
+     id="path1840" />
+  <path
+     class="l5"
+     d="m 1045.0464,1628.3239 h 5 v 5 h -5 z"
+     id="path1842" />
+  <path
+     class="l5"
+     d="m 1105.0264,1728.2939 h 5 v 5 h -5 z"
+     id="path1844" />
+  <path
+     class="l5"
+     d="m 1704.8564,1528.3539 h 5 v 4.99 h -5 z"
+     id="path1846" />
+  <path
+     class="l5"
+     d="m 1644.8764,1628.3239 h 5 v 5 h -5 z"
+     id="path1848" />
+  <path
+     class="l5"
+     d="m 1764.8464,1628.3239 h 5 v 5 h -5 z"
+     id="path1850" />
+  <path
+     class="l5"
+     d="m 1704.8564,1728.2939 h 5 v 5 h -5 z"
+     id="path1852" />
+  <path
+     class="l5"
+     d="m 966.31543,1769.5339 h 2.499 v 2.5 h -2.499 z"
+     id="path1854" />
+  <path
+     class="l5"
+     d="m 1846.0664,1769.5339 h 2.5 v 2.5 h -2.5 z"
+     id="path1856" />
+  <path
+     class="l5"
+     d="m 122.79943,691.08193 h 4.999"
+     id="path1858" />
+  <path
+     class="l5"
+     d="m 122.79943,691.08193 -3.749,-4.998 h -8.747 l 3.749,4.998 -3.749,4.999 h 8.747 l 3.749,-4.999"
+     id="path1860" />
+  <path
+     class="l5"
+     d="m 126.54843,689.83293 h 2.499 v 2.499 h -2.499 z"
+     id="path1862" />
+  <path
+     class="l5"
+     d="m 1284.9764,808.54993 h 5 v 4.998 h -5 z"
+     id="path1864" />
+  <path
+     class="l5"
+     d="m 1224.9964,808.54993 h 5 v 4.998 h -5 z"
+     id="path1866" />
+  <path
+     class="l5"
+     d="m 1524.9064,808.54993 h 5 v 4.998 h -5 z"
+     id="path1868" />
+  <path
+     class="l5"
+     d="m 1584.8964,808.54993 h 5 v 4.998 h -5 z"
+     id="path1870" />
+  <path
+     class="l5"
+     d="m 1404.9464,838.54093 h 5 v 4.999 h -5 z"
+     id="path1872" />
+  <path
+     class="l5"
+     d="m 1404.9464,898.52493 h 5 v 4.998 h -5 z"
+     id="path1874" />
+  <path
+     class="l5"
+     d="m 1366.2064,689.83293 h 2.5 v 2.499 h -2.5 z"
+     id="path1876" />
+  <path
+     class="l5"
+     d="m 886.33743,189.97193 h 2.499 v 2.499 h -2.499 z"
+     id="path1878" />
+  <path
+     class="l5"
+     d="m 385.22643,648.59393 h 4.999 v 4.999 h -4.999 z"
+     id="path1880" />
+  <path
+     class="l5"
+     d="m 445.21043,548.62193 h 4.998 v 4.999 h -4.998 z"
+     id="path1882" />
+  <path
+     class="l5"
+     d="m 325.24343,548.62193 h 4.999 v 4.999 h -4.999 z"
+     id="path1884" />
+  <path
+     class="l5"
+     d="m 385.22643,448.64993 h 4.999 v 4.998 h -4.999 z"
+     id="path1886" />
+  <path
+     class="l5"
+     d="m 1062.5364,618.60193 5,2.5 -5,2.499 v -4.999"
+     id="path1888" />
+  <path
+     class="l5"
+     d="m 1065.0364,648.59393 h 5 v 4.999 h -5 z"
+     id="path1890" />
+  <path
+     class="l5"
+     d="m 1025.0464,618.60193 h 5 v 4.999 h -5 z"
+     id="path1892" />
+  <path
+     class="l5"
+     d="m 1065.0364,588.61093 h 5 v 4.998 h -5 z"
+     id="path1894" />
+  <path
+     class="l5"
+     d="m 1067.4564,621.02393 h 0.16 v 0.156 h -0.16 z"
+     id="path1896" />
+  <path
+     class="l5"
+     d="m 750.12543,176.22493 -2.499,-4.998 -2.5,4.998 h 4.999"
+     id="path1898" />
+  <path
+     class="l5"
+     d="m 715.13543,168.72693 h 4.998 v 4.999 h -4.998 z"
+     id="path1900" />
+  <path
+     class="l5"
+     d="m 745.12643,208.71593 h 4.999 v 4.999 h -4.999 z"
+     id="path1902" />
+  <path
+     class="l5"
+     d="m 775.11843,168.72693 h 4.999 v 4.999 h -4.999 z"
+     id="path1904" />
+  <path
+     class="l5"
+     d="m 747.54743,171.14893 h 0.157 v 0.156 h -0.157 z"
+     id="path1906" />
+  <path
+     class="l5"
+     d="m 1062.5364,388.66593 5,2.5 -5,2.499 v -4.999"
+     id="path1908" />
+  <path
+     class="l5"
+     d="m 1065.0364,418.65793 h 5 v 4.999 h -5 z"
+     id="path1910" />
+  <path
+     class="l5"
+     d="m 1025.0464,388.66593 h 5 v 4.999 h -5 z"
+     id="path1912" />
+  <path
+     class="l5"
+     d="m 1065.0364,358.67493 h 5 v 4.998 h -5 z"
+     id="path1914" />
+  <path
+     class="l5"
+     d="m 1067.4564,391.08793 h 0.16 v 0.156 h -0.16 z"
+     id="path1916" />
+  <path
+     class="l5"
+     d="m 562.67743,388.66593 4.999,2.5 -4.999,2.499 v -4.999"
+     id="path1918" />
+  <path
+     class="l5"
+     d="m 565.17643,418.65793 h 4.999 v 4.999 h -4.999 z"
+     id="path1920" />
+  <path
+     class="l5"
+     d="m 525.18743,388.66593 h 4.999 v 4.999 h -4.999 z"
+     id="path1922" />
+  <path
+     class="l5"
+     d="m 565.17643,358.67493 h 4.999 v 4.998 h -4.999 z"
+     id="path1924" />
+  <path
+     class="l5"
+     d="m 567.59743,391.08793 h 0.157 v 0.156 h -0.157 z"
+     id="path1926" />
+  <path
+     class="l5"
+     d="m 562.67743,158.72993 4.999,2.5 -4.999,2.499 v -4.999"
+     id="path1928" />
+  <path
+     class="l5"
+     d="m 565.17643,188.72193 h 4.999 v 4.999 h -4.999 z"
+     id="path1930" />
+  <path
+     class="l5"
+     d="m 525.18743,158.72993 h 4.999 v 4.999 h -4.999 z"
+     id="path1932" />
+  <path
+     class="l5"
+     d="m 565.17643,128.73893 h 4.999 v 4.998 h -4.999 z"
+     id="path1934" />
+  <path
+     class="l5"
+     d="m 567.59743,161.15093 h 0.157 v 0.157 h -0.157 z"
+     id="path1936" />
+  <path
+     class="l5"
+     d="m 566.42643,89.99923 h 2.499 v 2.4993 h -2.499 z"
+     id="path1938" />
+  <path
+     class="l5"
+     d="m 626.40943,89.99923 h 2.5 v 2.4993 h -2.5 z"
+     id="path1940" />
+  <path
+     class="l5"
+     d="m 122.79943,11.27115 h 4.999"
+     id="path1942" />
+  <path
+     class="l5"
+     d="m 122.79943,11.27115 -3.749,-4.99861 h -8.747 l 3.749,4.99861 -3.749,4.99858 h 8.747 l 3.749,-4.99858"
+     id="path1944" />
+  <path
+     class="l5"
+     d="m 126.54843,10.0215 h 2.499 v 2.49933 h -2.499 z"
+     id="path1946" />
+  <path
+     class="l5"
+     d="m 122.79943,391.16593 h 4.999"
+     id="path1948" />
+  <path
+     class="l5"
+     d="m 122.79943,391.16593 -3.749,-4.999 h -8.747 l 3.749,4.999 -3.749,4.998 h 8.747 l 3.749,-4.998"
+     id="path1950" />
+  <path
+     class="l5"
+     d="m 126.54843,389.91593 h 2.499 v 2.499 h -2.499 z"
+     id="path1952" />
+  <path
+     class="l5"
+     d="m 746.37643,89.99923 h 2.499 v 2.4993 h -2.499 z"
+     id="path1954" />
+  <path
+     class="l5"
+     d="m 1209.9964,176.22493 -2.5,-4.998 -2.5,4.998 h 5"
+     id="path1956" />
+  <path
+     class="l5"
+     d="m 1175.0064,168.72693 h 5 v 4.999 h -5 z"
+     id="path1958" />
+  <path
+     class="l5"
+     d="m 1204.9964,208.71593 h 5 v 4.999 h -5 z"
+     id="path1960" />
+  <path
+     class="l5"
+     d="m 1234.9864,168.72693 h 5 v 4.999 h -5 z"
+     id="path1962" />
+  <path
+     class="l5"
+     d="m 1207.4164,171.14893 h 0.16 v 0.156 h -0.16 z"
+     id="path1964" />
+  <path
+     class="l5"
+     d="m 1206.2464,89.99923 h 2.5 v 2.4993 h -2.5 z"
+     id="path1966" />
+  <path
+     class="l5"
+     d="m 1066.2864,89.99923 h 2.5 v 2.4993 h -2.5 z"
+     id="path1968" />
+  <path
+     class="l5"
+     d="m 986.30943,389.91593 h 2.5 v 2.499 h -2.5 z"
+     id="path1970" />
+  <path
+     class="l5"
+     d="m 986.30943,619.85193 h 2.5 v 2.499 h -2.5 z"
+     id="path1972" />
+  <path
+     class="l5"
+     d="m 1126.2664,89.99923 h 2.5 v 2.4993 h -2.5 z"
+     id="path1974" />
+  <path
+     class="l5"
+     d="m 1067.0664,550.65293 h 0.94 v 0.937 h -0.94 z"
+     id="path1976" />
+  <path
+     class="l5"
+     d="m 1406.9764,1630.3539 h 0.93 v 0.94 h -0.93 z"
+     id="path1978" />
+  <path
+     class="l5"
+     d="m 1787.3364,1030.9839 h 5"
+     id="path1980" />
+  <path
+     class="l5"
+     d="m 1792.3364,1030.9839 3.75,-4.99 h 8.75 l -3.75,4.99 3.75,5 h -8.75 l -3.75,-5"
+     id="path1982" />
+  <path
+     class="l5"
+     d="m 1786.0864,1029.7339 h 2.5 v 2.5 h -2.5 z"
+     id="path1984" />
+  <path
+     class="l5"
+     d="m 1022.5464,1030.9839 h 5"
+     id="path1986" />
+  <path
+     class="l5"
+     d="m 1022.5464,1030.9839 -3.75,-4.99 h -8.74 l 3.75,4.99 -3.75,5 h 8.74 l 3.75,-5"
+     id="path1988" />
+  <path
+     class="l5"
+     d="m 1026.2964,1029.7339 h 2.5 v 2.5 h -2.5 z"
+     id="path1990" />
+  <path
+     class="l5"
+     d="m 385.22643,1008.4939 h 4.999 v 5 h -4.999 z"
+     id="path1992" />
+  <path
+     class="l5"
+     d="m 385.22643,1068.4739 h 4.999 v 5 h -4.999 z"
+     id="path1994" />
+  <path
+     class="l5"
+     d="m 925.07643,1248.4239 h 4.999 v 5 h -4.999 z"
+     id="path1996" />
+  <path
+     class="l5"
+     d="m 865.09343,1248.4239 h 4.999 v 5 h -4.999 z"
+     id="path1998" />
+  <path
+     class="l5"
+     d="m 385.22643,1288.4139 h 4.999 v 5 h -4.999 z"
+     id="path2000" />
+  <path
+     class="l5"
+     d="m 445.21043,1388.3839 h 4.998 v 5 h -4.998 z"
+     id="path2002" />
+  <path
+     class="l5"
+     d="m 325.24343,1388.3839 h 4.999 v 5 h -4.999 z"
+     id="path2004" />
+  <path
+     class="l5"
+     d="m 385.22643,1488.3639 h 4.999 v 5 h -4.999 z"
+     id="path2006" />
+  <path
+     class="l5"
+     d="m 386.47643,1769.5339 h 2.499 v 2.5 h -2.499 z"
+     id="path2008" />
+  <path
+     class="l5"
+     d="m 246.51543,1769.5339 h 2.499 v 2.5 h -2.499 z"
+     id="path2010" />
+  <path
+     class="l5"
+     d="m 527.68743,1670.8139 v 4.99"
+     id="path2012" />
+  <path
+     class="l5"
+     d="m 527.68743,1675.8039 4.998,3.75 v 8.75 l -4.998,-3.75 -4.999,3.75 v -8.75 l 4.999,-3.75"
+     id="path2014" />
+  <path
+     class="l5"
+     d="m 526.43743,1669.5639 h 2.499 v 2.5 h -2.499 z"
+     id="path2016" />
+  <path
+     class="l5"
+     d="m 527.68743,1345.9039 v 4.99"
+     id="path2018" />
+  <path
+     class="l5"
+     d="m 527.68743,1345.9039 -4.999,-3.75 v -8.75 l 4.999,3.75 4.998,-3.75 v 8.75 l -4.998,3.75"
+     id="path2020" />
+  <path
+     class="l5"
+     d="m 526.43743,1349.6539 h 2.499 v 2.49 h -2.499 z"
+     id="path2022" />
+  <path
+     class="l5"
+     d="m 385.22643,1528.3539 h 4.999 v 4.99 h -4.999 z"
+     id="path2024" />
+  <path
+     class="l5"
+     d="m 445.21043,1628.3239 h 4.998 v 5 h -4.998 z"
+     id="path2026" />
+  <path
+     class="l5"
+     d="m 325.24343,1628.3239 h 4.999 v 5 h -4.999 z"
+     id="path2028" />
+  <path
+     class="l5"
+     d="m 385.22643,1728.2939 h 4.999 v 5 h -4.999 z"
+     id="path2030" />
+  <path
+     class="l5"
+     d="m 665.14843,1288.4139 h 4.999 v 5 h -4.999 z"
+     id="path2032" />
+  <path
+     class="l5"
+     d="m 605.16543,1388.3839 h 4.999 v 5 h -4.999 z"
+     id="path2034" />
+  <path
+     class="l5"
+     d="m 725.13243,1388.3839 h 4.998 v 5 h -4.998 z"
+     id="path2036" />
+  <path
+     class="l5"
+     d="m 665.14843,1488.3639 h 4.999 v 5 h -4.999 z"
+     id="path2038" />
+  <path
+     class="l5"
+     d="m 666.39843,1769.5339 h 2.499 v 2.5 h -2.499 z"
+     id="path2040" />
+  <path
+     class="l5"
+     d="m 806.35943,1769.5339 h 2.5 v 2.5 h -2.5 z"
+     id="path2042" />
+  <path
+     class="l5"
+     d="m 665.14843,1528.3539 h 4.999 v 4.99 h -4.999 z"
+     id="path2044" />
+  <path
+     class="l5"
+     d="m 605.16543,1628.3239 h 4.999 v 5 h -4.999 z"
+     id="path2046" />
+  <path
+     class="l5"
+     d="m 725.13243,1628.3239 h 4.998 v 5 h -4.998 z"
+     id="path2048" />
+  <path
+     class="l5"
+     d="m 665.14843,1728.2939 h 4.999 v 5 h -4.999 z"
+     id="path2050" />
+  <path
+     class="l5"
+     d="m 1404.9464,728.57193 h 5 v 4.998 h -5 z"
+     id="path2052" />
+  <path
+     class="l5"
+     d="m 1404.9464,788.55493 h 5 v 4.999 h -5 z"
+     id="path2054" />
+  <path
+     class="l5"
+     d="m 387.25743,810.57993 h 0.937 v 0.938 h -0.937 z"
+     id="path2056" />
+  <path
+     class="l7"
+     d="m 1327.4664,1530.8439 v 20"
+     id="path2058" />
+  <path
+     class="l7"
+     d="m 1507.4164,1510.8539 h 19.99"
+     id="path2060" />
+  <path
+     class="l7"
+     d="m 1327.4664,1310.9139 v 19.99"
+     id="path2062" />
+  <path
+     class="l7"
+     d="m 1407.4464,1530.8439 v 20"
+     id="path2064" />
+  <path
+     class="l7"
+     d="m 1287.4764,1510.8539 h 19.99"
+     id="path2066" />
+  <path
+     class="l7"
+     d="m 387.72643,311.18793 v 19.994"
+     id="path2068" />
+  <path
+     class="l7"
+     d="m 427.71443,231.20993 h 19.995"
+     id="path2070" />
+  <path
+     class="l7"
+     d="m 327.74243,231.20993 h 19.995"
+     id="path2072" />
+  <path
+     class="l7"
+     d="m 387.72643,131.23793 v 19.994"
+     id="path2074" />
+  <path
+     class="l7"
+     d="m 1407.4464,311.18793 v 19.994"
+     id="path2076" />
+  <path
+     class="l7"
+     d="m 1347.4564,231.20993 h 20"
+     id="path2078" />
+  <path
+     class="l7"
+     d="m 1447.4364,231.20993 h 19.99"
+     id="path2080" />
+  <path
+     class="l7"
+     d="m 1407.4464,131.23793 v 19.994"
+     id="path2082" />
+  <path
+     class="l7"
+     d="m 1407.4464,631.09893 v 19.994"
+     id="path2084" />
+  <path
+     class="l7"
+     d="m 1347.4564,551.12093 h 20"
+     id="path2086" />
+  <path
+     class="l7"
+     d="m 1447.4364,551.12093 h 19.99"
+     id="path2088" />
+  <path
+     class="l7"
+     d="m 1407.4464,451.14893 v 19.994"
+     id="path2090" />
+  <path
+     class="l7"
+     d="m 1407.4464,1130.9639 v 19.99"
+     id="path2092" />
+  <path
+     class="l7"
+     d="m 1447.4364,1050.9839 h 19.99"
+     id="path2094" />
+  <path
+     class="l7"
+     d="m 1347.4564,1050.9839 h 20"
+     id="path2096" />
+  <path
+     class="l7"
+     d="m 1407.4464,951.00993 v 19.995"
+     id="path2098" />
+  <path
+     class="l7"
+     d="m 1107.5264,1530.8439 v 20"
+     id="path2100" />
+  <path
+     class="l7"
+     d="m 1147.5164,1630.8239 h 19.99"
+     id="path2102" />
+  <path
+     class="l7"
+     d="m 1047.5464,1630.8239 h 19.99"
+     id="path2104" />
+  <path
+     class="l7"
+     d="m 1107.5264,1710.7939 v 20"
+     id="path2106" />
+  <path
+     class="l7"
+     d="m 1707.3564,1530.8439 v 20"
+     id="path2108" />
+  <path
+     class="l7"
+     d="m 1647.3764,1630.8239 h 19.99"
+     id="path2110" />
+  <path
+     class="l7"
+     d="m 1747.3464,1630.8239 h 20"
+     id="path2112" />
+  <path
+     class="l7"
+     d="m 1707.3564,1710.7939 v 20"
+     id="path2114" />
+  <path
+     class="l7"
+     d="m 387.72643,631.09893 v 19.994"
+     id="path2116" />
+  <path
+     class="l7"
+     d="m 427.71443,551.12093 h 19.995"
+     id="path2118" />
+  <path
+     class="l7"
+     d="m 327.74243,551.12093 h 19.995"
+     id="path2120" />
+  <path
+     class="l7"
+     d="m 387.72643,451.14893 v 19.994"
+     id="path2122" />
+  <path
+     class="l7"
+     d="m 387.72643,1290.9139 v 20"
+     id="path2124" />
+  <path
+     class="l7"
+     d="m 427.71443,1390.8839 h 19.995"
+     id="path2126" />
+  <path
+     class="l7"
+     d="m 327.74243,1390.8839 h 19.995"
+     id="path2128" />
+  <path
+     class="l7"
+     d="m 387.72643,1470.8639 v 20"
+     id="path2130" />
+  <path
+     class="l7"
+     d="m 387.72643,1530.8439 v 20"
+     id="path2132" />
+  <path
+     class="l7"
+     d="m 427.71443,1630.8239 h 19.995"
+     id="path2134" />
+  <path
+     class="l7"
+     d="m 327.74243,1630.8239 h 19.995"
+     id="path2136" />
+  <path
+     class="l7"
+     d="m 387.72643,1710.7939 v 20"
+     id="path2138" />
+  <path
+     class="l7"
+     d="m 667.64843,1290.9139 v 20"
+     id="path2140" />
+  <path
+     class="l7"
+     d="m 607.66443,1390.8839 h 19.995"
+     id="path2142" />
+  <path
+     class="l7"
+     d="m 707.63743,1390.8839 h 19.994"
+     id="path2144" />
+  <path
+     class="l7"
+     d="m 667.64843,1470.8639 v 20"
+     id="path2146" />
+  <path
+     class="l7"
+     d="m 667.64843,1530.8439 v 20"
+     id="path2148" />
+  <path
+     class="l7"
+     d="m 607.66443,1630.8239 h 19.995"
+     id="path2150" />
+  <path
+     class="l7"
+     d="m 707.63743,1630.8239 h 19.994"
+     id="path2152" />
+  <path
+     class="l7"
+     d="m 667.64843,1710.7939 v 20"
+     id="path2154" />
+  <path
+     class="l15"
+     d="m 1067.5364,551.12093 5,-4.998"
+     id="path2156" />
+  <path
+     class="l15"
+     d="m 1407.4464,1630.8239 4.99,-5"
+     id="path2158" />
+  <path
+     class="l15"
+     d="m 387.72643,811.04893 4.998,-4.999"
+     id="path2160" />
+  <path
+     class="l1"
+     d="m 1267.4864,1430.8739 h 19.99"
+     id="path2162" />
+  <path
+     class="l1"
+     d="m 1267.4864,1370.8939 h 19.99"
+     id="path2164" />
+  <path
+     class="l1"
+     d="m 1327.4664,1550.8439 v 19.99"
+     id="path2166" />
+  <path
+     class="l1"
+     d="m 1327.4664,1290.9139 v 20"
+     id="path2168" />
+  <path
+     class="l1"
+     d="m 1147.5164,1510.8539 h 139.96"
+     id="path2170" />
+  <path
+     class="l1"
+     d="m 1147.5164,1410.8839 v 99.97"
+     id="path2172" />
+  <path
+     class="l1"
+     d="m 1667.3664,1410.8839 v 99.97"
+     id="path2174" />
+  <path
+     class="l1"
+     d="m 1527.4064,1510.8539 h 139.96"
+     id="path2176" />
+  <path
+     class="l1"
+     d="m 387.72643,91.24893 v 39.989"
+     id="path2178" />
+  <path
+     class="l1"
+     d="m 167.78743,231.20993 h 159.955"
+     id="path2180" />
+  <path
+     class="l1"
+     d="m 167.78743,91.24893 v 139.961"
+     id="path2182" />
+  <path
+     class="l1"
+     d="m 1407.4464,91.24893 v 39.989"
+     id="path2184" />
+  <path
+     class="l1"
+     d="m 1467.4264,231.20993 h 159.96"
+     id="path2186" />
+  <path
+     class="l1"
+     d="m 1627.3864,91.24893 v 139.961"
+     id="path2188" />
+  <path
+     class="l1"
+     d="m 1467.4264,551.12093 h 159.96"
+     id="path2190" />
+  <path
+     class="l1"
+     d="m 167.78743,551.12093 h 159.955"
+     id="path2192" />
+  <path
+     class="l1"
+     d="m 1107.5264,811.04893 v 79.978"
+     id="path2194" />
+  <path
+     class="l1"
+     d="m 1707.3564,811.04893 v 79.978"
+     id="path2196" />
+  <path
+     class="l1"
+     d="m 1407.4464,921.01793 h 299.91"
+     id="path2198" />
+  <path
+     class="l1"
+     d="m 1707.3564,1180.9439 h 79.98"
+     id="path2200" />
+  <path
+     class="l1"
+     d="m 1707.3564,1110.9639 v 39.99"
+     id="path2202" />
+  <path
+     class="l1"
+     d="m 1707.3564,1110.9639 h 79.98"
+     id="path2204" />
+  <path
+     class="l1"
+     d="m 1787.3364,1110.9639 v 69.98"
+     id="path2206" />
+  <path
+     class="l1"
+     d="m 1407.4464,921.01793 v 29.992"
+     id="path2208" />
+  <path
+     class="l1"
+     d="m 1407.4464,1150.9539 v 29.99"
+     id="path2210" />
+  <path
+     class="l1"
+     d="m 1147.5164,1180.9439 h 259.93"
+     id="path2212" />
+  <path
+     class="l1"
+     d="m 1547.4064,1180.9439 h 119.96"
+     id="path2214" />
+  <path
+     class="l1"
+     d="m 1267.4864,921.01793 h 139.96"
+     id="path2216" />
+  <path
+     class="l1"
+     d="m 1467.4264,1050.9839 h 79.98"
+     id="path2218" />
+  <path
+     class="l1"
+     d="m 1267.4864,1050.9839 h 79.97"
+     id="path2220" />
+  <path
+     class="l1"
+     d="M 1267.4864,921.01793 V 1050.9839"
+     id="path2222" />
+  <path
+     class="l1"
+     d="m 1107.5264,921.01793 h 159.96"
+     id="path2224" />
+  <path
+     class="l1"
+     d="m 1547.4064,1050.9839 v 129.96"
+     id="path2226" />
+  <path
+     class="l1"
+     d="m 1407.4464,1180.9439 h 139.96"
+     id="path2228" />
+  <path
+     class="l1"
+     d="m 1107.5264,1110.9639 v 39.99"
+     id="path2230" />
+  <path
+     class="l1"
+     d="m 1027.5464,1110.9639 h 79.98"
+     id="path2232" />
+  <path
+     class="l1"
+     d="m 1027.5464,1110.9639 v 69.98"
+     id="path2234" />
+  <path
+     class="l1"
+     d="m 1027.5464,1180.9439 h 79.98"
+     id="path2236" />
+  <path
+     class="l1"
+     d="m 1107.5264,1410.8839 v 119.96"
+     id="path2238" />
+  <path
+     class="l1"
+     d="m 1707.3564,1410.8839 v 119.96"
+     id="path2240" />
+  <path
+     class="l1"
+     d="m 1707.3564,1210.9339 v 199.95"
+     id="path2242" />
+  <path
+     class="l1"
+     d="m 1107.5264,1210.9339 v 199.95"
+     id="path2244" />
+  <path
+     class="l1"
+     d="m 1107.5264,1730.7939 v 39.99"
+     id="path2246" />
+  <path
+     class="l1"
+     d="m 1707.3564,1730.7939 v 39.99"
+     id="path2248" />
+  <path
+     class="l1"
+     d="m 1407.4464,1630.8239 h 239.93"
+     id="path2250" />
+  <path
+     class="l1"
+     d="m 967.56443,1630.8239 v 139.96"
+     id="path2252" />
+  <path
+     class="l1"
+     d="m 1847.3164,1630.8239 v 139.96"
+     id="path2254" />
+  <path
+     class="l1"
+     d="m 387.72643,811.04893 h 179.95"
+     id="path2256" />
+  <path
+     class="l1"
+     d="m 1707.3564,1410.8839 h 79.98"
+     id="path2258" />
+  <path
+     class="l1"
+     d="m 1027.5464,1410.8839 h 79.98"
+     id="path2260" />
+  <path
+     class="l1"
+     d="m 1027.5464,921.01793 h 39.99"
+     id="path2262" />
+  <path
+     class="l1"
+     d="m 1747.3464,921.01793 h 39.99"
+     id="path2264" />
+  <path
+     class="l1"
+     d="m 1707.3564,1030.9839 v 79.98"
+     id="path2266" />
+  <path
+     class="l1"
+     d="m 1107.5264,1030.9839 v 79.98"
+     id="path2268" />
+  <path
+     class="l1"
+     d="m 1107.5264,811.04893 h 119.97"
+     id="path2270" />
+  <path
+     class="l1"
+     d="m 1287.4764,811.04893 h 119.97"
+     id="path2272" />
+  <path
+     class="l1"
+     d="m 1407.4464,811.04893 h 119.96"
+     id="path2274" />
+  <path
+     class="l1"
+     d="m 1587.3964,811.04893 h 119.96"
+     id="path2276" />
+  <path
+     class="l1"
+     d="m 1407.4464,901.02393 v 19.994"
+     id="path2278" />
+  <path
+     class="l1"
+     d="m 1407.4464,811.04893 v 29.992"
+     id="path2280" />
+  <path
+     class="l1"
+     d="m 1367.4564,691.08193 h 39.99"
+     id="path2282" />
+  <path
+     class="l1"
+     d="m 1407.4464,651.09293 v 39.989"
+     id="path2284" />
+  <path
+     class="l1"
+     d="m 887.58743,191.22093 v 39.989"
+     id="path2286" />
+  <path
+     class="l1"
+     d="m 1207.4964,551.12093 h 139.96"
+     id="path2288" />
+  <path
+     class="l1"
+     d="m 1407.4464,431.15493 v 19.994"
+     id="path2290" />
+  <path
+     class="l1"
+     d="m 387.72643,431.15493 v 19.994"
+     id="path2292" />
+  <path
+     class="l1"
+     d="m 1627.3864,431.15493 v 119.966"
+     id="path2294" />
+  <path
+     class="l1"
+     d="m 167.78743,431.15493 v 119.966"
+     id="path2296" />
+  <path
+     class="l1"
+     d="m 567.67643,91.24893 v 39.989"
+     id="path2298" />
+  <path
+     class="l1"
+     d="m 567.67643,161.22993 h 59.983"
+     id="path2300" />
+  <path
+     class="l1"
+     d="m 627.65943,91.24893 v 69.981"
+     id="path2302" />
+  <path
+     class="l1"
+     d="m 567.67643,391.16593 h 59.983"
+     id="path2304" />
+  <path
+     class="l1"
+     d="m 447.70943,231.20993 h 119.967"
+     id="path2306" />
+  <path
+     class="l1"
+     d="m 567.67643,191.22093 v 39.989"
+     id="path2308" />
+  <path
+     class="l1"
+     d="m 747.62643,231.20993 h 139.961"
+     id="path2310" />
+  <path
+     class="l1"
+     d="m 717.63443,111.24293 v 59.984"
+     id="path2312" />
+  <path
+     class="l1"
+     d="m 747.62643,111.24293 h 29.991"
+     id="path2314" />
+  <path
+     class="l1"
+     d="m 777.61743,111.24293 v 59.984"
+     id="path2316" />
+  <path
+     class="l1"
+     d="m 747.62643,111.24293 v 59.984"
+     id="path2318" />
+  <path
+     class="l1"
+     d="m 717.63443,111.24293 h 29.992"
+     id="path2320" />
+  <path
+     class="l1"
+     d="m 747.62643,91.24893 v 19.994"
+     id="path2322" />
+  <path
+     class="l1"
+     d="m 747.62643,211.21593 v 19.994"
+     id="path2324" />
+  <path
+     class="l1"
+     d="m 567.67643,231.20993 h 179.95"
+     id="path2326" />
+  <path
+     class="l1"
+     d="m 1177.5064,111.24293 v 59.984"
+     id="path2328" />
+  <path
+     class="l1"
+     d="m 1207.4964,111.24293 h 29.99"
+     id="path2330" />
+  <path
+     class="l1"
+     d="m 1237.4864,111.24293 v 59.984"
+     id="path2332" />
+  <path
+     class="l1"
+     d="m 1207.4964,111.24293 v 59.984"
+     id="path2334" />
+  <path
+     class="l1"
+     d="m 1177.5064,111.24293 h 29.99"
+     id="path2336" />
+  <path
+     class="l1"
+     d="m 1207.4964,91.24893 v 19.994"
+     id="path2338" />
+  <path
+     class="l1"
+     d="M 887.58743,231.20993 H 1347.4564"
+     id="path2340" />
+  <path
+     class="l1"
+     d="m 1207.4964,211.21593 v 339.905"
+     id="path2342" />
+  <path
+     class="l1"
+     d="m 1067.5364,551.12093 h 139.96"
+     id="path2344" />
+  <path
+     class="l1"
+     d="m 567.67643,231.20993 v 129.964"
+     id="path2346" />
+  <path
+     class="l1"
+     d="m 127.79843,391.16593 h 399.889"
+     id="path2348" />
+  <path
+     class="l1"
+     d="M 447.70943,551.12093 H 1067.5364"
+     id="path2350" />
+  <path
+     class="l1"
+     d="m 627.65943,161.22993 v 229.936"
+     id="path2352" />
+  <path
+     class="l1"
+     d="m 1067.5364,91.24893 v 269.925"
+     id="path2354" />
+  <path
+     class="l1"
+     d="m 1067.5364,421.15693 v 129.964"
+     id="path2356" />
+  <path
+     class="l1"
+     d="m 1067.5364,551.12093 v 39.989"
+     id="path2358" />
+  <path
+     class="l1"
+     d="m 1067.5364,391.16593 h 59.98"
+     id="path2360" />
+  <path
+     class="l1"
+     d="m 1127.5164,91.24893 v 299.917"
+     id="path2362" />
+  <path
+     class="l1"
+     d="m 1067.5364,621.10193 h 59.98"
+     id="path2364" />
+  <path
+     class="l1"
+     d="m 1127.5164,391.16593 v 229.936"
+     id="path2366" />
+  <path
+     class="l1"
+     d="m 987.55943,391.16593 h 39.98697"
+     id="path2368" />
+  <path
+     class="l1"
+     d="m 987.55943,621.10193 h 39.98697"
+     id="path2370" />
+  <path
+     class="l1"
+     d="m 1067.5364,651.09293 v 39.989"
+     id="path2372" />
+  <path
+     class="l1"
+     d="M 127.79843,691.08193 H 1067.5364"
+     id="path2374" />
+  <path
+     class="l1"
+     d="M 467.70343,11.27115 V 161.22993"
+     id="path2376" />
+  <path
+     class="l1"
+     d="m 467.70343,161.22993 h 59.984"
+     id="path2378" />
+  <path
+     class="l1"
+     d="m 127.79843,11.27115 h 339.905"
+     id="path2380" />
+  <path
+     class="l1"
+     d="m 1407.4464,1180.9439 v 69.98"
+     id="path2382" />
+  <path
+     class="l1"
+     d="m 1707.3564,1030.9839 h 79.98"
+     id="path2384" />
+  <path
+     class="l1"
+     d="m 1707.3564,951.00993 v 79.97397"
+     id="path2386" />
+  <path
+     class="l1"
+     d="m 1027.5464,1030.9839 h 79.98"
+     id="path2388" />
+  <path
+     class="l1"
+     d="m 1107.5264,951.00993 v 79.97397"
+     id="path2390" />
+  <path
+     class="l1"
+     d="m 1767.3464,1630.8239 h 79.97"
+     id="path2392" />
+  <path
+     class="l1"
+     d="m 967.56443,1630.8239 h 79.98197"
+     id="path2394" />
+  <path
+     class="l1"
+     d="m 247.76443,1390.8839 h 79.978"
+     id="path2396" />
+  <path
+     class="l1"
+     d="m 247.76443,1630.8239 v 139.96"
+     id="path2398" />
+  <path
+     class="l1"
+     d="m 387.72643,1490.8639 v 39.98"
+     id="path2400" />
+  <path
+     class="l1"
+     d="m 387.72643,1730.7939 v 39.99"
+     id="path2402" />
+  <path
+     class="l1"
+     d="m 247.76443,1630.8239 h 79.978"
+     id="path2404" />
+  <path
+     class="l1"
+     d="m 247.76443,1390.8839 v 239.94"
+     id="path2406" />
+  <path
+     class="l1"
+     d="m 527.68743,1390.8839 h 79.977"
+     id="path2408" />
+  <path
+     class="l1"
+     d="m 387.72643,1070.9739 v 219.94"
+     id="path2410" />
+  <path
+     class="l1"
+     d="m 727.63143,1390.8839 h 79.978"
+     id="path2412" />
+  <path
+     class="l1"
+     d="m 807.60943,1630.8239 v 139.96"
+     id="path2414" />
+  <path
+     class="l1"
+     d="m 667.64843,1490.8639 v 39.98"
+     id="path2416" />
+  <path
+     class="l1"
+     d="m 667.64843,1730.7939 v 39.99"
+     id="path2418" />
+  <path
+     class="l1"
+     d="m 727.63143,1630.8239 h 79.978"
+     id="path2420" />
+  <path
+     class="l1"
+     d="m 807.60943,1390.8839 v 239.94"
+     id="path2422" />
+  <path
+     class="l1"
+     d="m 667.64843,1250.9239 h 199.944"
+     id="path2424" />
+  <path
+     class="l1"
+     d="m 667.64843,1250.9239 v 39.99"
+     id="path2426" />
+  <path
+     class="l1"
+     d="m 527.68743,1630.8239 h 79.977"
+     id="path2428" />
+  <path
+     class="l1"
+     d="m 527.68743,1630.8239 v 39.99"
+     id="path2430" />
+  <path
+     class="l1"
+     d="m 447.70943,1630.8239 h 79.978"
+     id="path2432" />
+  <path
+     class="l1"
+     d="m 527.68743,1350.8939 v 39.99"
+     id="path2434" />
+  <path
+     class="l1"
+     d="m 447.70943,1390.8839 h 79.978"
+     id="path2436" />
+  <path
+     class="l1"
+     d="M 927.57643,1250.9239 H 1407.4464"
+     id="path2438" />
+  <path
+     class="l1"
+     d="M 387.72643,811.04893 V 1010.9939"
+     id="path2440" />
+  <path
+     class="l1"
+     d="m 167.78743,431.15493 h 219.939"
+     id="path2442" />
+  <path
+     class="l1"
+     d="m 387.72643,331.18193 v 99.973"
+     id="path2444" />
+  <path
+     class="l1"
+     d="m 1407.4464,431.15493 h 219.94"
+     id="path2446" />
+  <path
+     class="l1"
+     d="m 1407.4464,331.18193 v 99.973"
+     id="path2448" />
+  <path
+     class="l1"
+     d="m 567.67643,421.15693 v 389.892"
+     id="path2450" />
+  <path
+     class="l1"
+     d="m 387.72643,651.09293 v 159.956"
+     id="path2452" />
+  <path
+     class="l1"
+     d="m 1407.4464,691.08193 v 39.989"
+     id="path2454" />
+  <path
+     class="l1"
+     d="m 1407.4464,791.05493 v 19.994"
+     id="path2456" />
+  <path
+     class="l1"
+     d="m 1107.5264,1410.8839 h 39.99"
+     id="path2458" />
+  <path
+     class="l1"
+     d="m 1667.3664,1410.8839 h 39.99"
+     id="path2460" />
+  <path
+     class="l1"
+     d="m 1407.4464,1550.8439 v 79.98"
+     id="path2462" />
+  <path
+     class="l1"
+     d="m 1167.5064,1630.8239 h 239.94"
+     id="path2464" />
+  <circle
+     class="l1"
+     cx="387.72644"
+     cy="431.15494"
+     r="7.3979402"
+     id="circle2466" />
+  <circle
+     class="l1"
+     cx="247.76443"
+     cy="1630.824"
+     r="7.3979402"
+     id="circle2468" />
+  <circle
+     class="l1"
+     cx="247.76443"
+     cy="1630.824"
+     r="7.3979402"
+     id="circle2470" />
+  <circle
+     class="l1"
+     cx="247.76443"
+     cy="1630.824"
+     r="7.3979402"
+     id="circle2472" />
+  <circle
+     class="l1"
+     cx="747.6264"
+     cy="111.24294"
+     r="7.3979402"
+     id="circle2474" />
+  <circle
+     class="l1"
+     cx="627.65942"
+     cy="161.22992"
+     r="7.3979402"
+     id="circle2476" />
+  <circle
+     class="l1"
+     cx="387.72644"
+     cy="431.15494"
+     r="7.3979402"
+     id="circle2478" />
+  <circle
+     class="l1"
+     cx="627.65942"
+     cy="161.22992"
+     r="7.3979402"
+     id="circle2480" />
+  <circle
+     class="l1"
+     cx="567.67639"
+     cy="231.20993"
+     r="7.3979402"
+     id="circle2482" />
+  <circle
+     class="l1"
+     cx="567.67639"
+     cy="231.20993"
+     r="7.3979402"
+     id="circle2484" />
+  <circle
+     class="l1"
+     cx="747.6264"
+     cy="231.20993"
+     r="7.3979402"
+     id="circle2486" />
+  <circle
+     class="l1"
+     cx="567.67639"
+     cy="231.20993"
+     r="7.3979402"
+     id="circle2488" />
+  <circle
+     class="l1"
+     cx="567.67639"
+     cy="231.20993"
+     r="7.3979402"
+     id="circle2490" />
+  <circle
+     class="l1"
+     cx="627.65942"
+     cy="161.22992"
+     r="7.3979402"
+     id="circle2492" />
+  <circle
+     class="l1"
+     cx="387.72644"
+     cy="431.15494"
+     r="7.3979402"
+     id="circle2494" />
+  <circle
+     class="l1"
+     cx="387.72644"
+     cy="811.04895"
+     r="7.3979402"
+     id="circle2496" />
+  <circle
+     class="l1"
+     cx="387.72644"
+     cy="811.04895"
+     r="7.3979402"
+     id="circle2498" />
+  <circle
+     class="l1"
+     cx="1067.5364"
+     cy="551.12091"
+     r="7.3979402"
+     id="circle2500" />
+  <circle
+     class="l1"
+     cx="387.72644"
+     cy="811.04895"
+     r="7.3979402"
+     id="circle2502" />
+  <circle
+     class="l1"
+     cx="527.68738"
+     cy="1390.8839"
+     r="7.3979402"
+     id="circle2504" />
+  <circle
+     class="l1"
+     cx="527.68738"
+     cy="1390.8839"
+     r="7.3979402"
+     id="circle2506" />
+  <circle
+     class="l1"
+     cx="527.68738"
+     cy="1630.824"
+     r="7.3979402"
+     id="circle2508" />
+  <circle
+     class="l1"
+     cx="527.68738"
+     cy="1630.824"
+     r="7.3979402"
+     id="circle2510" />
+  <circle
+     class="l1"
+     cx="527.68738"
+     cy="1630.824"
+     r="7.3979402"
+     id="circle2512" />
+  <circle
+     class="l1"
+     cx="527.68738"
+     cy="1390.8839"
+     r="7.3979402"
+     id="circle2514" />
+  <circle
+     class="l1"
+     cx="747.6264"
+     cy="111.24294"
+     r="7.3979402"
+     id="circle2516" />
+  <circle
+     class="l1"
+     cx="747.6264"
+     cy="111.24294"
+     r="7.3979402"
+     id="circle2518" />
+  <circle
+     class="l1"
+     cx="747.6264"
+     cy="111.24294"
+     r="7.3979402"
+     id="circle2520" />
+  <circle
+     class="l1"
+     cx="1127.5164"
+     cy="391.16592"
+     r="7.3979402"
+     id="circle2522" />
+  <circle
+     class="l1"
+     cx="1067.5364"
+     cy="551.12091"
+     r="7.3979402"
+     id="circle2524" />
+  <circle
+     class="l1"
+     cx="887.5874"
+     cy="231.20993"
+     r="7.3979402"
+     id="circle2526" />
+  <circle
+     class="l1"
+     cx="747.6264"
+     cy="231.20993"
+     r="7.3979402"
+     id="circle2528" />
+  <circle
+     class="l1"
+     cx="747.6264"
+     cy="231.20993"
+     r="7.3979402"
+     id="circle2530" />
+  <circle
+     class="l1"
+     cx="887.5874"
+     cy="231.20993"
+     r="7.3979402"
+     id="circle2532" />
+  <circle
+     class="l1"
+     cx="887.5874"
+     cy="231.20993"
+     r="7.3979402"
+     id="circle2534" />
+  <circle
+     class="l1"
+     cx="1067.5364"
+     cy="551.12091"
+     r="7.3979402"
+     id="circle2536" />
+  <circle
+     class="l1"
+     cx="1067.5364"
+     cy="551.12091"
+     r="7.3979402"
+     id="circle2538" />
+  <circle
+     class="l1"
+     cx="1207.4965"
+     cy="551.12091"
+     r="7.3979402"
+     id="circle2540" />
+  <circle
+     class="l1"
+     cx="1267.4865"
+     cy="921.01794"
+     r="7.3979402"
+     id="circle2542" />
+  <circle
+     class="l1"
+     cx="1107.5264"
+     cy="1030.9839"
+     r="7.3979402"
+     id="circle2544" />
+  <circle
+     class="l1"
+     cx="1107.5264"
+     cy="1030.9839"
+     r="7.3979402"
+     id="circle2546" />
+  <circle
+     class="l1"
+     cx="1107.5264"
+     cy="1030.9839"
+     r="7.3979402"
+     id="circle2548" />
+  <circle
+     class="l1"
+     cx="1107.5264"
+     cy="1110.9639"
+     r="7.3979402"
+     id="circle2550" />
+  <circle
+     class="l1"
+     cx="1107.5264"
+     cy="1410.8839"
+     r="7.3979402"
+     id="circle2552" />
+  <circle
+     class="l1"
+     cx="1107.5264"
+     cy="1110.9639"
+     r="7.3979402"
+     id="circle2554" />
+  <circle
+     class="l1"
+     cx="1107.5264"
+     cy="1110.9639"
+     r="7.3979402"
+     id="circle2556" />
+  <circle
+     class="l1"
+     cx="1107.5264"
+     cy="1410.8839"
+     r="7.3979402"
+     id="circle2558" />
+  <circle
+     class="l1"
+     cx="807.60938"
+     cy="1630.824"
+     r="7.3979402"
+     id="circle2560" />
+  <circle
+     class="l1"
+     cx="807.60938"
+     cy="1630.824"
+     r="7.3979402"
+     id="circle2562" />
+  <circle
+     class="l1"
+     cx="807.60938"
+     cy="1630.824"
+     r="7.3979402"
+     id="circle2564" />
+  <circle
+     class="l1"
+     cx="1107.5264"
+     cy="1410.8839"
+     r="7.3979402"
+     id="circle2566" />
+  <circle
+     class="l1"
+     cx="1107.5264"
+     cy="1410.8839"
+     r="7.3979402"
+     id="circle2568" />
+  <circle
+     class="l1"
+     cx="1127.5164"
+     cy="391.16592"
+     r="7.3979402"
+     id="circle2570" />
+  <circle
+     class="l1"
+     cx="1207.4965"
+     cy="111.24294"
+     r="7.3979402"
+     id="circle2572" />
+  <circle
+     class="l1"
+     cx="1207.4965"
+     cy="111.24294"
+     r="7.3979402"
+     id="circle2574" />
+  <circle
+     class="l1"
+     cx="1207.4965"
+     cy="111.24294"
+     r="7.3979402"
+     id="circle2576" />
+  <circle
+     class="l1"
+     cx="1207.4965"
+     cy="111.24294"
+     r="7.3979402"
+     id="circle2578" />
+  <circle
+     class="l1"
+     cx="1407.4464"
+     cy="431.15494"
+     r="7.3979402"
+     id="circle2580" />
+  <circle
+     class="l1"
+     cx="1407.4464"
+     cy="431.15494"
+     r="7.3979402"
+     id="circle2582" />
+  <circle
+     class="l1"
+     cx="1127.5164"
+     cy="391.16592"
+     r="7.3979402"
+     id="circle2584" />
+  <circle
+     class="l1"
+     cx="1207.4965"
+     cy="551.12091"
+     r="7.3979402"
+     id="circle2586" />
+  <circle
+     class="l1"
+     cx="1407.4464"
+     cy="431.15494"
+     r="7.3979402"
+     id="circle2588" />
+  <circle
+     class="l1"
+     cx="1407.4464"
+     cy="811.04895"
+     r="7.3979402"
+     id="circle2590" />
+  <circle
+     class="l1"
+     cx="1407.4464"
+     cy="691.08191"
+     r="7.3979402"
+     id="circle2592" />
+  <circle
+     class="l1"
+     cx="1207.4965"
+     cy="551.12091"
+     r="7.3979402"
+     id="circle2594" />
+  <circle
+     class="l1"
+     cx="1407.4464"
+     cy="691.08191"
+     r="7.3979402"
+     id="circle2596" />
+  <circle
+     class="l1"
+     cx="1407.4464"
+     cy="691.08191"
+     r="7.3979402"
+     id="circle2598" />
+  <circle
+     class="l1"
+     cx="1407.4464"
+     cy="811.04895"
+     r="7.3979402"
+     id="circle2600" />
+  <circle
+     class="l1"
+     cx="1407.4464"
+     cy="921.01794"
+     r="7.3979402"
+     id="circle2602" />
+  <circle
+     class="l1"
+     cx="1407.4464"
+     cy="811.04895"
+     r="7.3979402"
+     id="circle2604" />
+  <circle
+     class="l1"
+     cx="1407.4464"
+     cy="811.04895"
+     r="7.3979402"
+     id="circle2606" />
+  <circle
+     class="l1"
+     cx="1267.4865"
+     cy="921.01794"
+     r="7.3979402"
+     id="circle2608" />
+  <circle
+     class="l1"
+     cx="1267.4865"
+     cy="921.01794"
+     r="7.3979402"
+     id="circle2610" />
+  <circle
+     class="l1"
+     cx="1407.4464"
+     cy="921.01794"
+     r="7.3979402"
+     id="circle2612" />
+  <circle
+     class="l1"
+     cx="1407.4464"
+     cy="921.01794"
+     r="7.3979402"
+     id="circle2614" />
+  <circle
+     class="l1"
+     cx="1407.4464"
+     cy="921.01794"
+     r="7.3979402"
+     id="circle2616" />
+  <circle
+     class="l1"
+     cx="1407.4464"
+     cy="1180.944"
+     r="7.3979402"
+     id="circle2618" />
+  <circle
+     class="l1"
+     cx="1407.4464"
+     cy="1180.944"
+     r="7.3979402"
+     id="circle2620" />
+  <circle
+     class="l1"
+     cx="1547.4064"
+     cy="1180.944"
+     r="7.3979402"
+     id="circle2622" />
+  <circle
+     class="l1"
+     cx="1407.4464"
+     cy="1180.944"
+     r="7.3979402"
+     id="circle2624" />
+  <circle
+     class="l1"
+     cx="1407.4464"
+     cy="1180.944"
+     r="7.3979402"
+     id="circle2626" />
+  <circle
+     class="l1"
+     cx="1407.4464"
+     cy="1630.824"
+     r="7.3979402"
+     id="circle2628" />
+  <circle
+     class="l1"
+     cx="1407.4464"
+     cy="1630.824"
+     r="7.3979402"
+     id="circle2630" />
+  <circle
+     class="l1"
+     cx="1407.4464"
+     cy="1630.824"
+     r="7.3979402"
+     id="circle2632" />
+  <circle
+     class="l1"
+     cx="1707.3564"
+     cy="1030.9839"
+     r="7.3979402"
+     id="circle2634" />
+  <circle
+     class="l1"
+     cx="1707.3564"
+     cy="1030.9839"
+     r="7.3979402"
+     id="circle2636" />
+  <circle
+     class="l1"
+     cx="1707.3564"
+     cy="1030.9839"
+     r="7.3979402"
+     id="circle2638" />
+  <circle
+     class="l1"
+     cx="1707.3564"
+     cy="1110.9639"
+     r="7.3979402"
+     id="circle2640" />
+  <circle
+     class="l1"
+     cx="1707.3564"
+     cy="1410.8839"
+     r="7.3979402"
+     id="circle2642" />
+  <circle
+     class="l1"
+     cx="1547.4064"
+     cy="1180.944"
+     r="7.3979402"
+     id="circle2644" />
+  <circle
+     class="l1"
+     cx="1547.4064"
+     cy="1180.944"
+     r="7.3979402"
+     id="circle2646" />
+  <circle
+     class="l1"
+     cx="1707.3564"
+     cy="1110.9639"
+     r="7.3979402"
+     id="circle2648" />
+  <circle
+     class="l1"
+     cx="1707.3564"
+     cy="1110.9639"
+     r="7.3979402"
+     id="circle2650" />
+  <circle
+     class="l1"
+     cx="1707.3564"
+     cy="1410.8839"
+     r="7.3979402"
+     id="circle2652" />
+  <circle
+     class="l1"
+     cx="1707.3564"
+     cy="1410.8839"
+     r="7.3979402"
+     id="circle2654" />
+  <circle
+     class="l1"
+     cx="1707.3564"
+     cy="1410.8839"
+     r="7.3979402"
+     id="circle2656" />
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="20.7942px"
+     id="text2658"
+     x="1437.4364"
+     y="769.94696">316nA</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="20.7942px"
+     id="text2660"
+     x="1437.4364"
+     y="869.91895">20nA</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="20.7942px"
+     id="text2662"
+     x="1027.5464"
+     y="849.92493">148nA</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="20.7942px"
+     id="text2664"
+     x="1717.3564"
+     y="849.92493">148nA</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="25.9928px"
+     id="text2666"
+     x="1257.4865"
+     y="1864.3639">Telescopic Input Stage</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="20.7942px"
+     id="text2668"
+     x="1437.4364"
+     y="699.96594">0.992V~1V</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="20.7942px"
+     id="text2670"
+     x="1727.3564"
+     y="1449.7539">0.347V</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="20.7942px"
+     id="text2672"
+     x="1012.5565"
+     y="1449.7539">0.347V</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="20.7942px"
+     id="text2674"
+     x="997.55646"
+     y="530.01294">0.75V</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="20.7942px"
+     id="text2676"
+     x="797.61243"
+     y="270.08594">1.5V-1.04V=0.46V</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="20.7942px"
+     id="text2678"
+     x="507.69241"
+     y="20.15513">Power Down + Decoupling</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="20.7942px"
+     id="text2680"
+     x="1367.4564"
+     y="1659.704">0.346V</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="15.5957px"
+     id="text2682"
+     x="1772.3364"
+     y="1065.1439">Miller Cap.</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="15.5957px"
+     id="text2684"
+     x="962.56641"
+     y="1065.1439">Miller Cap.</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="20.7942px"
+     id="text2686"
+     x="297.75143"
+     y="1049.8639">40nA</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="20.7942px"
+     id="text2688"
+     x="874.57642"
+     y="1215.964">20nA</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="25.9928px"
+     id="text2690"
+     x="492.67044"
+     y="1864.3639">Biasing</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="20.7942px"
+     id="text2692"
+     x="1627.3865"
+     y="1039.8739">0.88V</text>
+  <text
+     fill="#222222"
+     xml:space="preserve"
+     font-size="20.7942px"
+     id="text2694"
+     x="297.75143"
+     y="819.93292">1.04V</text>
+</svg>

@@ -1,0 +1,28 @@
+v {xschem version=3.4.6 file_version=1.2}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname W_P_INV=@W_P_INV L_P_INV=@L_P_INV W_N_INV=@W_N_INV L_N_INV=@L_N_INV"
+template="name=x1 W_P_INV=3.0u L_P_INV=0.50u W_N_INV=1.0u L_N_INV=0.50u"
+}
+V {}
+S {}
+E {}
+L 4 -60 0 -40 0 {}
+L 4 40 0 60 0 {}
+L 4 -40 -40 -40 40 {}
+L 4 -40 40 40 0 {}
+L 4 -40 -40 40 0 {}
+L 7 0 -40 0 -20 {}
+L 7 0 20 0 40 {}
+B 5 -2.5 -42.5 2.5 -37.5 {name=VDD dir=inout}
+B 5 -62.5 -2.5 -57.5 2.5 {name=vin dir=in}
+B 5 57.5 -2.5 62.5 2.5 {name=vout dir=out}
+B 5 -2.5 37.5 2.5 42.5 {name=VSS dir=inout}
+T {@symname} -125.125 14 0 0 0.25 0.25 {}
+T {@name} -95 -18 2 1 0.2 0.2 {}
+T {VDD} 35 -54 0 1 0.2 0.2 {}
+T {vin} -35 -6.5 0 0 0.2 0.2 {}
+T {vout} 25 -6.5 0 1 0.2 0.2 {}
+T {VSS} 11.25 41 0 0 0.2 0.2 {}
+T {HV PMOS: @W_P_INV / @L_P_INV} 40 -30 0 0 0.2 0.2 {}
+T {HV NMOS: @W_N_INV / @L_N_INV} 40 20 0 0 0.2 0.2 {}

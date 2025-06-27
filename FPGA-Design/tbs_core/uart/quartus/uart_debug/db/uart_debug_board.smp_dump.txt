@@ -1,0 +1,15 @@
+
+State Machine - |uart_debug_board|uart:uart_0|uart_rx:uart_rx_0|rx_state
+Name rx_state.STOPBIT rx_state.RECEIVING rx_state.STARTBIT rx_state.IDLE 
+rx_state.IDLE 0 0 0 0 
+rx_state.STARTBIT 0 0 1 1 
+rx_state.RECEIVING 0 1 0 1 
+rx_state.STOPBIT 1 0 0 1 
+
+State Machine - |uart_debug_board|uart:uart_0|uart_tx:uart_tx_0|tx_state
+Name tx_state.STOPBIT tx_state.TRANSMITTING tx_state.STARTBIT tx_state.STARTTX tx_state.IDLE 
+tx_state.IDLE 0 0 0 0 0 
+tx_state.STARTTX 0 0 0 1 1 
+tx_state.STARTBIT 0 0 1 0 1 
+tx_state.TRANSMITTING 0 1 0 0 1 
+tx_state.STOPBIT 1 0 0 0 1 

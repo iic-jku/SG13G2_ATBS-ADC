@@ -1,0 +1,3 @@
+set_io_pin_constraint -pin_names {clock_i, reset_n_i, enable_i, uart_rx_i, uart_tx_o, idle_led_o, overflow_led_o, underflow_led_o} -region right:*
+set_io_pin_constraint -pin_names {comp_upper_i, comp_lower_i, phi_comp_o, phi_dac_upper_o, dac_upper_o, phi_dac_lower_o, dac_lower_o, phi_vcm_generator_1_o, phi_vcm_generator_2_o, phi_bias_1_o, phi_bias_2_o, phi_cmfb_1_o, phi_cmfb_2_o, phi_res_1_o, phi_res_2_o, bio_amp_en_o, select_cap_o, select_spdt_o} -region bottom:*
+set_io_pin_constraint -pin_names {trigger_start_sampling_i, trigger_start_mode_i, adaptive_mode_i, control_mode_i, signal_select_in_i, select_tbs_delta_steps_i} -region bottom:*

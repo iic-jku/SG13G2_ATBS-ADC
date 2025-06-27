@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.7.0">
+<layerstackup name="4 Layer Stack" type="Standard Stackup" symetrical="yes" display_unit="mic" roughness_model="1" surface_roughness="0.001mm" surface_huray_noduleradius="0.0005mm" surface_huray_surfaceratio="1" allow_instack_material_edit="no" core_color="#FF626262" prepreg_color="#FFB1B1B1" dielectric_color="#FF9E9E9E">
+ <layerdef type="Silk Screen" id="{085caebf-89d1-45bf-9518-1916ab88467b}" name="Top SilkScreen">
+ <material type="ASP" name="ASP:White" material="Epoxy Ink" process="Automatic Screen Printing" color="#FFFFFFFF" description="Automatic Screen Printing - White"/>
+</layerdef>
+ <layerdef type="Solder Mask" id="{99614d9a-d5e6-4360-8b2c-f7e65743a336}" name="Top SolderMask">
+ <material name="SR:Green" thickness="0.0254mm" dielectric_constant="4.3" dissipation_factor="0.025" glass_transition_temperature="135degC" color="#C8008000" description="Green Solder Mask"/>
+</layerdef>
+ <layerdef type="Surface Finish" id="{f8d5e56e-b20c-4f70-8519-e385341651f9}" name="Top Surface Finish">
+ <material type="HASL-LeadFree" material="Lead-Free" process="HASL Lead-Free" thickness="0.02mm" color="#FFF2F2F2" description="Surface Finish"/>
+</layerdef>
+ <layerdef type="Signal" id="{fbc01b46-abbe-4bc3-8ad2-976ed295de37}" layer="1" name="Top" comment="No comment">
+ <material name="CuFoil:007" thickness="0.035mm" weight="1oz" process="Electro Deposited" description="ED: Copper Foil"/>
+</layerdef>
+ <layerdef type="Prepreg" id="{5fa3420b-6801-4926-9ad5-95079156d51d}" layer="1" name="Dielectric-1" comment="Top Dielectric Layer">
+ <material name="Prepreg:088" oem="Isola" oem_material="IS400HR" glass_style="3313" thickness="0.1mm" resin="55%" dielectric_constant_1g="4.12" dissipation_factor_1g="0.0162" glass_transition_temperature="180degC"/>
+</layerdef>
+ <layerdef type="Signal" id="{17c3f1f2-d7cb-464b-81fc-7a0d8bb47141}" layer="2" name="Route2" comment="No comment">
+ <material name="CuFoil:004" thickness="0.015mm" weight="3/8oz" process="Electro Deposited" description="Copper Foil"/>
+</layerdef>
+ <layerdef type="Core" id="{8b62e7fa-f68f-4261-a62c-19ff111c7efa}" layer="3" name="Dielectric-3" comment="Middle Dielectric Layer">
+ <material name="Core:087" oem="Isola" oem_material="IS400HR" construction="6x7628L" thickness="1.06mm" resin="41%" dielectric_constant_100m="4.6" dissipation_factor_100m="0.0133" dielectric_constant_500m="4.55" dissipation_factor_500m="0.0138" dielectric_constant_1g="4.54" dissipation_factor_1g="0.0144" dielectric_constant_2g="4.49" dissipation_factor_2g="0.0148" dielectric_constant_5g="4.46" dissipation_factor_5g="0.0163" dielectric_constant_10g="4.41" dissipation_factor_10g="0.0172" glass_transition_temperature="180degC" description="Core 6x7628L"/>
+</layerdef>
+ <layerdef type="Signal" id="{89c14100-470c-42dd-bba0-c28e07098c70}" layer="15" name="Route15" comment="No comment">
+ <material name="CuFoil:004" thickness="0.015mm" weight="3/8oz" process="Electro Deposited" description="Copper Foil"/>
+</layerdef>
+ <layerdef type="Prepreg" id="{f7efb830-0273-4013-93fd-61f4806e14a7}" layer="5" name="Dielectric-5" comment="Bottom Dielectric Layer">
+ <material name="Prepreg:088" oem="Isola" oem_material="IS400HR" glass_style="3313" thickness="0.1mm" resin="55%" dielectric_constant_1g="4.12" dissipation_factor_1g="0.0162" glass_transition_temperature="180degC"/>
+</layerdef>
+ <layerdef type="Signal" id="{50a2329e-89fb-4073-a50a-1754f5a883eb}" layer="16" name="Bottom" comment="No comment">
+ <material name="CuFoil:007" thickness="0.035mm" weight="1oz" process="Electro Deposited" description="ED: Copper Foil"/>
+</layerdef>
+ <layerdef type="Surface Finish" id="{55e8f479-7c65-4bc6-a04a-d0fcb3ec0232}" name="Bottom Surface Finish">
+ <material type="HASL-LeadFree" material="Lead-Free" process="HASL Lead-Free" thickness="0.02mm" color="#FFF2F2F2" description="Surface Finish"/>
+</layerdef>
+ <layerdef type="Solder Mask" id="{6a88b8e8-f2ac-48d3-b2ee-fa11b02bdd88}" name="Bottom SolderMask">
+ <material name="SR:Green" thickness="0.0254mm" dielectric_constant="4.3" dissipation_factor="0.025" glass_transition_temperature="135degC" color="#C8008000" description="Green Solder Mask"/>
+</layerdef>
+ <layerdef type="Silk Screen" id="{73d87a74-ea2c-461d-a139-935115ec5d40}" name="Bottom SilkScreen">
+ <material type="ASP" name="ASP:White" material="Epoxy Ink" process="Automatic Screen Printing" color="#FFFFFFFF" description="Automatic Screen Printing - White"/>
+</layerdef>
+ <viadef name="Thru 1:16" startlayer="1" stoplayer="16" complement="no"/>
+ </layerstackup>
+ </eagle>

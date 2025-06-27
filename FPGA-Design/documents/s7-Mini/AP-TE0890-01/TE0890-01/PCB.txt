@@ -1,0 +1,31 @@
+
+Project: TE0890-01
+PCB gerber & drill files: LP0890
+Version: 01
+
+PCB thinkness: 1.2 mm
+Layers:  06
+PCB Layerstack: paket_20170202121450
+
+Layer order: GTL, G1, G2, G3, G4, GBL
+Outline: GM6
+
+Silkscreen Top: white
+Silkscreen Bot: white
+Solder mask: green
+Surfase finish: Chem.Au/Ni(ENIG)
+
+
+Panel info: 20 PCB's in one delivery panel. Separate PCB with V-cut.
+Drawing of the panel: Layerstack.JPG
+Previous order: -
+
+Notes:  1) Do not cut a silkscreen on the copper capped vias
+	2) It is allowed to add metal and fiducials to the panel frame.
+	3) Please add UL-logo on PCB
+	4) Please make epoxy filled + copper capped VIAs (type VII), remove VIA mask openings
+	 
+
+
+
+

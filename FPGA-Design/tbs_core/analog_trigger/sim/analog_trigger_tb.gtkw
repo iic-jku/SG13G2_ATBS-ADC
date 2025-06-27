@@ -1,0 +1,35 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Fri Nov 29 19:20:27 2024
+[*]
+[dumpfile] "/foss/designs/tbs_core/analog_trigger/sim/analog_trigger_tb.vcd"
+[dumpfile_mtime] "Fri Nov 29 19:19:00 2024"
+[dumpfile_size] 2178672
+[savefile] "/foss/designs/tbs_core/analog_trigger/sim/analog_trigger_tb.gtkw"
+[timestart] 0
+[size] 1374 600
+[pos] 122 100
+*-39.491657 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[treeopen] analog_trigger_tb.
+[sst_width] 276
+[signals_width] 198
+[sst_expanded] 1
+[sst_vpaned_height] 150
+@201
+-INPUTS
+@28
+analog_trigger_tb.dut_analog_trigger.clock_i
+analog_trigger_tb.dut_analog_trigger.reset_i
+analog_trigger_tb.dut_analog_trigger.enable_i
+@24
+analog_trigger_tb.dut_analog_trigger.period_adj_i[7:0]
+analog_trigger_tb.dut_analog_trigger.duty_cycle_adj_i[7:0]
+@200
+-INTERNAL
+-OUTPUTS
+@24
+analog_trigger_tb.dut_analog_trigger.counter_value[7:0]
+@28
+analog_trigger_tb.dut_analog_trigger.analog_trigger_o
+[pattern_trace] 1
+[pattern_trace] 0

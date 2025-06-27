@@ -1,0 +1,71 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Tue Mar  4 17:03:14 2025
+[*]
+[dumpfile] "/foss/designs/SG13G2_ATBS-ADC-main/vhdl/atbs_core_floating_window/uart/sim/uart_tb.vcd"
+[dumpfile_mtime] "Tue Mar  4 17:03:06 2025"
+[dumpfile_size] 6362941
+[savefile] "/foss/designs/SG13G2_ATBS-ADC-main/vhdl/atbs_core_floating_window/uart/sim/uart_tb.gtkw"
+[timestart] 0
+[size] 1427 702
+[pos] -1 -1
+*-40.812401 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[markername] AA
+[markername] BB
+[markername] CC
+[markername] DD
+[markername] EE
+[markername] FF
+[markername] GG
+[markername] HH
+[markername] II
+[markername] JJ
+[markername] KK
+[markername] LL
+[markername] MM
+[markername] NN
+[markername] OO
+[markername] PP
+[markername] QQ
+[markername] RR
+[markername] SS
+[markername] TT
+[markername] UU
+[markername] VV
+[markername] WW
+[markername] XX
+[markername] YY
+[markername] ZZ
+[treeopen] uart_tb.
+[treeopen] uart_tb.dut_uart.
+[sst_width] 297
+[signals_width] 246
+[sst_expanded] 1
+[sst_vpaned_height] 186
+@201
+-I/Os
+@28
+uart_tb.dut_uart.clock_i
+uart_tb.dut_uart.reset_i
+@200
+-TRANSMITTER
+@24
+uart_tb.dut_uart.uart_tx_0.transmit_counter_value[2:0]
+@28
+uart_tb.dut_uart.tx_start_strb_i
+@24
+uart_tb.dut_uart.tx_data_i[7:0]
+@28
+uart_tb.dut_uart.tx_strb_o
+uart_tb.dut_uart.tx_o
+@200
+-RECEIVER
+@24
+uart_tb.dut_uart.uart_rx_0.receive_counter_value[2:0]
+@28
+uart_tb.dut_uart.rx_i
+uart_tb.dut_uart.rx_data_strb_o
+@24
+uart_tb.dut_uart.rx_data_o[7:0]
+[pattern_trace] 1
+[pattern_trace] 0

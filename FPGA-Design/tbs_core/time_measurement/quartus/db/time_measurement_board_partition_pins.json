@@ -1,0 +1,97 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "overflow_strb_o",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_o[0]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_o[1]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_o[2]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_o[3]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_o[4]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_o[5]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_o[6]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_o[7]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_o[8]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_o[9]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_o[10]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_o[11]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_o[12]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_o[13]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_o[14]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_o[15]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_o[16]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_o[17]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_o[18]",
+					"strict" : false
+				},
+				{
+					"name" : "clock_i",
+					"strict" : false
+				},
+				{
+					"name" : "reset_n_i",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

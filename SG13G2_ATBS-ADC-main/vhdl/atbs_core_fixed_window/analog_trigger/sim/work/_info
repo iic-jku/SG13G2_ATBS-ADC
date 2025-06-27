@@ -1,0 +1,176 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA/tbs_core/analog_trigger/sim
+Eanalog_trig
+Z0 w1742816568
+Z1 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 197
+Z5 dC:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/vhdl/atbs_core_fixed_window/analog_trigger/sim
+Z6 8../rtl/analog_trigger_ea.vhd
+Z7 F../rtl/analog_trigger_ea.vhd
+l0
+L13 1
+V7jS[g:Q6P1emjWmI8TfFA0
+!s100 AWjiO0M]5j`@RUTOW108>2
+Z8 OV;C;2020.1;71
+32
+Z9 !s110 1742817208
+!i10b 1
+Z10 !s108 1742817208.000000
+Z11 !s90 -reportprogress|300|-work|work|../rtl/analog_trigger_ea.vhd|
+Z12 !s107 ../rtl/analog_trigger_ea.vhd|
+!i113 1
+Z13 o-work work
+Z14 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+R4
+Z15 DEx4 work 11 analog_trig 0 22 7jS[g:Q6P1emjWmI8TfFA0
+!i122 197
+l34
+L28 40
+VWHge4aamJQe=dC6jlz]A`1
+!s100 fK=ZfdG8`MHOzm^=>QX?C0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eanalog_trigger_board
+Z16 w1742816579
+Z17 DPx4 work 10 tbssimvals 0 22 PmkO`D<4bin1@3GX4XLa@3
+R1
+R2
+R3
+R4
+!i122 198
+R5
+Z18 8../rtl/analog_trigger_board.vhd
+Z19 F../rtl/analog_trigger_board.vhd
+l0
+L16 1
+VaQ<kXW=1DZI0aWgTf99z;2
+!s100 Jb;S<TFIKD2zUmTX1YE@m2
+R8
+32
+R9
+!i10b 1
+R10
+Z20 !s90 -reportprogress|300|-work|work|../rtl/analog_trigger_board.vhd|
+Z21 !s107 ../rtl/analog_trigger_board.vhd|
+!i113 1
+R13
+R14
+Artl
+R15
+R17
+R1
+R2
+R3
+R4
+DEx4 work 20 analog_trigger_board 0 22 aQ<kXW=1DZI0aWgTf99z;2
+!i122 198
+l33
+L28 25
+V8d7Cl^faGX>1RkDLm[_8^3
+!s100 C]NXQjW4@i8F?eLTI:>jZ1
+R8
+32
+R9
+!i10b 1
+R10
+R20
+R21
+!i113 1
+R13
+R14
+Eanalog_trigger_tb
+Z22 w1742817102
+R17
+R1
+R2
+R3
+R4
+!i122 199
+R5
+Z23 8analog_trigger_tb.vhd
+Z24 Fanalog_trigger_tb.vhd
+l0
+L15 1
+V>@@[Wbal2>6XC4NoCOT[X2
+!s100 aWnR=RDU0R7L_Z17J8Yg[0
+R8
+32
+R9
+!i10b 1
+R10
+Z25 !s90 -reportprogress|300|-work|work|analog_trigger_tb.vhd|
+Z26 !s107 analog_trigger_tb.vhd|
+!i113 1
+R13
+R14
+Abhv
+R15
+R17
+R1
+R2
+R3
+R4
+Z27 DEx4 work 17 analog_trigger_tb 0 22 >@@[Wbal2>6XC4NoCOT[X2
+!i122 199
+l48
+Z28 L19 192
+Z29 VgGGZckU=HOUZV3:7]UNdg3
+Z30 !s100 e05`RMWfn_Ba_=iVeGadQ1
+R8
+32
+R9
+!i10b 1
+R10
+R25
+R26
+!i113 1
+R13
+R14
+Ptbssimvals
+R1
+R2
+R3
+R4
+!i122 196
+w1742815361
+R5
+8../../sim/vhdl/TBSSimVals_p.vhd
+F../../sim/vhdl/TBSSimVals_p.vhd
+l0
+L12 1
+VPmkO`D<4bin1@3GX4XLa@3
+!s100 g02UVd1ecAbaeEiz[_zQK1
+R8
+32
+R9
+!i10b 1
+R10
+!s90 -reportprogress|300|-work|work|../../sim/vhdl/TBSSimVals_p.vhd|
+!s107 ../../sim/vhdl/TBSSimVals_p.vhd|
+!i113 1
+R13
+R14

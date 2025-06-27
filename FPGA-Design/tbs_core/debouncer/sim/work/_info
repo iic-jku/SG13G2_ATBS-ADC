@@ -1,0 +1,262 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA/tbs_core/debouncer/sim
+Edebouncer
+Z1 w1740754409
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 184
+Z5 dC:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/debouncer/sim
+Z6 8../rtl/debouncer_ea.vhd
+Z7 F../rtl/debouncer_ea.vhd
+l0
+Z8 L12 1
+V?lNID0P8B?z7^Pzom>1L>0
+!s100 G=ejII0nJ]^QQJBll^;mR2
+Z9 OV;C;2020.1;71
+32
+Z10 !s110 1740851473
+!i10b 1
+Z11 !s108 1740851473.000000
+Z12 !s90 -reportprogress|300|-work|work|../rtl/debouncer_ea.vhd|
+Z13 !s107 ../rtl/debouncer_ea.vhd|
+!i113 1
+Z14 o-work work
+Z15 tExplicit 1 CvgOpt 0
+Artl
+Z16 DEx4 work 10 sync_chain 0 22 `BaG1J7Li[k>?7`:eHf4K1
+R2
+R3
+R4
+Z17 DEx4 work 9 debouncer 0 22 ?lNID0P8B?z7^Pzom>1L>0
+!i122 184
+l50
+L26 135
+Vah_^hAalZ28LkX0a`L7PN1
+!s100 CSWbnW3EBNJ_P^olJVI?J2
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Edebouncer_adj
+Z18 w1727727637
+R2
+R3
+R4
+!i122 171
+R0
+Z19 8../rtl/debouncer_adj_ea.vhd
+Z20 F../rtl/debouncer_adj_ea.vhd
+l0
+L13 1
+VVTZJf90z2HfD]AnLaJeAb3
+!s100 ^]F:ADR2jJ<JMFgWC9KhR3
+R9
+32
+Z21 !s110 1727728014
+!i10b 1
+Z22 !s108 1727728014.000000
+Z23 !s90 -reportprogress|300|-work|work|../rtl/debouncer_adj_ea.vhd|
+Z24 !s107 ../rtl/debouncer_adj_ea.vhd|
+!i113 1
+R14
+R15
+Artl
+R16
+R2
+R3
+R4
+DEx4 work 13 debouncer_adj 0 22 VTZJf90z2HfD]AnLaJeAb3
+!i122 171
+l51
+L27 135
+V`Uj:iUYEVWbG@fh>=IB7h1
+!s100 O8Ig9GA8b=C3<X^8gzO0O1
+R9
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R14
+R15
+Edebouncer_board
+Z25 w1719665571
+Z26 DPx4 work 10 tbssimvals 0 22 5N?>YfAY3S[Lm`Y;BCZg?2
+Z27 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+R2
+R3
+R4
+!i122 185
+R5
+Z28 8../rtl/debouncer_board.vhd
+Z29 F../rtl/debouncer_board.vhd
+l0
+L16 1
+VB5:zQ4_hP1hoX0@A<H`XT3
+!s100 5NFmCn6Smic8a1ncoGOca0
+R9
+32
+R10
+!i10b 1
+R11
+Z30 !s90 -reportprogress|300|-work|work|../rtl/debouncer_board.vhd|
+Z31 !s107 ../rtl/debouncer_board.vhd|
+!i113 1
+R14
+R15
+Artl
+R17
+R26
+R27
+R2
+R3
+R4
+DEx4 work 15 debouncer_board 0 22 B5:zQ4_hP1hoX0@A<H`XT3
+!i122 185
+l31
+L26 25
+VOcijiU1SXXY_Pzg0W]J2I3
+!s100 4Kj[m6ggX`A2AR4;8cH<O1
+R9
+32
+R10
+!i10b 1
+R11
+R30
+R31
+!i113 1
+R14
+R15
+Edebouncer_tb
+Z32 w1732794378
+R26
+R27
+R2
+R3
+R4
+!i122 186
+R5
+Z33 8debouncer_tb.vhd
+Z34 Fdebouncer_tb.vhd
+l0
+L15 1
+Vd4UQ`AI]nVVY<NXOC4o>;1
+!s100 CX=226hz7``]bh=_VW_V=2
+R9
+32
+R10
+!i10b 1
+R11
+Z35 !s90 -reportprogress|300|-work|work|debouncer_tb.vhd|
+Z36 !s107 debouncer_tb.vhd|
+!i113 1
+R14
+R15
+Abhv
+R17
+R26
+R27
+R2
+R3
+R4
+Z37 DEx4 work 12 debouncer_tb 0 22 d4UQ`AI]nVVY<NXOC4o>;1
+!i122 186
+l33
+L19 118
+V4zYF6<;BHV6`QRU:K0PQZ1
+!s100 Hh>[R?_9YbzdLFm=z6f7_1
+R9
+32
+R10
+!i10b 1
+R11
+R35
+R36
+!i113 1
+R14
+R15
+Esync_chain
+Z38 w1719664156
+R2
+R3
+R4
+!i122 183
+R5
+Z39 8../../sync_chain/rtl/sync_chain_ea.vhd
+Z40 F../../sync_chain/rtl/sync_chain_ea.vhd
+l0
+L17 1
+V`BaG1J7Li[k>?7`:eHf4K1
+!s100 ::?=>I`N?;aMHj42ZTQ1Y0
+R9
+32
+R10
+!i10b 1
+R11
+Z41 !s90 -reportprogress|300|-work|work|../../sync_chain/rtl/sync_chain_ea.vhd|
+Z42 !s107 ../../sync_chain/rtl/sync_chain_ea.vhd|
+!i113 1
+R14
+R15
+Artl
+R2
+R3
+R4
+R16
+!i122 183
+l38
+L31 28
+VeS4i3KmPFg@0Kk3H[>Cl<0
+!s100 f<9>Ek08[L0`NSz@gh3M<1
+R9
+32
+R10
+!i10b 1
+R11
+R41
+R42
+!i113 1
+R14
+R15
+Ptbssimvals
+R27
+R2
+R3
+R4
+!i122 182
+w1740830326
+R5
+8../../sim/vhdl/TBSSimVals_p.vhd
+F../../sim/vhdl/TBSSimVals_p.vhd
+l0
+R8
+V5N?>YfAY3S[Lm`Y;BCZg?2
+!s100 ZDNjJKg7l9mlolQj7b:C03
+R9
+32
+R10
+!i10b 1
+!s108 1740851472.000000
+!s90 -reportprogress|300|-work|work|../../sim/vhdl/TBSSimVals_p.vhd|
+!s107 ../../sim/vhdl/TBSSimVals_p.vhd|
+!i113 1
+R14
+R15

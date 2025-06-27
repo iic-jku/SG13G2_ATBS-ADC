@@ -1,0 +1,39 @@
+v {xschem version=3.4.6 file_version=1.2}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname W_P_ST=@W_P_ST L_P_ST=@L_P_ST W_N_ST=@W_N_ST L_N_ST=@L_N_ST R=@R"
+template="name=x1 W_P_ST=3.0u L_P_ST=0.50u W_N_ST=1.0u L_N_ST=0.50u R=4"
+}
+V {}
+S {}
+E {}
+L 4 60 0 80 0 {}
+L 4 -80 0 -60 0 {}
+L 4 -60 -60 -60 0 {}
+L 4 -60 0 -60 60 {}
+L 4 -60 -60 60 0 {}
+L 4 -60 60 60 0 {}
+L 4 -20 12.5 0 12.5 {}
+L 4 0 -12.5 0 12.5 {}
+L 4 0 -12.5 5 -12.5 {}
+L 4 -15 -12.5 -15 12.5 {}
+L 4 -15 -12.5 0 -12.5 {}
+L 4 5 -12.5 10 -12.5 {}
+L 4 -25 12.5 -20 12.5 {}
+L 4 0 -60 -0 -30 {}
+L 4 -0 30 -0 60 {}
+L 7 0 -80 0 -60 {}
+L 7 0 60 0 80 {}
+B 5 -2.5 -82.5 2.5 -77.5 {name=VDD dir=inout}
+B 5 77.5 -2.5 82.5 2.5 {name=vout dir=out}
+B 5 -82.5 -2.5 -77.5 2.5 {name=vin dir=in}
+B 5 -2.5 77.5 2.5 82.5 {name=VSS dir=inout}
+T {@symname} 44.75 -46 0 0 0.2 0.2 {}
+T {@name} 45 -72 0 0 0.2 0.2 {}
+T {VDD} -10 -84 0 1 0.2 0.2 {}
+T {vout} 90 -16.5 0 1 0.2 0.2 {}
+T {vin} -87.5 -16.5 0 0 0.2 0.2 {}
+T {VSS} -30 84 2 1 0.2 0.2 {}
+T {HV PMOS: @W_P_ST / @L_P_ST} 45 25 0 0 0.2 0.2 {}
+T {HV NMOS: @W_N_ST / @L_N_ST} 45 50 0 0 0.2 0.2 {}
+T {R=1/K: @R} 45 75 0 0 0.2 0.2 {}

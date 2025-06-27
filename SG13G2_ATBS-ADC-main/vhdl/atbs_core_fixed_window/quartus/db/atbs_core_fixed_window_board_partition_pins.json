@@ -1,0 +1,173 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "phi_comp_o",
+					"strict" : false
+				},
+				{
+					"name" : "phi_dac_upper_o",
+					"strict" : false
+				},
+				{
+					"name" : "dac_upper_o[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dac_upper_o[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dac_upper_o[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dac_upper_o[3]",
+					"strict" : false
+				},
+				{
+					"name" : "phi_dac_lower_o",
+					"strict" : false
+				},
+				{
+					"name" : "dac_lower_o[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dac_lower_o[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dac_lower_o[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dac_lower_o[3]",
+					"strict" : false
+				},
+				{
+					"name" : "phi_vcm_generator_1_o",
+					"strict" : false
+				},
+				{
+					"name" : "phi_vcm_generator_2_o",
+					"strict" : false
+				},
+				{
+					"name" : "phi_bias_1_o",
+					"strict" : false
+				},
+				{
+					"name" : "phi_bias_2_o",
+					"strict" : false
+				},
+				{
+					"name" : "phi_cmfb_1_o",
+					"strict" : false
+				},
+				{
+					"name" : "phi_cmfb_2_o",
+					"strict" : false
+				},
+				{
+					"name" : "phi_res_1_o",
+					"strict" : false
+				},
+				{
+					"name" : "phi_res_2_o",
+					"strict" : false
+				},
+				{
+					"name" : "bio_amp_en_o",
+					"strict" : false
+				},
+				{
+					"name" : "select_cap_o[0]",
+					"strict" : false
+				},
+				{
+					"name" : "select_cap_o[1]",
+					"strict" : false
+				},
+				{
+					"name" : "select_cap_o[2]",
+					"strict" : false
+				},
+				{
+					"name" : "select_spdt_o",
+					"strict" : false
+				},
+				{
+					"name" : "idle_led_o",
+					"strict" : false
+				},
+				{
+					"name" : "overflow_led_o",
+					"strict" : false
+				},
+				{
+					"name" : "underflow_led_o",
+					"strict" : false
+				},
+				{
+					"name" : "spike_o",
+					"strict" : false
+				},
+				{
+					"name" : "uart_tx_o",
+					"strict" : false
+				},
+				{
+					"name" : "clock_i",
+					"strict" : false
+				},
+				{
+					"name" : "reset_n_i",
+					"strict" : false
+				},
+				{
+					"name" : "uart_rx_i",
+					"strict" : false
+				},
+				{
+					"name" : "comp_upper_i",
+					"strict" : false
+				},
+				{
+					"name" : "comp_lower_i",
+					"strict" : false
+				},
+				{
+					"name" : "trigger_start_sampling_i",
+					"strict" : false
+				},
+				{
+					"name" : "control_mode_i",
+					"strict" : false
+				},
+				{
+					"name" : "enable_i",
+					"strict" : false
+				},
+				{
+					"name" : "signal_select_in_i",
+					"strict" : false
+				},
+				{
+					"name" : "adaptive_mode_i",
+					"strict" : false
+				},
+				{
+					"name" : "select_tbs_delta_steps_i",
+					"strict" : false
+				},
+				{
+					"name" : "trigger_start_mode_i",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

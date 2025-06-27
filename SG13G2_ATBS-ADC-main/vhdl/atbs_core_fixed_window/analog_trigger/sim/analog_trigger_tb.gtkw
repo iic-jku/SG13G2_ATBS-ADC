@@ -1,0 +1,61 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Tue Mar  4 17:02:39 2025
+[*]
+[dumpfile] "/foss/designs/SG13G2_ATBS-ADC-main/vhdl/atbs_core_floating_window/analog_trigger/sim/analog_trigger_tb.vcd"
+[dumpfile_mtime] "Tue Mar  4 17:02:31 2025"
+[dumpfile_size] 1743910
+[savefile] "/foss/designs/SG13G2_ATBS-ADC-main/vhdl/atbs_core_floating_window/analog_trigger/sim/analog_trigger_tb.gtkw"
+[timestart] 0
+[size] 1427 600
+[pos] 122 100
+*-39.440247 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[markername] AA
+[markername] BB
+[markername] CC
+[markername] DD
+[markername] EE
+[markername] FF
+[markername] GG
+[markername] HH
+[markername] II
+[markername] JJ
+[markername] KK
+[markername] LL
+[markername] MM
+[markername] NN
+[markername] OO
+[markername] PP
+[markername] QQ
+[markername] RR
+[markername] SS
+[markername] TT
+[markername] UU
+[markername] VV
+[markername] WW
+[markername] XX
+[markername] YY
+[markername] ZZ
+[treeopen] analog_trigger_tb.
+[sst_width] 297
+[signals_width] 198
+[sst_expanded] 1
+[sst_vpaned_height] 150
+@201
+-INPUTS
+@28
+analog_trigger_tb.dut_analog_trigger.clock_i
+analog_trigger_tb.dut_analog_trigger.reset_i
+analog_trigger_tb.dut_analog_trigger.enable_i
+@24
+analog_trigger_tb.dut_analog_trigger.period_adj_i[7:0]
+analog_trigger_tb.dut_analog_trigger.duty_cycle_adj_i[7:0]
+@200
+-INTERNAL
+-OUTPUTS
+@24
+analog_trigger_tb.dut_analog_trigger.counter_value[7:0]
+@28
+analog_trigger_tb.dut_analog_trigger.analog_trigger_o
+[pattern_trace] 1
+[pattern_trace] 0

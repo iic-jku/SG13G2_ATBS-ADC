@@ -1,0 +1,71 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Thu Nov 28 11:27:06 2024
+[*]
+[dumpfile] "/foss/designs/tbs_core/sync_chain/sim/sync_chain_tb.vcd"
+[dumpfile_mtime] "Thu Nov 28 11:26:49 2024"
+[dumpfile_size] 1155
+[savefile] "/foss/designs/tbs_core/sync_chain/sim/sync_chain_tb.gtkw"
+[timestart] 0
+[size] 1374 600
+[pos] -1 -1
+*-27.168655 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[markername] AA
+[markername] BB
+[markername] CC
+[markername] DD
+[markername] EE
+[markername] FF
+[markername] GG
+[markername] HH
+[markername] II
+[markername] JJ
+[markername] KK
+[markername] LL
+[markername] MM
+[markername] NN
+[markername] OO
+[markername] PP
+[markername] QQ
+[markername] RR
+[markername] SS
+[markername] TT
+[markername] UU
+[markername] VV
+[markername] WW
+[markername] XX
+[markername] YY
+[markername] ZZ
+[treeopen] sync_chain_tb.
+[sst_width] 276
+[signals_width] 150
+[sst_expanded] 1
+[sst_vpaned_height] 150
+@200
+-INPUTS
+@28
+sync_chain_tb.dut_sync_chain.clock_i
+sync_chain_tb.dut_sync_chain.reset_i
+sync_chain_tb.comp_upper
+sync_chain_tb.comp_lower
+@800028
+sync_chain_tb.dut_sync_chain.async_i[1:0]
+@28
+(0)sync_chain_tb.dut_sync_chain.async_i[1:0]
+(1)sync_chain_tb.dut_sync_chain.async_i[1:0]
+@1001200
+-group_end
+@200
+-OUTPUTS
+@28
+sync_chain_tb.comp_upper_sync
+sync_chain_tb.comp_lower_sync
+@800028
+sync_chain_tb.dut_sync_chain.sync_o[1:0]
+@28
+(0)sync_chain_tb.dut_sync_chain.sync_o[1:0]
+(1)sync_chain_tb.dut_sync_chain.sync_o[1:0]
+@1001200
+-group_end
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Fri Nov 29 16:40:29 2024
+[*]
+[dumpfile] "/foss/designs/tbs_core/time_measurement/sim/time_measurement_tb.vcd"
+[dumpfile_mtime] "Fri Nov 29 16:38:34 2024"
+[dumpfile_size] 12178816
+[savefile] "/foss/designs/tbs_core/time_measurement/sim/time_measurement_tb.gtkw"
+[timestart] 0
+[size] 1375 600
+[pos] -1 -1
+*-40.996033 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[treeopen] time_measurement_tb.
+[sst_width] 276
+[signals_width] 166
+[sst_expanded] 1
+[sst_vpaned_height] 150
+@201
+-INPUTS
+@28
+time_measurement_tb.dut_time_measurement.clock_i
+time_measurement_tb.dut_time_measurement.reset_i
+@200
+-OUTPUTS
+@28
+time_measurement_tb.dut_time_measurement.overflow_strb_o
+@24
+time_measurement_tb.dut_time_measurement.curr_time_o[15:0]
+[pattern_trace] 1
+[pattern_trace] 0

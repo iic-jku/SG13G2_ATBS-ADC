@@ -1,0 +1,73 @@
+v 4
+file "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/" "../../../vhdl/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.vhd" "152588345b6a6a01dc5436baa4254395af168d0a" "20250501124308.813":
+  entity atbs_core_fixed_window_board at 8( 335) + 0 on 56;
+  architecture rtl of atbs_core_fixed_window_board at 84( 3259) + 0 on 57;
+file "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/" "../../../vhdl/atbs_core_fixed_window/uart/rtl/uart_ea.vhd" "4b0554102679e2cb3c2bf2a1522dda85f77bf22b" "20250501124307.896":
+  entity uart at 7( 271) + 0 on 52;
+  architecture rtl of uart at 40( 1099) + 0 on 53;
+file "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/" "../../../vhdl/atbs_core_fixed_window/uart/rtl/uart_rx_ea.vhd" "081d0b76a4d287eba146256d3704afd9f11a494a" "20250501124307.629":
+  entity uart_rx at 7( 234) + 0 on 48;
+  architecture rtl of uart_rx at 28( 809) + 0 on 49;
+file "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/" "../../../vhdl/atbs_core_fixed_window/spike_memory/rtl/spike_memory_ea.vhd" "798bb049b3a6ad827680de477fcc0cece1e62782" "20250501124307.300":
+  entity spike_memory at 7( 320) + 0 on 44;
+  architecture rtl of spike_memory at 38( 1062) + 0 on 45;
+file "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/" "../../../vhdl/atbs_core_fixed_window/spike_encoder/rtl/spike_encoder_ea.vhd" "ab38befd9bd5fce8292d32318c1645d47ad479e3" "20250501124307.094":
+  entity spike_encoder at 9( 394) + 0 on 40;
+  architecture rtl of spike_encoder at 38( 1157) + 0 on 41;
+file "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/" "../../../vhdl/atbs_core_fixed_window/sc_noc_generator/rtl/sc_noc_generator_ea.vhd" "8651132533158e9f4a858dd773ff0ebdaaa8646a" "20250501124306.899":
+  entity sc_noc_generator at 8( 314) + 0 on 36;
+  architecture rtl of sc_noc_generator at 31( 974) + 0 on 37;
+file "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/" "../../../vhdl/atbs_core_fixed_window/dac_control/rtl/dac_control_ea.vhd" "f3dedf9bbb2a40d2e49b64a9c250065adabff853" "20250501124306.600":
+  entity dac_control at 7( 275) + 0 on 32;
+  architecture rtl of dac_control at 43( 1652) + 0 on 33;
+file "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/" "../../../vhdl/atbs_core_fixed_window/adaptive_threshold_control/rtl/adaptive_threshold_control_ea.vhd" "a481fdadd8529dd90f8cb9c90b2e8345c860bd8b" "20250501124306.273":
+  entity adaptive_threshold_control at 9( 357) + 0 on 28;
+  architecture rtl of adaptive_threshold_control at 58( 2334) + 0 on 29;
+file "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/" "../../../vhdl/atbs_core_fixed_window/adaptive_threshold_control/Spike-Buffering/rtl/spike_shift_reg_ea.vhd" "a3991c424d8f12f54b3c58cb71b43a96b8fe87a9" "20250501124305.798":
+  entity spike_shift_reg at 8( 302) + 0 on 24;
+  architecture rtl of spike_shift_reg at 36( 971) + 0 on 25;
+file "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/" "../../../vhdl/atbs_core_fixed_window/adaptive_threshold_control/Priority-Encoder/rtl/priority_encoder_ea.vhd" "5085d9d28909b70962fd6915a5db4aaa90194ba3" "20250501124305.614":
+  entity priority_encoder at 13( 518) + 0 on 20;
+  architecture rtl of priority_encoder at 31( 904) + 0 on 21;
+file "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/" "../../../vhdl/atbs_core_fixed_window/sync_chain/rtl/sync_chain_ea.vhd" "3d069c52b818fcad2ce40261284e67ef7c76bb05" "20250501124305.389":
+  entity sync_chain at 12( 436) + 0 on 16;
+  architecture rtl of sync_chain at 31( 880) + 0 on 17;
+file "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/" "../../../vhdl/atbs_core_fixed_window/adaptive_threshold_control/sim/vhdl/adaptive_std_p.vhd" "31f80b21fa67240587c70da8977bb829fbc0d174" "20250501124305.242":
+  package adaptive_std at 7( 308) + 0 on 13;
+file "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/" "../../../vhdl/atbs_core_fixed_window/sim/vhdl/TBSSimVals_p.vhd" "598839c183c220a5c59eba09dad9d8531ff344c2" "20250501124305.089":
+  package tbssimvals at 7( 314) + 0 on 11;
+file "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/" "../../../vhdl/atbs_core_fixed_window/adaptive_threshold_control/sim/vhdl/AdaptiveCtrlSimVals_p.vhd" "a588ed64dde3c57181033f00ae8cca2e78c813fa" "20250501124305.176":
+  package adaptivectrlsimvals at 8( 342) + 0 on 12;
+file "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/" "../../../vhdl/atbs_core_fixed_window/adaptive_threshold_control/sim/vhdl/Std_p.vhd" "4c861af074766142d9c3225ef86a1311f95a4d86" "20250501124305.321":
+  package std_definitions at 1( 0) + 0 on 14 body;
+  package body std_definitions at 14( 260) + 0 on 15;
+file "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/" "../../../vhdl/atbs_core_fixed_window/debouncer/rtl/debouncer_ea.vhd" "a34d3011456ed819ad0bbe97b6fb4cfba6a51ac9" "20250501124305.498":
+  entity debouncer at 7( 250) + 0 on 18;
+  architecture rtl of debouncer at 26( 620) + 0 on 19;
+file "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/" "../../../vhdl/atbs_core_fixed_window/adaptive_threshold_control/Spike-2-Thermocode/rtl/spike_2_thermocode_ea.vhd" "88965909530ecc399f8247809b129cf2aa262841" "20250501124305.696":
+  entity spike_2_thermocode at 12( 488) + 0 on 22;
+  architecture rtl of spike_2_thermocode at 27( 855) + 0 on 23;
+file "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/" "../../../vhdl/atbs_core_fixed_window/adaptive_threshold_control/Weyls-Discrepancy/rtl/weyls_discrepancy_ea.vhd" "99ff634ce1370adf3b25bf925de4bc4214192aea" "20250501124306.007":
+  entity weyls_discrepancy at 20( 751) + 0 on 26;
+  architecture rtl of weyls_discrepancy at 46( 1338) + 0 on 27;
+file "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/" "../../../vhdl/atbs_core_fixed_window/analog_trigger/rtl/analog_trigger_ea.vhd" "4b2e765eada3e52f8d761c48bfc40b1ed54f7712" "20250501124306.501":
+  entity analog_trig at 7( 280) + 0 on 30;
+  architecture rtl of analog_trig at 28( 819) + 0 on 31;
+file "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/" "../../../vhdl/atbs_core_fixed_window/memory2uart/rtl/memory2uart_ea.vhd" "e1ca3a18a34c1470a662ad3cbf4096f667d458f4" "20250501124306.769":
+  entity memory2uart at 10( 414) + 0 on 34;
+  architecture rtl of memory2uart at 37( 1038) + 0 on 35;
+file "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/" "../../../vhdl/atbs_core_fixed_window/spike_detector/rtl/spike_detector_ea.vhd" "e49924feab5a6f2f91c2a92a217d64b0fd6079af" "20250501124307.000":
+  entity spike_detector at 13( 645) + 0 on 38;
+  architecture rtl of spike_detector at 42( 2022) + 0 on 39;
+file "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/" "../../../vhdl/atbs_core_fixed_window/spike_memory/rtl/dual_ram_ea.vhd" "289ec9ec95dffed895181e7acfb612a745692696" "20250501124307.192":
+  entity dual_ram at 9( 432) + 0 on 42;
+  architecture rtl of dual_ram at 35( 1219) + 0 on 43;
+file "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/" "../../../vhdl/atbs_core_fixed_window/time_measurement/rtl/time_measurement_ea.vhd" "f5c98e36991edb0bb76011382bd8a94b1a052876" "20250501124307.537":
+  entity time_measurement at 13( 550) + 0 on 46;
+  architecture rtl of time_measurement at 36( 1064) + 0 on 47;
+file "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/" "../../../vhdl/atbs_core_fixed_window/uart/rtl/uart_tx_ea.vhd" "036dbfe99c6f614f6547983310c590b8170f2866" "20250501124307.762":
+  entity uart_tx at 7( 231) + 0 on 50;
+  architecture rtl of uart_tx at 29( 801) + 0 on 51;
+file "/foss/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/" "../../../vhdl/atbs_core_fixed_window/rtl/atbs_core_fixed_window_ea.vhd" "6c864cb69a2f9d4cd37e116a11e6ef8bda22317d" "20250501124308.091":
+  entity atbs_core_fixed_window at 8( 329) + 0 on 54;
+  architecture rtl of atbs_core_fixed_window at 124( 4717) + 0 on 55;

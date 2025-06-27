@@ -1,0 +1,38 @@
+v {xschem version=3.4.6 file_version=1.2}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname W_P_HV=@W_P_HV L_P_HV=@L_P_HV W_N_HV=@W_N_HV L_N_HV=@L_N_HV W_P_LV=@W_P_LV L_P_LV=@L_P_LV W_N_LV=@W_N_LV L_N_LV=@L_N_LV"
+template="name=x1 W_P_HV=3.0u L_P_HV=0.50u W_N_HV=10.0u L_N_HV=0.50u W_P_LV=1.0u L_P_LV=0.13u W_N_LV=1.0u L_N_LV=0.13u"
+}
+V {}
+S {}
+E {}
+L 4 -80 0 -60 0 {}
+L 4 60 0 80 0 {}
+L 4 -40 -40 -40 40 {}
+L 4 -40 40 40 0 {}
+L 4 -40 -40 40 0 {}
+L 4 -60 0 -40 0 {}
+L 4 40 0 60 0 {}
+L 7 40 -80 40 -60 {}
+L 7 0 60 0 80 {}
+L 7 -40 -80 -40 -60 {}
+B 5 37.5 -82.5 42.5 -77.5 {name=VDD2 dir=inout}
+B 5 -82.5 -2.5 -77.5 2.5 {name=A dir=in}
+B 5 77.5 -2.5 82.5 2.5 {name=B dir=out}
+B 5 -2.5 77.5 2.5 82.5 {name=VSS dir=inout}
+B 5 -42.5 -82.5 -37.5 -77.5 {name=VDD1 dir=inout}
+P 4 5 -60 -60 -60 60 60 60 60 -60 -60 -60 {}
+T {@symname} 79.875 -43.5 0 0 0.2 0.2 {}
+T {@name} 80 -50.5 2 1 0.2 0.2 {}
+T {VDD2} 77.5 -84 0 1 0.2 0.2 {}
+T {A} -82.5 -16.5 0 0 0.2 0.2 {}
+T {B} 83.75 -16.5 0 1 0.2 0.2 {}
+T {VSS} 28.75 71 0 1 0.2 0.2 {}
+T {VDD1} -47.5 -84 0 1 0.2 0.2 {}
+T {Level-Up-Shifter} -30 42.5 0 0 0.2 0.2 {}
+T {HV PMOS: @W_P_HV / @L_P_HV} 80 20 0 0 0.2 0.2 {}
+T {HV NMOS: @W_N_HV / @L_N_HV} 80 40 0 0 0.2 0.2 {}
+T {LV PMOS: @W_P_LV / @L_P_LV} 80 60 0 0 0.2 0.2 {}
+T {LV NMOS: @W_N_LV / @L_N_LV} 80 80 0 0 0.2 0.2 {}
+T {VDD1 < VDD2} -20 -55 0 0 0.2 0.2 {}

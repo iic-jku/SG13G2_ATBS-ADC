@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2024-08-14T21:11:51Z",
+        "GenerationSoftware": {
+            "Application": "Fusion Electronics",
+            "Vendor": "Autodesk",
+            "Version": "9.7.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "s7-Mini-FPGA Development Board v5"
+        },
+        "Owner": "Simon Dorrer <si1505do@gmail.com>",
+        "Size": {
+            "X": 100,
+            "Y": 80
+        }
+    }
+}

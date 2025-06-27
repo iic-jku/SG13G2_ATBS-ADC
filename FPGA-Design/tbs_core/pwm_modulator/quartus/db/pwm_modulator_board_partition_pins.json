@@ -1,0 +1,57 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "pwm_o",
+					"strict" : false
+				},
+				{
+					"name" : "on_cnt_val_i[4]",
+					"strict" : false
+				},
+				{
+					"name" : "on_cnt_val_i[7]",
+					"strict" : false
+				},
+				{
+					"name" : "on_cnt_val_i[6]",
+					"strict" : false
+				},
+				{
+					"name" : "on_cnt_val_i[5]",
+					"strict" : false
+				},
+				{
+					"name" : "on_cnt_val_i[3]",
+					"strict" : false
+				},
+				{
+					"name" : "on_cnt_val_i[2]",
+					"strict" : false
+				},
+				{
+					"name" : "on_cnt_val_i[1]",
+					"strict" : false
+				},
+				{
+					"name" : "on_cnt_val_i[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clock_i",
+					"strict" : false
+				},
+				{
+					"name" : "reset_n_i",
+					"strict" : false
+				},
+				{
+					"name" : "enable_i",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

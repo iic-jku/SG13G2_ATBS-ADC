@@ -1,0 +1,64 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Fri Nov 29 18:43:50 2024
+[*]
+[dumpfile] "/foss/designs/tbs_core/memory2uart/sim/memory2uart_tb.vcd"
+[dumpfile_mtime] "Fri Nov 29 18:43:28 2024"
+[dumpfile_size] 3974
+[savefile] "/foss/designs/tbs_core/memory2uart/sim/memory2uart_tb.gtkw"
+[timestart] 0
+[size] 1374 600
+[pos] 213 130
+*-30.070137 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[markername] AA
+[markername] BB
+[markername] CC
+[markername] DD
+[markername] EE
+[markername] FF
+[markername] GG
+[markername] HH
+[markername] II
+[markername] JJ
+[markername] KK
+[markername] LL
+[markername] MM
+[markername] NN
+[markername] OO
+[markername] PP
+[markername] QQ
+[markername] RR
+[markername] SS
+[markername] TT
+[markername] UU
+[markername] VV
+[markername] WW
+[markername] XX
+[markername] YY
+[markername] ZZ
+[treeopen] memory2uart_tb.
+[sst_width] 276
+[signals_width] 182
+[sst_expanded] 1
+[sst_vpaned_height] 150
+@201
+-INPUTS
+@28
+memory2uart_tb.dut_memory2uart.clock_i
+memory2uart_tb.dut_memory2uart.reset_i
+memory2uart_tb.dut_memory2uart.read_strb_i
+memory2uart_tb.dut_memory2uart.tx_strb_i
+memory2uart_tb.dut_memory2uart.memory_data_i[16:0]
+@200
+-INTERNAL
+@28
+memory2uart_tb.dut_memory2uart.counter[1:0]
+memory2uart_tb.dut_memory2uart.next_counter[1:0]
+memory2uart_tb.dut_memory2uart.data[23:0]
+@200
+-OUTPUTS
+@28
+memory2uart_tb.dut_memory2uart.uart_data_o[7:0]
+memory2uart_tb.dut_memory2uart.tx_start_strb_o
+[pattern_trace] 1
+[pattern_trace] 0

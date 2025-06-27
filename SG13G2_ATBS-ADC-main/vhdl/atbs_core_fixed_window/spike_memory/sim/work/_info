@@ -1,0 +1,220 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA/tbs_core/spike_memory/sim
+Edual_ram
+Z0 w1719071611
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 11
+Z4 dC:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/spike_memory/sim
+Z5 8../rtl/dual_ram_ea.vhd
+Z6 F../rtl/dual_ram_ea.vhd
+l0
+L13 1
+VPBbgzIh3]ScT=Y8G9`6>@3
+!s100 Z=iiUa2eze1ZkHagZ5oMa1
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1740961775
+!i10b 1
+Z9 !s108 1740961775.000000
+Z10 !s90 -reportprogress|300|-work|work|../rtl/dual_ram_ea.vhd|
+Z11 !s107 ../rtl/dual_ram_ea.vhd|
+!i113 1
+Z12 o-work work
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+Z14 DEx4 work 8 dual_ram 0 22 PBbgzIh3]ScT=Y8G9`6>@3
+!i122 11
+l41
+Z15 L35 32
+V066V>dS:hUFOTk27Q`LTf0
+!s100 mNWMCN<LN:kEG44c@maaD2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Espike_memory
+Z16 w1719072580
+Z17 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+R1
+R2
+R3
+!i122 12
+R4
+Z18 8../rtl/spike_memory_ea.vhd
+Z19 F../rtl/spike_memory_ea.vhd
+l0
+Z20 L16 1
+VDImSVPTB8BT>B:g9=Hh[[3
+!s100 H4S2J3bd5l]3mS9L55:?C3
+R7
+32
+Z21 !s110 1740961776
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-work|work|../rtl/spike_memory_ea.vhd|
+Z23 !s107 ../rtl/spike_memory_ea.vhd|
+!i113 1
+R12
+R13
+Artl
+R14
+R17
+R1
+R2
+R3
+Z24 DEx4 work 12 spike_memory 0 22 DImSVPTB8BT>B:g9=Hh[[3
+!i122 12
+l77
+L39 152
+VO30^<i]LT3W<elEmzhREj3
+!s100 k[S_U5gjc:K]^9QY>XB[W3
+R7
+32
+R21
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Espike_memory_board
+Z25 w1719072577
+Z26 DPx4 work 10 tbssimvals 0 22 5N?>YfAY3S[Lm`Y;BCZg?2
+R17
+R1
+R2
+R3
+!i122 13
+R4
+Z27 8../rtl/spike_memory_board.vhd
+Z28 F../rtl/spike_memory_board.vhd
+l0
+R20
+VXG@2gaS6HE6Rik<?FePJ40
+!s100 ]O6I`:X@;5f2ONBMgWYYI0
+R7
+32
+R21
+!i10b 1
+Z29 !s108 1740961776.000000
+Z30 !s90 -reportprogress|300|-work|work|../rtl/spike_memory_board.vhd|
+Z31 !s107 ../rtl/spike_memory_board.vhd|
+!i113 1
+R12
+R13
+Artl
+R24
+R26
+R17
+R1
+R2
+R3
+DEx4 work 18 spike_memory_board 0 22 XG@2gaS6HE6Rik<?FePJ40
+!i122 13
+l40
+R15
+Vm5=FQXURG;g=]4zIBDI7_0
+!s100 B>IR`B[jR9hzaBAgBYiS_1
+R7
+32
+R21
+!i10b 1
+R29
+R30
+R31
+!i113 1
+R12
+R13
+Espike_memory_tb
+Z32 w1732794020
+R26
+R17
+R1
+R2
+R3
+!i122 14
+R4
+Z33 8spike_memory_tb.vhd
+Z34 Fspike_memory_tb.vhd
+l0
+R20
+Vb[[Y;z=G<AZ:4maHzEQWQ3
+!s100 VM_nFFh3`?k>QR6XaP2I:3
+R7
+32
+R21
+!i10b 1
+R29
+Z35 !s90 -reportprogress|300|-work|work|spike_memory_tb.vhd|
+Z36 !s107 spike_memory_tb.vhd|
+!i113 1
+R12
+R13
+Artl
+R24
+R26
+R17
+R1
+R2
+R3
+Z37 DEx4 work 15 spike_memory_tb 0 22 b[[Y;z=G<AZ:4maHzEQWQ3
+!i122 14
+l44
+L20 121
+Vn4hg>k>5IE4fF@nYN26kM3
+!s100 >MU==G3ndBY:LHSNBiTAm0
+R7
+32
+R21
+!i10b 1
+R29
+R35
+R36
+!i113 1
+R12
+R13
+Ptbssimvals
+R17
+R1
+R2
+R3
+!i122 10
+w1740830326
+R4
+8../../sim/vhdl/TBSSimVals_p.vhd
+F../../sim/vhdl/TBSSimVals_p.vhd
+l0
+L12 1
+V5N?>YfAY3S[Lm`Y;BCZg?2
+!s100 ZDNjJKg7l9mlolQj7b:C03
+R7
+32
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|-work|work|../../sim/vhdl/TBSSimVals_p.vhd|
+!s107 ../../sim/vhdl/TBSSimVals_p.vhd|
+!i113 1
+R12
+R13

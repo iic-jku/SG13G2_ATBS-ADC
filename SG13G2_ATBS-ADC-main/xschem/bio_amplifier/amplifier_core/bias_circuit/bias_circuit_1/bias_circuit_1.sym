@@ -1,0 +1,31 @@
+v {xschem version=3.4.6RC file_version=1.2
+}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 -140 0 -120 0 {}
+L 4 120 0 140 0 {}
+L 4 -120 -80 -120 80 {}
+L 4 -120 80 120 80 {}
+L 4 120 -80 120 80 {}
+L 4 -120 -80 120 -80 {}
+L 7 0 -100 0 -80 {}
+L 7 0 80 0 100 {}
+B 5 -142.5 -2.5 -137.5 2.5 {name=di_bias_en dir=in}
+B 5 137.5 -2.5 142.5 2.5 {name=Vbias dir=out}
+B 5 -2.5 -102.5 2.5 -97.5 {name=VDD dir=inout}
+B 5 -2.5 97.5 2.5 102.5 {name=VSS dir=inout}
+T {di_bias_en} -115 -6.5 0 0 0.2 0.2 {}
+T {Vbias} 115 -6.5 0 1 0.2 0.2 {}
+T {@symname} 141 -46 0 0 0.2 0.2 {}
+T {@name} 141.25 -72 0 0 0.2 0.2 {}
+T {VDD} -6.5 -75 3 1 0.2 0.2 {}
+T {VSS} 5.25 75 1 1 0.2 0.2 {}
+T {Biasing} -35 10 0 0 0.4 0.4 {}
+T {Amplifier} -45 -35 0 0 0.4 0.4 {}
+T {v1} 90 50 0 0 0.4 0.4 {}

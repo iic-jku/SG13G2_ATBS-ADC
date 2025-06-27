@@ -1,0 +1,174 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA/tbs_core/sync_chain/sim
+Esync_chain
+Z0 w1719664156
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 41
+Z4 dC:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/sync_chain/sim
+Z5 8../rtl/sync_chain_ea.vhd
+Z6 F../rtl/sync_chain_ea.vhd
+l0
+L17 1
+V`BaG1J7Li[k>?7`:eHf4K1
+!s100 ::?=>I`N?;aMHj42ZTQ1Y0
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1740962001
+!i10b 1
+Z9 !s108 1740962000.000000
+Z10 !s90 -reportprogress|300|-work|work|../rtl/sync_chain_ea.vhd|
+Z11 !s107 ../rtl/sync_chain_ea.vhd|
+!i113 1
+Z12 o-work work
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+Z14 DEx4 work 10 sync_chain 0 22 `BaG1J7Li[k>?7`:eHf4K1
+!i122 41
+l38
+L31 28
+VeS4i3KmPFg@0Kk3H[>Cl<0
+!s100 f<9>Ek08[L0`NSz@gh3M<1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Esync_chain_board
+Z15 w1719072653
+Z16 DPx4 work 10 tbssimvals 0 22 5N?>YfAY3S[Lm`Y;BCZg?2
+Z17 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+R1
+R2
+R3
+!i122 42
+R4
+Z18 8../rtl/sync_chain_board.vhd
+Z19 F../rtl/sync_chain_board.vhd
+l0
+Z20 L16 1
+ViKD_TQNaRmafeaf`Xch4X1
+!s100 ]mhNBb^0;b>2caAZSlb0T3
+R7
+32
+R8
+!i10b 1
+Z21 !s108 1740962001.000000
+Z22 !s90 -reportprogress|300|-work|work|../rtl/sync_chain_board.vhd|
+Z23 !s107 ../rtl/sync_chain_board.vhd|
+!i113 1
+R12
+R13
+Artl
+R14
+R16
+R17
+R1
+R2
+R3
+DEx4 work 16 sync_chain_board 0 22 iKD_TQNaRmafeaf`Xch4X1
+!i122 42
+l31
+L26 25
+V4oQCJdzUbiXJ9>?AGhfo]3
+!s100 Iem7aVkSKmmHECQ<>R5DB0
+R7
+32
+R8
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R12
+R13
+Esync_chain_tb
+Z24 w1732794239
+R16
+R17
+R1
+R2
+R3
+!i122 43
+R4
+Z25 8sync_chain_tb.vhd
+Z26 Fsync_chain_tb.vhd
+l0
+R20
+VU=YXWk8ARNRaMGJVF]b211
+!s100 ShQeM^TIl[ZRN=cWGO4;Z3
+R7
+32
+R8
+!i10b 1
+R21
+Z27 !s90 -reportprogress|300|-work|work|sync_chain_tb.vhd|
+Z28 !s107 sync_chain_tb.vhd|
+!i113 1
+R12
+R13
+Abhv
+R14
+R16
+R17
+R1
+R2
+R3
+Z29 DEx4 work 13 sync_chain_tb 0 22 U=YXWk8ARNRaMGJVF]b211
+!i122 43
+l38
+Z30 L20 73
+Z31 V^8c1@ZJ4D:A[?Q39;2eLe3
+Z32 !s100 ]0RhUMN1M4BVQlKfznNma1
+R7
+32
+R8
+!i10b 1
+R21
+R27
+R28
+!i113 1
+R12
+R13
+Ptbssimvals
+R17
+R1
+R2
+R3
+!i122 40
+w1740830326
+R4
+8../../sim/vhdl/TBSSimVals_p.vhd
+F../../sim/vhdl/TBSSimVals_p.vhd
+l0
+L12 1
+V5N?>YfAY3S[Lm`Y;BCZg?2
+!s100 ZDNjJKg7l9mlolQj7b:C03
+R7
+32
+!s110 1740962000
+!i10b 1
+R9
+!s90 -reportprogress|300|-work|work|../../sim/vhdl/TBSSimVals_p.vhd|
+!s107 ../../sim/vhdl/TBSSimVals_p.vhd|
+!i113 1
+R12
+R13

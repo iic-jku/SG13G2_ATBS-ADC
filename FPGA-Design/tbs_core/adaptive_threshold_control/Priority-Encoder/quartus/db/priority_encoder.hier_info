@@ -1,0 +1,44 @@
+|priority_encoder_board
+clock_i => priority_encoder:priority_encoder_0.clock_i
+reset_n_i => priority_encoder:priority_encoder_0.reset_i
+code_i[0] => priority_encoder:priority_encoder_0.code_i[0]
+code_i[1] => priority_encoder:priority_encoder_0.code_i[1]
+code_i[2] => priority_encoder:priority_encoder_0.code_i[2]
+code_i[3] => priority_encoder:priority_encoder_0.code_i[3]
+code_i[4] => priority_encoder:priority_encoder_0.code_i[4]
+code_i[5] => priority_encoder:priority_encoder_0.code_i[5]
+code_i[6] => priority_encoder:priority_encoder_0.code_i[6]
+code_i[7] => priority_encoder:priority_encoder_0.code_i[7]
+bin_o[0] <= priority_encoder:priority_encoder_0.bin_o[0]
+bin_o[1] <= priority_encoder:priority_encoder_0.bin_o[1]
+bin_o[2] <= priority_encoder:priority_encoder_0.bin_o[2]
+
+
+|priority_encoder_board|priority_encoder:priority_encoder_0
+clock_i => ~NO_FANOUT~
+reset_i => ~NO_FANOUT~
+code_i[0] => bin.DATAA
+code_i[1] => bin.OUTPUTSELECT
+code_i[1] => bin.DATAA
+code_i[2] => bin.OUTPUTSELECT
+code_i[2] => bin.OUTPUTSELECT
+code_i[3] => bin.OUTPUTSELECT
+code_i[3] => bin.OUTPUTSELECT
+code_i[3] => bin.DATAA
+code_i[4] => bin.OUTPUTSELECT
+code_i[4] => bin.OUTPUTSELECT
+code_i[4] => bin.OUTPUTSELECT
+code_i[5] => bin.OUTPUTSELECT
+code_i[5] => bin.OUTPUTSELECT
+code_i[5] => bin.OUTPUTSELECT
+code_i[6] => bin.OUTPUTSELECT
+code_i[6] => bin.OUTPUTSELECT
+code_i[6] => bin.OUTPUTSELECT
+code_i[7] => bin.OUTPUTSELECT
+code_i[7] => bin.OUTPUTSELECT
+code_i[7] => bin.OUTPUTSELECT
+bin_o[0] <= bin.DB_MAX_OUTPUT_PORT_TYPE
+bin_o[1] <= bin.DB_MAX_OUTPUT_PORT_TYPE
+bin_o[2] <= bin.DB_MAX_OUTPUT_PORT_TYPE
+
+

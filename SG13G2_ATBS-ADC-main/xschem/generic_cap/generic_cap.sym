@@ -1,0 +1,29 @@
+v {xschem version=3.4.6RC file_version=1.2
+}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname W_CAP=@W_CAP L_CAP=@L_CAP"
+template="name=x1 W_CAP=20.0u L_CAP=10.0u"
+}
+V {}
+S {}
+E {}
+L 4 0 -30 0 -10 {}
+L 4 0 10 0 30 {}
+L 4 -10 -5 10 -5 {}
+L 4 -10 5 10 5 {}
+L 4 0 -10 0 -5 {}
+L 4 0 5 0 10 {}
+L 4 -40 -50 40 -50 {}
+L 4 40 -50 40 50 {}
+L 4 -40 50 40 50 {}
+L 4 -40 -50 -40 50 {}
+L 7 0 -70 0 -50 {}
+L 7 0 50 0 70 {}
+B 5 -2.5 -72.5 2.5 -67.5 {name=vcap_1 dir=inout}
+B 5 -2.5 67.5 2.5 72.5 {name=vcap_2 dir=inout}
+T {@symname} 46.25 -11 0 0 0.25 0.25 {}
+T {@name} 46.25 -38.25 0 0 0.2 0.2 {}
+T {vcap_1} 19.375 -46.5 0 1 0.2 0.2 {}
+T {vcap_2} -17.5 44 2 1 0.2 0.2 {}
+T {C-W/L: @W_CAP / @L_CAP} 46.25 27.5 0 0 0.2 0.2 {}

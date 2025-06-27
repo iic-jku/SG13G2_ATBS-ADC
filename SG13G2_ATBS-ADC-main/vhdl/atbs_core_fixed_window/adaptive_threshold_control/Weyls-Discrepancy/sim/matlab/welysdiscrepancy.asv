@@ -1,0 +1,9 @@
+% Bac-Thesis: Adaptive Threshold Based Sampling
+% Straight forward implementation of wely's discrepancy hardware algorithm
+% Anna Werzi, k12005895
+% 14.09.2022
+
+
+
+spikes = [+1,-1,+1,-1,-1,-1,-1,-1,-1,+1,+1,+1,-1,-1,-1,-1]; % out of shift register 
+n_thermo_half = 10; 

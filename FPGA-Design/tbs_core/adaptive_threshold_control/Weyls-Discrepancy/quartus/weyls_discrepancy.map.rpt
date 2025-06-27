@@ -1,0 +1,568 @@
+Analysis & Synthesis report for weyls_discrepancy
+Mon Mar 24 16:26:54 2025
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Registers Removed During Synthesis
+  9. General Register Statistics
+ 10. Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0
+ 11. Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:0:spike_2_tc
+ 12. Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:1:spike_2_tc
+ 13. Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:2:spike_2_tc
+ 14. Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:3:spike_2_tc
+ 15. Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:4:spike_2_tc
+ 16. Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:5:spike_2_tc
+ 17. Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:6:spike_2_tc
+ 18. Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:7:spike_2_tc
+ 19. Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:8:spike_2_tc
+ 20. Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:9:spike_2_tc
+ 21. Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:10:spike_2_tc
+ 22. Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:11:spike_2_tc
+ 23. Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:12:spike_2_tc
+ 24. Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:13:spike_2_tc
+ 25. Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:14:spike_2_tc
+ 26. Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|priority_encoder:priority_encoder_0
+ 27. Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|priority_encoder:priority_encoder_1
+ 28. Port Connectivity Checks: "weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:0:spike_2_tc"
+ 29. Post-Synthesis Netlist Statistics for Top Partition
+ 30. Elapsed Time Per Partition
+ 31. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Mon Mar 24 16:26:54 2025       ;
+; Quartus Prime Version           ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
+; Revision Name                   ; weyls_discrepancy                           ;
+; Top-level Entity Name           ; weyls_discrepancy_board                     ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 22                                          ;
+; Total pins                      ; 37                                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                                  ;
++---------------------------------------------------------------------------------+-------------------------+--------------------+
+; Option                                                                          ; Setting                 ; Default Value      ;
++---------------------------------------------------------------------------------+-------------------------+--------------------+
+; Device                                                                          ; 5CGXFC7C7F23C8          ;                    ;
+; Top-level entity name                                                           ; weyls_discrepancy_board ; weyls_discrepancy  ;
+; Family name                                                                     ; Cyclone V               ; Cyclone V          ;
+; Maximum processors allowed for parallel compilation                             ; All                     ;                    ;
+; Use smart compilation                                                           ; Off                     ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                      ; On                 ;
+; Enable compact report table                                                     ; Off                     ; Off                ;
+; Restructure Multiplexers                                                        ; Auto                    ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                     ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                     ; Off                ;
+; Preserve fewer node names                                                       ; On                      ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable                  ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001            ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993               ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto                    ; Auto               ;
+; Safe State Machine                                                              ; Off                     ; Off                ;
+; Extract Verilog State Machines                                                  ; On                      ; On                 ;
+; Extract VHDL State Machines                                                     ; On                      ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                     ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000                    ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                     ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                      ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                      ; On                 ;
+; Parallel Synthesis                                                              ; On                      ; On                 ;
+; DSP Block Balancing                                                             ; Auto                    ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                      ; On                 ;
+; Power-Up Don't Care                                                             ; On                      ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                     ; Off                ;
+; Remove Duplicate Registers                                                      ; On                      ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                     ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                     ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                     ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                     ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                     ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                      ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                     ; Off                ;
+; Optimization Technique                                                          ; Balanced                ; Balanced           ;
+; Carry Chain Length                                                              ; 70                      ; 70                 ;
+; Auto Carry Chains                                                               ; On                      ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                      ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                     ; Off                ;
+; Auto ROM Replacement                                                            ; On                      ; On                 ;
+; Auto RAM Replacement                                                            ; On                      ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                      ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto                    ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto                    ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                      ; On                 ;
+; Strict RAM Replacement                                                          ; Off                     ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                      ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                     ; Off                ;
+; Auto Resource Sharing                                                           ; Off                     ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                     ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                     ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                     ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                      ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                     ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                      ; On                 ;
+; Report Parameter Settings                                                       ; On                      ; On                 ;
+; Report Source Assignments                                                       ; On                      ; On                 ;
+; Report Connectivity Checks                                                      ; On                      ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                     ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                       ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation      ; Normal compilation ;
+; HDL message level                                                               ; Level2                  ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                     ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000                    ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000                    ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                     ; 100                ;
+; Clock MUX Protection                                                            ; On                      ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                     ; Off                ;
+; Block Design Naming                                                             ; Auto                    ; Auto               ;
+; SDC constraint protection                                                       ; Off                     ; Off                ;
+; Synthesis Effort                                                                ; Auto                    ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                      ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                     ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium                  ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto                    ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                      ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                      ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                     ; Off                ;
++---------------------------------------------------------------------------------+-------------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 16          ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 16          ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-16        ;   0.0%      ;
++----------------------------+-------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                            ;
++--------------------------------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                       ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                                                               ; Library ;
++--------------------------------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; ../../sim/vhdl/AdaptiveCtrlSimVals_p.vhd               ; yes             ; User VHDL File  ; C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/sim/vhdl/AdaptiveCtrlSimVals_p.vhd                ;         ;
+; ../../sim/vhdl/adaptive_std_p.vhd                      ; yes             ; User VHDL File  ; C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/sim/vhdl/adaptive_std_p.vhd                       ;         ;
+; ../../../sim/vhdl/TBSSimVals_p.vhd                     ; yes             ; User VHDL File  ; C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/sim/vhdl/TBSSimVals_p.vhd                                                    ;         ;
+; ../../Priority-Encoder/rtl/priority_encoder_ea.vhd     ; yes             ; User VHDL File  ; C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Priority-Encoder/rtl/priority_encoder_ea.vhd      ;         ;
+; ../../Spike-2-Thermocode/rtl/spike_2_thermocode_ea.vhd ; yes             ; User VHDL File  ; C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Spike-2-Thermocode/rtl/spike_2_thermocode_ea.vhd  ;         ;
+; ../rtl/weyls_discrepancy_ea.vhd                        ; yes             ; User VHDL File  ; C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Weyls-Discrepancy/rtl/weyls_discrepancy_ea.vhd    ;         ;
+; ../rtl/weyls_discrepancy_board.vhd                     ; yes             ; User VHDL File  ; C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Weyls-Discrepancy/rtl/weyls_discrepancy_board.vhd ;         ;
++--------------------------------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+
+
++--------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                        ;
++---------------------------------------------+----------------------+
+; Resource                                    ; Usage                ;
++---------------------------------------------+----------------------+
+; Estimate of Logic utilization (ALMs needed) ; 422                  ;
+;                                             ;                      ;
+; Combinational ALUT usage for logic          ; 565                  ;
+;     -- 7 input functions                    ; 2                    ;
+;     -- 6 input functions                    ; 276                  ;
+;     -- 5 input functions                    ; 161                  ;
+;     -- 4 input functions                    ; 59                   ;
+;     -- <=3 input functions                  ; 67                   ;
+;                                             ;                      ;
+; Dedicated logic registers                   ; 22                   ;
+;                                             ;                      ;
+; I/O pins                                    ; 37                   ;
+;                                             ;                      ;
+; Total DSP Blocks                            ; 0                    ;
+;                                             ;                      ;
+; Maximum fan-out node                        ; spikes_i[2][1]~input ;
+; Maximum fan-out                             ; 70                   ;
+; Total fan-out                               ; 3018                 ;
+; Average fan-out                             ; 4.57                 ;
++---------------------------------------------+----------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                          ;
++----------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------------------------------------------------------+-------------------------+--------------+
+; Compilation Hierarchy Node                               ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                             ; Entity Name             ; Library Name ;
++----------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------------------------------------------------------+-------------------------+--------------+
+; |weyls_discrepancy_board                                 ; 565 (0)             ; 22 (0)                    ; 0                 ; 0          ; 37   ; 0            ; |weyls_discrepancy_board                                                                                        ; weyls_discrepancy_board ; work         ;
+;    |weyls_discrepancy:weyls_discrepancy_0|               ; 565 (145)           ; 22 (22)                   ; 0                 ; 0          ; 0    ; 0            ; |weyls_discrepancy_board|weyls_discrepancy:weyls_discrepancy_0                                                  ; weyls_discrepancy       ; work         ;
+;       |priority_encoder:priority_encoder_0|              ; 19 (19)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |weyls_discrepancy_board|weyls_discrepancy:weyls_discrepancy_0|priority_encoder:priority_encoder_0              ; priority_encoder        ; work         ;
+;       |priority_encoder:priority_encoder_1|              ; 22 (22)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |weyls_discrepancy_board|weyls_discrepancy:weyls_discrepancy_0|priority_encoder:priority_encoder_1              ; priority_encoder        ; work         ;
+;       |spike_2_thermocode:\gen_spike_2_tc:10:spike_2_tc| ; 57 (57)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |weyls_discrepancy_board|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:10:spike_2_tc ; spike_2_thermocode      ; work         ;
+;       |spike_2_thermocode:\gen_spike_2_tc:11:spike_2_tc| ; 60 (60)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |weyls_discrepancy_board|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:11:spike_2_tc ; spike_2_thermocode      ; work         ;
+;       |spike_2_thermocode:\gen_spike_2_tc:12:spike_2_tc| ; 58 (58)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |weyls_discrepancy_board|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:12:spike_2_tc ; spike_2_thermocode      ; work         ;
+;       |spike_2_thermocode:\gen_spike_2_tc:13:spike_2_tc| ; 53 (53)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |weyls_discrepancy_board|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:13:spike_2_tc ; spike_2_thermocode      ; work         ;
+;       |spike_2_thermocode:\gen_spike_2_tc:2:spike_2_tc|  ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |weyls_discrepancy_board|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:2:spike_2_tc  ; spike_2_thermocode      ; work         ;
+;       |spike_2_thermocode:\gen_spike_2_tc:3:spike_2_tc|  ; 9 (9)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |weyls_discrepancy_board|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:3:spike_2_tc  ; spike_2_thermocode      ; work         ;
+;       |spike_2_thermocode:\gen_spike_2_tc:4:spike_2_tc|  ; 18 (18)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |weyls_discrepancy_board|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:4:spike_2_tc  ; spike_2_thermocode      ; work         ;
+;       |spike_2_thermocode:\gen_spike_2_tc:5:spike_2_tc|  ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |weyls_discrepancy_board|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:5:spike_2_tc  ; spike_2_thermocode      ; work         ;
+;       |spike_2_thermocode:\gen_spike_2_tc:6:spike_2_tc|  ; 25 (25)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |weyls_discrepancy_board|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:6:spike_2_tc  ; spike_2_thermocode      ; work         ;
+;       |spike_2_thermocode:\gen_spike_2_tc:7:spike_2_tc|  ; 17 (17)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |weyls_discrepancy_board|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:7:spike_2_tc  ; spike_2_thermocode      ; work         ;
+;       |spike_2_thermocode:\gen_spike_2_tc:8:spike_2_tc|  ; 19 (19)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |weyls_discrepancy_board|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:8:spike_2_tc  ; spike_2_thermocode      ; work         ;
+;       |spike_2_thermocode:\gen_spike_2_tc:9:spike_2_tc|  ; 42 (42)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |weyls_discrepancy_board|weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:9:spike_2_tc  ; spike_2_thermocode      ; work         ;
++----------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------------------------------------------------------+-------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                     ;
++------------------------------------------------------+-----------------------------------------------------------------+
+; Register name                                        ; Reason for Removal                                              ;
++------------------------------------------------------+-----------------------------------------------------------------+
+; weyls_discrepancy:weyls_discrepancy_0|buf_reg[0][31] ; Stuck at GND due to stuck port data_in                          ;
+; weyls_discrepancy:weyls_discrepancy_0|buf_reg[0][30] ; Stuck at GND due to stuck port data_in                          ;
+; weyls_discrepancy:weyls_discrepancy_0|buf_reg[0][29] ; Stuck at GND due to stuck port data_in                          ;
+; weyls_discrepancy:weyls_discrepancy_0|buf_reg[0][28] ; Stuck at GND due to stuck port data_in                          ;
+; weyls_discrepancy:weyls_discrepancy_0|buf_reg[0][27] ; Stuck at GND due to stuck port data_in                          ;
+; weyls_discrepancy:weyls_discrepancy_0|buf_reg[0][26] ; Stuck at GND due to stuck port data_in                          ;
+; weyls_discrepancy:weyls_discrepancy_0|buf_reg[0][25] ; Stuck at GND due to stuck port data_in                          ;
+; weyls_discrepancy:weyls_discrepancy_0|buf_reg[0][24] ; Stuck at GND due to stuck port data_in                          ;
+; weyls_discrepancy:weyls_discrepancy_0|buf_reg[0][1]  ; Merged with weyls_discrepancy:weyls_discrepancy_0|buf_reg[0][0] ;
+; weyls_discrepancy:weyls_discrepancy_0|buf_reg[0][2]  ; Merged with weyls_discrepancy:weyls_discrepancy_0|buf_reg[0][0] ;
+; weyls_discrepancy:weyls_discrepancy_0|buf_reg[0][3]  ; Merged with weyls_discrepancy:weyls_discrepancy_0|buf_reg[0][0] ;
+; weyls_discrepancy:weyls_discrepancy_0|buf_reg[0][4]  ; Merged with weyls_discrepancy:weyls_discrepancy_0|buf_reg[0][0] ;
+; weyls_discrepancy:weyls_discrepancy_0|buf_reg[0][5]  ; Merged with weyls_discrepancy:weyls_discrepancy_0|buf_reg[0][0] ;
+; weyls_discrepancy:weyls_discrepancy_0|buf_reg[0][6]  ; Merged with weyls_discrepancy:weyls_discrepancy_0|buf_reg[0][0] ;
+; weyls_discrepancy:weyls_discrepancy_0|buf_reg[0][7]  ; Merged with weyls_discrepancy:weyls_discrepancy_0|buf_reg[0][0] ;
+; Total Number of Removed Registers = 15               ;                                                                 ;
++------------------------------------------------------+-----------------------------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 22    ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 14    ;
+; Number of registers using Asynchronous Clear ; 22    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0 ;
++----------------+-------+-----------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                      ;
++----------------+-------+-----------------------------------------------------------+
+; level_of_reg   ; 8     ; Signed Integer                                            ;
+; weylsd_bits    ; 3     ; Signed Integer                                            ;
+; thermo_bits    ; 32    ; Signed Integer                                            ;
++----------------+-------+-----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:0:spike_2_tc ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                      ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 32    ; Signed Integer                                                                                            ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:1:spike_2_tc ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                      ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 32    ; Signed Integer                                                                                            ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:2:spike_2_tc ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                      ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 32    ; Signed Integer                                                                                            ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:3:spike_2_tc ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                      ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 32    ; Signed Integer                                                                                            ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:4:spike_2_tc ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                      ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 32    ; Signed Integer                                                                                            ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:5:spike_2_tc ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                      ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 32    ; Signed Integer                                                                                            ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:6:spike_2_tc ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                      ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 32    ; Signed Integer                                                                                            ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:7:spike_2_tc ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                      ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 32    ; Signed Integer                                                                                            ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:8:spike_2_tc ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                      ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 32    ; Signed Integer                                                                                            ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:9:spike_2_tc ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                      ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 32    ; Signed Integer                                                                                            ;
++----------------+-------+-----------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:10:spike_2_tc ;
++----------------+-------+------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                       ;
++----------------+-------+------------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 32    ; Signed Integer                                                                                             ;
++----------------+-------+------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:11:spike_2_tc ;
++----------------+-------+------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                       ;
++----------------+-------+------------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 32    ; Signed Integer                                                                                             ;
++----------------+-------+------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:12:spike_2_tc ;
++----------------+-------+------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                       ;
++----------------+-------+------------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 32    ; Signed Integer                                                                                             ;
++----------------+-------+------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:13:spike_2_tc ;
++----------------+-------+------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                       ;
++----------------+-------+------------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 32    ; Signed Integer                                                                                             ;
++----------------+-------+------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:14:spike_2_tc ;
++----------------+-------+------------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                       ;
++----------------+-------+------------------------------------------------------------------------------------------------------------+
+; thermo_bits    ; 32    ; Signed Integer                                                                                             ;
++----------------+-------+------------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|priority_encoder:priority_encoder_0 ;
++----------------+-------+-----------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                          ;
++----------------+-------+-----------------------------------------------------------------------------------------------+
+; in_bits        ; 16    ; Signed Integer                                                                                ;
+; out_bits       ; 3     ; Signed Integer                                                                                ;
++----------------+-------+-----------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: weyls_discrepancy:weyls_discrepancy_0|priority_encoder:priority_encoder_1 ;
++----------------+-------+-----------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                          ;
++----------------+-------+-----------------------------------------------------------------------------------------------+
+; in_bits        ; 16    ; Signed Integer                                                                                ;
+; out_bits       ; 3     ; Signed Integer                                                                                ;
++----------------+-------+-----------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:0:spike_2_tc" ;
++------------------+-------+----------+-----------------------------------------------------------------------------+
+; Port             ; Type  ; Severity ; Details                                                                     ;
++------------------+-------+----------+-----------------------------------------------------------------------------+
+; thermo_i[15..0]  ; Input ; Info     ; Stuck at VCC                                                                ;
+; thermo_i[31..16] ; Input ; Info     ; Stuck at GND                                                                ;
++------------------+-------+----------+-----------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_ff             ; 22                          ;
+;     CLR               ; 8                           ;
+;     CLR SLD           ; 14                          ;
+; arriav_lcell_comb     ; 565                         ;
+;     extend            ; 2                           ;
+;         7 data inputs ; 2                           ;
+;     normal            ; 563                         ;
+;         2 data inputs ; 28                          ;
+;         3 data inputs ; 39                          ;
+;         4 data inputs ; 59                          ;
+;         5 data inputs ; 161                         ;
+;         6 data inputs ; 276                         ;
+; boundary_port         ; 37                          ;
+;                       ;                             ;
+; Max LUT depth         ; 11.00                       ;
+; Average LUT depth     ; 9.35                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:04     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+    Info: Processing started: Mon Mar 24 16:26:35 2025
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off weyls_discrepancy -c weyls_discrepancy
+Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
+Info (12021): Found 1 design units, including 0 entities, in source file /simon dorrer/jku-linz/master/semester 2/master-thesis/fpga-design/tbs_core/adaptive_threshold_control/sim/vhdl/adaptivectrlsimvals_p.vhd
+    Info (12022): Found design unit 1: AdaptiveCtrlSimVals File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/sim/vhdl/AdaptiveCtrlSimVals_p.vhd Line: 17
+Info (12021): Found 1 design units, including 0 entities, in source file /simon dorrer/jku-linz/master/semester 2/master-thesis/fpga-design/tbs_core/adaptive_threshold_control/sim/vhdl/adaptive_std_p.vhd
+    Info (12022): Found design unit 1: adaptive_std File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/sim/vhdl/adaptive_std_p.vhd Line: 12
+Info (12021): Found 1 design units, including 0 entities, in source file /simon dorrer/jku-linz/master/semester 2/master-thesis/fpga-design/tbs_core/sim/vhdl/tbssimvals_p.vhd
+    Info (12022): Found design unit 1: TBSSimVals File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/sim/vhdl/TBSSimVals_p.vhd Line: 12
+Info (12021): Found 2 design units, including 1 entities, in source file /simon dorrer/jku-linz/master/semester 2/master-thesis/fpga-design/tbs_core/adaptive_threshold_control/priority-encoder/rtl/priority_encoder_ea.vhd
+    Info (12022): Found design unit 1: priority_encoder-rtl File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Priority-Encoder/rtl/priority_encoder_ea.vhd Line: 31
+    Info (12023): Found entity 1: priority_encoder File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Priority-Encoder/rtl/priority_encoder_ea.vhd Line: 17
+Info (12021): Found 2 design units, including 1 entities, in source file /simon dorrer/jku-linz/master/semester 2/master-thesis/fpga-design/tbs_core/adaptive_threshold_control/spike-2-thermocode/rtl/spike_2_thermocode_ea.vhd
+    Info (12022): Found design unit 1: spike_2_thermocode-rtl File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Spike-2-Thermocode/rtl/spike_2_thermocode_ea.vhd Line: 27
+    Info (12023): Found entity 1: spike_2_thermocode File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Spike-2-Thermocode/rtl/spike_2_thermocode_ea.vhd Line: 16
+Info (12021): Found 2 design units, including 1 entities, in source file /simon dorrer/jku-linz/master/semester 2/master-thesis/fpga-design/tbs_core/adaptive_threshold_control/weyls-discrepancy/rtl/weyls_discrepancy_ea.vhd
+    Info (12022): Found design unit 1: weyls_discrepancy-rtl File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Weyls-Discrepancy/rtl/weyls_discrepancy_ea.vhd Line: 46
+    Info (12023): Found entity 1: weyls_discrepancy File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Weyls-Discrepancy/rtl/weyls_discrepancy_ea.vhd Line: 29
+Info (12021): Found 2 design units, including 1 entities, in source file /simon dorrer/jku-linz/master/semester 2/master-thesis/fpga-design/tbs_core/adaptive_threshold_control/weyls-discrepancy/rtl/weyls_discrepancy_board.vhd
+    Info (12022): Found design unit 1: weyls_discrepancy_board-rtl File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Weyls-Discrepancy/rtl/weyls_discrepancy_board.vhd Line: 30
+    Info (12023): Found entity 1: weyls_discrepancy_board File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Weyls-Discrepancy/rtl/weyls_discrepancy_board.vhd Line: 18
+Info (12127): Elaborating entity "weyls_discrepancy_board" for the top level hierarchy
+Info (12129): Elaborating entity "weyls_discrepancy" using architecture "A:rtl" for hierarchy "weyls_discrepancy:weyls_discrepancy_0" File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Weyls-Discrepancy/rtl/weyls_discrepancy_board.vhd Line: 41
+Info (12129): Elaborating entity "spike_2_thermocode" using architecture "A:rtl" for hierarchy "weyls_discrepancy:weyls_discrepancy_0|spike_2_thermocode:\gen_spike_2_tc:0:spike_2_tc" File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Weyls-Discrepancy/rtl/weyls_discrepancy_ea.vhd Line: 107
+Info (12129): Elaborating entity "priority_encoder" using architecture "A:rtl" for hierarchy "weyls_discrepancy:weyls_discrepancy_0|priority_encoder:priority_encoder_0" File: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Weyls-Discrepancy/rtl/weyls_discrepancy_ea.vhd Line: 164
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 605 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 33 input pins
+    Info (21059): Implemented 4 output pins
+    Info (21061): Implemented 568 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4906 megabytes
+    Info: Processing ended: Mon Mar 24 16:26:54 2025
+    Info: Elapsed time: 00:00:19
+    Info: Total CPU time (on all processors): 00:00:38
+
+

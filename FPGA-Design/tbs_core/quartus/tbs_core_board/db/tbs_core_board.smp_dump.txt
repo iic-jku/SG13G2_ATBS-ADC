@@ -1,0 +1,68 @@
+
+State Machine - |tbs_core_board|tbs_core:tbs_core_0|state
+Name state.main_sampling state.wait_for_trigger_2 state.ignore_trigger_1 state.wait_for_trigger_1 state.wait_for_dac state.main_init state.main_idle state.main_reset 
+state.main_reset 0 0 0 0 0 0 0 0 
+state.main_idle 0 0 0 0 0 0 1 1 
+state.main_init 0 0 0 0 0 1 0 1 
+state.wait_for_dac 0 0 0 0 1 0 0 1 
+state.wait_for_trigger_1 0 0 0 1 0 0 0 1 
+state.ignore_trigger_1 0 0 1 0 0 0 0 1 
+state.wait_for_trigger_2 0 1 0 0 0 0 0 1 
+state.main_sampling 1 0 0 0 0 0 0 1 
+
+State Machine - |tbs_core_board|tbs_core:tbs_core_0|uart:uart_0|uart_rx:uart_rx_0|rx_state
+Name rx_state.STOPBIT rx_state.RECEIVING rx_state.STARTBIT rx_state.IDLE 
+rx_state.IDLE 0 0 0 0 
+rx_state.STARTBIT 0 0 1 1 
+rx_state.RECEIVING 0 1 0 1 
+rx_state.STOPBIT 1 0 0 1 
+
+State Machine - |tbs_core_board|tbs_core:tbs_core_0|uart:uart_0|uart_tx:uart_tx_0|tx_state
+Name tx_state.STOPBIT tx_state.TRANSMITTING tx_state.STARTBIT tx_state.STARTTX tx_state.IDLE 
+tx_state.IDLE 0 0 0 0 0 
+tx_state.STARTTX 0 0 0 1 1 
+tx_state.STARTBIT 0 0 1 0 1 
+tx_state.TRANSMITTING 0 1 0 0 1 
+tx_state.STOPBIT 1 0 0 0 1 
+
+State Machine - |tbs_core_board|tbs_core:tbs_core_0|debouncer:debouncer_6|state
+Name state.debouncer_wait_high state.debouncer_wait_low state.debouncer_idle 
+state.debouncer_idle 0 0 0 
+state.debouncer_wait_low 0 1 1 
+state.debouncer_wait_high 1 0 1 
+
+State Machine - |tbs_core_board|tbs_core:tbs_core_0|debouncer:debouncer_5|state
+Name state.debouncer_wait_high state.debouncer_wait_low state.debouncer_idle 
+state.debouncer_idle 0 0 0 
+state.debouncer_wait_low 0 1 1 
+state.debouncer_wait_high 1 0 1 
+
+State Machine - |tbs_core_board|tbs_core:tbs_core_0|debouncer:debouncer_4|state
+Name state.debouncer_wait_high state.debouncer_wait_low state.debouncer_idle 
+state.debouncer_idle 0 0 0 
+state.debouncer_wait_low 0 1 1 
+state.debouncer_wait_high 1 0 1 
+
+State Machine - |tbs_core_board|tbs_core:tbs_core_0|debouncer:debouncer_3|state
+Name state.debouncer_wait_high state.debouncer_wait_low state.debouncer_idle 
+state.debouncer_idle 0 0 0 
+state.debouncer_wait_low 0 1 1 
+state.debouncer_wait_high 1 0 1 
+
+State Machine - |tbs_core_board|tbs_core:tbs_core_0|debouncer:debouncer_2|state
+Name state.debouncer_wait_high state.debouncer_wait_low state.debouncer_idle 
+state.debouncer_idle 0 0 0 
+state.debouncer_wait_low 0 1 1 
+state.debouncer_wait_high 1 0 1 
+
+State Machine - |tbs_core_board|tbs_core:tbs_core_0|debouncer:debouncer_1|state
+Name state.debouncer_wait_high state.debouncer_wait_low state.debouncer_idle 
+state.debouncer_idle 0 0 0 
+state.debouncer_wait_low 0 1 1 
+state.debouncer_wait_high 1 0 1 
+
+State Machine - |tbs_core_board|tbs_core:tbs_core_0|debouncer:debouncer_0|state
+Name state.debouncer_wait_high state.debouncer_wait_low state.debouncer_idle 
+state.debouncer_idle 0 0 0 
+state.debouncer_wait_low 0 1 1 
+state.debouncer_wait_high 1 0 1 

@@ -1,0 +1,15 @@
+
+State Machine - |ethernet_board|ethernet:ethernet_0|ethernet_rx:ethernet_rx_entity|ethernet_rx_controller:ethernet_rx_controller_0|current_state
+Name current_state.IGNOREPACKET current_state.RECEIVING_CRC current_state.RECEIVING_PAYLOAD current_state.RECEIVING_HEADER current_state.IDLE 
+current_state.IDLE 0 0 0 0 0 
+current_state.RECEIVING_HEADER 0 0 0 1 1 
+current_state.RECEIVING_PAYLOAD 0 0 1 0 1 
+current_state.RECEIVING_CRC 0 1 0 0 1 
+current_state.IGNOREPACKET 1 0 0 0 1 
+
+State Machine - |ethernet_board|ethernet:ethernet_0|ethernet_tx:ethernet_tx_entity|ethernet_tx_controller:eth_transmit_data|current_state
+Name current_state.SENDING_CRC current_state.SENDING_PAYLOAD current_state.SENDING_HEADER current_state.IDLE 
+current_state.IDLE 0 0 0 0 
+current_state.SENDING_HEADER 0 0 1 1 
+current_state.SENDING_PAYLOAD 0 1 0 1 
+current_state.SENDING_CRC 1 0 0 1 

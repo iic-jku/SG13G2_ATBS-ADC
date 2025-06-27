@@ -1,0 +1,60 @@
+
+19. Printing statistics.
+
+=== atbs_core_floating_window_board ===
+
+   Number of wires:               7892
+   Number of wire bits:           7906
+   Number of public wires:         951
+   Number of public wire bits:     965
+   Number of ports:                 18
+   Number of port bits:             32
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               7083
+     sg13g2_a21o_1                 153
+     sg13g2_a21oi_1                450
+     sg13g2_a21oi_2                  5
+     sg13g2_a221oi_1               175
+     sg13g2_a22oi_1                135
+     sg13g2_and2_1                 123
+     sg13g2_and3_1                  44
+     sg13g2_and3_2                   2
+     sg13g2_and4_1                  15
+     sg13g2_buf_1                  784
+     sg13g2_buf_16                   3
+     sg13g2_buf_2                   67
+     sg13g2_buf_4                   31
+     sg13g2_buf_8                    7
+     sg13g2_dfrbp_1                811
+     sg13g2_inv_1                  337
+     sg13g2_inv_16                   1
+     sg13g2_inv_2                    1
+     sg13g2_mux2_1                 402
+     sg13g2_mux4_1                  19
+     sg13g2_nand2_1                713
+     sg13g2_nand2_2                  2
+     sg13g2_nand2b_1               126
+     sg13g2_nand3_1                205
+     sg13g2_nand3b_1                42
+     sg13g2_nand4_1                 70
+     sg13g2_nor2_1                 527
+     sg13g2_nor2_2                   4
+     sg13g2_nor2b_1                 83
+     sg13g2_nor2b_2                  2
+     sg13g2_nor3_1                 188
+     sg13g2_nor3_2                   1
+     sg13g2_nor4_1                  59
+     sg13g2_nor4_2                   8
+     sg13g2_o21ai_1                710
+     sg13g2_or2_1                   92
+     sg13g2_or3_1                   38
+     sg13g2_or4_1                   22
+     sg13g2_tiehi                    1
+     sg13g2_xnor2_1                443
+     sg13g2_xor2_1                 182
+
+   Chip area for module '\atbs_core_floating_window_board': 101058.791400
+     of which used for sequential elements: 38258.438400 (37.86%)
+

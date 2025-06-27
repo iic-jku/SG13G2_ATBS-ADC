@@ -1,0 +1,95 @@
+v {xschem version=3.4.6 file_version=1.2}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 -320 -220 -300 -220 {}
+L 4 -320 -180 -300 -180 {}
+L 4 -320 -120 -300 -120 {}
+L 4 -320 -60 -300 -60 {}
+L 4 -320 -20 -300 -20 {}
+L 4 -320 20 -300 20 {}
+L 4 -320 240 -300 240 {}
+L 4 -320 60 -300 60 {}
+L 4 -320 100 -300 100 {}
+L 4 -320 140 -300 140 {}
+L 4 300 -200 320 -200 {}
+L 4 300 -160 320 -160 {}
+L 4 300 160 320 160 {}
+L 4 300 200 320 200 {}
+L 4 300 240 320 240 {}
+L 4 300 -20 320 -20 {}
+L 4 300 20 320 20 {}
+L 7 60 -300 60 -280 {}
+L 7 -60 -300 -60 -280 {}
+L 7 0 -300 0 -280 {}
+L 7 0 280 0 300 {}
+B 5 57.5 -302.5 62.5 -297.5 {name=VDD_DIG dir=inout}
+B 5 -62.5 -302.5 -57.5 -297.5 {name=VDD_COMP dir=inout}
+B 5 -322.5 -222.5 -317.5 -217.5 {name=di_clock dir=in}
+B 5 -322.5 -182.5 -317.5 -177.5 {name=di_reset_n dir=in}
+B 5 -322.5 -122.5 -317.5 -117.5 {name=di_trigger_start_sampling dir=in}
+B 5 -2.5 -302.5 2.5 -297.5 {name=VDD_DAC dir=inout}
+B 5 -322.5 -62.5 -317.5 -57.5 {name=di_trigger_start_mode dir=in}
+B 5 -322.5 -22.5 -317.5 -17.5 {name=di_adaptive_mode dir=in}
+B 5 -322.5 17.5 -317.5 22.5 {name=di_control_mode dir=in}
+B 5 -322.5 237.5 -317.5 242.5 {name=vsignal dir=in}
+B 5 -322.5 57.5 -317.5 62.5 {name=di_signal_select_in dir=in}
+B 5 -322.5 97.5 -317.5 102.5 {name=di_enable dir=in}
+B 5 -322.5 137.5 -317.5 142.5 {name=di_select_tbs_delta_steps dir=in}
+B 5 317.5 -202.5 322.5 -197.5 {name=di_uart_rx dir=in}
+B 5 317.5 -162.5 322.5 -157.5 {name=do_uart_tx dir=out}
+B 5 317.5 157.5 322.5 162.5 {name=do_idle_led dir=out}
+B 5 317.5 197.5 322.5 202.5 {name=do_overflow_led dir=out}
+B 5 317.5 237.5 322.5 242.5 {name=do_underflow_led dir=out}
+B 5 -2.5 297.5 2.5 302.5 {name=VSS dir=inout}
+B 5 317.5 -22.5 322.5 -17.5 {name=vdac_upper dir=out}
+B 5 317.5 17.5 322.5 22.5 {name=vdac_lower dir=out}
+P 4 5 -120 -80 160 -80 160 80 -120 80 -120 -80 {dash = 8}
+P 4 5 300 140 190 140 190 260 300 260 300 140 {dash = 4}
+P 4 5 -80 -280 -80 -210 80 -210 80 -280 -80 -280 {dash = 4}
+P 4 5 -300 220 -250 220 -250 260 -300 260 -300 220 {dash = 4}
+P 4 5 230 -220 230 -140 300 -140 300 -220 230 -220 {dash = 4}
+P 4 5 -300 -280 -300 280 300 280 300 -280 -300 -280 {}
+P 4 5 300 -40 220 -40 220 40 300 40 300 -40 {dash = 4}
+P 4 5 -300 -240 -150 -240 -150 160 -300 160 -300 -240 {dash = 4}
+T {VDD_DIG} 56 -275 3 1 0.2 0.2 {}
+T {VDD_COMP} -64 -275 3 1 0.2 0.2 {}
+T {di_clock} -295 -224 0 0 0.2 0.2 {}
+T {di_reset_n} -295 -184 0 0 0.2 0.2 {}
+T {di_trigger_start_sampling} -295 -124 0 0 0.2 0.2 {}
+T {VDD_DAC} -4 -275 3 1 0.2 0.2 {}
+T {di_trigger_start_mode} -295 -64 0 0 0.2 0.2 {}
+T {di_adaptive_mode} -295 -24 0 0 0.2 0.2 {}
+T {di_control_mode} -295 16 0 0 0.2 0.2 {}
+T {vsignal} -295 236 0 0 0.2 0.2 {}
+T {di_signal_select_in} -295 56 0 0 0.2 0.2 {}
+T {di_enable} -295 96 0 0 0.2 0.2 {}
+T {di_select_tbs_delta_steps} -295 136 0 0 0.2 0.2 {}
+T {di_uart_rx} 295 -196 2 0 0.2 0.2 {}
+T {do_uart_tx} 295 -164 0 1 0.2 0.2 {}
+T {do_idle_led} 295 156 0 1 0.2 0.2 {}
+T {do_overflow_led} 295 196 0 1 0.2 0.2 {}
+T {do_underflow_led} 295 236 0 1 0.2 0.2 {}
+T {@symname} 123.5 -316 0 0 0.3 0.3 {}
+T {@name} 123.75 -355.75 0 0 0.3 0.3 {}
+T {VSS} 4 275 1 1 0.2 0.2 {}
+T {ATBS ADC} -60 -70 0 0 0.6 0.6 {}
+T {Analog Input} -290 190 0 0 0.3 0.3 {}
+T {Control Inputs} -290 -270 0 0 0.3 0.3 {}
+T {Author: Simon Dorrer, 2025
+Johannes Kepler University (JKU)
+Institute for Integrated Circuits (IIC)
+Institute of Signal Processing (ISP)} -120 140 0 0 0.3 0.3 {}
+T {Ideal} -20 30 0 0 0.6 0.6 {}
+T {Floating Window} -110 -20 0 0 0.6 0.6 {}
+T {Supply Voltages} -80 -205 0 0 0.3 0.3 {}
+T {UART} 230 -245 0 0 0.3 0.3 {}
+T {LEDs} 190 115 0 0 0.3 0.3 {}
+T {vdac_upper} 295 -24 0 1 0.2 0.2 {}
+T {vdac_lower} 295 16 0 1 0.2 0.2 {}
+T {DACs} 220 -65 0 0 0.3 0.3 {}

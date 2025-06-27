@@ -1,0 +1,71 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Fri Nov 29 16:58:37 2024
+[*]
+[dumpfile] "/foss/designs/tbs_core/spike_detector/sim/spike_detector_tb.vcd"
+[dumpfile_mtime] "Fri Nov 29 16:57:44 2024"
+[dumpfile_size] 44012
+[savefile] "/foss/designs/tbs_core/spike_detector/sim/spike_detector_tb.gtkw"
+[timestart] 0
+[size] 1374 600
+[pos] 183 135
+*-34.423374 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[markername] AA
+[markername] BB
+[markername] CC
+[markername] DD
+[markername] EE
+[markername] FF
+[markername] GG
+[markername] HH
+[markername] II
+[markername] JJ
+[markername] KK
+[markername] LL
+[markername] MM
+[markername] NN
+[markername] OO
+[markername] PP
+[markername] QQ
+[markername] RR
+[markername] SS
+[markername] TT
+[markername] UU
+[markername] VV
+[markername] WW
+[markername] XX
+[markername] YY
+[markername] ZZ
+[treeopen] spike_detector_tb.
+[sst_width] 276
+[signals_width] 262
+[sst_expanded] 1
+[sst_vpaned_height] 150
+@201
+-INPUTS
+@28
+spike_detector_tb.dut_spike_detector.clock_i
+spike_detector_tb.dut_spike_detector.reset_i
+spike_detector_tb.dut_spike_detector.detection_en_i
+spike_detector_tb.dut_spike_detector.comp_upper_i
+spike_detector_tb.dut_spike_detector.comp_lower_i
+spike_detector_tb.dut_spike_detector.change_upper_strb_i
+spike_detector_tb.dut_spike_detector.change_lower_strb_i
+spike_detector_tb.dut_spike_detector.stopped_changing_upper_strb_i
+spike_detector_tb.dut_spike_detector.stopped_changing_lower_strb_i
+spike_detector_tb.dut_spike_detector.increasing_en_i
+spike_detector_tb.dut_spike_detector.decreasing_en_i
+spike_detector_tb.dut_spike_detector.pause_detection_strb_i
+@200
+-INTERNAL
+@28
+spike_detector_tb.dut_spike_detector.is_changing
+spike_detector_tb.dut_spike_detector.lock_detection
+spike_detector_tb.dut_spike_detector.hold_spike
+@200
+-OUTPUTS
+@28
+spike_detector_tb.dut_spike_detector.spike_strb_o
+spike_detector_tb.dut_spike_detector.spike_o
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,624 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Mar 25 13:13:24 2025
+# Process ID: 22608
+# Current directory: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_ethernet_board/tbs_core_ethernet_board.runs/synth_1
+# Command line: vivado.exe -log tbs_core_ethernet_board.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tbs_core_ethernet_board.tcl
+# Log file: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_ethernet_board/tbs_core_ethernet_board.runs/synth_1/tbs_core_ethernet_board.vds
+# Journal file: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_ethernet_board/tbs_core_ethernet_board.runs/synth_1\vivado.jou
+# Running On        :SimiBook
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :AMD Ryzen 7 5700U with Radeon Graphics         
+# CPU Frequency     :1797 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :16458 MB
+# Swap memory       :22548 MB
+# Total Virtual     :39006 MB
+# Available Virtual :11798 MB
+#-----------------------------------------------------------
+source tbs_core_ethernet_board.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 530.852 ; gain = 199.758
+Command: read_checkpoint -auto_incremental -incremental {C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_ethernet_board/tbs_core_ethernet_board.srcs/utils_1/imports/synth_1/tbs_core_ethernet_board.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_ethernet_board/tbs_core_ethernet_board.srcs/utils_1/imports/synth_1/tbs_core_ethernet_board.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top tbs_core_ethernet_board -part xc7s25ftgb196-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s25'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s25'
+INFO: [Device 21-403] Loading part xc7s25ftgb196-1
+INFO: [Device 21-9227] Part: xc7s25ftgb196-1 does not have CEAM library.
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2728
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1374.000 ; gain = 447.457
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-9871] overwriting existing primary unit 'adaptive_std' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Weyls-Discrepancy/sim/vhdl/adaptive_std_p.vhd:6]
+CRITICAL WARNING: [Synth 8-9871] overwriting existing primary unit 'adaptive_std' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/sim/vhdl/adaptive_std_p.vhd:12]
+WARNING: [Synth 8-9112] actual for formal port 'enable_read_i' is neither a static name nor a globally static expression [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/rtl/tbs_core_ethernet_ea.vhd:965]
+INFO: [Synth 8-638] synthesizing module 'tbs_core_ethernet_board' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/rtl/vivado_board/tbs_core_ethernet_board.vhd:85]
+INFO: [Synth 8-3491] module 'pll_50MHz' declared at 'C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_ethernet_board/tbs_core_ethernet_board.runs/synth_1/.Xil/Vivado-22608-SimiBook/realtime/pll_50MHz_stub.vhdl:6' bound to instance 'PLL100to50' of component 'pll_50MHz' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/rtl/vivado_board/tbs_core_ethernet_board.vhd:118]
+INFO: [Synth 8-638] synthesizing module 'pll_50MHz' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_ethernet_board/tbs_core_ethernet_board.runs/synth_1/.Xil/Vivado-22608-SimiBook/realtime/pll_50MHz_stub.vhdl:16]
+INFO: [Synth 8-638] synthesizing module 'tbs_core_ethernet' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/rtl/tbs_core_ethernet_ea.vhd:130]
+	Parameter CLK_FREQ bound to: 50000000 - type: integer 
+	Parameter MAIN_COUNTER_BITWIDTH bound to: 23 - type: integer 
+	Parameter MAIN_COUNTER_MAX bound to: 5000000 - type: integer 
+	Parameter DEBOUNCER_BITWIDTH bound to: 16 - type: integer 
+	Parameter DEBOUNCER_MAX bound to: 65536 - type: integer 
+	Parameter N_FF bound to: 2 - type: integer 
+	Parameter N_CHANNELS bound to: 2 - type: integer 
+	Parameter MAX_CLIPPING_VALUE bound to: 255 - type: integer 
+	Parameter MIN_CLIPPING_VALUE bound to: 0 - type: integer 
+	Parameter D_MAX_LIM bound to: 2 - type: integer 
+	Parameter D_MIN_LIM bound to: 2 - type: integer 
+	Parameter WEYLSD_BITS bound to: 3 - type: integer 
+	Parameter DELTA_STEPS_BITWIDTH bound to: 8 - type: integer 
+	Parameter TIME_COUNTER_BITWIDTH bound to: 22 - type: integer 
+	Parameter TIME_COUNTER_MAX bound to: 4194304 - type: integer 
+	Parameter DAC_SETTLING_CLKS bound to: 500 - type: integer 
+	Parameter DAC_BITWIDTH bound to: 8 - type: integer 
+	Parameter TRIGGER_COUNTER_BITWIDTH bound to: 10 - type: integer 
+	Parameter TRIGGER_COUNTER_MAX bound to: 1000 - type: integer 
+	Parameter SC_NOC_COUNTER_BITWIDTH bound to: 14 - type: integer 
+	Parameter SC_NOC_COUNTER_MAX bound to: 12800 - type: integer 
+	Parameter ADDR_BITWIDTH bound to: 7 - type: integer 
+	Parameter DATA_BITWIDTH bound to: 23 - type: integer 
+	Parameter UART_BAUD_COUNTER_BITWIDTH bound to: 12 - type: integer 
+	Parameter UART_BAUD_COUNTER_MAX bound to: 2604 - type: integer 
+	Parameter UART_DATA_LENGTH bound to: 8 - type: integer 
+	Parameter N_PAYLOAD_BYTES bound to: 300 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'sync_chain' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/sync_chain/rtl/sync_chain_ea.vhd:31]
+	Parameter N_FF bound to: 2 - type: integer 
+	Parameter N_CHANNELS bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'sync_chain' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/sync_chain/rtl/sync_chain_ea.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'debouncer' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/debouncer/rtl/debouncer_ea.vhd:26]
+	Parameter DEBOUNCER_BITWIDTH bound to: 16 - type: integer 
+	Parameter DEBOUNCER_MAX bound to: 65536 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'debouncer' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/debouncer/rtl/debouncer_ea.vhd:26]
+INFO: [Synth 8-638] synthesizing module 'sync_chain__parameterized0' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/sync_chain/rtl/sync_chain_ea.vhd:31]
+	Parameter N_FF bound to: 2 - type: integer 
+	Parameter N_CHANNELS bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'sync_chain__parameterized0' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/sync_chain/rtl/sync_chain_ea.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'spike_detector' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/spike_detector/rtl/spike_detector_ea.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'spike_detector' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/spike_detector/rtl/spike_detector_ea.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'adaptive_threshold_control' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/rtl/adaptive_threshold_control_ea.vhd:58]
+	Parameter WIN_BITS bound to: 23 - type: integer 
+	Parameter TIME_COUNTER_BITWIDTH bound to: 22 - type: integer 
+	Parameter DELTA_STEPS_BITWIDTH bound to: 8 - type: integer 
+	Parameter DAC_BITWIDTH bound to: 8 - type: integer 
+	Parameter MAX_CLIPPING_VALUE bound to: 255 - type: integer 
+	Parameter MIN_CLIPPING_VALUE bound to: 0 - type: integer 
+	Parameter WEYLSD_BITS bound to: 3 - type: integer 
+	Parameter D_MAX_LIM bound to: 2 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'spike_shift_reg' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Spike-Buffering/rtl/spike_shift_reg_ea.vhd:36]
+	Parameter WIN_BITS bound to: 23 - type: integer 
+	Parameter TIME_COUNTER_BITWIDTH bound to: 22 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'spike_shift_reg' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Spike-Buffering/rtl/spike_shift_reg_ea.vhd:36]
+INFO: [Synth 8-638] synthesizing module 'weyls_discrepancy' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Weyls-Discrepancy/rtl/weyls_discrepancy_ea.vhd:46]
+	Parameter LEVEL_OF_REG bound to: 8 - type: integer 
+	Parameter WEYLSD_BITS bound to: 3 - type: integer 
+	Parameter THERMO_BITS bound to: 6 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'spike_2_thermocode' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Spike-2-Thermocode/rtl/spike_2_thermocode_ea.vhd:27]
+	Parameter THERMO_BITS bound to: 6 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'spike_2_thermocode' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Spike-2-Thermocode/rtl/spike_2_thermocode_ea.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'priority_encoder' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Priority-Encoder/rtl/priority_encoder_ea.vhd:31]
+	Parameter IN_BITS bound to: 3 - type: integer 
+	Parameter OUT_BITS bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'priority_encoder' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Priority-Encoder/rtl/priority_encoder_ea.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'weyls_discrepancy' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/Weyls-Discrepancy/rtl/weyls_discrepancy_ea.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'adaptive_threshold_control' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/adaptive_threshold_control/rtl/adaptive_threshold_control_ea.vhd:58]
+INFO: [Synth 8-638] synthesizing module 'dac_control' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/dac_control/rtl/dac_control_ea.vhd:45]
+	Parameter DELTA_STEPS_BITWIDTH bound to: 8 - type: integer 
+	Parameter DAC_BITWIDTH bound to: 8 - type: integer 
+	Parameter DAC_IS_UPPPER bound to: 1 - type: integer 
+	Parameter DAC_SETTLING_CLKS bound to: 500 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/dac_control/rtl/dac_control_ea.vhd:114]
+INFO: [Synth 8-256] done synthesizing module 'dac_control' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/dac_control/rtl/dac_control_ea.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'dac_control__parameterized0' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/dac_control/rtl/dac_control_ea.vhd:45]
+	Parameter DELTA_STEPS_BITWIDTH bound to: 8 - type: integer 
+	Parameter DAC_BITWIDTH bound to: 8 - type: integer 
+	Parameter DAC_IS_UPPPER bound to: 0 - type: integer 
+	Parameter DAC_SETTLING_CLKS bound to: 500 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/dac_control/rtl/dac_control_ea.vhd:114]
+INFO: [Synth 8-256] done synthesizing module 'dac_control__parameterized0' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/dac_control/rtl/dac_control_ea.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'analog_trig' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/analog_trigger/rtl/analog_trigger_ea.vhd:28]
+	Parameter TRIGGER_COUNTER_BITWIDTH bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'analog_trig' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/analog_trigger/rtl/analog_trigger_ea.vhd:28]
+INFO: [Synth 8-638] synthesizing module 'sc_noc_generator' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/sc_noc_generator/rtl/sc_noc_generator_ea.vhd:31]
+	Parameter SC_NOC_COUNTER_BITWIDTH bound to: 14 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'sc_noc_generator' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/sc_noc_generator/rtl/sc_noc_generator_ea.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'time_measurement' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/time_measurement/rtl/time_measurement_ea.vhd:36]
+	Parameter TIME_COUNTER_BITWIDTH bound to: 22 - type: integer 
+	Parameter TIME_COUNTER_MAX bound to: 4194304 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'time_measurement' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/time_measurement/rtl/time_measurement_ea.vhd:36]
+INFO: [Synth 8-638] synthesizing module 'spike_encoder' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/spike_encoder/rtl/spike_encoder_ea.vhd:38]
+	Parameter TIME_COUNTER_BITWIDTH bound to: 22 - type: integer 
+	Parameter DATA_BITWIDTH bound to: 23 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'spike_encoder' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/spike_encoder/rtl/spike_encoder_ea.vhd:38]
+INFO: [Synth 8-638] synthesizing module 'spike_memory' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/spike_memory/rtl/spike_memory_ea.vhd:38]
+	Parameter DATA_BITWIDTH bound to: 23 - type: integer 
+	Parameter ADDR_BITWIDTH bound to: 7 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'dual_ram' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/dual_ram_ea.vhd:35]
+	Parameter DATA_BITWIDTH bound to: 23 - type: integer 
+	Parameter ADDR_BITWIDTH bound to: 7 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'dual_ram' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/dual_ram_ea.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'spike_memory' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/spike_memory/rtl/spike_memory_ea.vhd:38]
+INFO: [Synth 8-638] synthesizing module 'memory2uart' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/memory2uart/rtl/memory2uart_ea.vhd:37]
+	Parameter DATA_BITWIDTH bound to: 23 - type: integer 
+	Parameter UART_DATA_LENGTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'memory2uart' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/memory2uart/rtl/memory2uart_ea.vhd:37]
+INFO: [Synth 8-638] synthesizing module 'uart' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/uart/rtl/uart_ea.vhd:40]
+	Parameter UART_BAUD_COUNTER_BITWIDTH bound to: 12 - type: integer 
+	Parameter UART_DATA_LENGTH bound to: 8 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'uart_tx' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/uart/rtl/uart_tx_ea.vhd:29]
+	Parameter UART_BAUD_COUNTER_BITWIDTH bound to: 12 - type: integer 
+	Parameter UART_DATA_LENGTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'uart_tx' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/uart/rtl/uart_tx_ea.vhd:29]
+INFO: [Synth 8-638] synthesizing module 'uart_rx' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/uart/rtl/uart_rx_ea.vhd:28]
+	Parameter UART_BAUD_COUNTER_BITWIDTH bound to: 12 - type: integer 
+	Parameter UART_DATA_LENGTH bound to: 8 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/uart/rtl/uart_rx_ea.vhd:115]
+INFO: [Synth 8-256] done synthesizing module 'uart_rx' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/uart/rtl/uart_rx_ea.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'uart' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/uart/rtl/uart_ea.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'ethernet' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/ethernet_ea.vhd:50]
+	Parameter N_PAYLOAD_BYTES bound to: 300 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'vector_synchronizer' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/vector_synchronizer_ea.vhd:25]
+	Parameter SYNC_CNT bound to: 2 - type: integer 
+	Parameter SYNC_LEN bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'synchronizer' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/synchronizer_ea.vhd:24]
+	Parameter SYNC_CNT bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'synchronizer' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/synchronizer_ea.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'vector_synchronizer' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/vector_synchronizer_ea.vhd:25]
+INFO: [Synth 8-638] synthesizing module 'ethernet_tx' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/ethernet_tx_ea.vhd:43]
+	Parameter RAM_INITIALISE bound to: 1'b0 
+	Parameter N_PAYLOAD_BYTES bound to: 300 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'ethernet_tx_storage' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/ethernet_tx_storage_ea.vhd:35]
+	Parameter RAM_INITIALISE bound to: 1'b0 
+INFO: [Synth 8-638] synthesizing module 'ram_strobeGenerator' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/ram_strobeGenerator_ea.vhd:28]
+	Parameter MAX_STROBES bound to: 300 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ram_strobeGenerator' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/ram_strobeGenerator_ea.vhd:28]
+INFO: [Synth 8-638] synthesizing module 'dual_ram__parameterized0' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/dual_ram_ea.vhd:35]
+	Parameter DATA_BITWIDTH bound to: 8 - type: integer 
+	Parameter ADDR_BITWIDTH bound to: 9 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'dual_ram__parameterized0' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/dual_ram_ea.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'address' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/address_ea.vhd:25]
+	Parameter ADDR_BITWIDTH bound to: 9 - type: integer 
+	Parameter ADDR_MAX_VALUE bound to: 300 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'address' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/address_ea.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'ethernet_tx_storage' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/ethernet_tx_storage_ea.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'ethernet_tx_controller' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/ethernet_tx_controller_ea.vhd:44]
+	Parameter N_PAYLOAD_BYTES bound to: 300 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'cyclicShift' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/cyclicShift_ea.vhd:31]
+	Parameter SHIFT_SIZE bound to: 50 - type: integer 
+	Parameter IP_FRAME_LENGTH bound to: 16'b0000000101001000 
+	Parameter UDP_FRAME_LENGTH bound to: 16'b0000000100110100 
+	Parameter IP_CS_H bound to: 8'b00000001 
+	Parameter IP_CS_L bound to: 8'b10011000 
+INFO: [Synth 8-256] done synthesizing module 'cyclicShift' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/cyclicShift_ea.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'ethernet_tx_controller' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/ethernet_tx_controller_ea.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'ethernet_tx' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/ethernet_tx_ea.vhd:43]
+INFO: [Synth 8-638] synthesizing module 'ethernet_rx' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/ethernet_rx_ea.vhd:46]
+	Parameter RAM_INITIALISE bound to: 1'b0 
+	Parameter N_PAYLOAD_BYTES bound to: 300 - type: integer 
+	Parameter CHECK_MAC bound to: 1'b1 
+	Parameter CHECK_IP bound to: 1'b1 
+	Parameter CHECK_LENGTH bound to: 1'b1 
+INFO: [Synth 8-638] synthesizing module 'ethernet_rx_storage' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/ethernet_rx_storage_ea.vhd:33]
+	Parameter RAM_INITIALISE bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'ethernet_rx_storage' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/ethernet_rx_storage_ea.vhd:33]
+INFO: [Synth 8-638] synthesizing module 'ethernet_rx_controller' [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/ethernet_rx_controller_ea.vhd:54]
+	Parameter N_PAYLOAD_BYTES bound to: 300 - type: integer 
+	Parameter CHECK_MAC bound to: 1'b1 
+	Parameter CHECK_IP bound to: 1'b1 
+	Parameter CHECK_LENGTH bound to: 1'b1 
+INFO: [Synth 8-256] done synthesizing module 'ethernet_rx_controller' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/ethernet_rx_controller_ea.vhd:54]
+INFO: [Synth 8-256] done synthesizing module 'ethernet_rx' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/ethernet_rx_ea.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'ethernet' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/ethernet_ea.vhd:50]
+INFO: [Synth 8-226] default block is never used [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/rtl/tbs_core_ethernet_ea.vhd:1119]
+INFO: [Synth 8-256] done synthesizing module 'tbs_core_ethernet' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/rtl/tbs_core_ethernet_ea.vhd:130]
+INFO: [Synth 8-256] done synthesizing module 'tbs_core_ethernet_board' (0#1) [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/rtl/vivado_board/tbs_core_ethernet_board.vhd:85]
+WARNING: [Synth 8-6014] Unused sequential element ram_tx_reset_finished_delayed_reg was removed.  [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/ethernet/rtl/ethernet_tx_storage_ea.vhd:65]
+WARNING: [Synth 8-3848] Net tx_err_o in module/entity tbs_core_ethernet does not have driver. [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/rtl/tbs_core_ethernet_ea.vhd:122]
+WARNING: [Synth 8-7129] Port rx_err_i in module ethernet_rx_controller is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adaptive_mode_i in module dac_control__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port select_tbs_delta_steps_i in module dac_control__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clock_i in module priority_encoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset_i in module priority_encoder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tx_err_o in module tbs_core_ethernet is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1528.812 ; gain = 602.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1528.812 ; gain = 602.270
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1528.812 ; gain = 602.270
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 1528.812 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_ethernet_board/tbs_core_ethernet_board.gen/sources_1/ip/pll_50MHz/pll_50MHz/pll_50MHz_in_context.xdc] for cell 'PLL100to50'
+Finished Parsing XDC File [c:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_ethernet_board/tbs_core_ethernet_board.gen/sources_1/ip/pll_50MHz/pll_50MHz/pll_50MHz_in_context.xdc] for cell 'PLL100to50'
+Parsing XDC File [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_ethernet_board/tbs_core_ethernet_board.srcs/constrs_1/new/tbs_core_ethernet_timing.xdc]
+Finished Parsing XDC File [C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_ethernet_board/tbs_core_ethernet_board.srcs/constrs_1/new/tbs_core_ethernet_timing.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1620.242 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.055 . Memory (MB): peak = 1620.242 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1620.242 ; gain = 693.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s25ftgb196-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1620.242 ; gain = 693.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clock_i. (constraint file  {c:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_ethernet_board/tbs_core_ethernet_board.gen/sources_1/ip/pll_50MHz/pll_50MHz/pll_50MHz_in_context.xdc}, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clock_i. (constraint file  {c:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_ethernet_board/tbs_core_ethernet_board.gen/sources_1/ip/pll_50MHz/pll_50MHz/pll_50MHz_in_context.xdc}, line 4).
+Applied set_property KEEP_HIERARCHY = SOFT for PLL100to50. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1620.242 ; gain = 693.699
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'debouncer'
+INFO: [Synth 8-802] inferred FSM for state register 'tx_state_reg' in module 'uart_tx'
+INFO: [Synth 8-802] inferred FSM for state register 'rx_state_reg' in module 'uart_rx'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'ethernet_tx_controller'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'ethernet_rx_controller'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+          debouncer_idle |                               00 |                               00
+     debouncer_wait_high |                               01 |                               10
+      debouncer_wait_low |                               10 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'debouncer'
+INFO: [Synth 8-3971] The signal "dual_ram:/mem_reg" was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              000 |                              000
+                 starttx |                              001 |                              001
+                startbit |                              010 |                              010
+            transmitting |                              011 |                              011
+                 stopbit |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'tx_state_reg' using encoding 'sequential' in module 'uart_tx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+                startbit |                               01 |                               01
+               receiving |                               10 |                               10
+                 stopbit |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rx_state_reg' using encoding 'sequential' in module 'uart_rx'
+INFO: [Synth 8-3971] The signal "dual_ram__parameterized0:/mem_reg" was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+          sending_header |                               01 |                               01
+         sending_payload |                               10 |                               10
+             sending_crc |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'ethernet_tx_controller'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                              000 |                              000
+        receiving_header |                              001 |                              001
+       receiving_payload |                              010 |                              010
+           receiving_crc |                              011 |                              011
+            ignorepacket |                              100 |                              100
+                  iSTATE |                              101 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'ethernet_rx_controller'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:28 . Memory (MB): peak = 1620.242 ; gain = 693.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   23 Bit       Adders := 16    
+	   2 Input   22 Bit       Adders := 1     
+	   3 Input   14 Bit       Adders := 1     
+	   2 Input   12 Bit       Adders := 1     
+	   2 Input   10 Bit       Adders := 3     
+	   2 Input    9 Bit       Adders := 11    
+	   3 Input    9 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 1     
+	   2 Input    7 Bit       Adders := 3     
+	   3 Input    7 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 3     
+	   2 Input    2 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 17    
++---Registers : 
+	               32 Bit    Registers := 3     
+	               23 Bit    Registers := 7     
+	               22 Bit    Registers := 16    
+	               16 Bit    Registers := 1     
+	               15 Bit    Registers := 1     
+	               14 Bit    Registers := 3     
+	               12 Bit    Registers := 2     
+	               10 Bit    Registers := 5     
+	                9 Bit    Registers := 13    
+	                8 Bit    Registers := 64    
+	                7 Bit    Registers := 3     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 5     
+	                2 Bit    Registers := 27    
+	                1 Bit    Registers := 107   
++---RAMs : 
+	               4K Bit	(512 X 8 bit)          RAMs := 2     
+	               2K Bit	(128 X 23 bit)          RAMs := 1     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 22    
+	   4 Input   32 Bit        Muxes := 1     
+	   2 Input   23 Bit        Muxes := 3     
+	   2 Input   21 Bit        Muxes := 1     
+	   6 Input   21 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 1     
+	   2 Input   15 Bit        Muxes := 1     
+	   2 Input   14 Bit        Muxes := 1     
+	   3 Input   14 Bit        Muxes := 1     
+	   2 Input   13 Bit        Muxes := 1     
+	   3 Input   13 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 4     
+	   4 Input   12 Bit        Muxes := 1     
+	   3 Input   12 Bit        Muxes := 1     
+	   2 Input   10 Bit        Muxes := 2     
+	   5 Input   10 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 22    
+	   4 Input    9 Bit        Muxes := 1     
+	   6 Input    9 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 21    
+	   4 Input    8 Bit        Muxes := 4     
+	   2 Input    7 Bit        Muxes := 1     
+	   5 Input    7 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 16    
+	   5 Input    6 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 27    
+	   5 Input    3 Bit        Muxes := 5     
+	   4 Input    3 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 7     
+	   2 Input    2 Bit        Muxes := 52    
+	   4 Input    2 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 156   
+	   3 Input    1 Bit        Muxes := 21    
+	   5 Input    1 Bit        Muxes := 2     
+	   4 Input    1 Bit        Muxes := 10    
+	   6 Input    1 Bit        Muxes := 5     
+	   8 Input    1 Bit        Muxes := 17    
+	   7 Input    1 Bit        Muxes := 2     
+	  11 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 90 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port rx_err_i in module ethernet_rx is either unconnected or has no load
+WARNING: [Synth 8-7129] Port adaptive_mode_i in module dac_control__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port select_tbs_delta_steps_i in module dac_control__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tx_err_o in module tbs_core_ethernet is either unconnected or has no load
+WARNING: [Synth 8-3332] Sequential element (ethernet_rx_entity/ethernet_rx_controller_0/FSM_sequential_current_state_reg[2]) is unused and will be removed from module ethernet.
+WARNING: [Synth 8-3332] Sequential element (ethernet_rx_entity/ethernet_rx_controller_0/FSM_sequential_current_state_reg[1]) is unused and will be removed from module ethernet.
+WARNING: [Synth 8-3332] Sequential element (ethernet_rx_entity/ethernet_rx_controller_0/FSM_sequential_current_state_reg[0]) is unused and will be removed from module ethernet.
+WARNING: [Synth 8-3332] Sequential element (FSM_sequential_state_reg[1]) is unused and will be removed from module debouncer.
+WARNING: [Synth 8-3332] Sequential element (FSM_sequential_state_reg[0]) is unused and will be removed from module debouncer.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 1620.242 ; gain = 693.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++--------------------------+----------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name               | RTL Object                                   | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++--------------------------+----------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|tbs_core_0/spike_memory_0 | gen_dual_ram.dual_ram_0/mem_reg              | 128 x 23(READ_FIRST)   | W |   | 128 x 23(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|tbs_core_0/ethernet_0     | ethernet_tx_entity/eth_ram_tx/tx_ram/mem_reg | 512 x 8(READ_FIRST)    | W |   | 512 x 8(WRITE_FIRST)   |   | R | Port A and B     | 1      | 0      | 
++--------------------------+----------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:45 ; elapsed = 00:00:49 . Memory (MB): peak = 1620.242 ; gain = 693.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:52 ; elapsed = 00:00:55 . Memory (MB): peak = 1620.242 ; gain = 693.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping Report
++--------------------------+----------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name               | RTL Object                                   | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++--------------------------+----------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|tbs_core_0/spike_memory_0 | gen_dual_ram.dual_ram_0/mem_reg              | 128 x 23(READ_FIRST)   | W |   | 128 x 23(WRITE_FIRST)  |   | R | Port A and B     | 1      | 0      | 
+|tbs_core_0/ethernet_0     | ethernet_tx_entity/eth_ram_tx/tx_ram/mem_reg | 512 x 8(READ_FIRST)    | W |   | 512 x 8(WRITE_FIRST)   |   | R | Port A and B     | 1      | 0      | 
++--------------------------+----------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance tbs_core_0/ethernet_0/ethernet_tx_entity/eth_ram_tx/tx_ram/mem_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:53 ; elapsed = 00:00:57 . Memory (MB): peak = 1620.242 ; gain = 693.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:02 ; elapsed = 00:01:06 . Memory (MB): peak = 1620.242 ; gain = 693.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:02 ; elapsed = 00:01:06 . Memory (MB): peak = 1620.242 ; gain = 693.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:02 ; elapsed = 00:01:06 . Memory (MB): peak = 1620.242 ; gain = 693.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:02 ; elapsed = 00:01:06 . Memory (MB): peak = 1620.242 ; gain = 693.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:03 ; elapsed = 00:01:06 . Memory (MB): peak = 1620.242 ; gain = 693.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:03 ; elapsed = 00:01:06 . Memory (MB): peak = 1620.242 ; gain = 693.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------------------+-----------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name             | RTL Name                                                                                                  | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------------------+-----------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|tbs_core_ethernet_board | tbs_core_0/ethernet_0/ethernet_tx_entity/eth_transmit_data/header_shift_register/shiftRegister_reg[46][7] | 4      | 9     | YES          | NO                 | YES               | 9      | 0       | 
+|tbs_core_ethernet_board | tbs_core_0/ethernet_0/ethernet_tx_entity/eth_transmit_data/header_shift_register/shiftRegister_reg[45][6] | 5      | 5     | YES          | NO                 | YES               | 5      | 0       | 
+|tbs_core_ethernet_board | tbs_core_0/ethernet_0/ethernet_tx_entity/eth_transmit_data/header_shift_register/shiftRegister_reg[42][1] | 8      | 8     | YES          | NO                 | YES               | 8      | 0       | 
+|tbs_core_ethernet_board | tbs_core_0/ethernet_0/ethernet_tx_entity/eth_transmit_data/header_shift_register/shiftRegister_reg[38][2] | 9      | 4     | YES          | NO                 | YES               | 4      | 0       | 
+|tbs_core_ethernet_board | tbs_core_0/ethernet_0/ethernet_tx_entity/eth_transmit_data/header_shift_register/shiftRegister_reg[34][4] | 7      | 5     | YES          | NO                 | YES               | 5      | 0       | 
+|tbs_core_ethernet_board | tbs_core_0/ethernet_0/ethernet_tx_entity/eth_transmit_data/header_shift_register/shiftRegister_reg[28][6] | 6      | 3     | YES          | NO                 | YES               | 3      | 0       | 
+|tbs_core_ethernet_board | tbs_core_0/ethernet_0/ethernet_tx_entity/eth_transmit_data/header_shift_register/shiftRegister_reg[28][1] | 13     | 1     | YES          | NO                 | YES               | 1      | 0       | 
++------------------------+-----------------------------------------------------------------------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |pll_50MHz     |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------------+------+
+|      |Cell           |Count |
++------+---------------+------+
+|1     |pll_50MHz_bbox |     1|
+|2     |CARRY4         |   229|
+|3     |LUT1           |    42|
+|4     |LUT2           |   519|
+|5     |LUT3           |   123|
+|6     |LUT4           |   594|
+|7     |LUT5           |   237|
+|8     |LUT6           |   377|
+|9     |RAMB18E1       |     2|
+|11    |SRL16E         |    35|
+|12    |FDCE           |  1006|
+|13    |FDPE           |   179|
+|14    |FDRE           |    80|
+|15    |IBUF           |    12|
+|16    |OBUF           |    37|
+|17    |OBUFT          |     1|
++------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:03 ; elapsed = 00:01:06 . Memory (MB): peak = 1620.242 ; gain = 693.699
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 10 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:49 ; elapsed = 00:01:03 . Memory (MB): peak = 1620.242 ; gain = 602.270
+Synthesis Optimization Complete : Time (s): cpu = 00:01:03 ; elapsed = 00:01:07 . Memory (MB): peak = 1620.242 ; gain = 693.699
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.068 . Memory (MB): peak = 1620.242 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 231 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1620.242 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: ba49745
+INFO: [Common 17-83] Releasing license: Synthesis
+112 Infos, 19 Warnings, 2 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:10 ; elapsed = 00:01:15 . Memory (MB): peak = 1620.242 ; gain = 1077.395
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1620.242 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_ethernet_board/tbs_core_ethernet_board.runs/synth_1/tbs_core_ethernet_board.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file tbs_core_ethernet_board_utilization_synth.rpt -pb tbs_core_ethernet_board_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 25 13:14:50 2025...

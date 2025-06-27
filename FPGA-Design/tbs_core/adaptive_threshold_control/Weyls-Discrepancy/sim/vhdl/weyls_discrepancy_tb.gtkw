@@ -1,0 +1,39 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Fri Nov 29 20:06:30 2024
+[*]
+[dumpfile] "/foss/designs/tbs_core/adaptive_threshold_control/Weyls-Discrepancy/sim/vhdl/weyls_discrepancy_tb.vcd"
+[dumpfile_mtime] "Fri Nov 29 20:03:21 2024"
+[dumpfile_size] 6277
+[savefile] "/foss/designs/tbs_core/adaptive_threshold_control/Weyls-Discrepancy/sim/vhdl/weyls_discrepancy_tb.gtkw"
+[timestart] 0
+[size] 1374 600
+[pos] -1 -1
+*-27.569027 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[treeopen] weyls_discrepancy_tb.
+[sst_width] 276
+[signals_width] 174
+[sst_expanded] 1
+[sst_vpaned_height] 150
+@201
+-INPUTS
+@28
+weyls_discrepancy_tb.dut_weyls_discrepancy.clock_i
+weyls_discrepancy_tb.dut_weyls_discrepancy.reset_i
+weyls_discrepancy_tb.dut_weyls_discrepancy.spikes_strb_i
+@200
+-INTERNAL
+@24
+weyls_discrepancy_tb.dut_weyls_discrepancy.neg_orresult[15:0]
+weyls_discrepancy_tb.dut_weyls_discrepancy.orresult[31:0]
+weyls_discrepancy_tb.dut_weyls_discrepancy.weylsd[4:0]
+weyls_discrepancy_tb.dut_weyls_discrepancy.weylsd_neg[4:0]
+weyls_discrepancy_tb.dut_weyls_discrepancy.weylsd_pos[4:0]
+@200
+-OUTPUTS
+@24
+weyls_discrepancy_tb.dut_weyls_discrepancy.weylsd_o[4:0]
+@28
+weyls_discrepancy_tb.dut_weyls_discrepancy.weylsd_strb_o
+[pattern_trace] 1
+[pattern_trace] 0

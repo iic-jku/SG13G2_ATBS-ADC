@@ -1,0 +1,260 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2020  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+# Date created = 19:29:56  June 23, 2024
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		tbs_core_board_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSXFC6D6F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY tbs_core_board
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:29:56  JUNE 23, 2024"
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name BOARD "Cyclone V SoC Development Kit"
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name NUM_PARALLEL_PROCESSORS ALL
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+
+#============================================================
+# CLOCK
+#============================================================
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to clock_i
+set_location_assignment PIN_AF14 -to clock_i
+
+#============================================================
+# BUTTONS
+#============================================================
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to reset_n_i
+set_location_assignment PIN_AJ4 -to reset_n_i
+
+#============================================================
+# COMPARATORS
+#============================================================
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to comp_upper_i
+set_location_assignment PIN_AG5 -to comp_upper_i
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to comp_lower_i
+set_location_assignment PIN_AG3 -to comp_lower_i
+
+#============================================================
+# START SAMPLING TRIGGER INPUT
+# with button
+# with trigger of AWG
+#============================================================
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to trigger_start_sampling_i
+# set_location_assignment PIN_AK4 -to trigger_start_sampling_i
+set_location_assignment PIN_AE9 -to trigger_start_sampling_i
+
+#============================================================
+# SWITCHES
+#============================================================
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to trigger_start_mode_i
+set_location_assignment PIN_AB30 -to trigger_start_mode_i
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to adaptive_mode_i
+set_location_assignment PIN_Y27 -to adaptive_mode_i
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to control_mode_i
+set_location_assignment PIN_AB28 -to control_mode_i
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to signal_select_in_i
+set_location_assignment PIN_AC30 -to signal_select_in_i
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to enable_i
+set_location_assignment PIN_W25 -to enable_i
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to select_tbs_delta_steps_i
+set_location_assignment PIN_V25 -to select_tbs_delta_steps_i
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to select_comparator_type_i
+set_location_assignment PIN_AC28 -to select_comparator_type_i
+
+#============================================================
+# CHECK ECG LOD
+#============================================================
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ecg_lod_p_i
+set_location_assignment PIN_AB12 -to ecg_lod_p_i
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ecg_lod_n_i
+set_location_assignment PIN_AC9 -to ecg_lod_n_i
+
+#============================================================
+# INPUT SIGNAL SELECT SWITCH
+#============================================================
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to signal_select_en_o
+set_location_assignment PIN_W15 -to signal_select_en_o
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to signal_select_in_o
+set_location_assignment PIN_AK2 -to signal_select_in_o
+
+#============================================================
+# BIOSIGNAL AMP. SHUTDOWN 
+#============================================================
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to amp_sdn_o
+set_location_assignment PIN_AA12 -to amp_sdn_o
+
+#============================================================
+# DACs
+#============================================================
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to dac_pd_o
+set_location_assignment PIN_AG7 -to dac_pd_o
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to dac_clr_o
+set_location_assignment PIN_AG8 -to dac_clr_o
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to dac_wr_upper_o
+set_location_assignment PIN_AG6 -to dac_wr_upper_o
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to dac_wr_lower_o
+set_location_assignment PIN_AF4 -to dac_wr_lower_o
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to dac_upper_o[9]
+set_location_assignment PIN_AD12 -to dac_upper_o[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to dac_upper_o[8]
+set_location_assignment PIN_AC12 -to dac_upper_o[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to dac_upper_o[7]
+set_location_assignment PIN_AD11 -to dac_upper_o[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to dac_upper_o[6]
+set_location_assignment PIN_AD10 -to dac_upper_o[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to dac_upper_o[5]
+set_location_assignment PIN_AD7 -to dac_upper_o[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to dac_upper_o[4]
+set_location_assignment PIN_AE11 -to dac_upper_o[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to dac_upper_o[3]
+set_location_assignment PIN_AE7 -to dac_upper_o[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to dac_upper_o[2]
+set_location_assignment PIN_AF9 -to dac_upper_o[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to dac_upper_o[1]
+set_location_assignment PIN_AF6 -to dac_upper_o[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to dac_upper_o[0]
+set_location_assignment PIN_AF5 -to dac_upper_o[0]
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to dac_lower_o[9]
+set_location_assignment PIN_AG1 -to dac_lower_o[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to dac_lower_o[8]
+set_location_assignment PIN_AG2 -to dac_lower_o[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to dac_lower_o[7]
+set_location_assignment PIN_AH5 -to dac_lower_o[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to dac_lower_o[6]
+set_location_assignment PIN_AH4 -to dac_lower_o[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to dac_lower_o[5]
+set_location_assignment PIN_AH3 -to dac_lower_o[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to dac_lower_o[4]
+set_location_assignment PIN_AH2 -to dac_lower_o[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to dac_lower_o[3]
+set_location_assignment PIN_AJ2 -to dac_lower_o[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to dac_lower_o[2]
+set_location_assignment PIN_AJ1 -to dac_lower_o[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to dac_lower_o[1]
+set_location_assignment PIN_AK3 -to dac_lower_o[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to dac_lower_o[0]
+set_location_assignment PIN_Y16 -to dac_lower_o[0]
+
+#============================================================
+# LEDs
+#============================================================
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to idle_led_o
+set_location_assignment PIN_AA24 -to idle_led_o
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to overflow_led_o
+set_location_assignment PIN_AB23 -to overflow_led_o
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to underflow_led_o
+set_location_assignment PIN_AC23 -to underflow_led_o
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ecg_led_o
+set_location_assignment PIN_AD24 -to ecg_led_o
+
+#============================================================
+# ANALOG TRIGGER
+#============================================================
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to analog_trigger_o
+set_location_assignment PIN_AE12 -to analog_trigger_o
+
+#============================================================
+# SC NOC GENERATOR
+#============================================================
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sc_noc_1_o
+# set_location_assignment PIN_AE9 -to sc_noc_1_o
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to sc_noc_2_o
+# set_location_assignment PIN_AE12 -to sc_noc_2_o
+
+#============================================================
+# UART
+#============================================================
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to uart_rx_i
+set_location_assignment PIN_AF10 -to uart_rx_i
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to uart_tx_o
+set_location_assignment PIN_AF8 -to uart_tx_o
+
+set_global_assignment -name VERILOG_FILE ../pll/pll_8MHz/pll_8MHz_0002.v
+set_global_assignment -name QIP_FILE ../pll/pll_8MHz/pll_8MHz_0002.qip
+set_global_assignment -name VHDL_FILE ../pll/pll_8MHz.vhd
+set_global_assignment -name QIP_FILE ../pll/pll_8MHz.qip
+set_global_assignment -name VHDL_FILE ../../uart/rtl/uart_tx_ea.vhd
+set_global_assignment -name VHDL_FILE ../../uart/rtl/uart_rx_ea.vhd
+set_global_assignment -name VHDL_FILE ../../uart/rtl/uart_ea.vhd
+set_global_assignment -name VHDL_FILE ../../rtl/quartus_board/tbs_core_board.vhd
+set_global_assignment -name VHDL_FILE ../../sc_noc_generator/rtl/sc_noc_generator_ea.vhd
+set_global_assignment -name VHDL_FILE ../../analog_trigger/rtl/analog_trigger_ea.vhd
+set_global_assignment -name VHDL_FILE ../../debouncer/rtl/debouncer_ea.vhd
+set_global_assignment -name VHDL_FILE ../../sim/vhdl/TBSSimVals_p.vhd
+set_global_assignment -name VHDL_FILE ../../time_measurement/rtl/time_measurement_ea.vhd
+set_global_assignment -name VHDL_FILE ../../sync_chain/rtl/sync_chain_ea.vhd
+set_global_assignment -name VHDL_FILE ../../spike_memory/rtl/spike_memory_ea.vhd
+set_global_assignment -name VHDL_FILE ../../spike_memory/rtl/dual_ram_ea.vhd
+set_global_assignment -name VHDL_FILE ../../spike_encoder/rtl/spike_encoder_ea.vhd
+set_global_assignment -name VHDL_FILE ../../spike_detector/rtl/spike_detector_ea.vhd
+set_global_assignment -name VHDL_FILE ../../rtl/tbs_core_ea.vhd
+set_global_assignment -name VHDL_FILE ../../memory2uart/rtl/memory2uart_ea.vhd
+set_global_assignment -name VHDL_FILE ../../dac_control/rtl/dac_control_ea.vhd
+set_global_assignment -name VHDL_FILE ../../adaptive_threshold_control/sim/vhdl/AdaptiveCtrlSimVals_p.vhd
+set_global_assignment -name VHDL_FILE ../../adaptive_threshold_control/sim/vhdl/adaptive_std_p.vhd
+set_global_assignment -name VHDL_FILE "../../adaptive_threshold_control/Weyls-Discrepancy/rtl/weyls_discrepancy_ea.vhd"
+set_global_assignment -name VHDL_FILE "../../adaptive_threshold_control/Spike-Buffering/rtl/spike_shift_reg_ea.vhd"
+set_global_assignment -name VHDL_FILE "../../adaptive_threshold_control/Spike-2-Thermocode/rtl/spike_2_thermocode_ea.vhd"
+set_global_assignment -name VHDL_FILE ../../adaptive_threshold_control/rtl/adaptive_threshold_control_ea.vhd
+set_global_assignment -name VHDL_FILE "../../adaptive_threshold_control/Priority-Encoder/rtl/priority_encoder_ea.vhd"
+set_global_assignment -name SOURCE_FILE db/tbs_core_board.cmp.rdb
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

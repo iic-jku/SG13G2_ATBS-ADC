@@ -1,0 +1,81 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Apr 22 11:09:41 2025
+# Process ID: 13852
+# Current directory: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_board
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12100 C:\Simon Dorrer\JKU-Linz\Master\Semester 2\Master-Thesis\FPGA-Design\tbs_core\vivado\tbs_core_board\tbs_core_board.xpr
+# Log file: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_board/vivado.log
+# Journal file: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_board\vivado.jou
+# Running On        :SimiBook
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :AMD Ryzen 7 5700U with Radeon Graphics         
+# CPU Frequency     :1797 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :16458 MB
+# Swap memory       :19327 MB
+# Total Virtual     :35785 MB
+# Available Virtual :24886 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_board/tbs_core_board.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+close_design
+open_hw_manager
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_board/tbs_core_board.runs/impl_1/tbs_core_board.bit} [get_hw_devices xc7s25_0]
+current_hw_device [get_hw_devices xc7s25_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s25_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property PROGRAM.FILE {C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_board/tbs_core_board.runs/impl_1/tbs_core_board.bit} [get_hw_devices xc7s25_0]
+program_hw_devices [get_hw_devices xc7s25_0]
+refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0]
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_board/tbs_core_board.runs/impl_1/tbs_core_board.bit} [get_hw_devices xc7s25_0]
+current_hw_device [get_hw_devices xc7s25_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s25_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property PROGRAM.FILE {C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_board/tbs_core_board.runs/impl_1/tbs_core_board.bit} [get_hw_devices xc7s25_0]
+program_hw_devices [get_hw_devices xc7s25_0]
+refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property PROGRAM.FILE {C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_board/tbs_core_board.runs/impl_1/tbs_core_board.bit} [get_hw_devices xc7s25_0]
+program_hw_devices [get_hw_devices xc7s25_0]
+refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0]
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_board/tbs_core_board.runs/impl_1/tbs_core_board.bit} [get_hw_devices xc7s25_0]
+current_hw_device [get_hw_devices xc7s25_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s25_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property PROGRAM.FILE {C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_board/tbs_core_board.runs/impl_1/tbs_core_board.bit} [get_hw_devices xc7s25_0]
+program_hw_devices [get_hw_devices xc7s25_0]
+refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0]

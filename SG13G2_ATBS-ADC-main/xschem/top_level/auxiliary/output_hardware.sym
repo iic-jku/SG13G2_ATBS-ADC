@@ -1,0 +1,68 @@
+v {xschem version=3.4.6 file_version=1.2}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+L 4 -220 -100 -200 -100 {}
+L 4 200 -100 220 -100 {}
+L 4 200 -40 220 -40 {}
+L 4 -220 -40 -200 -40 {}
+L 4 200 20 220 20 {}
+L 4 -220 20 -200 20 {}
+L 4 -220 80 -200 80 {}
+L 4 200 80 220 80 {}
+L 4 60 -100 80 -100 {}
+L 4 60 80 80 80 {}
+L 4 -80 80 -60 80 {}
+L 4 -40 40 -40 120 {}
+L 4 -40 120 40 80 {}
+L 4 -40 40 40 80 {}
+L 4 -60 80 -40 80 {}
+L 4 40 80 60 80 {}
+L 4 -40 -140 -40 -60 {}
+L 4 -40 -60 40 -100 {}
+L 4 -40 -140 40 -100 {}
+L 4 -60 -100 -40 -100 {}
+L 4 40 -100 60 -100 {}
+L 4 -80 -100 -60 -100 {}
+L 7 80 -220 80 -200 {}
+L 7 0 180 0 200 {}
+L 7 -80 -220 -80 -200 {}
+B 5 -222.5 -102.5 -217.5 -97.5 {name=di_uart_tx sig_type=std_logic dir=in}
+B 5 217.5 -102.5 222.5 -97.5 {name=do_uart_tx dir=out}
+B 5 217.5 -42.5 222.5 -37.5 {name=do_idle_led dir=out}
+B 5 -222.5 -42.5 -217.5 -37.5 {name=di_idle_led sig_type=std_logic dir=in}
+B 5 217.5 17.5 222.5 22.5 {name=do_overflow_led dir=out}
+B 5 -222.5 17.5 -217.5 22.5 {name=di_overflow_led sig_type=std_logic dir=in}
+B 5 -222.5 77.5 -217.5 82.5 {name=di_underflow_led sig_type=std_logic dir=in}
+B 5 217.5 77.5 222.5 82.5 {name=do_underflow_led dir=out}
+B 5 77.5 -222.5 82.5 -217.5 {name=VDD_IO dir=inout}
+B 5 -2.5 197.5 2.5 202.5 {name=VSS dir=inout}
+B 5 -82.5 -222.5 -77.5 -217.5 {name=VDD_DIG dir=inout}
+A 4 0 -30 3.535533905932738 135 360 {fill = true}
+A 4 0 -10 3.535533905932738 135 360 {fill = true}
+A 4 0 10 3.535533905932738 135 360 {fill = true}
+P 4 5 -60 20 -60 140 60 140 60 20 -60 20 {}
+P 4 5 -60 -160 -60 -40 60 -40 60 -160 -60 -160 {}
+P 4 5 -200 -200 200 -200 200 180 -200 180 -200 -200 {}
+T {di_uart_tx} -195 -104 0 0 0.2 0.2 {}
+T {do_uart_tx} 195 -104 0 1 0.2 0.2 {}
+T {do_idle_led} 195 -44 0 1 0.2 0.2 {}
+T {di_idle_led} -195 -44 0 0 0.2 0.2 {}
+T {do_overflow_led} 195 16 0 1 0.2 0.2 {}
+T {di_overflow_led} -195 16 0 0 0.2 0.2 {}
+T {di_underflow_led} -195 76 0 0 0.2 0.2 {}
+T {do_underflow_led} 195 76 0 1 0.2 0.2 {}
+T {@symname} 221.5 -166 0 0 0.3 0.3 {}
+T {@name} 221.25 -192 0 0 0.3 0.3 {}
+T {VDD_IO} 100 -194 0 1 0.2 0.2 {}
+T {VSS} -10 174 2 1 0.2 0.2 {}
+T {VDD_DIG} -55 -194 0 1 0.2 0.2 {}
+T {Level-Up-Shifter} -30 122.5 0 0 0.2 0.2 {}
+T {VDD1 < VDD2} -20 25 0 0 0.2 0.2 {}
+T {Level-Up-Shifter} -30 -57.5 0 0 0.2 0.2 {}
+T {VDD1 < VDD2} -20 -155 0 0 0.2 0.2 {}

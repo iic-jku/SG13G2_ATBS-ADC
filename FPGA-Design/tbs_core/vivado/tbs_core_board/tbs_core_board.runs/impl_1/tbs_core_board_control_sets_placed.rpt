@@ -1,0 +1,116 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Tue May  6 18:20:01 2025
+| Host         : SimiBook running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file tbs_core_board_control_sets_placed.rpt
+| Design       : tbs_core_board
+| Device       : xc7s25
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    38 |
+|    Minimum number of control sets                        |    38 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   175 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    38 |
+| >= 0 to < 4        |    14 |
+| >= 4 to < 6        |     3 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     8 |
+| >= 10 to < 12      |     1 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     1 |
+| >= 16              |     9 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               1 |            1 |
+| No           | No                    | Yes                    |             314 |          119 |
+| No           | Yes                   | No                     |              16 |           14 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             463 |          166 |
+| Yes          | Yes                   | No                     |              47 |           23 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++--------------------------+-----------------------------------------------------------------------------+-------------------------------------+------------------+----------------+--------------+
+|       Clock Signal       |                                Enable Signal                                |           Set/Reset Signal          | Slice Load Count | Bel Load Count | Bels / Slice |
++--------------------------+-----------------------------------------------------------------------------+-------------------------------------+------------------+----------------+--------------+
+|  PLL100to8/inst/clk_out1 |                                                                             |                                     |                1 |              1 |         1.00 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/uart_0/uart_rx_0/next_received_data[5]                           | tbs_core_0/uart_0/uart_rx_0/AR[0]   |                1 |              1 |         1.00 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/uart_0/uart_rx_0/next_received_data[6]                           | tbs_core_0/uart_0/uart_rx_0/AR[0]   |                1 |              1 |         1.00 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/clear_dac_i_1_n_0                                                | tbs_core_0/uart_0/uart_rx_0/AR[0]   |                1 |              1 |         1.00 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/debouncer_4/state_reg[0]                                         | tbs_core_0/uart_0/uart_rx_0/AR[0]   |                1 |              1 |         1.00 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/uart_0/uart_rx_0/next_received_data[0]                           | tbs_core_0/uart_0/uart_rx_0/AR[0]   |                1 |              1 |         1.00 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/uart_0/uart_rx_0/next_received_data[2]                           | tbs_core_0/uart_0/uart_rx_0/AR[0]   |                1 |              1 |         1.00 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/uart_0/uart_rx_0/next_received_data[4]                           | tbs_core_0/uart_0/uart_rx_0/AR[0]   |                1 |              1 |         1.00 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/uart_0/uart_rx_0/next_received_data[7]                           | tbs_core_0/uart_0/uart_rx_0/AR[0]   |                1 |              1 |         1.00 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/uart_0/uart_rx_0/next_received_data[3]                           | tbs_core_0/uart_0/uart_rx_0/AR[0]   |                1 |              1 |         1.00 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/spike_memory_0/state_reg[0]_0                                    | tbs_core_0/uart_0/uart_rx_0/AR[0]   |                1 |              1 |         1.00 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/spike_memory_0/state_reg[0]                                      | tbs_core_0/uart_0/uart_rx_0/AR[0]   |                1 |              1 |         1.00 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/uart_0/uart_rx_0/next_received_data[1]                           | tbs_core_0/uart_0/uart_rx_0/AR[0]   |                1 |              1 |         1.00 |
+|  PLL100to8/inst/clk_out1 |                                                                             | tbs_core_0/sync_chain_0/reset_btn_i |                1 |              2 |         2.00 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/uart_0/uart_rx_0/next_sc_noc_generator_period_adj_uart           | tbs_core_0/uart_0/uart_rx_0/AR[0]   |                2 |              4 |         2.00 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/uart_0/uart_rx_0/data_valid_strb_reg_0[0]                        | tbs_core_0/uart_0/uart_rx_0/AR[0]   |                2 |              5 |         2.50 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/uart_0/uart_rx_0/atbs_max_delta_steps_uart_reg[0]                | tbs_core_0/uart_0/uart_rx_0/AR[0]   |                2 |              5 |         2.50 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/uart_0/uart_rx_0/E[0]                                            | tbs_core_0/uart_0/uart_rx_0/AR[0]   |                3 |              7 |         2.33 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/spike_memory_0/sync_reg.sync_read_strb_reg[3]_0[0]               | tbs_core_0/debouncer_0/reset_entity |                4 |              8 |         2.00 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/adaptive_ctrl_0/weyls_discrepancy_0/E[0]                         | tbs_core_0/debouncer_0/reset_entity |                2 |              8 |         4.00 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/adaptive_ctrl_0/weyls_discrepancy_0/sync_weylsd_strb_reg[1]_0[0] | tbs_core_0/debouncer_0/reset_entity |                3 |              8 |         2.67 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/dac_control_0/dac_init_value[8]_i_1_n_0                          | tbs_core_0/debouncer_0/reset_entity |                5 |              8 |         1.60 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/adaptive_ctrl_0/steps_to_lower_v[8]_i_1_n_0                      | tbs_core_0/debouncer_0/reset_entity |                3 |              9 |         3.00 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/adaptive_ctrl_0/steps_to_upper_v[8]_i_1_n_0                      | tbs_core_0/debouncer_0/reset_entity |                3 |              9 |         3.00 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/adaptive_ctrl_0/adapt_on_overflow_reg_0[0]                       | tbs_core_0/debouncer_0/reset_entity |                3 |              9 |         3.00 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/adaptive_ctrl_0/adapt_on_overflow_reg_1[0]                       | tbs_core_0/debouncer_0/reset_entity |                4 |              9 |         2.25 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/uart_0/uart_rx_0/analog_trigger_uart_reg[0]                      | tbs_core_0/uart_0/uart_rx_0/AR[0]   |                4 |             10 |         2.50 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/uart_0/uart_rx_0/atbs_win_length_uart_reg[0]                     | tbs_core_0/uart_0/uart_rx_0/AR[0]   |                5 |             12 |         2.40 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/spike_memory_0/read_strb                                         | tbs_core_0/debouncer_0/reset_entity |                4 |             14 |         3.50 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/time_measurement_0/E[0]                                          | tbs_core_0/debouncer_0/reset_entity |                5 |             16 |         3.20 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/spike_memory_0/E[0]                                              | tbs_core_0/debouncer_0/reset_entity |                5 |             16 |         3.20 |
+|  PLL100to8/inst/clk_out1 |                                                                             | tbs_core_0/debouncer_0/reset_i      |                5 |             19 |         3.80 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/time_measurement_0/overflow_strb_reg_1[0]                        | tbs_core_0/debouncer_0/reset_entity |                7 |             19 |         2.71 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/debouncer_2/enable_i                                             | tbs_core_0/debouncer_0/reset_entity |                7 |             19 |         2.71 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/spike_memory_0/write_strb                                        | tbs_core_0/debouncer_0/reset_entity |               19 |             33 |         1.74 |
+|  PLL100to8/inst/clk_out1 |                                                                             | tbs_core_0/debouncer_0/reset_entity |               59 |            120 |         2.03 |
+|  PLL100to8/inst/clk_out1 |                                                                             | tbs_core_0/uart_0/uart_rx_0/AR[0]   |               68 |            189 |         2.78 |
+|  PLL100to8/inst/clk_out1 | tbs_core_0/sync_chain_1/spike_strb                                          | tbs_core_0/debouncer_0/reset_entity |               85 |            270 |         3.18 |
++--------------------------+-----------------------------------------------------------------------------+-------------------------------------+------------------+----------------+--------------+
+
+

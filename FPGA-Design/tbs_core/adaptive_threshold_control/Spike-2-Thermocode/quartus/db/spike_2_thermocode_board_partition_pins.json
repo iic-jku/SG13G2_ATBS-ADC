@@ -1,0 +1,97 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "thermo_o[0]",
+					"strict" : false
+				},
+				{
+					"name" : "thermo_o[1]",
+					"strict" : false
+				},
+				{
+					"name" : "thermo_o[2]",
+					"strict" : false
+				},
+				{
+					"name" : "thermo_o[3]",
+					"strict" : false
+				},
+				{
+					"name" : "thermo_o[4]",
+					"strict" : false
+				},
+				{
+					"name" : "thermo_o[5]",
+					"strict" : false
+				},
+				{
+					"name" : "thermo_o[6]",
+					"strict" : false
+				},
+				{
+					"name" : "thermo_o[7]",
+					"strict" : false
+				},
+				{
+					"name" : "thermo_o[8]",
+					"strict" : false
+				},
+				{
+					"name" : "thermo_o[9]",
+					"strict" : false
+				},
+				{
+					"name" : "spike_i[0]",
+					"strict" : false
+				},
+				{
+					"name" : "spike_i[1]",
+					"strict" : false
+				},
+				{
+					"name" : "thermo_i[1]",
+					"strict" : false
+				},
+				{
+					"name" : "thermo_i[0]",
+					"strict" : false
+				},
+				{
+					"name" : "thermo_i[2]",
+					"strict" : false
+				},
+				{
+					"name" : "thermo_i[3]",
+					"strict" : false
+				},
+				{
+					"name" : "thermo_i[4]",
+					"strict" : false
+				},
+				{
+					"name" : "thermo_i[5]",
+					"strict" : false
+				},
+				{
+					"name" : "thermo_i[6]",
+					"strict" : false
+				},
+				{
+					"name" : "thermo_i[7]",
+					"strict" : false
+				},
+				{
+					"name" : "thermo_i[8]",
+					"strict" : false
+				},
+				{
+					"name" : "thermo_i[9]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

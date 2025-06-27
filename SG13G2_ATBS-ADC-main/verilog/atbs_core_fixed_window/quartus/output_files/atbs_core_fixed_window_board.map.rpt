@@ -1,0 +1,804 @@
+Analysis & Synthesis report for atbs_core_fixed_window_board
+Sun Mar 23 14:14:13 2025
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. State Machine - |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1121_q
+  9. State Machine - |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|uart_9_8:uart_0|uart_rx_9_8:uart_rx_0|n2922_q
+ 10. State Machine - |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|uart_9_8:uart_0|uart_tx_9_8:uart_tx_0|n2817_q
+ 11. State Machine - |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_5|n1220_q
+ 12. State Machine - |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_4|n1220_q
+ 13. State Machine - |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_3|n1220_q
+ 14. State Machine - |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_2|n1220_q
+ 15. State Machine - |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_1|n1220_q
+ 16. State Machine - |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_0|n1220_q
+ 17. Registers Removed During Synthesis
+ 18. General Register Statistics
+ 19. Inverted Register Statistics
+ 20. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 21. Port Connectivity Checks: "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|sc_noc_generator_11:sc_noc_generator_0"
+ 22. Port Connectivity Checks: "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|analog_trig_8:analog_trigger_0"
+ 23. Port Connectivity Checks: "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|dac_control_8_8_0_80:dac_control_1"
+ 24. Port Connectivity Checks: "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|dac_control_8_8_1_80:dac_control_0"
+ 25. Port Connectivity Checks: "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|weyls_discrepancy_8_3_6:weyls_discrepancy_0|spike_2_thermocode_6:gen_spike_2_tc_n1_spike_2_tc"
+ 26. Port Connectivity Checks: "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0"
+ 27. Port Connectivity Checks: "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|sync_chain_2_1:sync_chain_0"
+ 28. Post-Synthesis Netlist Statistics for Top Partition
+ 29. Elapsed Time Per Partition
+ 30. Analysis & Synthesis Messages
+ 31. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Sun Mar 23 14:14:13 2025       ;
+; Quartus Prime Version           ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
+; Revision Name                   ; atbs_core_fixed_window_board                ;
+; Top-level Entity Name           ; atbs_core_fixed_window_board                ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 836                                         ;
+; Total pins                      ; 41                                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                                                 ;
++---------------------------------------------------------------------------------+------------------------------+------------------------------+
+; Option                                                                          ; Setting                      ; Default Value                ;
++---------------------------------------------------------------------------------+------------------------------+------------------------------+
+; Device                                                                          ; 5CSXFC6D6F31C6               ;                              ;
+; Top-level entity name                                                           ; atbs_core_fixed_window_board ; atbs_core_fixed_window_board ;
+; Family name                                                                     ; Cyclone V                    ; Cyclone V                    ;
+; Use smart compilation                                                           ; Off                          ; Off                          ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                           ; On                           ;
+; Enable compact report table                                                     ; Off                          ; Off                          ;
+; Restructure Multiplexers                                                        ; Auto                         ; Auto                         ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                          ; Off                          ;
+; Create Debugging Nodes for IP Cores                                             ; Off                          ; Off                          ;
+; Preserve fewer node names                                                       ; On                           ; On                           ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable                       ; Enable                       ;
+; Verilog Version                                                                 ; Verilog_2001                 ; Verilog_2001                 ;
+; VHDL Version                                                                    ; VHDL_1993                    ; VHDL_1993                    ;
+; State Machine Processing                                                        ; Auto                         ; Auto                         ;
+; Safe State Machine                                                              ; Off                          ; Off                          ;
+; Extract Verilog State Machines                                                  ; On                           ; On                           ;
+; Extract VHDL State Machines                                                     ; On                           ; On                           ;
+; Ignore Verilog initial constructs                                               ; Off                          ; Off                          ;
+; Iteration limit for constant Verilog loops                                      ; 5000                         ; 5000                         ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                          ; 250                          ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                           ; On                           ;
+; Infer RAMs from Raw Logic                                                       ; On                           ; On                           ;
+; Parallel Synthesis                                                              ; On                           ; On                           ;
+; DSP Block Balancing                                                             ; Auto                         ; Auto                         ;
+; NOT Gate Push-Back                                                              ; On                           ; On                           ;
+; Power-Up Don't Care                                                             ; On                           ; On                           ;
+; Remove Redundant Logic Cells                                                    ; Off                          ; Off                          ;
+; Remove Duplicate Registers                                                      ; On                           ; On                           ;
+; Ignore CARRY Buffers                                                            ; Off                          ; Off                          ;
+; Ignore CASCADE Buffers                                                          ; Off                          ; Off                          ;
+; Ignore GLOBAL Buffers                                                           ; Off                          ; Off                          ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                          ; Off                          ;
+; Ignore LCELL Buffers                                                            ; Off                          ; Off                          ;
+; Ignore SOFT Buffers                                                             ; On                           ; On                           ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                          ; Off                          ;
+; Optimization Technique                                                          ; Balanced                     ; Balanced                     ;
+; Carry Chain Length                                                              ; 70                           ; 70                           ;
+; Auto Carry Chains                                                               ; On                           ; On                           ;
+; Auto Open-Drain Pins                                                            ; On                           ; On                           ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                          ; Off                          ;
+; Auto ROM Replacement                                                            ; On                           ; On                           ;
+; Auto RAM Replacement                                                            ; On                           ; On                           ;
+; Auto DSP Block Replacement                                                      ; On                           ; On                           ;
+; Auto Shift Register Replacement                                                 ; Auto                         ; Auto                         ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto                         ; Auto                         ;
+; Auto Clock Enable Replacement                                                   ; On                           ; On                           ;
+; Strict RAM Replacement                                                          ; Off                          ; Off                          ;
+; Allow Synchronous Control Signals                                               ; On                           ; On                           ;
+; Force Use of Synchronous Clear Signals                                          ; Off                          ; Off                          ;
+; Auto Resource Sharing                                                           ; Off                          ; Off                          ;
+; Allow Any RAM Size For Recognition                                              ; Off                          ; Off                          ;
+; Allow Any ROM Size For Recognition                                              ; Off                          ; Off                          ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                          ; Off                          ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                           ; On                           ;
+; Ignore translate_off and synthesis_off directives                               ; Off                          ; Off                          ;
+; Timing-Driven Synthesis                                                         ; On                           ; On                           ;
+; Report Parameter Settings                                                       ; On                           ; On                           ;
+; Report Source Assignments                                                       ; On                           ; On                           ;
+; Report Connectivity Checks                                                      ; On                           ; On                           ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                          ; Off                          ;
+; Synchronization Register Chain Length                                           ; 3                            ; 3                            ;
+; Power Optimization During Synthesis                                             ; Normal compilation           ; Normal compilation           ;
+; HDL message level                                                               ; Level2                       ; Level2                       ;
+; Suppress Register Optimization Related Messages                                 ; Off                          ; Off                          ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000                         ; 5000                         ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000                         ; 5000                         ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                          ; 100                          ;
+; Clock MUX Protection                                                            ; On                           ; On                           ;
+; Auto Gated Clock Conversion                                                     ; Off                          ; Off                          ;
+; Block Design Naming                                                             ; Auto                         ; Auto                         ;
+; SDC constraint protection                                                       ; Off                          ; Off                          ;
+; Synthesis Effort                                                                ; Auto                         ; Auto                         ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                           ; On                           ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                          ; Off                          ;
+; Analysis & Synthesis Message Level                                              ; Medium                       ; Medium                       ;
+; Disable Register Merging Across Hierarchies                                     ; Auto                         ; Auto                         ;
+; Resource Aware Inference For Block RAM                                          ; On                           ; On                           ;
+; Automatic Parallel Synthesis                                                    ; On                           ; On                           ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                          ; Off                          ;
++---------------------------------------------------------------------------------+------------------------------+------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 16          ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 16          ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processor 3            ;   0.0%      ;
+;     Processor 4            ;   0.0%      ;
+;     Processor 5            ;   0.0%      ;
+;     Processor 6            ;   0.0%      ;
+;     Processor 7            ;   0.0%      ;
+;     Processor 8            ;   0.0%      ;
+;     Processors 9-16        ;   0.0%      ;
++----------------------------+-------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                         ;
++---------------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path      ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                                      ; Library ;
++---------------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------------------------------------------+---------+
+; ../rtl/atbs_core_fixed_window_board.v ; yes             ; User Verilog HDL File  ; C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v ;         ;
++---------------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------------------------------------------+---------+
+
+
++-------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                 ;
++---------------------------------------------+---------------+
+; Resource                                    ; Usage         ;
++---------------------------------------------+---------------+
+; Estimate of Logic utilization (ALMs needed) ; 805           ;
+;                                             ;               ;
+; Combinational ALUT usage for logic          ; 1280          ;
+;     -- 7 input functions                    ; 4             ;
+;     -- 6 input functions                    ; 234           ;
+;     -- 5 input functions                    ; 185           ;
+;     -- 4 input functions                    ; 298           ;
+;     -- <=3 input functions                  ; 559           ;
+;                                             ;               ;
+; Dedicated logic registers                   ; 836           ;
+;                                             ;               ;
+; I/O pins                                    ; 41            ;
+;                                             ;               ;
+; Total DSP Blocks                            ; 0             ;
+;                                             ;               ;
+; Maximum fan-out node                        ; clock_i~input ;
+; Maximum fan-out                             ; 836           ;
+; Total fan-out                               ; 8243          ;
+; Average fan-out                             ; 3.75          ;
++---------------------------------------------+---------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ;
++----------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node                                                                                                 ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                                                                                                                                               ; Entity Name                                                                                               ; Library Name ;
++----------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------+--------------+
+; |atbs_core_fixed_window_board                                                                                              ; 1280 (0)            ; 836 (0)                   ; 0                 ; 0          ; 41   ; 0            ; |atbs_core_fixed_window_board                                                                                                                                                                                                                                                                                     ; atbs_core_fixed_window_board                                                                              ; work         ;
+;    |atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0| ; 1280 (161)          ; 836 (77)                  ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0                                                                                                                                                               ; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8 ; work         ;
+;       |adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|                                                     ; 760 (131)           ; 381 (39)                  ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0                                                                                                ; adaptive_threshold_control_20_19_8_8_255_0_3_2                                                            ; work         ;
+;          |spike_shift_reg_20_19:spike_shift_reg_0|                                                                         ; 526 (526)           ; 331 (331)                 ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|spike_shift_reg_20_19:spike_shift_reg_0                                                        ; spike_shift_reg_20_19                                                                                     ; work         ;
+;          |weyls_discrepancy_8_3_6:weyls_discrepancy_0|                                                                     ; 103 (29)            ; 11 (11)                   ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|weyls_discrepancy_8_3_6:weyls_discrepancy_0                                                    ; weyls_discrepancy_8_3_6                                                                                   ; work         ;
+;             |priority_encoder_3_3:priority_encoder_1|                                                                      ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|weyls_discrepancy_8_3_6:weyls_discrepancy_0|priority_encoder_3_3:priority_encoder_1            ; priority_encoder_3_3                                                                                      ; work         ;
+;             |spike_2_thermocode_6:gen_spike_2_tc_n10_spike_2_tc|                                                           ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|weyls_discrepancy_8_3_6:weyls_discrepancy_0|spike_2_thermocode_6:gen_spike_2_tc_n10_spike_2_tc ; spike_2_thermocode_6                                                                                      ; work         ;
+;             |spike_2_thermocode_6:gen_spike_2_tc_n11_spike_2_tc|                                                           ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|weyls_discrepancy_8_3_6:weyls_discrepancy_0|spike_2_thermocode_6:gen_spike_2_tc_n11_spike_2_tc ; spike_2_thermocode_6                                                                                      ; work         ;
+;             |spike_2_thermocode_6:gen_spike_2_tc_n12_spike_2_tc|                                                           ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|weyls_discrepancy_8_3_6:weyls_discrepancy_0|spike_2_thermocode_6:gen_spike_2_tc_n12_spike_2_tc ; spike_2_thermocode_6                                                                                      ; work         ;
+;             |spike_2_thermocode_6:gen_spike_2_tc_n13_spike_2_tc|                                                           ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|weyls_discrepancy_8_3_6:weyls_discrepancy_0|spike_2_thermocode_6:gen_spike_2_tc_n13_spike_2_tc ; spike_2_thermocode_6                                                                                      ; work         ;
+;             |spike_2_thermocode_6:gen_spike_2_tc_n14_spike_2_tc|                                                           ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|weyls_discrepancy_8_3_6:weyls_discrepancy_0|spike_2_thermocode_6:gen_spike_2_tc_n14_spike_2_tc ; spike_2_thermocode_6                                                                                      ; work         ;
+;             |spike_2_thermocode_6:gen_spike_2_tc_n2_spike_2_tc|                                                            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|weyls_discrepancy_8_3_6:weyls_discrepancy_0|spike_2_thermocode_6:gen_spike_2_tc_n2_spike_2_tc  ; spike_2_thermocode_6                                                                                      ; work         ;
+;             |spike_2_thermocode_6:gen_spike_2_tc_n3_spike_2_tc|                                                            ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|weyls_discrepancy_8_3_6:weyls_discrepancy_0|spike_2_thermocode_6:gen_spike_2_tc_n3_spike_2_tc  ; spike_2_thermocode_6                                                                                      ; work         ;
+;             |spike_2_thermocode_6:gen_spike_2_tc_n4_spike_2_tc|                                                            ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|weyls_discrepancy_8_3_6:weyls_discrepancy_0|spike_2_thermocode_6:gen_spike_2_tc_n4_spike_2_tc  ; spike_2_thermocode_6                                                                                      ; work         ;
+;             |spike_2_thermocode_6:gen_spike_2_tc_n5_spike_2_tc|                                                            ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|weyls_discrepancy_8_3_6:weyls_discrepancy_0|spike_2_thermocode_6:gen_spike_2_tc_n5_spike_2_tc  ; spike_2_thermocode_6                                                                                      ; work         ;
+;             |spike_2_thermocode_6:gen_spike_2_tc_n6_spike_2_tc|                                                            ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|weyls_discrepancy_8_3_6:weyls_discrepancy_0|spike_2_thermocode_6:gen_spike_2_tc_n6_spike_2_tc  ; spike_2_thermocode_6                                                                                      ; work         ;
+;             |spike_2_thermocode_6:gen_spike_2_tc_n7_spike_2_tc|                                                            ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|weyls_discrepancy_8_3_6:weyls_discrepancy_0|spike_2_thermocode_6:gen_spike_2_tc_n7_spike_2_tc  ; spike_2_thermocode_6                                                                                      ; work         ;
+;             |spike_2_thermocode_6:gen_spike_2_tc_n8_spike_2_tc|                                                            ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|weyls_discrepancy_8_3_6:weyls_discrepancy_0|spike_2_thermocode_6:gen_spike_2_tc_n8_spike_2_tc  ; spike_2_thermocode_6                                                                                      ; work         ;
+;             |spike_2_thermocode_6:gen_spike_2_tc_n9_spike_2_tc|                                                            ; 6 (6)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|weyls_discrepancy_8_3_6:weyls_discrepancy_0|spike_2_thermocode_6:gen_spike_2_tc_n9_spike_2_tc  ; spike_2_thermocode_6                                                                                      ; work         ;
+;       |dac_control_8_8_0_80:dac_control_1|                                                                                 ; 71 (71)             ; 30 (28)                   ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|dac_control_8_8_0_80:dac_control_1                                                                                                                            ; dac_control_8_8_0_80                                                                                      ; work         ;
+;          |sync_chain_2_1:sync_chain_0|                                                                                     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|dac_control_8_8_0_80:dac_control_1|sync_chain_2_1:sync_chain_0                                                                                                ; sync_chain_2_1                                                                                            ; work         ;
+;       |dac_control_8_8_1_80:dac_control_0|                                                                                 ; 79 (79)             ; 36 (34)                   ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|dac_control_8_8_1_80:dac_control_0                                                                                                                            ; dac_control_8_8_1_80                                                                                      ; work         ;
+;          |sync_chain_2_1:sync_chain_0|                                                                                     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|dac_control_8_8_1_80:dac_control_0|sync_chain_2_1:sync_chain_0                                                                                                ; sync_chain_2_1                                                                                            ; work         ;
+;       |debouncer_4_10:debouncer_0|                                                                                         ; 8 (8)               ; 9 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_0                                                                                                                                    ; debouncer_4_10                                                                                            ; work         ;
+;          |sync_chain_2_1:sync_chain_0|                                                                                     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_0|sync_chain_2_1:sync_chain_0                                                                                                        ; sync_chain_2_1                                                                                            ; work         ;
+;       |debouncer_4_10:debouncer_1|                                                                                         ; 8 (8)               ; 9 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_1                                                                                                                                    ; debouncer_4_10                                                                                            ; work         ;
+;          |sync_chain_2_1:sync_chain_0|                                                                                     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_1|sync_chain_2_1:sync_chain_0                                                                                                        ; sync_chain_2_1                                                                                            ; work         ;
+;       |debouncer_4_10:debouncer_2|                                                                                         ; 8 (8)               ; 9 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_2                                                                                                                                    ; debouncer_4_10                                                                                            ; work         ;
+;          |sync_chain_2_1:sync_chain_0|                                                                                     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_2|sync_chain_2_1:sync_chain_0                                                                                                        ; sync_chain_2_1                                                                                            ; work         ;
+;       |debouncer_4_10:debouncer_3|                                                                                         ; 8 (8)               ; 9 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_3                                                                                                                                    ; debouncer_4_10                                                                                            ; work         ;
+;          |sync_chain_2_1:sync_chain_0|                                                                                     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_3|sync_chain_2_1:sync_chain_0                                                                                                        ; sync_chain_2_1                                                                                            ; work         ;
+;       |debouncer_4_10:debouncer_4|                                                                                         ; 8 (8)               ; 9 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_4                                                                                                                                    ; debouncer_4_10                                                                                            ; work         ;
+;          |sync_chain_2_1:sync_chain_0|                                                                                     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_4|sync_chain_2_1:sync_chain_0                                                                                                        ; sync_chain_2_1                                                                                            ; work         ;
+;       |debouncer_4_10:debouncer_5|                                                                                         ; 8 (8)               ; 9 (7)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_5                                                                                                                                    ; debouncer_4_10                                                                                            ; work         ;
+;          |sync_chain_2_1:sync_chain_0|                                                                                     ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_5|sync_chain_2_1:sync_chain_0                                                                                                        ; sync_chain_2_1                                                                                            ; work         ;
+;       |memory2uart_20_8:memory2uart_0|                                                                                     ; 3 (3)               ; 27 (27)                   ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|memory2uart_20_8:memory2uart_0                                                                                                                                ; memory2uart_20_8                                                                                          ; work         ;
+;       |spike_detector:spike_detector_0|                                                                                    ; 8 (8)               ; 5 (5)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|spike_detector:spike_detector_0                                                                                                                               ; spike_detector                                                                                            ; work         ;
+;       |spike_encoder_19_20:spike_encoder_0|                                                                                ; 25 (25)             ; 23 (23)                   ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|spike_encoder_19_20:spike_encoder_0                                                                                                                           ; spike_encoder_19_20                                                                                       ; work         ;
+;       |spike_memory_20_2:spike_memory_0|                                                                                   ; 32 (32)             ; 132 (132)                 ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|spike_memory_20_2:spike_memory_0                                                                                                                              ; spike_memory_20_2                                                                                         ; work         ;
+;       |sync_chain_2_1:sync_chain_0|                                                                                        ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|sync_chain_2_1:sync_chain_0                                                                                                                                   ; sync_chain_2_1                                                                                            ; work         ;
+;       |sync_chain_2_1:sync_chain_2|                                                                                        ; 0 (0)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|sync_chain_2_1:sync_chain_2                                                                                                                                   ; sync_chain_2_1                                                                                            ; work         ;
+;       |sync_chain_2_2:sync_chain_1|                                                                                        ; 0 (0)               ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|sync_chain_2_2:sync_chain_1                                                                                                                                   ; sync_chain_2_2                                                                                            ; work         ;
+;       |time_measurement_19_524288:time_measurement_0|                                                                      ; 23 (23)             ; 20 (20)                   ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|time_measurement_19_524288:time_measurement_0                                                                                                                 ; time_measurement_19_524288                                                                                ; work         ;
+;       |uart_9_8:uart_0|                                                                                                    ; 70 (0)              ; 43 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|uart_9_8:uart_0                                                                                                                                               ; uart_9_8                                                                                                  ; work         ;
+;          |uart_rx_9_8:uart_rx_0|                                                                                           ; 40 (40)             ; 25 (25)                   ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|uart_9_8:uart_0|uart_rx_9_8:uart_rx_0                                                                                                                         ; uart_rx_9_8                                                                                               ; work         ;
+;          |uart_tx_9_8:uart_tx_0|                                                                                           ; 30 (30)             ; 18 (18)                   ; 0                 ; 0          ; 0    ; 0            ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|uart_9_8:uart_0|uart_tx_9_8:uart_tx_0                                                                                                                         ; uart_tx_9_8                                                                                               ; work         ;
++----------------------------------------------------------------------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
+Encoding Type:  One-Hot
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1121_q ;
++-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------------------------------------------------------+
+; Name        ; n1121_q.111 ; n1121_q.110 ; n1121_q.101 ; n1121_q.100 ; n1121_q.011 ; n1121_q.010 ; n1121_q.000 ; n1121_q.001                                                 ;
++-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------------------------------------------------------+
+; n1121_q.001 ; 0           ; 0           ; 0           ; 0           ; 0           ; 0           ; 0           ; 0                                                           ;
+; n1121_q.000 ; 0           ; 0           ; 0           ; 0           ; 0           ; 0           ; 1           ; 1                                                           ;
+; n1121_q.010 ; 0           ; 0           ; 0           ; 0           ; 0           ; 1           ; 0           ; 1                                                           ;
+; n1121_q.011 ; 0           ; 0           ; 0           ; 0           ; 1           ; 0           ; 0           ; 1                                                           ;
+; n1121_q.100 ; 0           ; 0           ; 0           ; 1           ; 0           ; 0           ; 0           ; 1                                                           ;
+; n1121_q.101 ; 0           ; 0           ; 1           ; 0           ; 0           ; 0           ; 0           ; 1                                                           ;
+; n1121_q.110 ; 0           ; 1           ; 0           ; 0           ; 0           ; 0           ; 0           ; 1                                                           ;
+; n1121_q.111 ; 1           ; 0           ; 0           ; 0           ; 0           ; 0           ; 0           ; 1                                                           ;
++-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------------------------------------------------------+
+
+
+Encoding Type:  One-Hot
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|uart_9_8:uart_0|uart_rx_9_8:uart_rx_0|n2922_q ;
++------------+------------+------------+------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Name       ; n2922_q.11 ; n2922_q.10 ; n2922_q.01 ; n2922_q.00                                                                                                                                                    ;
++------------+------------+------------+------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; n2922_q.00 ; 0          ; 0          ; 0          ; 0                                                                                                                                                             ;
+; n2922_q.01 ; 0          ; 0          ; 1          ; 1                                                                                                                                                             ;
+; n2922_q.10 ; 0          ; 1          ; 0          ; 1                                                                                                                                                             ;
+; n2922_q.11 ; 1          ; 0          ; 0          ; 1                                                                                                                                                             ;
++------------+------------+------------+------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+Encoding Type:  One-Hot
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|uart_9_8:uart_0|uart_tx_9_8:uart_tx_0|n2817_q ;
++-------------+-------------+-------------+-------------+-------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+; Name        ; n2817_q.011 ; n2817_q.010 ; n2817_q.001 ; n2817_q.000 ; n2817_q.100                                                                                                                                 ;
++-------------+-------------+-------------+-------------+-------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+; n2817_q.000 ; 0           ; 0           ; 0           ; 0           ; 0                                                                                                                                           ;
+; n2817_q.001 ; 0           ; 0           ; 1           ; 1           ; 0                                                                                                                                           ;
+; n2817_q.010 ; 0           ; 1           ; 0           ; 1           ; 0                                                                                                                                           ;
+; n2817_q.011 ; 1           ; 0           ; 0           ; 1           ; 0                                                                                                                                           ;
+; n2817_q.100 ; 0           ; 0           ; 0           ; 1           ; 1                                                                                                                                           ;
++-------------+-------------+-------------+-------------+-------------+---------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+Encoding Type:  One-Hot
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_5|n1220_q ;
++------------+------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Name       ; n1220_q.00 ; n1220_q.10 ; n1220_q.01                                                                                                                                                      ;
++------------+------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; n1220_q.00 ; 0          ; 0          ; 0                                                                                                                                                               ;
+; n1220_q.01 ; 1          ; 0          ; 1                                                                                                                                                               ;
+; n1220_q.10 ; 1          ; 1          ; 0                                                                                                                                                               ;
++------------+------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+Encoding Type:  One-Hot
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_4|n1220_q ;
++------------+------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Name       ; n1220_q.00 ; n1220_q.10 ; n1220_q.01                                                                                                                                                      ;
++------------+------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; n1220_q.00 ; 0          ; 0          ; 0                                                                                                                                                               ;
+; n1220_q.01 ; 1          ; 0          ; 1                                                                                                                                                               ;
+; n1220_q.10 ; 1          ; 1          ; 0                                                                                                                                                               ;
++------------+------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+Encoding Type:  One-Hot
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_3|n1220_q ;
++------------+------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Name       ; n1220_q.00 ; n1220_q.10 ; n1220_q.01                                                                                                                                                      ;
++------------+------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; n1220_q.00 ; 0          ; 0          ; 0                                                                                                                                                               ;
+; n1220_q.01 ; 1          ; 0          ; 1                                                                                                                                                               ;
+; n1220_q.10 ; 1          ; 1          ; 0                                                                                                                                                               ;
++------------+------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+Encoding Type:  One-Hot
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_2|n1220_q ;
++------------+------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Name       ; n1220_q.00 ; n1220_q.10 ; n1220_q.01                                                                                                                                                      ;
++------------+------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; n1220_q.00 ; 0          ; 0          ; 0                                                                                                                                                               ;
+; n1220_q.01 ; 1          ; 0          ; 1                                                                                                                                                               ;
+; n1220_q.10 ; 1          ; 1          ; 0                                                                                                                                                               ;
++------------+------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+Encoding Type:  One-Hot
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_1|n1220_q ;
++------------+------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Name       ; n1220_q.00 ; n1220_q.10 ; n1220_q.01                                                                                                                                                      ;
++------------+------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; n1220_q.00 ; 0          ; 0          ; 0                                                                                                                                                               ;
+; n1220_q.01 ; 1          ; 0          ; 1                                                                                                                                                               ;
+; n1220_q.10 ; 1          ; 1          ; 0                                                                                                                                                               ;
++------------+------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
+Encoding Type:  One-Hot
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_0|n1220_q ;
++------------+------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Name       ; n1220_q.00 ; n1220_q.10 ; n1220_q.01                                                                                                                                                      ;
++------------+------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; n1220_q.00 ; 0          ; 0          ; 0                                                                                                                                                               ;
+; n1220_q.01 ; 1          ; 0          ; 1                                                                                                                                                               ;
+; n1220_q.10 ; 1          ; 1          ; 0                                                                                                                                                               ;
++------------+------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                                                                                                                                                                                                                       ;
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+; Register name                                                                                                                                                            ; Reason for Removal                                                                                                                            ;
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|dac_control_8_8_0_80:dac_control_1|n1769_q[0..6,8] ; Stuck at GND due to stuck port data_in                                                                                                        ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|dac_control_8_8_1_80:dac_control_0|n1634_q[0]      ; Stuck at GND due to stuck port data_in                                                                                                        ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1113_q[8]                                         ; Merged with atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1113_q[5]  ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1113_q[3]                                         ; Merged with atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1113_q[1]  ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1115_q[6,7]                                       ; Merged with atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1115_q[0]  ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1119_q[1,7]                                       ; Merged with atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1119_q[0]  ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1117_q[1..5,18,19]                                ; Merged with atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1117_q[0]  ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1115_q[0]                                         ; Stuck at GND due to stuck port data_in                                                                                                        ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1117_q[0]                                         ; Stuck at GND due to stuck port data_in                                                                                                        ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1119_q[0]                                         ; Stuck at GND due to stuck port data_in                                                                                                        ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|dac_control_8_8_1_80:dac_control_0|n1634_q[8]      ; Stuck at GND due to stuck port data_in                                                                                                        ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1113_q[2]                                         ; Merged with atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1113_q[7]  ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1113_q[0]                                         ; Merged with atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1113_q[4]  ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1117_q[12]                                        ; Merged with atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1117_q[17] ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1117_q[6]                                         ; Merged with atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1117_q[13] ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1121_q~4                                          ; Lost fanout                                                                                                                                   ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1121_q~5                                          ; Lost fanout                                                                                                                                   ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1121_q~6                                          ; Lost fanout                                                                                                                                   ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|uart_9_8:uart_0|uart_rx_9_8:uart_rx_0|n2922_q~4    ; Lost fanout                                                                                                                                   ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|uart_9_8:uart_0|uart_rx_9_8:uart_rx_0|n2922_q~5    ; Lost fanout                                                                                                                                   ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|uart_9_8:uart_0|uart_tx_9_8:uart_tx_0|n2817_q~4    ; Lost fanout                                                                                                                                   ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|uart_9_8:uart_0|uart_tx_9_8:uart_tx_0|n2817_q~5    ; Lost fanout                                                                                                                                   ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_5|n1220_q.01              ; Lost fanout                                                                                                                                   ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_5|n1220_q.10              ; Lost fanout                                                                                                                                   ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_4|n1220_q.01              ; Lost fanout                                                                                                                                   ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_4|n1220_q.10              ; Lost fanout                                                                                                                                   ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_3|n1220_q.01              ; Lost fanout                                                                                                                                   ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_3|n1220_q.10              ; Lost fanout                                                                                                                                   ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_2|n1220_q.01              ; Lost fanout                                                                                                                                   ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_2|n1220_q.10              ; Lost fanout                                                                                                                                   ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_1|n1220_q.01              ; Lost fanout                                                                                                                                   ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_1|n1220_q.10              ; Lost fanout                                                                                                                                   ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_0|n1220_q.01              ; Lost fanout                                                                                                                                   ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_0|n1220_q.10              ; Lost fanout                                                                                                                                   ;
+; Total Number of Removed Registers = 49                                                                                                                                   ;                                                                                                                                               ;
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 836   ;
+; Number of registers using Synchronous Clear  ; 116   ;
+; Number of registers using Synchronous Load   ; 35    ;
+; Number of registers using Asynchronous Clear ; 836   ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 590   ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Inverted Register Statistics                                                                                                                                                                              ;
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; Inverted Register                                                                                                                                                                               ; Fan out ;
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1128_q                                                                   ; 2       ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|n1495_q[6] ; 5       ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|n1495_q[5] ; 5       ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|n1495_q[4] ; 4       ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|n1495_q[3] ; 4       ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|n1495_q[2] ; 4       ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|n1495_q[0] ; 4       ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|n1496_q[4] ; 4       ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|n1496_q[0] ; 4       ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|n1496_q[6] ; 5       ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|n1496_q[5] ; 5       ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|n1496_q[3] ; 4       ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|n1496_q[2] ; 4       ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|n1496_q[1] ; 4       ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1113_q[6]                                                                ; 6       ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1129_q                                                                   ; 2       ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1115_q[3]                                                                ; 10      ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1125_q                                                                   ; 2       ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|n1493_q[0] ; 9       ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1119_q[5]                                                                ; 1       ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|n1494_q[0] ; 3       ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1117_q[10]                                                               ; 15      ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1117_q[13]                                                               ; 30      ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1117_q[8]                                                                ; 15      ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1117_q[11]                                                               ; 15      ;
+; atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1117_q[14]                                                               ; 15      ;
+; Total number of inverted registers = 26                                                                                                                                                         ;         ;
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                                                                                                                                                                                                       ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                                                                                                                                                                             ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|uart_9_8:uart_0|uart_tx_9_8:uart_tx_0|n2815_q[2]                                                                   ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|uart_9_8:uart_0|uart_rx_9_8:uart_rx_0|n2918_q[2]                                                                   ;
+; 4:1                ; 20 bits   ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|spike_memory_20_2:spike_memory_0|n2011_q[9]                                                                        ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|n1496_q[7]                                          ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|dac_control_8_8_1_80:dac_control_0|n1634_q[1]                                                                      ;
+; 3:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|dac_control_8_8_1_80:dac_control_0|n1634_q[3]                                                                      ;
+; 3:1                ; 3 bits    ; 6 LEs         ; 3 LEs                ; 3 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|n1495_q[1]                                          ;
+; 3:1                ; 14 bits   ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|spike_shift_reg_20_19:spike_shift_reg_0|n2497_q[5]  ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|memory2uart_20_8:memory2uart_0|n2073_q[8]                                                                          ;
+; 3:1                ; 9 bits    ; 18 LEs        ; 0 LEs                ; 18 LEs                 ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|uart_9_8:uart_0|uart_rx_9_8:uart_rx_0|n2919_q[4]                                                                   ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|spike_memory_20_2:spike_memory_0|n2014_q[1]                                                                        ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|n1494_q[1]                                          ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|spike_shift_reg_20_19:spike_shift_reg_0|n2495_q[26] ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|spike_shift_reg_20_19:spike_shift_reg_0|n2495_q[29] ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|spike_shift_reg_20_19:spike_shift_reg_0|n2495_q[25] ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|spike_shift_reg_20_19:spike_shift_reg_0|n2495_q[23] ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|spike_shift_reg_20_19:spike_shift_reg_0|n2495_q[21] ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|spike_shift_reg_20_19:spike_shift_reg_0|n2495_q[18] ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|spike_shift_reg_20_19:spike_shift_reg_0|n2495_q[17] ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|spike_shift_reg_20_19:spike_shift_reg_0|n2495_q[13] ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|spike_shift_reg_20_19:spike_shift_reg_0|n2495_q[11] ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|spike_shift_reg_20_19:spike_shift_reg_0|n2495_q[9]  ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|spike_shift_reg_20_19:spike_shift_reg_0|n2495_q[7]  ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|spike_shift_reg_20_19:spike_shift_reg_0|n2495_q[4]  ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|spike_shift_reg_20_19:spike_shift_reg_0|n2495_q[3]  ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|spike_shift_reg_20_19:spike_shift_reg_0|n2495_q[0]  ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|spike_shift_reg_20_19:spike_shift_reg_0|n2495_q[14] ;
+; 4:1                ; 19 bits   ; 38 LEs        ; 0 LEs                ; 38 LEs                 ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|spike_encoder_19_20:spike_encoder_0|n1900_q[18]                                                                    ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1113_q[7]                                                                                                         ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1113_q[1]                                                                                                         ;
+; 6:1                ; 6 bits    ; 24 LEs        ; 12 LEs               ; 12 LEs                 ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|n1493_q[4]                                          ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 6 LEs                ; 2 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1115_q[1]                                                                                                         ;
+; 6:1                ; 6 bits    ; 24 LEs        ; 18 LEs               ; 6 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1115_q[5]                                                                                                         ;
+; 7:1                ; 2 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1117_q[6]                                                                                                         ;
+; 7:1                ; 4 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1117_q[7]                                                                                                         ;
+; 7:1                ; 8 bits    ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|dac_control_8_8_0_80:dac_control_1|n1770_q[8]                                                                      ;
+; 7:1                ; 8 bits    ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|dac_control_8_8_1_80:dac_control_0|n1635_q[8]                                                                      ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 7 LEs                ; 7 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|n1496_q[2]                                          ;
+; 3:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|n1495_q[6]                                          ;
+; 5:1                ; 3 bits    ; 9 LEs         ; 6 LEs                ; 3 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1113_q[0]                                                                                                         ;
+; 6:1                ; 2 bits    ; 8 LEs         ; 6 LEs                ; 2 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1119_q[5]                                                                                                         ;
+; 7:1                ; 6 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; Yes        ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|n1117_q[8]                                                                                                         ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|n1434_o[0]                                          ;
+; 10:1               ; 3 bits    ; 18 LEs        ; 15 LEs               ; 3 LEs                  ; No         ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_5|Mux0                                                                                    ;
+; 10:1               ; 3 bits    ; 18 LEs        ; 15 LEs               ; 3 LEs                  ; No         ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_4|Mux1                                                                                    ;
+; 10:1               ; 3 bits    ; 18 LEs        ; 15 LEs               ; 3 LEs                  ; No         ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_3|Mux1                                                                                    ;
+; 10:1               ; 3 bits    ; 18 LEs        ; 15 LEs               ; 3 LEs                  ; No         ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_2|Mux0                                                                                    ;
+; 10:1               ; 3 bits    ; 18 LEs        ; 15 LEs               ; 3 LEs                  ; No         ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_1|Mux2                                                                                    ;
+; 10:1               ; 3 bits    ; 18 LEs        ; 15 LEs               ; 3 LEs                  ; No         ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_0|Mux1                                                                                    ;
+; 20:1               ; 4 bits    ; 52 LEs        ; 44 LEs               ; 8 LEs                  ; No         ; |atbs_core_fixed_window_board|atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|uart_9_8:uart_0|uart_rx_9_8:uart_rx_0|Mux2                                                                         ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|sc_noc_generator_11:sc_noc_generator_0" ;
++------------+--------+----------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port       ; Type   ; Severity ; Details                                                                                                                                                 ;
++------------+--------+----------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+; sc_noc_1_o ; Output ; Info     ; Explicitly unconnected                                                                                                                                  ;
+; sc_noc_2_o ; Output ; Info     ; Explicitly unconnected                                                                                                                                  ;
++------------+--------+----------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|analog_trig_8:analog_trigger_0" ;
++------------------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------+
+; Port             ; Type   ; Severity ; Details                                                                                                                                   ;
++------------------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------+
+; analog_trigger_o ; Output ; Info     ; Explicitly unconnected                                                                                                                    ;
++------------------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|dac_control_8_8_0_80:dac_control_1" ;
++-----------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                                                                                              ;
++-----------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+; dac_pd_o  ; Output ; Info     ; Explicitly unconnected                                                                                                                               ;
+; dac_wr_o  ; Output ; Info     ; Explicitly unconnected                                                                                                                               ;
+; dac_clr_o ; Output ; Info     ; Explicitly unconnected                                                                                                                               ;
+; dac_o     ; Output ; Info     ; Explicitly unconnected                                                                                                                               ;
++-----------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|dac_control_8_8_1_80:dac_control_0" ;
++-----------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                                                                                              ;
++-----------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+; dac_pd_o  ; Output ; Info     ; Explicitly unconnected                                                                                                                               ;
+; dac_wr_o  ; Output ; Info     ; Explicitly unconnected                                                                                                                               ;
+; dac_clr_o ; Output ; Info     ; Explicitly unconnected                                                                                                                               ;
+; dac_o     ; Output ; Info     ; Explicitly unconnected                                                                                                                               ;
++-----------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|weyls_discrepancy_8_3_6:weyls_discrepancy_0|spike_2_thermocode_6:gen_spike_2_tc_n1_spike_2_tc" ;
++----------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port           ; Type  ; Severity ; Details                                                                                                                                                                                                                                                                    ;
++----------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; thermo_i[2..0] ; Input ; Info     ; Stuck at VCC                                                                                                                                                                                                                                                               ;
+; thermo_i[5..3] ; Input ; Info     ; Stuck at GND                                                                                                                                                                                                                                                               ;
++----------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0" ;
++------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port       ; Type  ; Severity ; Details                                                                                                                                                                          ;
++------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; d_max_i[2] ; Input ; Info     ; Stuck at GND                                                                                                                                                                     ;
+; d_max_i[1] ; Input ; Info     ; Stuck at VCC                                                                                                                                                                     ;
+; d_max_i[0] ; Input ; Info     ; Stuck at GND                                                                                                                                                                     ;
+; d_min_i[2] ; Input ; Info     ; Stuck at GND                                                                                                                                                                     ;
+; d_min_i[1] ; Input ; Info     ; Stuck at VCC                                                                                                                                                                     ;
+; d_min_i[0] ; Input ; Info     ; Stuck at GND                                                                                                                                                                     ;
++------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|sync_chain_2_1:sync_chain_0" ;
++---------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                          ;
++---------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+; async_i ; Input ; Info     ; Stuck at VCC                                                                                                                                     ;
++---------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_ff             ; 836                         ;
+;     CLR               ; 174                         ;
+;     CLR SCLR          ; 72                          ;
+;     ENA CLR           ; 530                         ;
+;     ENA CLR SCLR      ; 25                          ;
+;     ENA CLR SCLR SLD  ; 19                          ;
+;     ENA CLR SLD       ; 16                          ;
+; arriav_lcell_comb     ; 1282                        ;
+;     arith             ; 367                         ;
+;         0 data inputs ; 18                          ;
+;         1 data inputs ; 109                         ;
+;         2 data inputs ; 188                         ;
+;         4 data inputs ; 24                          ;
+;         5 data inputs ; 28                          ;
+;     extend            ; 4                           ;
+;         7 data inputs ; 4                           ;
+;     normal            ; 911                         ;
+;         0 data inputs ; 2                           ;
+;         1 data inputs ; 7                           ;
+;         2 data inputs ; 176                         ;
+;         3 data inputs ; 61                          ;
+;         4 data inputs ; 274                         ;
+;         5 data inputs ; 157                         ;
+;         6 data inputs ; 234                         ;
+; boundary_port         ; 41                          ;
+;                       ;                             ;
+; Max LUT depth         ; 9.50                        ;
+; Average LUT depth     ; 4.66                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:03     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+    Info: Processing started: Sun Mar 23 14:14:00 2025
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off atbs_core_fixed_window_board -c atbs_core_fixed_window_board
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
+Info (12021): Found 22 design units, including 22 entities, in source file /users/si150/eda/designs/sg13g2_atbs-adc-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v
+    Info (12023): Found entity 1: priority_encoder_3_3 File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 1
+    Info (12023): Found entity 2: spike_2_thermocode_6 File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 30
+    Info (12023): Found entity 3: uart_rx_9_8 File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 135
+    Info (12023): Found entity 4: uart_tx_9_8 File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 426
+    Info (12023): Found entity 5: weyls_discrepancy_8_3_6 File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 678
+    Info (12023): Found entity 6: spike_shift_reg_20_19 File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 1338
+    Info (12023): Found entity 7: uart_9_8 File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 2367
+    Info (12023): Found entity 8: memory2uart_20_8 File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 2405
+    Info (12023): Found entity 9: spike_memory_20_2 File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 2523
+    Info (12023): Found entity 10: spike_encoder_19_20 File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 2792
+    Info (12023): Found entity 11: time_measurement_19_524288 File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 2893
+    Info (12023): Found entity 12: sc_noc_generator_11 File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 2940
+    Info (12023): Found entity 13: analog_trig_8 File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 3005
+    Info (12023): Found entity 14: dac_control_8_8_0_80 File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 3052
+    Info (12023): Found entity 15: dac_control_8_8_1_80 File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 3361
+    Info (12023): Found entity 16: adaptive_threshold_control_20_19_8_8_255_0_3_2 File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 3685
+    Info (12023): Found entity 17: spike_detector File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 4166
+    Info (12023): Found entity 18: sync_chain_2_2 File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 4325
+    Info (12023): Found entity 19: debouncer_4_10 File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 4355
+    Info (12023): Found entity 20: sync_chain_2_1 File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 4535
+    Info (12023): Found entity 21: atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8 File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 4565
+    Info (12023): Found entity 22: atbs_core_fixed_window_board File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 7310
+Info (12127): Elaborating entity "atbs_core_fixed_window_board" for the top level hierarchy
+Info (12128): Elaborating entity "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8" for hierarchy "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0" File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 7426
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(6148): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 6148
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(6161): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 6161
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(6174): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 6174
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(6187): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 6187
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(6200): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 6200
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(6213): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 6213
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(6226): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 6226
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(6239): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 6239
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(6252): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 6252
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(6265): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 6265
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(6278): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 6278
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(6291): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 6291
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(6304): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 6304
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(6317): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 6317
+Info (12128): Elaborating entity "sync_chain_2_1" for hierarchy "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|sync_chain_2_1:sync_chain_0" File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 5698
+Info (12128): Elaborating entity "debouncer_4_10" for hierarchy "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|debouncer_4_10:debouncer_0" File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 5720
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(4487): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 4487
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(4495): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 4495
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(4503): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 4503
+Info (12128): Elaborating entity "sync_chain_2_2" for hierarchy "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|sync_chain_2_2:sync_chain_1" File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 5820
+Info (12128): Elaborating entity "spike_detector" for hierarchy "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|spike_detector:spike_detector_0" File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 5839
+Info (12128): Elaborating entity "adaptive_threshold_control_20_19_8_8_255_0_3_2" for hierarchy "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0" File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 5861
+Info (12128): Elaborating entity "spike_shift_reg_20_19" for hierarchy "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|spike_shift_reg_20_19:spike_shift_reg_0" File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 3927
+Info (12128): Elaborating entity "weyls_discrepancy_8_3_6" for hierarchy "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|weyls_discrepancy_8_3_6:weyls_discrepancy_0" File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 3935
+Info (12128): Elaborating entity "spike_2_thermocode_6" for hierarchy "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|weyls_discrepancy_8_3_6:weyls_discrepancy_0|spike_2_thermocode_6:gen_spike_2_tc_n1_spike_2_tc" File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 926
+Info (12128): Elaborating entity "priority_encoder_3_3" for hierarchy "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|adaptive_threshold_control_20_19_8_8_255_0_3_2:adaptive_ctrl_0|weyls_discrepancy_8_3_6:weyls_discrepancy_0|priority_encoder_3_3:priority_encoder_0" File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 1299
+Info (12128): Elaborating entity "dac_control_8_8_1_80" for hierarchy "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|dac_control_8_8_1_80:dac_control_0" File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 5878
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(3523): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 3523
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(3530): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 3530
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(3537): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 3537
+Info (12128): Elaborating entity "dac_control_8_8_0_80" for hierarchy "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|dac_control_8_8_0_80:dac_control_1" File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 5897
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(3199): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 3199
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(3206): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 3206
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(3213): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 3213
+Info (12128): Elaborating entity "analog_trig_8" for hierarchy "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|analog_trig_8:analog_trigger_0" File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 5945
+Info (12128): Elaborating entity "sc_noc_generator_11" for hierarchy "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|sc_noc_generator_11:sc_noc_generator_0" File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 5955
+Info (12128): Elaborating entity "time_measurement_19_524288" for hierarchy "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|time_measurement_19_524288:time_measurement_0" File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 5965
+Info (12128): Elaborating entity "spike_encoder_19_20" for hierarchy "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|spike_encoder_19_20:spike_encoder_0" File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 5975
+Info (12128): Elaborating entity "spike_memory_20_2" for hierarchy "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|spike_memory_20_2:spike_memory_0" File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 5989
+Info (12128): Elaborating entity "memory2uart_20_8" for hierarchy "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|memory2uart_20_8:memory2uart_0" File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 5998
+Info (12128): Elaborating entity "uart_9_8" for hierarchy "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|uart_9_8:uart_0" File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 6010
+Info (12128): Elaborating entity "uart_tx_9_8" for hierarchy "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|uart_9_8:uart_0|uart_tx_9_8:uart_tx_0" File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 2394
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(586): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 586
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(596): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 596
+Info (12128): Elaborating entity "uart_rx_9_8" for hierarchy "atbs_core_fixed_window_8000000_20_800000_4_10_2_2_255_0_2_2_3_8_19_524288_80_8_8_160_11_2048_2_20_9_417_8:atbs_core_0|uart_9_8:uart_0|uart_rx_9_8:uart_rx_0" File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 2402
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(308): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 308
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(317): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 317
+Info (10264): Verilog HDL Case Statement information at atbs_core_fixed_window_board.v(326): all case item expressions in this case statement are onehot File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 326
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "phi_comp_o" is stuck at GND File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 7323
+    Warning (13410): Pin "phi_dac_upper_o" is stuck at GND File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 7324
+    Warning (13410): Pin "dac_upper_o[0]" is stuck at VCC File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 7325
+    Warning (13410): Pin "dac_upper_o[1]" is stuck at GND File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 7325
+    Warning (13410): Pin "dac_upper_o[2]" is stuck at GND File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 7325
+    Warning (13410): Pin "dac_upper_o[3]" is stuck at GND File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 7325
+    Warning (13410): Pin "phi_dac_lower_o" is stuck at GND File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 7326
+    Warning (13410): Pin "dac_lower_o[0]" is stuck at VCC File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 7327
+    Warning (13410): Pin "dac_lower_o[1]" is stuck at GND File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 7327
+    Warning (13410): Pin "dac_lower_o[2]" is stuck at GND File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 7327
+    Warning (13410): Pin "dac_lower_o[3]" is stuck at GND File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 7327
+    Warning (13410): Pin "phi_vcm_generator_1_o" is stuck at GND File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 7328
+    Warning (13410): Pin "phi_vcm_generator_2_o" is stuck at GND File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 7329
+    Warning (13410): Pin "phi_bias_1_o" is stuck at GND File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 7330
+    Warning (13410): Pin "phi_bias_2_o" is stuck at GND File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 7331
+    Warning (13410): Pin "phi_cmfb_1_o" is stuck at GND File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 7332
+    Warning (13410): Pin "phi_cmfb_2_o" is stuck at GND File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 7333
+    Warning (13410): Pin "phi_res_1_o" is stuck at GND File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 7334
+    Warning (13410): Pin "phi_res_2_o" is stuck at GND File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 7335
+    Warning (13410): Pin "select_cap_o[0]" is stuck at GND File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 7337
+    Warning (13410): Pin "select_cap_o[1]" is stuck at GND File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 7337
+    Warning (13410): Pin "select_cap_o[2]" is stuck at GND File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 7337
+    Warning (13410): Pin "select_spdt_o" is stuck at GND File: C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/rtl/atbs_core_fixed_window_board.v Line: 7338
+Info (286030): Timing-Driven Synthesis is running
+Info (17049): 19 registers lost all their fanouts during netlist optimizations.
+Info (144001): Generated suppressed messages file C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/quartus/output_files/atbs_core_fixed_window_board.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 1821 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 12 input pins
+    Info (21059): Implemented 29 output pins
+    Info (21061): Implemented 1780 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 25 warnings
+    Info: Peak virtual memory: 4912 megabytes
+    Info: Processing ended: Sun Mar 23 14:14:13 2025
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:26
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/Users/si150/eda/designs/SG13G2_ATBS-ADC-main/verilog/atbs_core_fixed_window/quartus/output_files/atbs_core_fixed_window_board.map.smsg.
+
+

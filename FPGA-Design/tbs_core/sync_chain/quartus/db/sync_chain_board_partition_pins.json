@@ -1,0 +1,33 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sync_o[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sync_o[1]",
+					"strict" : false
+				},
+				{
+					"name" : "clock_i",
+					"strict" : false
+				},
+				{
+					"name" : "reset_n_i",
+					"strict" : false
+				},
+				{
+					"name" : "async_i[0]",
+					"strict" : false
+				},
+				{
+					"name" : "async_i[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,2 @@
+ yes             v(const.freq_vec) v(const.PSRR_vec)
+ 1.00000000e+00  1.00000000e+04  3.50837043e+01 

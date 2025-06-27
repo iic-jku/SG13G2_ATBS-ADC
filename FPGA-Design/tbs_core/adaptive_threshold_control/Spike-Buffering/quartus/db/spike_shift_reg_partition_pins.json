@@ -1,0 +1,229 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "spikes_o[0][0]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[0][1]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[1][0]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[1][1]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[2][0]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[2][1]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[3][0]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[3][1]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[4][0]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[4][1]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[5][0]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[5][1]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[6][0]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[6][1]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[7][0]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[7][1]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[8][0]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[8][1]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[9][0]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[9][1]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[10][0]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[10][1]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[11][0]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[11][1]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[12][0]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[12][1]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[13][0]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[13][1]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[14][0]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_o[14][1]",
+					"strict" : false
+				},
+				{
+					"name" : "spikes_strb_o",
+					"strict" : false
+				},
+				{
+					"name" : "clock_i",
+					"strict" : false
+				},
+				{
+					"name" : "spike_i",
+					"strict" : false
+				},
+				{
+					"name" : "reset_n_i",
+					"strict" : false
+				},
+				{
+					"name" : "spike_strb_i",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_i[18]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_i[17]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_i[16]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_i[15]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_i[14]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_i[13]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_i[12]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_i[11]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_i[7]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_i[6]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_i[5]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_i[4]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_i[1]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_i[0]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_i[3]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_i[2]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_i[10]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_i[9]",
+					"strict" : false
+				},
+				{
+					"name" : "curr_time_i[8]",
+					"strict" : false
+				},
+				{
+					"name" : "overflow_strb_i",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

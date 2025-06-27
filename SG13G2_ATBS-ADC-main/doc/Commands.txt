@@ -1,0 +1,353 @@
+// ======================================
+Windows 11 - Symlink to designs folder:
+https://www.giga.de/downloads/windows-10/tipps/symlinks-in-windows-erstellen-mit-mklink-so-gehts/
+// ======================================
+mklink /J "project folder" "designs folder"
+mklink /J "C:\Simon Dorrer\JKU-Linz\Master\Semester 2\Master-Thesis\SG13G2_ATBS-ADC-main" "C:\Users\si150\eda\designs\SG13G2_ATBS-ADC-main"
+// ======================================
+
+
+// ======================================
+Switch PDK on-the-fly (if .designinit is not loaded at the container start!):
+// ======================================
+# The PDK name has been changed starting with 2025.01
+YEAR="${IIC_OSIC_TOOLS_VERSION%%.*}"
+if [[ "$YEAR" -ge 2025 ]]; then
+    export PDK=ihp-sg13g2
+else
+    export PDK=sg13g2
+fi
+export PDKPATH=$PDK_ROOT/$PDK
+export STD_CELL_LIBRARY=sg13g2_stdcell
+export SPICE_USERINIT_DIR=$PDKPATH/libs.tech/ngspice
+export KLAYOUT_PATH=$PDKPATH/libs.tech/klayout:$PDKPATH/libs.tech/klayout/tech
+
+# or use iic-pdk ihp-sg13g2
+
+# Set path for Xschem
+export XSCHEM_USER_LIBRARY_PATH=$DESIGNS/SG13G2_ATBS-ADC-main/xschem
+
+echo $PDKPATH
+// ======================================
+
+
+// ======================================
+Switch default user (1000) and root access (0) within .\start_x.bat
+// ======================================
+:: IF "%CONTAINER_USER%"=="" SET CONTAINER_USER=1000
+IF "%CONTAINER_USER%"=="" SET CONTAINER_USER=0
+// ======================================
+
+
+// ======================================
+IIC Server
+// ======================================
+User: dorrer
+IP: 140.78.161.46
+// ======================================
+
+
+// ======================================
+GIT
+// ======================================
+cd /foss/designs
+mkdir .ssh && chmod 700 .ssh
+ssh-keygen -f .ssh/id_rsa -N ""
+ssh-add .ssh/id_rsa
+cat .ssh/id_rsa.pub
+
+git config --global user.email "IHRE EMAIL"
+git config --global user.name "IHR NAME"
+
+git clone https://github.com/simi1505/Master-Thesis.git
+git clone https://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@github.com/simi1505/Master-Thesis
+git clone git@github.com:simi1505/Master-Thesis.git
+git diff
+
+git fetch origin
+git status
+git merge origin/master
+git pull origin
+
+ssh -T git@github.com
+git add -A
+git commit -m "message"
+git push origin main
+
+// Access Mode
+chmod +x run_all.sh
+bash ./run_all.sh
+
+https://stackoverflow.com/questions/40978921/how-to-add-chmod-permissions-to-file-in-git
+https://medium.com/@akash1233/change-file-permissions-when-working-with-git-repos-on-windows-ea22e34d5cee
+https://www.youtube.com/watch?v=ePCBuIQJAUc
+
+git config --global --add safe.directory /foss/designs/SG13G2_ASIC-Design-Template
+git ls-files --stage |grep 100644 | cut -f2 | xargs -d '\n' git update-index --chmod=+x
+git ls-files --stage
+
+git add -A
+git commit -m "Made files executable"
+git remote set-url origin https://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@github.com/simi1505/SG13G2_ASIC-Design-Template
+git push origin main
+// ======================================
+
+
+// ======================================
+Convert VHDL to Verilog
+// ======================================
+./convert.sh
+// ======================================
+
+
+// ======================================
+Verilog Lint, Verilog & VHDL Simulation
+// ======================================
+iic-vlint.sh <file.v>
+
+./simulate_verilog.sh <file>
+
+./simulate_vhdl.sh <file>
+// ======================================
+
+
+// ======================================
+YOSYS
+// ======================================
+yosys_stats.sh <file>
+yosys
+read_verilog <FILE.v>
+proc
+opt
+flatten
+techmap
+show
+stat
+// ======================================
+
+
+// ======================================
+Netlist to SVG
+// ======================================
+yosys
+read_verilog <FILE.v>
+proc
+write_json <OUTPUTNAME.json>
+netlistsvg <FILE.json> (not within YOSYS)
+creates out.svg (schematic of netlist)
+// ======================================
+
+
+// ======================================
+Synthesize Verilog file
+// ======================================
+yosys
+read_verilog <FILE.v>
+proc
+synth -top <module>
+// ======================================
+
+
+// ======================================
+Useful Tools
+// ======================================
+Task Manager:
+htop
+
+Calculator:
+qalculate
+
+Markdown Viewer:
+mdview path/to/file.md
+
+Waveform Viewer:
+gtkwave
+surfer
+// ======================================
+
+
+// ======================================
+Plotting folder structure
+// ======================================
+ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'
+// ======================================
+
+
+// ======================================
+Openlane 2 Flow:
+https://openlane2.readthedocs.io/en/latest/getting_started/migrants/index.html
+// ======================================
+openlane config.json
+
+openlane --last-run --flow openinklayout config.json
+
+openlane --last-run --flow openinopenroad config.json
+// ======================================
+
+
+// ======================================
+OpenROAD flow scripts:
+https://openroad-flow-scripts.readthedocs.io/en/latest/tutorials/FlowTutorial.html
+// ======================================
+git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts
+
+source ./env.sh
+
+cd flow
+
+make // only if DESIGN_CONFIG is set in Makefile correctly
+
+make DESIGN_CONFIG=./designs/ihp-sg13g2/ibex/config.mk
+
+make clean_all DESIGN_CONFIG=./designs/ihp-sg13g2/ibex/config.mk
+
+make nuke && make
+
+make gui_final
+
+Within OpenROAD Gui:
+save_image 
+    [-resolution microns_per_pixel]
+    [-area {x0 y0 x1 y1}]
+    [-width width]
+    [-display_option {option value}]
+    filename
+
+report_design_area
+
+report_power
+
+report_worst_slack
+
+report_tns
+
+report_wns
+
+analyze_power_grid -net VDD
+// ======================================
+
+
+// ======================================
+Xschem
+// ======================================
+see cheatsheet in analog-circuit-design course: https://iic-jku.github.io/analog-circuit-design/#sec-xschem-cheatsheet
+
+Show device parameters in ngspice (of NMOS M1):
+show n.xm1.nsg13_lv_nmos
+
+Show device parameters of subprogram in ngspice (of NMOS M1 in x1):
+show n.x1.xm1.nsg13_lv_nmos
+
+http://repo.hu/projects/xschem/xschem_man/parameters.html
+
+https://github.com/imr/ngspice/blob/master/examples/measure/simple-meas-tran.sp
+
+
+Adding Verilog Code into Xschem:
+Look up in Manuel Mosers Project
+ATTENTION: Always pay attention to the port ordering of external spice netlists (e.g. Verilog Code). It is declared how it is ordered in the netlist.
+
+vlog2Verilog <yourdesign>.v -o <yourdesign>.vp -l $PDKPATH/libs.ref/sg13g2_stdcell/lef/sg13g2_stdcell.lef -v "VPWR,VPB" -g "VGND,VNB"
+
+vlog2Spice <yourdesign>.vp -l $PDKPATH/libs.ref/sg13g2_stdcell/spice/sg13g2_stdcell.spice -o <yourdesign>.spice
+
+python3 spi2xspice.py $PDKPATH/libs.ref/sg13g2_stdcell/lib/sg13g2_stdcell_typ_1p50V_25C.lib -io_time=500p -time=50p -idelay=5p -odelay=50p -cload=250f <yourdesign>.spice <yourdesign>.xspice
+// ======================================
+
+
+// ======================================
+CACE
+// ======================================
+cace [<datasheet>] [<output>] [options]
+
+cace --help
+
+// Example CACE:
+cace voltage-buffer-ota.yaml
+cace voltage-buffer-ota.yaml --parameter ac_params
+// ======================================
+
+
+// ======================================
+Magic / GDS
+// ======================================
+disable black layout (1. row, 3. from left)
+
+unten links klicken + oben rechts rechtsklicken für BOX dann X
+
+zoomen mit einer box und strg+Z
+
+full view (f)
+
+GDS 3D Viewer:
+gds write name (in magic)
+gds3d.sh name.gds
+// ======================================
+
+
+// ======================================
+DRC / LVS / PEX
+https://github.com/iic-jku/osic-multitool
+// ======================================
+
+Design Rule Checking (DRC)
+// ======================================
+Command for DRC help:
+iic-drc.sh
+
+iic-drc.sh [-d] [-m|-k|-b] [-c] [-w workdir] <cellname>
+
+// Example DRC: 
+iic-drc.sh -w tmp mag/adc_comp_latch.mag
+
+If -m is specified, then the magic DRC check is run (default).
+If -k is specified, then the klayout DRC check is run.
+If -b is selected then both magic and klayout are run. 
+You can clean result files by running ./iic-drc.sh -c.
+
+Layout Versus Schematic (LVS)
+// ======================================
+Command for LVS help:
+iic-lvs.sh
+
+iic-lvs.sh [-d] [-w workdir] [-s <schematic> -l <layout> | <cellname>]
+
+// Example LVS:
+iic-lvs.sh -w tmp -s xschem/adc_comp_latch.sch -l mag/adc_comp_latch.mag -c adc_comp_latch
+
+// or if everything is in the same just: 
+iic-lvs.sh adc_comp_latch
+
+Ignore components for LVS in Xschem in component property: lvs_ignore=open (or short)
+Enable / Disable over dropdown menu: Simulation/LVS/Set "lvs_ignore" variable
+
+
+look at: vim layver.sh
+
+
+LVS Output:
+.ext.spc (Ngspice netlist)
+.lvs.out (log file)
+
+
+Parasitic extraction (PEX) / Postlayout simulation
+// ======================================
+Command for PEX help:
+iic-pex.sh
+
+iic-pex.sh [-d] [-m mode] [-s mode] [-n <subcktname>] [-w <workdir>] <cellname>
+
+// Example PEX: 
+iic-pex.sh -m 1 adc_comp_latch.mag
+
+The PEX script supports 3 different extraction modes: 
+1=C-decoupled
+2=C-coupled
+3=full-RC
+If the parameter mode is not supplied, then the default mode 2 (C-coupled) will be used.
+
+The resulting SPICE netlist, including parasitic wiring components, is called cellname.pex.spice.
+
+Check newly added capacitors at the bottom, if the layout is symmetric! Afterwards, this capacitors can be added into the schematic.
+Now, take the newly created file and insert it into postlayout simulation testbench in Xschem
+// ======================================

@@ -1,0 +1,64 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Fri Nov 29 17:32:51 2024
+[*]
+[dumpfile] "/foss/designs/tbs_core/sc_noc_generator/sim/sc_noc_generator_tb.vcd"
+[dumpfile_mtime] "Fri Nov 29 16:59:28 2024"
+[dumpfile_size] 365618
+[savefile] "/foss/designs/tbs_core/sc_noc_generator/sim/sc_noc_generator_tb.gtkw"
+[timestart] 0
+[size] 1374 600
+[pos] -1 -1
+*-36.639839 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[markername] AA
+[markername] BB
+[markername] CC
+[markername] DD
+[markername] EE
+[markername] FF
+[markername] GG
+[markername] HH
+[markername] II
+[markername] JJ
+[markername] KK
+[markername] LL
+[markername] MM
+[markername] NN
+[markername] OO
+[markername] PP
+[markername] QQ
+[markername] RR
+[markername] SS
+[markername] TT
+[markername] UU
+[markername] VV
+[markername] WW
+[markername] XX
+[markername] YY
+[markername] ZZ
+[treeopen] sc_noc_generator_tb.
+[sst_width] 276
+[signals_width] 206
+[sst_expanded] 1
+[sst_vpaned_height] 150
+@201
+-INPUTS
+@28
+sc_noc_generator_tb.dut_noc_generator.clock_i
+sc_noc_generator_tb.dut_noc_generator.reset_i
+sc_noc_generator_tb.dut_noc_generator.enable_i
+@24
+sc_noc_generator_tb.dut_noc_generator.period_adj_i[19:0]
+sc_noc_generator_tb.dut_noc_generator.duty_cycle_adj_i[19:0]
+sc_noc_generator_tb.dut_noc_generator.overlap_adj_i[19:0]
+@200
+-INTERNAL
+@24
+sc_noc_generator_tb.dut_noc_generator.counter_value[19:0]
+@200
+-OUTPUTS
+@28
+sc_noc_generator_tb.dut_noc_generator.sc_noc_1_o
+sc_noc_generator_tb.dut_noc_generator.sc_noc_2_o
+[pattern_trace] 1
+[pattern_trace] 0

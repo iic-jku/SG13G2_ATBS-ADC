@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue May  6 18:18:06 2025
+# Process ID: 13752
+# Current directory: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_board/tbs_core_board.runs/synth_1
+# Command line: vivado.exe -log tbs_core_board.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tbs_core_board.tcl
+# Log file: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_board/tbs_core_board.runs/synth_1/tbs_core_board.vds
+# Journal file: C:/Simon Dorrer/JKU-Linz/Master/Semester 2/Master-Thesis/FPGA-Design/tbs_core/vivado/tbs_core_board/tbs_core_board.runs/synth_1\vivado.jou
+# Running On        :SimiBook
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :AMD Ryzen 7 5700U with Radeon Graphics         
+# CPU Frequency     :1797 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :16458 MB
+# Swap memory       :21474 MB
+# Total Virtual     :37933 MB
+# Available Virtual :16526 MB
+#-----------------------------------------------------------
+source tbs_core_board.tcl -notrace
