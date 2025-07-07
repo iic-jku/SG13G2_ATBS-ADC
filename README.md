@@ -14,7 +14,7 @@ Finally, a pinout and a suitable package is suggested and a potential evaluation
 
 **Resources:**
 
-- Master's Thesis: published soon on https://epub.jku.at/
+- Master's Thesis: https://epub.jku.at/obvulihs/content/titleinfo/12118473
 - YouTube Video: coming soon on https://www.youtube.com/@Simi_OE3SDE
 - GitHub Repository (SG13G2 ASIC Design Template):
   https://github.com/simi1505/SG13G2_ASIC-Design-Template
