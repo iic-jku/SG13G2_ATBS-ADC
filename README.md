@@ -15,6 +15,7 @@ Finally, a pinout and a suitable package is suggested and a potential evaluation
 **Resources:**
 
 - Master's Thesis: https://epub.jku.at/obvulihs/content/titleinfo/12118473
+- Presentation at FSiC 2025: https://wiki.f-si.org/index.php?title=An_open-source_adaptive_event-based_ADC_for_bio-signal_acquisition_in_130nm_CMOS
 - YouTube Video: coming soon on https://www.youtube.com/@Simi_OE3SDE
 - GitHub Repository (SG13G2 ASIC Design Template):
   https://github.com/simi1505/SG13G2_ASIC-Design-Template
