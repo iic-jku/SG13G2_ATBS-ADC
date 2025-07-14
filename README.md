@@ -12,6 +12,16 @@ Subsequently, an event-based ADC is integrated utilizing open-source tools and I
 
 Finally, a pinout and a suitable package is suggested and a potential evaluation board for the designed ASIC is proposed.
 
+**Cite this work:**
+
+```
+@online{Dorrer_2025_ATBS_ADC,
+	author={Simon Dorrer},
+	title={{An Open-Source Adaptive Event-Based ADC for Bio-Signal Acquisition in 130nm CMOS}},
+	year={2025},
+	url={https://github.com/iic-jku/SG13G2_ATBS-ADC}}
+```
+
 **Resources:**
 
 - Master's Thesis: https://epub.jku.at/obvulihs/content/titleinfo/12118473
